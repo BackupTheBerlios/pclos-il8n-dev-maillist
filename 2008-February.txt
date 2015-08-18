@@ -1,0 +1,803 @@
+From didouph.ph at laposte.net  Tue Feb 19 08:50:43 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 19 Feb 2008 08:50:43 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <479F3D26.305@smidovi.eu>
+References: <479F3D26.305@smidovi.eu>
+Message-ID: <47BA8A53.50308@laposte.net>
+
+hi all
+
+i'm prety surprised by the silence of the late month!
+
+anyway, we yet have a fr and cz "vit" po in the CVS ... i'm looking 
+forward to add more translation to the repository... the translation for 
+those utility has been highly requested by users, it would be gr8 if you 
+could take 1 hour on your time to provide the community with a translation.
+
+i atached David's message to this one as a reminder !
+
+i also forward a pm i had from the documentation team ...
+documentation is something i can't carry-on myself due to my various and 
+numerous commitment. i ask for your help on that...
+
+all the best for you all
+
+DidouPh
+
+David Smid a ?crit :
+> Hello,
+> 
+> Here is all you need to translate VIT (Video Installation Tool).
+> As this tool changes pretty often, I made a utility create_po that is 
+> capable to  extract new untranslated messages from the vit script and 
+> add them to existing .po file.
+> 
+> You'll need to patch the vit script with my i18n patch [ patch -p0 < 
+> vit.i18n.patch ] or to wait till the patched version appears in testing.
+> 
+> 
+> ------------------------------------------------------------------------
+
+ > quote author=johncoom
+
+ > I am PM'ing you as both of you are the moderators of mpclinuxos
+ > Localization Forum.
+
+
+ > Re: didouph comment at the Goggle Group of pclosdocs
+ > eg: " is there any place for a i18n team to join in ? "
+
+
+ > There is now a Localization page waiting to be created ! If you or one
+ > of the Localization team want to do it ?
+ > I think it would be best if you or one of your team do this, as most
+ > of us know nothing about it at all  :(
+
+
+ > See on the Help PCLinuxOS Grow page:
+ > http://docs.pclinuxos.com/HelpPCLinuxOS
+ > In the "Donate your time" section, be logged in, click
+ > localization to create this page.
+
+ > I am informing you, just in case you had not realised that the
+ > "localization" page/link is ready and waiting.
+
+
+ > After the Localization page is created, it can be linked from other
+ > relevent Wiki pages as well. (if you want)
+
+
+
+
+From david at smidovi.eu  Wed Feb 20 08:36:16 2008
+From: david at smidovi.eu (David Smid)
+Date: Wed, 20 Feb 2008 08:36:16 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <47BA8A53.50308@laposte.net>
+References: <479F3D26.305@smidovi.eu> <47BA8A53.50308@laposte.net>
+Message-ID: <47BBD870.5020909@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> hi all
+> 
+> i'm prety surprised by the silence of the late month!
+> 
+> anyway, we yet have a fr and cz "vit" po in the CVS ... i'm looking 
+> forward to add more translation to the repository... the translation for 
+> those utility has been highly requested by users, it would be gr8 if you 
+> could take 1 hour on your time to provide the community with a translation.
+> 
+> i atached David's message to this one as a reminder !
+> 
+> i also forward a pm i had from the documentation team ...
+> documentation is something i can't carry-on myself due to my various and 
+> numerous commitment. i ask for your help on that...
+> 
+> all the best for you all
+> 
+> DidouPh
+
+Hello,
+
+I've just studied the Santa's Little Helpers project on MyPCLinuxOS.com I'm 
+somewhat confused.
+What is the right way to contribute SRPMs at this moment ? Is that your server, 
+DidouPh ?
+Why I'm asking : I've sent a message containing link to "vit" SRPM with all the 
+i18n support included to KDulcimer via PCLOS dev mailing list 11 days ago but 
+there's no feedback from him 
+(http://mail.mypclinuxos.com/pipermail/users_mypclinuxos.com/2008-February/thread.html#1741). 
+I'm looking for some alternative way to squeeze this "vit" enhancement into 
+official repo.
+I think US and UK based packagers do not understand how important i18n is - it's 
+not only nice added value, it's vital and necessary feature for the survival of 
+PCLOS.
+PCLOS 2008 is coming soon and we have no i18n support in liveUSB, mkremaster and 
+redo-mbr scripts. I was waiting for acceptance of vit's changes first but now 
+I'm forced to start work on the other tools' i18n support even if I'm not sure 
+that my work isn't useless.
+
+David
+
+
+From didouph.ph at laposte.net  Wed Feb 20 10:11:27 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 20 Feb 2008 10:11:27 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <47BBD870.5020909@smidovi.eu>
+References: <479F3D26.305@smidovi.eu> <47BA8A53.50308@laposte.net>
+	<47BBD870.5020909@smidovi.eu>
+Message-ID: <47BBEEBF.7060904@laposte.net>
+
+hi david.
+
+santa little helper main repository is hosted by me, you're right
+if you want to get involved, open a topic and post your srpm there
+we will test it for you and eventually send it to tex
+but you need to do it the clean way, either providing a 3rd party rpm to 
+enhance vit or upgrade vit to a new version.
+
+either way this might be done leaving the original untouched and would 
+require the gang's aprovakl after your submission have been prooftested 
+by us
+
+this section is only for 3rd party rpm but as part of the i18n team 
+comes in a big interrest for the ripper gang ... gettinther is usually 
+taking care of the rpm for us ! so trust me ... your eforts are not ignored.
+
+anyway ... kd and the mypclinuxos list got nothing from you. trust me. 
+i' also admin of mypclinuxos and there was no message from you ... are 
+you registered there ? i think you're not
+
+anyway this isn't the simplest way to do it...
+
+push your software upon santa's and in about 3 weeks it'll be in the 
+main repository
+
+DidouPh
+
+David Smid a ?crit :
+> pierre-henri-ramboz napsal(a):
+>> hi all
+>>
+>> i'm prety surprised by the silence of the late month!
+>>
+>> anyway, we yet have a fr and cz "vit" po in the CVS ... i'm looking 
+>> forward to add more translation to the repository... the translation for 
+>> those utility has been highly requested by users, it would be gr8 if you 
+>> could take 1 hour on your time to provide the community with a translation.
+>>
+>> i atached David's message to this one as a reminder !
+>>
+>> i also forward a pm i had from the documentation team ...
+>> documentation is something i can't carry-on myself due to my various and 
+>> numerous commitment. i ask for your help on that...
+>>
+>> all the best for you all
+>>
+>> DidouPh
+> 
+> Hello,
+> 
+> I've just studied the Santa's Little Helpers project on MyPCLinuxOS.com I'm 
+> somewhat confused.
+> What is the right way to contribute SRPMs at this moment ? Is that your server, 
+> DidouPh ?
+> Why I'm asking : I've sent a message containing link to "vit" SRPM with all the 
+> i18n support included to KDulcimer via PCLOS dev mailing list 11 days ago but 
+> there's no feedback from him 
+> (http://mail.mypclinuxos.com/pipermail/users_mypclinuxos.com/2008-February/thread.html#1741). 
+> I'm looking for some alternative way to squeeze this "vit" enhancement into 
+> official repo.
+> I think US and UK based packagers do not understand how important i18n is - it's 
+> not only nice added value, it's vital and necessary feature for the survival of 
+> PCLOS.
+> PCLOS 2008 is coming soon and we have no i18n support in liveUSB, mkremaster and 
+> redo-mbr scripts. I was waiting for acceptance of vit's changes first but now 
+> I'm forced to start work on the other tools' i18n support even if I'm not sure 
+> that my work isn't useless.
+> 
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+
+From david at smidovi.eu  Wed Feb 20 10:22:23 2008
+From: david at smidovi.eu (David Smid)
+Date: Wed, 20 Feb 2008 10:22:23 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <47BBEEBF.7060904@laposte.net>
+References: <479F3D26.305@smidovi.eu>
+	<47BA8A53.50308@laposte.net>	<47BBD870.5020909@smidovi.eu>
+	<47BBEEBF.7060904@laposte.net>
+Message-ID: <47BBF14F.9030807@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> hi david.
+> 
+> santa little helper main repository is hosted by me, you're right
+> if you want to get involved, open a topic and post your srpm there
+> we will test it for you and eventually send it to tex
+> but you need to do it the clean way, either providing a 3rd party rpm to 
+> enhance vit or upgrade vit to a new version.
+> 
+> either way this might be done leaving the original untouched and would 
+> require the gang's aprovakl after your submission have been prooftested 
+> by us
+> 
+> this section is only for 3rd party rpm but as part of the i18n team 
+> comes in a big interrest for the ripper gang ... gettinther is usually 
+> taking care of the rpm for us ! so trust me ... your eforts are not ignored.
+> 
+> anyway ... kd and the mypclinuxos list got nothing from you. trust me. 
+> i' also admin of mypclinuxos and there was no message from you ... are 
+> you registered there ? i think you're not
+> 
+> anyway this isn't the simplest way to do it...
+> 
+> push your software upon santa's and in about 3 weeks it'll be in the 
+> main repository
+> 
+> DidouPh
+
+I was not talking about the mypclinuxos list, I talked about official PCLOS 
+development mailing list: 
+http://mail.mypclinuxos.com/mailman/listinfo/users_mypclinuxos.com
+
+Look here:
+http://mail.mypclinuxos.com/pipermail/users_mypclinuxos.com/2008-February/001741.html
+
+My activity concentrates there because that medium gets my words directly to 
+Textar and the Gang.
+
+David
+
+
+From gettinther at gmail.com  Wed Feb 20 10:31:38 2008
+From: gettinther at gmail.com (gettinther)
+Date: Wed, 20 Feb 2008 09:31:38 +0000
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <47BBF14F.9030807@smidovi.eu>
+References: <479F3D26.305@smidovi.eu> <47BA8A53.50308@laposte.net>
+	<47BBD870.5020909@smidovi.eu> <47BBEEBF.7060904@laposte.net>
+	<47BBF14F.9030807@smidovi.eu>
+Message-ID: <64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>
+
+On Feb 20, 2008 9:22 AM, David Smid <david at smidovi.eu> wrote:
+
+> pierre-henri-ramboz napsal(a):
+> > hi david.
+> >
+> > santa little helper main repository is hosted by me, you're right
+> > if you want to get involved, open a topic and post your srpm there
+> > we will test it for you and eventually send it to tex
+> > but you need to do it the clean way, either providing a 3rd party rpm to
+> > enhance vit or upgrade vit to a new version.
+> >
+> > either way this might be done leaving the original untouched and would
+> > require the gang's aprovakl after your submission have been prooftested
+> > by us
+> >
+> > this section is only for 3rd party rpm but as part of the i18n team
+> > comes in a big interrest for the ripper gang ... gettinther is usually
+> > taking care of the rpm for us ! so trust me ... your eforts are not
+> ignored.
+> >
+> > anyway ... kd and the mypclinuxos list got nothing from you. trust me.
+> > i' also admin of mypclinuxos and there was no message from you ... are
+> > you registered there ? i think you're not
+> >
+> > anyway this isn't the simplest way to do it...
+> >
+> > push your software upon santa's and in about 3 weeks it'll be in the
+> > main repository
+> >
+> > DidouPh
+>
+> I was not talking about the mypclinuxos list, I talked about official
+> PCLOS
+> development mailing list:
+> http://mail.mypclinuxos.com/mailman/listinfo/users_mypclinuxos.com
+>
+> Look here:
+>
+> http://mail.mypclinuxos.com/pipermail/users_mypclinuxos.com/2008-February/001741.html
+>
+> My activity concentrates there because that medium gets my words directly
+> to
+> Textar and the Gang.
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+
+David,
+
+The santa's team is only a way to keep track of the rpm sent to Tex and who
+is contributing what.  You still send your work directly to Tex yourself but
+at least there's a tracking of who does what.  This prevents stepping on
+toes.
+
+Gettinther
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080220/a1196041/attachment.html>
+
+From david at smidovi.eu  Wed Feb 20 10:45:14 2008
+From: david at smidovi.eu (David Smid)
+Date: Wed, 20 Feb 2008 10:45:14 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>
+References: <479F3D26.305@smidovi.eu>
+	<47BA8A53.50308@laposte.net>	<47BBD870.5020909@smidovi.eu>
+	<47BBEEBF.7060904@laposte.net>	<47BBF14F.9030807@smidovi.eu>
+	<64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>
+Message-ID: <47BBF6AA.5050707@smidovi.eu>
+
+gettinther napsal(a):
+> The santa's team is only a way to keep track of the rpm sent to Tex and 
+> who is contributing what.  You still send your work directly to Tex 
+> yourself but at least there's a tracking of who does what.  This 
+> prevents stepping on toes.
+> 
+> Gettinther
+
+OK. I learned that santa's project is the right way to contribute new packages 
+but is it also the right way to contribute fixes and enhancements of packages 
+that I am not maintaining ? So far I have used bugs.pclinuxos.com and devs 
+mailing list for that. I expect package maintainers to follow this list.
+
+David
+
+
+
+From david at smidovi.eu  Wed Feb 20 11:57:40 2008
+From: david at smidovi.eu (David Smid)
+Date: Wed, 20 Feb 2008 11:57:40 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <64630f150802200202p49ab981fu7a6eb1c906e56598@mail.gmail.com>
+References: <479F3D26.305@smidovi.eu> <47BA8A53.50308@laposte.net>	
+	<47BBD870.5020909@smidovi.eu> <47BBEEBF.7060904@laposte.net>	
+	<47BBF14F.9030807@smidovi.eu>	
+	<64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>	
+	<47BBF6AA.5050707@smidovi.eu>
+	<64630f150802200202p49ab981fu7a6eb1c906e56598@mail.gmail.com>
+Message-ID: <47BC07A4.403@smidovi.eu>
+
+gettinther napsal(a):
+> 
+> 
+> On Feb 20, 2008 9:45 AM, David Smid <david at smidovi.eu 
+> <mailto:david at smidovi.eu>> wrote:
+> 
+> 
+>     OK. I learned that santa's project is the right way to contribute
+>     new packages
+>     but is it also the right way to contribute fixes and enhancements of
+>     packages
+>     that I am not maintaining ? So far I have used bugs.pclinuxos.com
+>     <http://bugs.pclinuxos.com> and devs
+>     mailing list for that. I expect package maintainers to follow this list.
+> 
+>     David <https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev>
+> 
+> 
+> The bug tracker is the right way to submit fixes to other packages.  You 
+> can also offer to fix the said package to Tex directly (but that would 
+> mean a lot of extra work for him).
+> The user mailing list is also a good place.  As a general rule of the thumb,
+> 
+> Bug tracker > Record of bugs and solutions as well as assignment of duty
+> User Mailing list > Notification of bug and solution
+> 
+> You can also download the srpm from ibiblio to check who is the 
+> maintainer of the package and get in touch with him/her and offer to fix 
+> the package.
+
+I'm glad I'm doing it right.
+The problem is there are many distribution specific packages whose authors did 
+not think about i18n. There is a bunch of eager translators hanging around in 
+PCLOS-i18n project and they cannot continue in their work because of that.
+I understand that i18n concept is still new to some developers and I offer help 
+and know-how to them but it's sort of discouraging when I send them a complete 
+solution and nothing happens.
+
+David
+
+
+
+
+From gettinther at gmail.com  Wed Feb 20 12:28:48 2008
+From: gettinther at gmail.com (gettinther)
+Date: Wed, 20 Feb 2008 11:28:48 +0000
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <47BC07A4.403@smidovi.eu>
+References: <479F3D26.305@smidovi.eu> <47BA8A53.50308@laposte.net>
+	<47BBD870.5020909@smidovi.eu> <47BBEEBF.7060904@laposte.net>
+	<47BBF14F.9030807@smidovi.eu>
+	<64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>
+	<47BBF6AA.5050707@smidovi.eu>
+	<64630f150802200202p49ab981fu7a6eb1c906e56598@mail.gmail.com>
+	<47BC07A4.403@smidovi.eu>
+Message-ID: <64630f150802200328v773df510hf5b5c6ceae8f4a0f@mail.gmail.com>
+
+On Feb 20, 2008 10:57 AM, David Smid <david at smidovi.eu> wrote:
+
+>
+> I'm glad I'm doing it right.
+> The problem is there are many distribution specific packages whose authors
+> did
+> not think about i18n. There is a bunch of eager translators hanging around
+> in
+> PCLOS-i18n project and they cannot continue in their work because of that.
+> I understand that i18n concept is still new to some developers and I offer
+> help
+> and know-how to them but it's sort of discouraging when I send them a
+> complete
+> solution and nothing happens.
+>
+> David
+> <https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev>
+>
+
+As far as the developers are concerned, you can only offer a solution.  On
+the other hand you can patch the rpm to add the functionality you need (as I
+did for example to add translation for the sections in synaptic).  In this
+case you only need to contact the person packaging the application.  This
+means your work can take place even if the source package isn't updated
+(it's a nice way around the problem).
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080220/6687ab95/attachment.html>
+
+From david at smidovi.eu  Wed Feb 20 12:49:23 2008
+From: david at smidovi.eu (David Smid)
+Date: Wed, 20 Feb 2008 12:49:23 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <64630f150802200328v773df510hf5b5c6ceae8f4a0f@mail.gmail.com>
+References: <479F3D26.305@smidovi.eu>
+	<47BA8A53.50308@laposte.net>	<47BBD870.5020909@smidovi.eu>
+	<47BBEEBF.7060904@laposte.net>	<47BBF14F.9030807@smidovi.eu>	<64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>	<47BBF6AA.5050707@smidovi.eu>	<64630f150802200202p49ab981fu7a6eb1c906e56598@mail.gmail.com>	<47BC07A4.403@smidovi.eu>
+	<64630f150802200328v773df510hf5b5c6ceae8f4a0f@mail.gmail.com>
+Message-ID: <47BC13C3.5020501@smidovi.eu>
+
+gettinther napsal(a):
+> 
+> 
+> On Feb 20, 2008 10:57 AM, David Smid <david at smidovi.eu 
+> <mailto:david at smidovi.eu>> wrote:
+> 
+> 
+>     I'm glad I'm doing it right.
+>     The problem is there are many distribution specific packages whose
+>     authors did
+>     not think about i18n. There is a bunch of eager translators hanging
+>     around in
+>     PCLOS-i18n project and they cannot continue in their work because of
+>     that.
+>     I understand that i18n concept is still new to some developers and I
+>     offer help
+>     and know-how to them but it's sort of discouraging when I send them
+>     a complete
+>     solution and nothing happens.
+> 
+>     David
+> 
+> As far as the developers are concerned, you can only offer a solution.  
+> On the other hand you can patch the rpm to add the functionality you 
+> need (as I did for example to add translation for the sections in 
+> synaptic).  In this case you only need to contact the person packaging 
+> the application.  This means your work can take place even if the source 
+> package isn't updated (it's a nice way around the problem).
+
+I don't know who is the original author of vit, there's no name in the source. 
+Maybe someone from the SAM Linux team. In package changelog there are two 
+packagers: Texstar and KDulcimer, KDulcimer being the last one. From his 
+reaction on my bug report I figured out that KDulcimer is the packager who feels 
+to be responsible for vit.
+I think there's nothing more I can do, if I would contribute the new vit version 
+on my own I would step on KDulcimer's toes.
+
+David
+
+
+
+From gettinther at gmail.com  Wed Feb 20 13:00:00 2008
+From: gettinther at gmail.com (gettinther)
+Date: Wed, 20 Feb 2008 12:00:00 +0000
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <47BC13C3.5020501@smidovi.eu>
+References: <479F3D26.305@smidovi.eu> <47BBD870.5020909@smidovi.eu>
+	<47BBEEBF.7060904@laposte.net> <47BBF14F.9030807@smidovi.eu>
+	<64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>
+	<47BBF6AA.5050707@smidovi.eu>
+	<64630f150802200202p49ab981fu7a6eb1c906e56598@mail.gmail.com>
+	<47BC07A4.403@smidovi.eu>
+	<64630f150802200328v773df510hf5b5c6ceae8f4a0f@mail.gmail.com>
+	<47BC13C3.5020501@smidovi.eu>
+Message-ID: <64630f150802200400w59828ccbt31edc5641762cf63@mail.gmail.com>
+
+On Feb 20, 2008 11:49 AM, David Smid <david at smidovi.eu> wrote:
+
+> gettinther napsal(a):
+> >
+> >
+> > On Feb 20, 2008 10:57 AM, David Smid <david at smidovi.eu
+> > <mailto:david at smidovi.eu>> wrote:
+> >
+> >
+> >     I'm glad I'm doing it right.
+> >     The problem is there are many distribution specific packages whose
+> >     authors did
+> >     not think about i18n. There is a bunch of eager translators hanging
+> >     around in
+> >     PCLOS-i18n project and they cannot continue in their work because of
+> >     that.
+> >     I understand that i18n concept is still new to some developers and I
+> >     offer help
+> >     and know-how to them but it's sort of discouraging when I send them
+> >     a complete
+> >     solution and nothing happens.
+> >
+> >     David
+> >
+> > As far as the developers are concerned, you can only offer a solution.
+> > On the other hand you can patch the rpm to add the functionality you
+> > need (as I did for example to add translation for the sections in
+> > synaptic).  In this case you only need to contact the person packaging
+> > the application.  This means your work can take place even if the source
+> > package isn't updated (it's a nice way around the problem).
+>
+> I don't know who is the original author of vit, there's no name in the
+> source.
+> Maybe someone from the SAM Linux team. In package changelog there are two
+> packagers: Texstar and KDulcimer, KDulcimer being the last one. From his
+> reaction on my bug report I figured out that KDulcimer is the packager who
+> feels
+> to be responsible for vit.
+> I think there's nothing more I can do, if I would contribute the new vit
+> version
+> on my own I would step on KDulcimer's toes.
+>
+> David
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+
+KDulcimer is a nice fellow.  I'd say he wouldn't mind at all if you were to
+take over that package from him.  Just PM him at mypclinuxos.com.  If you
+have issues, just mail me and I'll clear it with him.
+
+I'll check who wrote vit
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080220/b43ca240/attachment.html>
+
+From david at smidovi.eu  Wed Feb 20 14:22:31 2008
+From: david at smidovi.eu (David Smid)
+Date: Wed, 20 Feb 2008 14:22:31 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <64630f150802200400w59828ccbt31edc5641762cf63@mail.gmail.com>
+References: <479F3D26.305@smidovi.eu>
+	<47BBD870.5020909@smidovi.eu>	<47BBEEBF.7060904@laposte.net>
+	<47BBF14F.9030807@smidovi.eu>	<64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>	<47BBF6AA.5050707@smidovi.eu>	<64630f150802200202p49ab981fu7a6eb1c906e56598@mail.gmail.com>	<47BC07A4.403@smidovi.eu>	<64630f150802200328v773df510hf5b5c6ceae8f4a0f@mail.gmail.com>	<47BC13C3.5020501@smidovi.eu>
+	<64630f150802200400w59828ccbt31edc5641762cf63@mail.gmail.com>
+Message-ID: <47BC2997.2050005@smidovi.eu>
+
+gettinther napsal(a):
+
+> KDulcimer is a nice fellow.  I'd say he wouldn't mind at all if you were 
+> to take over that package from him.  Just PM him at mypclinuxos.com 
+> <http://mypclinuxos.com>.  If you have issues, just mail me and I'll 
+> clear it with him.
+> 
+> I'll check who wrote vit
+
+Thanks for your help, I'll PM KDulcimer and will keep you all informed.
+
+
+David
+
+
+From david at smidovi.eu  Thu Feb 21 11:25:25 2008
+From: david at smidovi.eu (David Smid)
+Date: Thu, 21 Feb 2008 11:25:25 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <47BC2997.2050005@smidovi.eu>
+References: <479F3D26.305@smidovi.eu>	<47BBD870.5020909@smidovi.eu>	<47BBEEBF.7060904@laposte.net>	<47BBF14F.9030807@smidovi.eu>	<64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>	<47BBF6AA.5050707@smidovi.eu>	<64630f150802200202p49ab981fu7a6eb1c906e56598@mail.gmail.com>	<47BC07A4.403@smidovi.eu>	<64630f150802200328v773df510hf5b5c6ceae8f4a0f@mail.gmail.com>	<47BC13C3.5020501@smidovi.eu>	<64630f150802200400w59828ccbt31edc5641762cf63@mail.gmail.com>
+	<47BC2997.2050005@smidovi.eu>
+Message-ID: <47BD5195.8000705@smidovi.eu>
+
+David Smid napsal(a):
+> gettinther napsal(a):
+> 
+>> KDulcimer is a nice fellow.  I'd say he wouldn't mind at all if you were 
+>> to take over that package from him.  Just PM him at mypclinuxos.com 
+>> <http://mypclinuxos.com>.  If you have issues, just mail me and I'll 
+>> clear it with him.
+>>
+>> I'll check who wrote vit
+> 
+> Thanks for your help, I'll PM KDulcimer and will keep you all informed.
+
+After talking to KDulcimer, we decided that I will be the new maintainer of vit 
+because KDulcimer became the vit maintainer rather by accident.
+I've managed to add i18n support to GtkDialog and soon it's maintainer will 
+upload new GtkDialog version to repo. That means no modifications will be needed 
+for GtkDialog based programs to be behave nicely. All will be prepared to be 
+translated just by adding the right .mo file.
+
+So I plan to release a new vit package version soon, please go ahead and send 
+your translations, I'd like to see more translations than just Czech and French 
+in it, it's only a few messages.
+
+David
+
+
+From didouph.ph at laposte.net  Thu Feb 21 18:13:33 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 21 Feb 2008 18:13:33 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <47BD5195.8000705@smidovi.eu>
+References: <479F3D26.305@smidovi.eu>	<47BBD870.5020909@smidovi.eu>	<47BBEEBF.7060904@laposte.net>	<47BBF14F.9030807@smidovi.eu>	<64630f150802200131p5b56d7cdt6ac328b06eb28545@mail.gmail.com>	<47BBF6AA.5050707@smidovi.eu>	<64630f150802200202p49ab981fu7a6eb1c906e56598@mail.gmail.com>	<47BC07A4.403@smidovi.eu>	<64630f150802200328v773df510hf5b5c6ceae8f4a0f@mail.gmail.com>	<47BC13C3.5020501@smidovi.eu>	<64630f150802200400w59828ccbt31edc5641762cf63@mail.gmail.com>	<47BC2997.2050005@smidovi.eu>
+	<47BD5195.8000705@smidovi.eu>
+Message-ID: <47BDB13D.6060509@laposte.net>
+
+David Smid a ?crit :
+> David Smid napsal(a):
+>> gettinther napsal(a):
+>>
+>>> KDulcimer is a nice fellow.  I'd say he wouldn't mind at all if you were 
+>>> to take over that package from him.  Just PM him at mypclinuxos.com 
+>>> <http://mypclinuxos.com>.  If you have issues, just mail me and I'll 
+>>> clear it with him.
+>>>
+>>> I'll check who wrote vit
+>> Thanks for your help, I'll PM KDulcimer and will keep you all informed.
+> 
+> After talking to KDulcimer, we decided that I will be the new maintainer of vit 
+> because KDulcimer became the vit maintainer rather by accident.
+> I've managed to add i18n support to GtkDialog and soon it's maintainer will 
+> upload new GtkDialog version to repo. That means no modifications will be needed 
+> for GtkDialog based programs to be behave nicely. All will be prepared to be 
+> translated just by adding the right .mo file.
+> 
+> So I plan to release a new vit package version soon, please go ahead and send 
+> your translations, I'd like to see more translations than just Czech and French 
+> in it, it's only a few messages.
+> 
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+nice to hear that you're the new maintainer of the project
+
+anyone willing to translate vit will find the base file in "pot" section 
+of the cvs or as atachement to this e.mail
+
+just translate the msgid in msgstr using kbabel and/or a text editor and 
+save it as vit-yourlocalecode.po to this list (ie : vit-FR_fr.po) please 
+only provide utf-8 files
+
+thanks and good bye
+DidouPh
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit.pot
+Type: application/vnd.ms-powerpoint
+Size: 6811 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080221/d9a901f5/attachment.pot>
+
+From archie at pclinuxos.cn  Sat Feb 23 03:30:09 2008
+From: archie at pclinuxos.cn (Archie Arevalo)
+Date: Sat, 23 Feb 2008 10:30:09 +0800
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <47BDB13D.6060509@laposte.net>
+References: <479F3D26.305@smidovi.eu> <47BD5195.8000705@smidovi.eu>
+	<47BDB13D.6060509@laposte.net>
+Message-ID: <200802231030.09832.archie@pclinuxos.cn>
+
+On Friday 22 February 2008 01:13:33 am pierre-henri-ramboz wrote:
+> David Smid a ?crit :
+> > David Smid napsal(a):
+> >> gettinther napsal(a):
+> >>> KDulcimer is a nice fellow.  I'd say he wouldn't mind at all if you
+> >>> were to take over that package from him.  Just PM him at
+> >>> mypclinuxos.com <http://mypclinuxos.com>.  If you have issues, just
+> >>> mail me and I'll clear it with him.
+> >>>
+> >>> I'll check who wrote vit
+> >>
+> >> Thanks for your help, I'll PM KDulcimer and will keep you all informed.
+> >
+> > After talking to KDulcimer, we decided that I will be the new maintainer
+> > of vit because KDulcimer became the vit maintainer rather by accident.
+> > I've managed to add i18n support to GtkDialog and soon it's maintainer
+> > will upload new GtkDialog version to repo. That means no modifications
+> > will be needed for GtkDialog based programs to be behave nicely. All will
+> > be prepared to be translated just by adding the right .mo file.
+> >
+> > So I plan to release a new vit package version soon, please go ahead and
+> > send your translations, I'd like to see more translations than just Czech
+> > and French in it, it's only a few messages.
+> >
+> > David
+> > _______________________________________________
+> > Pclos-il8n-dev mailing list
+> > Pclos-il8n-dev at lists.berlios.de
+> > https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+> nice to hear that you're the new maintainer of the project
+>
+> anyone willing to translate vit will find the base file in "pot" section
+> of the cvs or as atachement to this e.mail
+>
+> just translate the msgid in msgstr using kbabel and/or a text editor and
+> save it as vit-yourlocalecode.po to this list (ie : vit-FR_fr.po) please
+> only provide utf-8 files
+>
+> thanks and good bye
+> DidouPh
+
+Please find attached the Simplified Chinese translation of vit.
+
+-- 
+Archie Arevalo
+http://www.pclinuxos.cn
+Sat Feb 23 10:27:17 CST 2008
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit-zh_CN.po
+Type: application/x-gettext
+Size: 12816 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080223/68e11003/attachment.bin>
+
+From lisovszki at gmail.com  Sat Feb 23 23:21:26 2008
+From: lisovszki at gmail.com (=?ISO-8859-2?Q?Lisovszki_S=E1ndor?=)
+Date: Sat, 23 Feb 2008 23:21:26 +0100
+Subject: [Pclos-il8n-dev] vit.pot  hungarian translation
+Message-ID: <47C09C66.4000301@gmail.com>
+
+Hi all!
+
+Here is the hungarian transation of the vit.pot.
+
+:)
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit-HU_hu.po
+Type: text/x-gettext-translation
+Size: 13381 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080223/216a15f1/attachment.bin>
+
+From didouph.ph at laposte.net  Tue Feb 26 01:27:52 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 26 Feb 2008 01:27:52 +0100
+Subject: [Pclos-il8n-dev] vit.pot  hungarian translation
+In-Reply-To: <47C09C66.4000301@gmail.com>
+References: <47C09C66.4000301@gmail.com>
+Message-ID: <47C35D08.8060202@laposte.net>
+
+Hungarian and simplified chinese po for vit have been added to our cvs !
+
+
+

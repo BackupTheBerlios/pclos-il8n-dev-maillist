@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] New Drak utilities
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-July/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20Drak%20utilities&In-Reply-To=%3C48708C76.1090907%40fastwebnet.it%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000383.html">
+   <LINK REL="Next"  HREF="000385.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] New Drak utilities</H1>
+    <B>Alessio Adamo</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20Drak%20utilities&In-Reply-To=%3C48708C76.1090907%40fastwebnet.it%3E"
+       TITLE="[Pclos-il8n-dev] New Drak utilities">alessioadamo at fastwebnet.it
+       </A><BR>
+    <I>Sun Jul  6 11:12:22 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000383.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+        <LI>Next message: <A HREF="000385.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#384">[ date ]</a>
+              <a href="thread.html#384">[ thread ]</a>
+              <a href="subject.html#384">[ subject ]</a>
+              <a href="author.html#384">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>I've tried to apply this method to both drak3d and userdrake. With the 
+first I get what I should get, but with the second I get empty catalogs, 
+only the original messages. why?
+
+I understand the principle of this method now, however, thank you for 
+telling me.
+
+One thing is not clear to me, whether upon installation the patches will 
+be applied before message extraction or after. If the second was true, 
+that would be a problem.
+
+By the way, the manual update of the messages subject to patches is 
+unavoidable also with this method.
+
+David Smid ha scritto:
+&gt;<i> Alessio Adamo napsal(a):
+</I>&gt;<i>   
+</I>&gt;&gt;<i> This is the procedure I've followed.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> 1) Download the source rpms
+</I>&gt;&gt;<i> 2) Check whether there is a po section in the source
+</I>&gt;&gt;<i>       2a) Check whether the pot file is included
+</I>&gt;&gt;<i> 3) Check whether patches are applied to some of the files
+</I>&gt;&gt;<i>       3a) Check whether those patches change some messages
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>     
+</I>&gt;<i>
+</I>&gt;<i> Alessio, this a tremendous amount of work you have done. Unfortunately, 
+</I>&gt;<i> the same thing could be achieved much more easier.
+</I>&gt;<i>
+</I>&gt;<i> Drakxtools, for example, are pretty intltool-ized. All you need to 
+</I>&gt;<i> generate the .pot file and update all the .po files to contain all valid 
+</I>&gt;<i> msgids (and only them), is to enter the po subdirectory, delete the .pot 
+</I>&gt;<i> file and type this command:
+</I>&gt;<i>
+</I>&gt;<i> INTLTOOL_EXTRACT=/usr/bin/intltool-extract make merge
+</I>&gt;<i>
+</I>&gt;<i> If you use &quot;msgcat --unique --use-first&quot; to merge our current 
+</I>&gt;<i> translations with Mandriva translations before that, you will get .po 
+</I>&gt;<i> files that are very near to being complete.
+</I>&gt;<i>
+</I>&gt;<i> Also much of other work you've done manually can be done by using some 
+</I>&gt;<i> of the msg* tools.
+</I>&gt;<i>
+</I>&gt;<i> The rule of thumb is: such work must have been already done sometimes 
+</I>&gt;<i> before, so there's a good chance some lazy developer invented a way how 
+</I>&gt;<i> to make it easy and automated.
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> David
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Pclos-il8n-dev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">Pclos-il8n-dev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev</A>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000383.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+	<LI>Next message: <A HREF="000385.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#384">[ date ]</a>
+              <a href="thread.html#384">[ thread ]</a>
+              <a href="subject.html#384">[ subject ]</a>
+              <a href="author.html#384">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

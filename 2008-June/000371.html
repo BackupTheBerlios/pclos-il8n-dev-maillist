@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] Alessio's latest additions put in CVS
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-June/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Alessio%27s%20latest%20additions%20put%20in%20CVS&In-Reply-To=%3C486237A3.5000306%40fastwebnet.it%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000369.html">
+   <LINK REL="Next"  HREF="000368.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] Alessio's latest additions put in CVS</H1>
+    <B>Alessio Adamo</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Alessio%27s%20latest%20additions%20put%20in%20CVS&In-Reply-To=%3C486237A3.5000306%40fastwebnet.it%3E"
+       TITLE="[Pclos-il8n-dev] Alessio's latest additions put in CVS">alessioadamo at fastwebnet.it
+       </A><BR>
+    <I>Wed Jun 25 14:18:43 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000369.html">[Pclos-il8n-dev] Alessio's latest additions put in CVS
+</A></li>
+        <LI>Next message: <A HREF="000368.html">[Pclos-il8n-dev] move
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#371">[ date ]</a>
+              <a href="thread.html#371">[ thread ]</a>
+              <a href="subject.html#371">[ subject ]</a>
+              <a href="author.html#371">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi, David!
+
+
+This the new version of the pot and italian po + scripts. Now they don't 
+need the gettext package, gettext-base is enough. Moreover variables are 
+in the form of %s.
+
+You can delete
+
+/other/usr/sbin/mkremaster2
+
+The desktop file is OK. It's what gtk-liveinstall does.
+
+
+Thanks, Alessio
+
+
+David Smid ha scritto:
+&gt;<i> Hello,
+</I>&gt;<i>
+</I>&gt;<i> I've put into CVS these files:
+</I>&gt;<i>
+</I>&gt;<i> 	/po/it/
+</I>&gt;<i> 		gtk-liveinstall.po
+</I>&gt;<i> 		liveusb.po
+</I>&gt;<i> 		redo-mbr.po
+</I>&gt;<i> 	/pot/
+</I>&gt;<i> 		gtk-liveinstall.pot
+</I>&gt;<i> 		liveusb.pot
+</I>&gt;<i> 		mkremaster.pot
+</I>&gt;<i> 		mkremaster2.pot
+</I>&gt;<i> 		redo-mbr.pot
+</I>&gt;<i>
+</I>&gt;<i> 	/other/usr/sbin/
+</I>&gt;<i> 		gtk-liveinstall
+</I>&gt;<i> 		liveusb
+</I>&gt;<i> 		mkremaster
+</I>&gt;<i> 		mkremaster2
+</I>&gt;<i> 		redo-mbr
+</I>&gt;<i>
+</I>&gt;<i> I haven't checked in file gtk-liveinstall-kde.desktop because it has weird 
+</I>&gt;<i> comments inside (copied from liveusb.desktop ???):
+</I>&gt;<i>
+</I>&gt;<i> [Desktop Entry]
+</I>&gt;<i> Encoding=UTF-8
+</I>&gt;<i> Name=GTK live install
+</I>&gt;<i> Exec=kdesu /usr/sbin/gtk-liveinstall
+</I>&gt;<i> Comment=Create 'liveUSB' or 'Poorman' installation
+</I>&gt;<i> Comment[it]=Crea un'installazione per l'uomo della strada (o liveUSB)
+</I>&gt;<i> GenericName=Create liveUSB
+</I>&gt;<i> GenericName[it]=Crea una liveUSB
+</I>&gt;<i> Icon=gtk-liveinstall
+</I>&gt;<i> Terminal=false
+</I>&gt;<i> Type=Application
+</I>&gt;<i> StartupNotify=false
+</I>&gt;<i> Categories=X-MandrivaLinux-System;
+</I>&gt;<i> OnlyShowIn=KDE
+</I>&gt;<i>
+</I>&gt;<i> David
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Pclos-il8n-dev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">Pclos-il8n-dev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev</A>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: scripts.tar.gz
+Type: application/x-gzip
+Size: 36481 bytes
+Desc: not available
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080625/327a74df/attachment.bin">https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080625/327a74df/attachment.bin</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000369.html">[Pclos-il8n-dev] Alessio's latest additions put in CVS
+</A></li>
+	<LI>Next message: <A HREF="000368.html">[Pclos-il8n-dev] move
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#371">[ date ]</a>
+              <a href="thread.html#371">[ thread ]</a>
+              <a href="subject.html#371">[ subject ]</a>
+              <a href="author.html#371">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

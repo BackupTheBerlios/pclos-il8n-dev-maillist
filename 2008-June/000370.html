@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] Experimental desktop-files.in tree in CVS
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-June/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Experimental%20desktop-files.in%20tree%20in%20CVS&In-Reply-To=%3C48601438.3060703%40fastwebnet.it%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000365.html">
+   <LINK REL="Next"  HREF="000367.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] Experimental desktop-files.in tree in CVS</H1>
+    <B>Alessio Adamo</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Experimental%20desktop-files.in%20tree%20in%20CVS&In-Reply-To=%3C48601438.3060703%40fastwebnet.it%3E"
+       TITLE="[Pclos-il8n-dev] Experimental desktop-files.in tree in CVS">alessioadamo at fastwebnet.it
+       </A><BR>
+    <I>Mon Jun 23 23:23:04 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000365.html">[Pclos-il8n-dev] Experimental desktop-files.in tree in CVS
+</A></li>
+        <LI>Next message: <A HREF="000367.html">[Pclos-il8n-dev] Alessio's latest additions put in CVS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#370">[ date ]</a>
+              <a href="thread.html#370">[ thread ]</a>
+              <a href="subject.html#370">[ subject ]</a>
+              <a href="author.html#370">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Good,
+
+by the end of the week, I'll give you some feedback on this.
+
+Alessio
+
+David Smid ha scritto:
+&gt;<i> Hello,
+</I>&gt;<i> I've finally found out how to fix this issue:
+</I>&gt;<i>
+</I>&gt;<i> Alessio Adamo napsal(a):
+</I>&gt;<i>  &gt; I agree that it's a much cleaner way to work and I'm certainly in for
+</I>&gt;<i>  &gt; this change. I've tested your make_intltool_ready script few days ago
+</I>&gt;<i>  &gt; and actually allowed me to realise that there were 2 original Comment
+</I>&gt;<i>  &gt; strings in donate.desktop. So it's true, it's good help not to minimise
+</I>&gt;<i>  &gt; the chances of mistakes.
+</I>&gt;<i>  &gt;
+</I>&gt;<i>  &gt; Though, it doesn't seem to work completely right.
+</I>&gt;<i>  &gt;
+</I>&gt;<i>  &gt; For instance, in it.po the message &quot;Donate&quot; is untranslated although in
+</I>&gt;<i>  &gt; /etc/skel/donate.desktop and in /root/donate.desktop it is actually
+</I>&gt;<i>  &gt; translated.
+</I>&gt;<i>  &gt;
+</I>&gt;<i>  &gt; At the same time the message &quot;Support the developement of PCLinuxOS by
+</I>&gt;<i>  &gt; donating to the Team&quot; (the Comment) is translated with &quot;Fai una
+</I>&gt;<i>  &gt; donazione&quot; (the Name).
+</I>&gt;<i>  &gt;
+</I>&gt;<i>  &gt; There are several other examples. If required, I'll list them all. I had
+</I>&gt;<i>  &gt; a look also at fr.po and also there I could find some examples of this
+</I>&gt;<i>  &gt; misbehaviour.
+</I>&gt;<i>  &gt;
+</I>&gt;<i>  &gt; I can't figure out what the reason can be just by looking at the
+</I>&gt;<i>  &gt; original desktop-files. You're probably more indicated to find out.
+</I>&gt;<i>
+</I>&gt;<i> The problem was that the Name and Comment translations were mixed in the 
+</I>&gt;<i> .desktop files. I had to sort them prior to processing in make_intltool_ready 
+</I>&gt;<i> script.
+</I>&gt;<i>
+</I>&gt;<i> I've put experimental desktop-files.in tree into CVS repository, this tree is a 
+</I>&gt;<i> result of launching make_intltool_ready and make_intltool_update scripts.
+</I>&gt;<i> You can also find updated scripts in the root of this tree.
+</I>&gt;<i> I believe this setup will make translating .desktop files much easier and more 
+</I>&gt;<i> reliable.
+</I>&gt;<i>
+</I>&gt;<i> David
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Pclos-il8n-dev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">Pclos-il8n-dev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev</A>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000365.html">[Pclos-il8n-dev] Experimental desktop-files.in tree in CVS
+</A></li>
+	<LI>Next message: <A HREF="000367.html">[Pclos-il8n-dev] Alessio's latest additions put in CVS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#370">[ date ]</a>
+              <a href="thread.html#370">[ thread ]</a>
+              <a href="subject.html#370">[ subject ]</a>
+              <a href="author.html#370">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

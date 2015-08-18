@@ -1,0 +1,752 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] desktop files update - without dubi's new	additions
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2007-July/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20desktop%20files%20update%20-%20without%20dubi%27s%20new%0A%09additions&In-Reply-To=%3C4692BFA1.1010901%40gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000140.html">
+   <LINK REL="Next"  HREF="000142.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] desktop files update - without dubi's new	additions</H1>
+    <B>didouph</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20desktop%20files%20update%20-%20without%20dubi%27s%20new%0A%09additions&In-Reply-To=%3C4692BFA1.1010901%40gmail.com%3E"
+       TITLE="[Pclos-il8n-dev] desktop files update - without dubi's new	additions">didouph at gmail.com
+       </A><BR>
+    <I>Tue Jul 10 01:07:13 CEST 2007</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000140.html">[Pclos-il8n-dev] desktop files update - without dubi's new additions
+</A></li>
+        <LI>Next message: <A HREF="000142.html">[Pclos-il8n-dev] [Fwd: Re: Re: Synaptic update and asking for a bit	advice]
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#141">[ date ]</a>
+              <a href="thread.html#141">[ thread ]</a>
+              <a href="subject.html#141">[ subject ]</a>
+              <a href="author.html#141">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>embeded in this message you will see ANOTHER example of the submission 
+syntax for desktop files
+
+i converted latest submission to this format ... due to too many mistake 
+in the orginal adressing, only 20% of the files got updated, also some 
+entry listing empty files or duplicate entrys have been neglected in the 
+late update...
+
+example :
+
+----------------------
+adding Comment[hu]=Troff dokumentum to 
+/home/didouph/Desktop/pclos-il8n/CVSROOT/desktop-files/usr/share/mimelnk/message/x-troff.desktop
+cat: 
+/home/didouph/Desktop/pclos-il8n/CVSROOT/desktop-files/usr/share/mimelnk/message/x-troff.desktop: 
+No such file or directory
+----------------------
+
+there were about 250 lines to be updated out of about 10 000 and around 
+250 files to update out of 1 500 in the cvs, do you think it's kind not 
+to check if the adressing is correct before sending those to me for an 
+update ?
+
+On the other hand, just consider that despite the fact i spent 3 hours 
+trying to figure out wich hu entry was the good one, i never figured one 
+that sounded more appropriate to me ... i don't speak hungarian ...
+
+anyway, next time i simply won't try to process the file. i don't think 
+more explanations are needed, i've sent many warning about that before ...
+
+ok ...
+
+how to say that ...
+
+i know this style of layout is pretty BORRING, but it helps figure out 
+where are the problems in the files eaven if you don't speak the 
+language since it would help me to batch process the files and find 
+duplicates or missing entry ... if i need to do the pl myself (following 
+file) it's just plain stupid .
+
+USE THE FOLLOWING FORMAT !!
+
+refer to the mailing list archive for more informations about it
+
+it's addaline format ... don't tell me i wrote a program for nothing :)
+
+i asked for your input and comment about this method but got none, i'll 
+be glad to read from you if you disagree or dislike this submission 
+policy. i think we all are open for subjestion ... if someone don't 
+understand the content of a mail ... why not asking rather than doing 
+nonsense and putting everyone into troubles !
+
+sorry if i'm once again being hard to you despite the work you produce, 
+but it's really time killing to go on like that and fix issues at random 
+on aspect of the project that shouldn't need fixing ....
+
+
+----------------------------------------------------------------------------
+# batch patch script using addaline routine
+#
+# usage :
+# ./addaline &quot;${woot}/path/to/desktop/file.desktop&quot; &quot;string[locale]=value&quot;
+#
+# remove ./ if addaline is located in your path (/usr/sbin or /usr/bin 
+or /bin or ~/bin)
+# woot variable must be modifyed, only and only if you need to apply the 
+patch on a local copy of the cvs three !!
+
+woot=/home/didouph/Desktop/pclos-il8n/CVSROOT/desktop-files
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-communications.directory&quot; 
+&quot;Name[hu]=Kommunik&#225;ci&#243;&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-databases.directory&quot; 
+&quot;Name[hu]=Adatb&#225;zisok&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-development-developmentenvironments.directory&quot; 
+&quot;Name[hu]=Fejleszt&#337; k&#246;rnyezetek&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-development-interpreters.directory&quot; 
+&quot;Name[hu]=Parancs&#233;rtelmez&#337;k&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-development-other.directory&quot; 
+&quot;Name[hu]=Egyebek&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-development-tools.directory&quot; 
+&quot;Name[hu]=Eszk&#246;z&#246;k&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-development.directory&quot; 
+&quot;Name[hu]=Fejleszt&#233;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-documentation.directory&quot; 
+&quot;Name[hu]=Dokument&#225;ci&#243;&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-editors.directory 
+&quot; &quot;Name[hu]=Szerkeszt&#337;k&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-economy.directory&quot; 
+&quot;Name[hu]=Gazdas&#225;g&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-geography.directory&quot; 
+&quot;Name[hu]=F&#246;ldrajz&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-history.directory&quot; 
+&quot;Name[hu]=T&#246;rt&#233;nelem&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-languages.directory&quot; 
+&quot;Name[hu]=Nyelvek&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-literature.directory&quot; 
+&quot;Name[hu]=Irodalom&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-other.directory&quot; 
+&quot;Name[hu]=Egy&#233;b oktat&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-sciences.directory&quot; 
+&quot;Name[hu]=Tudom&#225;ny&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-sports.directory&quot; 
+&quot;Name[hu]=Sport&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-education.directory&quot; 
+&quot;Name[hu]=Oktat&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-emulators.directory&quot; 
+&quot;Name[hu]=Emul&#225;torok&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-finances.directory&quot; 
+&quot;Name[hu]=P&#233;nz&#252;gy&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-adventure.directory&quot; 
+&quot;Name[hu]=Kaland&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-arcade.directory&quot; 
+&quot;Name[hu]=&#193;rk&#225;d&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-boards.directory&quot; 
+&quot;Name[hu]=T&#225;bl&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-cards.directory&quot; 
+&quot;Name[hu]=K&#225;rtya&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-other.directory&quot; 
+&quot;Name[hu]=Egy&#233;b&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-puzzles.directory&quot; 
+&quot;Name[hu]=Kirak&#243;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-sports.directory&quot; 
+&quot;Name[hu]=Sport&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-strategy.directory&quot; 
+&quot;Name[hu]=Strat&#233;gia&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-toys.directory&quot; 
+&quot;Name[hu]=Apr&#243; j&#225;t&#233;kszerek&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-games.directory&quot; 
+&quot;Name[hu]=J&#225;t&#233;kok&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-other.directory 
+&quot; &quot;Name[hu]=Egyebek&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-artificialintelligence.directory&quot; 
+&quot;Name[hu]=Mesters&#233;ges Intelligencia&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-astronomy.directory&quot; 
+&quot;Name[hu]=Csillag&#225;szat&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-biology.directory&quot; 
+&quot;Name[hu]=Biol&#243;gia&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-chemistry.directory&quot; 
+&quot;Name[hu]=K&#233;mia&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-computerscience.directory&quot; 
+&quot;Name[hu]=Informatika&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-datavisualization.directory&quot; 
+&quot;Name[hu]=Adatmegjelen&#237;t&#233;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-electricity.directory&quot; 
+&quot;Name[hu]=Elektromoss&#225;g&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-geosciences.directory&quot; 
+&quot;Name[hu]=F&#246;ldtan&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-imageprocessing.directory&quot; 
+&quot;Name[hu]=K&#233;pfeldolgoz&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-mathematics.directory&quot; 
+&quot;Name[hu]=Matematika&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-numericanalysis.directory&quot; 
+&quot;Name[hu]=Sz&#225;manal&#237;zis&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-other.directory&quot; 
+&quot;Name[hu]=Egyebek&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-parallelcomputing.directory&quot; 
+&quot;Name[hu]=P&#225;rhuzamos adatfeldolgoz&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-physics.directory&quot; 
+&quot;Name[hu]=Fizika&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-robotics.directory&quot; 
+&quot;Name[hu]=Robotika&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences.directory&quot; 
+&quot;Name[hu]=Tudom&#225;ny&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-moreapplications.directory&quot; 
+&quot;Name[hu]=Extra alkalmaz&#225;sok&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-multimedia-graphics.directory&quot; 
+&quot;Name[hu]=Grafika&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-multimedia-other.directory&quot; 
+&quot;Name[hu]=Egyebek&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-multimedia-sound.directory&quot; 
+&quot;Name[hu]=Hang&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-multimedia-video.directory&quot; 
+&quot;Name[hu]=Video&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-multimedia.directory&quot; 
+&quot;Name[hu]=Multim&#233;dia&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-networking.directory&quot; 
+&quot;Name[hu]=H&#225;l&#243;zat&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-accessories.directory&quot; 
+&quot;Name[hu]=Kell&#233;kek&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-addressbooks.directory&quot; 
+&quot;Name[hu]=C&#237;mjegyz&#233;k&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-communications-fax.directory&quot; 
+&quot;Name[hu]=Fax&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-communications-other.directory&quot; 
+&quot;Name[hu]=Egy&#233;b&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-communications-pda.directory&quot; 
+&quot;Name[hu]=PDA&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-communications-phone.directory&quot; 
+&quot;Name[hu]=Telef&#243;nia&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-communications.directory&quot; 
+&quot;Name[hu]=Kommunik&#225;ci&#243;&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-drawing.directory&quot; 
+&quot;Name[hu]=Rajzol&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-graphs.directory&quot; 
+&quot;Name[hu]=Diagram&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-other.directory&quot; 
+&quot;Name[hu]=Egy&#233;b&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-presentations.directory&quot; 
+&quot;Name[hu]=Bemutat&#243;k&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-publishing.directory&quot; 
+&quot;Name[hu]=Publik&#225;ci&#243;&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-spreadsheets.directory&quot; 
+&quot;Name[hu]=T&#225;bl&#225;zatkezel&#337;k&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-tasksmanagement.directory&quot; 
+&quot;Name[hu]=Feladatkezel&#337;&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-timemanagement.directory&quot; 
+&quot;Name[hu]=&#220;temez&#233;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office-wordprocessors.directory&quot; 
+&quot;Name[hu]=Sz&#246;vegszerkeszt&#233;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-office.directory&quot; 
+&quot;Name[hu]=Iroda&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-other.directory&quot; 
+&quot;Name[hu]=Egy&#233;b&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-archiving-backup.directory&quot; 
+&quot;Name[hu]=Archiv&#225;l&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-archiving-cdburning.directory&quot; 
+&quot;Name[hu]=CD/DVD &#237;r&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-archiving-compression.directory&quot; 
+&quot;Name[hu]=T&#246;m&#246;r&#237;t&#233;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-archiving-other.directory&quot; 
+&quot;Name[hu]=Egy&#233;b&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-archiving.directory&quot; 
+&quot;Name[hu]=Archiv&#225;l&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-bootandinit.directory&quot; 
+&quot;Name[hu]=Rendszerind&#237;t&#225;s &#233;s inicializ&#225;l&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-gnome-accessibility.directory&quot; 
+&quot;Name[hu]=El&#233;rhet&#337;s&#233;gek&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-gnome-advanced.directory&quot; 
+&quot;Name[hu]=Fejlett be&#225;ll&#237;t&#225;sok&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-gnome.directory&quot; 
+&quot;Name[hu]=Gnome&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-hardware.directory&quot; 
+&quot;Name[hu]=Hardver&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-kde.directory&quot; 
+&quot;Name[hu]=KDE&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-networking.directory&quot; 
+&quot;Name[hu]=H&#225;l&#243;zat&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-other.directory&quot; 
+&quot;Name[hu]=Egy&#233;b&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-packaging.directory&quot; 
+&quot;Name[hu]=Csomagkezel&#233;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration-printing.directory&quot; 
+&quot;Name[hu]=Nyomtat&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-configuration.directory&quot; 
+&quot;Name[hu]=Be&#225;ll&#237;t&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-filetools.directory&quot; 
+&quot;Name[hu]=F&#225;jlkezel&#337; eszk&#246;z&#246;k&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-monitoring.directory&quot; 
+&quot;Name[hu]=Monitoroz&#225;s&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-terminals.directory&quot; 
+&quot;Name[hu]=Termin&#225;lok&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system-texttools.directory&quot; 
+&quot;Name[hu]=Sz&#246;veges eszk&#246;z&#246;k&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandriva-system.directory&quot; 
+&quot;Name[hu]=Rendszer&quot;
+./addaline 
+&quot;${woot}/usr/share/desktop-directories/mandrivalinux.directory&quot; 
+&quot;Name[hu]=Programok&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/ andrew-inset.desktop&quot; 
+&quot;Comment[hu]=Andrew eszk&#246;zt&#225;r&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/oda.desktop&quot; 
+&quot;Comment[hu]=ODA dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/qif.desktop&quot; 
+&quot;Comment[hu]=Quicken dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/rtf.desktop&quot; 
+&quot;Comment[hu]=Rich Text dokumentum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-applix-spreadsheet.desktop&quot; 
+&quot;Comment[hu]=Applixware t&#225;bl&#225;zat dokumentum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-applix-spread.desktop&quot; 
+&quot;Comment[hu]=Applixware t&#225;bl&#225;zat dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-applix-word.desktop&quot; 
+&quot;Comment[hu]=Applixware sz&#246;veges dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-applixword.desktop &quot; 
+&quot;Comment[hu]=Applixware sz&#246;veges dokumentum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-applixgraphics.desktop&quot; 
+&quot;Comment[hu]=Applixware grafikai dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-asp.desktop&quot; 
+&quot;Comment[hu]=Akt&#237;v Szerver lap&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-backup.desktop&quot; 
+&quot;Comment[hu]=Biztons&#225;gi ment&#233;s f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-bcpio.desktop&quot; 
+&quot;Comment[hu]=BCPIO dokumentum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-bzip-compressed-tar.desktop&quot; 
+&quot;Comment[hu]=Tar arch&#237;vum (Bzip2-t&#246;m&#246;r&#237;t&#233;ssel)&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-cgi.desktop&quot; 
+&quot;Comment[hu]=CGI alkalmaz&#225;s&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-chess-pgn.desktop&quot; 
+&quot;Comment[hu]=PGN sakkj&#225;t&#233;k f&#225;jl&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-compressed-tar.desktop&quot; 
+&quot;Comment[hu]=Tar arch&#237;vum (Gzip-t&#246;m&#246;r&#237;t&#233;ssel)&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-core-file.desktop&quot; 
+&quot;Comment[hu]=Mem&#243;ria dump f&#225;jl&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-cpio-compressed.desktop&quot; 
+&quot;Comment[hu]=CPIO arch&#237;vum (Gzip-t&#246;m&#246;r&#237;t&#233;ssel)&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-dia-diagram.desktop&quot; 
+&quot;Comment[hu]=Dia diagram&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-e-theme.desktop&quot; 
+&quot;Comment[hu]=Enlightement t&#233;ma&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-font-afm.desktop&quot; 
+&quot;Comment[hu]=Metrikus Adobe bet&#369;t&#237;pus&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-font-linux-psf.desktop&quot; 
+&quot;Comment[hu]=Linux PSF konzol bet&#369;t&#237;pus&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-glade.desktop&quot; 
+&quot;Comment[hu]=Glade projekt&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-gnucash.desktop&quot; 
+&quot;Comment[hu]=GnuCash munkaf&#252;zet&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-gtar.desktop&quot; 
+&quot;Comment[hu]=gTar arch&#237;vum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-hdf.desktop&quot; 
+&quot;Comment[hu]=HDF dokumentum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-java-byte-code.desktop&quot; 
+&quot;Comment[hu]=Java byte-k&#243;d&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-jbuilder-project.desktop&quot; 
+&quot;Comment[hu]=JBuilder Projekt f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-kalbum.desktop&quot; 
+&quot;Comment[hu]=KAlbum k&#233;pgy&#369;jtem&#233;ny&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-catalog.desktop&quot; 
+&quot;Comment[hu]=Katalog adatb&#225;zis&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-katalogitem.desktop&quot; 
+&quot;Comment[hu]=Katalogiz&#225;lt f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-kbudget.desktop&quot; 
+&quot;Comment[hu]=KBudget f&#225;jl&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-kde-app-info.desktop&quot; 
+&quot;Comment[hu]=KDE program r&#233;szletek&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-lhz.desktop&quot; 
+&quot;Comment[hu]=LHA arch&#237;vum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-mif.desktop&quot; 
+&quot;Comment[hu]=FrameMaker interchange dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-netcdf.desktop&quot; 
+&quot;Comment[hu]=netCDF Unidata dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-object-file.desktop&quot; 
+&quot;Comment[hu]=T&#225;rgyk&#243;d f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-object.desktop&quot; 
+&quot;Comment[hu]=T&#225;rgyk&#243;d f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-oleo.desktop&quot; 
+&quot;Comment[hu]=GNU Oleo t&#225;bl&#225;zat dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-profile.desktop&quot; 
+&quot;Comment[hu]=Profiloz&#243; eredm&#233;nyek&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-qw.desktop&quot; 
+&quot;Comment[hu]=Quicken for Windows dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-reject&quot; 
+&quot;Comment[hu]=Ledobott patch f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-shar.desktop&quot; 
+&quot;Comment[hu]=Shell arch&#237;vum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-shared-library-la.desktop&quot; 
+&quot;Comment[hu]=Megosztott k&#243;dk&#246;nyvt&#225;r&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-shared-library.desktop&quot; 
+&quot;Comment[hu]=Megosztott k&#243;dk&#246;nyvt&#225;r&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-smil.desktop&quot; 
+&quot;Comment[hu]=SMIL szkript&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-staroffice-presentation.desktop&quot; 
+&quot;Comment[hu]=Staroffice prezent&#225;ci&#243;s dokumentum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-staroffice-spreadsheet.desktop&quot; 
+&quot;Comment[hu]=Staroffice t&#225;bl&#225;zat dokumentum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-staroffice-words.desktop&quot; 
+&quot;Comment[hu]=Staroffice Writer sz&#246;vegszerkeszt&#337; dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-sv4cpio.desktop&quot; 
+&quot;Comment[hu]=SV4 CPIO arch&#237;vum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-sv4crc.desktop&quot; 
+&quot;Comment[hu]=SV4 CPIO arch&#237;vum CRC ellen&#246;rz&#337; &#246;sszeggel&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-theme.desktop &quot; 
+&quot;Comment[hu]=t&#233;ma&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-troff-man-compressed.desktop&quot; 
+&quot;Comment[hu]=Man oldalak (t&#246;m&#246;r&#237;tett)&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-unix-archive.desktop&quot; 
+&quot;Comment[hu]=Unix AR archivum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-urpmi-media.desktop&quot; 
+&quot;Comment[hu]=Urpmi m&#233;dium info&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-urpmi.desktop&quot; 
+&quot;Comment[hu]=Urpmi szkript&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-ustar.desktop&quot; 
+&quot;Comment[hu]=uStar arch&#237;vum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/application/x-vnd.kde.kugar.mixed.desktop&quot; 
+&quot;Comment[hu]=Kugar arch&#237;vum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-wais-source.desktop&quot; 
+&quot;Comment[hu]=WAIS forr&#225;sk&#243;d&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/x-xbase.desktop&quot; 
+&quot;Comment[hu]=X-Base adatb&#225;zis&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/application/zip.desktop&quot; 
+&quot;Comment[hu]=ZIP arch&#237;vum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/audio/x-it.desktop&quot; 
+&quot;Comment[hu]=Impulse Tracker Audio file&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/audio/x-real-audio.desktop&quot; 
+&quot;Comment[hu]=RealAudio/Video dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/audio/x-s3m.desktop&quot; 
+&quot;Comment[hu]=Scream Tracker 3 audio f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/audio/x-stm.desktop&quot; 
+&quot;Comment[hu]=Scream Tracker audio f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/audio/x-ulaw.desktop&quot; 
+&quot;Comment[hu]=Sun u-law audio f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/audio/x-voc.desktop&quot; 
+&quot;Comment[hu]=VOC audio f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/audio/x-xi.desktop&quot; 
+&quot;Comment[hu]=Scream Tracker hangszer f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/audio/x-xm.desktop&quot; 
+&quot;Comment[hu]=FastTracker II audio f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/bmp.desktop&quot; 
+&quot;Comment[hu]=Compuserve bitmap k&#233;p f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/cgm.desktop&quot; 
+&quot;Comment[hu]=Computer Graphics metaf&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/fax-g3.desktop&quot; 
+&quot;Comment[hu]=CCITT G3 fax f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/fits.desktop&quot; 
+&quot;Comment[hu]=FITS k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/gif.desktop&quot; 
+&quot;Comment[hu]=Compuserve GIF k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/ief.desktop&quot; 
+&quot;Comment[hu]=IEF k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/jpg.desktop&quot; 
+&quot;Comment[hu]=JPG k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/pjpeg.desktop&quot; 
+&quot;Comment[hu]=Progressz&#237;v JPG k&#233;p (MS alias)&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/png.desktop&quot; 
+&quot;Comment[hu]=Portable Network Graphics (PNG) k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/svg+xml.desktop&quot; 
+&quot;Comment[hu]=&#193;tm&#233;retezhet&#337; Vektorgrafika (SVG) k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/svg-xml.desktop&quot; 
+&quot;Comment[hu]=SVG + XML k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/svg.desktop&quot; 
+&quot;Comment[hu]=SVG illusztr&#225;ci&#243;&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/tiff.desktop&quot; 
+&quot;Comment[hu]=TIFF k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/vnd.desktop&quot; 
+&quot;Comment[hu]=VND grafikai k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/wmf.desktop&quot; 
+&quot;Comment[hu]=Windows Metaf&#225;jl k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-3ds.desktop&quot; 
+&quot;Comment[hu]=3D Studio k&#233;p f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-applix-graphic.desktop&quot; 
+&quot;Comment[hu]=Applixware Graphics k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-bmp.desktop&quot; 
+&quot;Comment[hu]=BMP bitmap k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-cmu-raster.desktop&quot; 
+&quot;Comment[hu]=CMU raszter k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-compressed-xcf.desktop&quot; 
+&quot;Comment[hu]=Gimp dokumentum (t&#246;m&#246;r&#237;tett)&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-dds.desktop&quot; 
+&quot;Comment[hu]=DirectDraw fel&#252;let f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-djvu-2.desktop&quot; 
+&quot;Comment[hu]=DjVu dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-djvu.desktop&quot; 
+&quot;Comment[hu]=DjVu dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-eps.desktop&quot; 
+&quot;Comment[hu]=Tokozott Posztszkript K&#233;p (EPS) f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-exr.desktop&quot; 
+&quot;Comment[hu]=ILM EXR k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-hdr.desktop&quot; 
+&quot;Comment[hu]=Nagy felbont&#225;s&#250; &#233;s dinamik&#225;j&#250; k&#233;p (HDR) &quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-ico.desktop&quot; 
+&quot;Comment[hu]=MS Windows ikon f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-iff.desktop&quot; 
+&quot;Comment[hu]=IFF k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-ilbm.desktop&quot; 
+&quot;Comment[hu]=ILBM k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-jng.desktop&quot; 
+&quot;Comment[hu]=JNG k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-lwo.desktop&quot; 
+&quot;Comment[hu]=Lightwave objektum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-lws.desktop&quot; 
+&quot;Comment[hu]=Lightwave jelenet f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-msod.desktop&quot; 
+&quot;Comment[hu]=MS Office &#225;bra&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-pcx.desktop&quot; 
+&quot;Comment[hu]=ZSoft Paintbrush k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-photo-cd.desktop&quot; 
+&quot;Comment[hu]=PhotoCD k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-portable-anymap.desktop&quot; 
+&quot;Comment[hu]=PNM k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-portable-bitmap.desktop&quot; 
+&quot;Comment[hu]=Hordozhat&#243; bitt&#233;rk&#233;pes k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-portable-graymap.desktop&quot; 
+&quot;Comment[hu]=Hordozhat&#243; PGM k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-portable-greymap.desktop&quot; 
+&quot;Comment[hu]=Hordozhat&#243; Greymap k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-portable-pixmap.desktop&quot; 
+&quot;Comment[hu]=Hordozhat&#243; Pixmap k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-psd.desktop&quot; 
+&quot;Comment[hu]=Adobe Photoshop dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-raw.desktop&quot; 
+&quot;Comment[hu]=RAW Kamera k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-rgb.desktop&quot; 
+&quot;Comment[hu]=SGI k&#233;p (RGB sz&#237;nekkel)&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-targa.desktop&quot; 
+&quot;Comment[hu]=Truevision Targa k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-tga.desktop&quot; 
+&quot;Comment[hu]=TarGA k&#233;p&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/image/x-vnd.adobe.photoshop.desktop&quot; 
+&quot;Comment[hu]=Adobe Photoshop k&#233;p&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/image/x-vnd.trolltech.qpicture.desktop&quot; 
+&quot;Comment[hu]=Trolltech QPicture metaf&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-wmf.desktop&quot; 
+&quot;Comment[hu]=MS Windows metaf&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-xbitmap.desktop&quot; 
+&quot;Comment[hu]=X bitt&#233;rk&#233;pes k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-xbm.desktop&quot; 
+&quot;Comment[hu]=X BitMap k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-xcf-gimp.desktop&quot; 
+&quot;Comment[hu]=GIMP nat&#237;v k&#233;pform&#225;tum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-xcf.desktop&quot; 
+&quot;Comment[hu]=GIMP dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-xcursor.desktop&quot; 
+&quot;Comment[hu]=X11 eg&#233;rkurzor&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-xfig.desktop&quot; 
+&quot;Comment[hu]=XFig f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-xpm.desktop&quot; 
+&quot;Comment[hu]=X PixMap k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/image/x-windowdump.desktop&quot; 
+&quot;Comment[hu]=X window k&#233;p&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/inode/katalog-directory.desktop&quot; 
+&quot;Comment[hu]=Katalogiz&#225;lt Mappa&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-gnu-rmail.desktop&quot; 
+&quot;Comment[hu]=GNU elektronikus lev&#233;l&#252;zenet&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/text/abiword.desktop&quot; 
+&quot;Comment[hu]=Abiword dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/text/bib.desktop&quot; 
+&quot;Comment[hu]=Bibliogr&#225;fiai adat&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/text/mathml.desktop&quot; &quot;Comment[hu]=&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/text/richtext.desktop&quot; 
+&quot;Comment[hu]=Rich text doumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/spreadsheet.desktop&quot; 
+&quot;Comment[hu]=Interchange t&#225;bl&#225;zati dokumentum&quot;
+./addaline 
+&quot;${woot}/usr/share/mimelnk/message/tab-separated-values.desktop&quot; 
+&quot;Comment[hu]=Tabul&#225;torral elk&#252;l&#246;n&#237;tett sz&#246;veges dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-authors.desktop&quot; 
+&quot;Comment[hu]=Tulajdonos lista&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-copying.desktop&quot; 
+&quot;Comment[hu]=Szoftver licenc le&#237;r&#225;s&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-credits.desktop&quot; 
+&quot;Comment[hu]=St&#225;blista&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-dcl.desktop&quot; 
+&quot;Comment[hu]=DCL szkript&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-dsl.desktop&quot; 
+&quot;Comment[hu]=DSSSL documentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-dtd.desktop&quot; 
+&quot;Comment[hu]=Dokumentumt&#237;pus defin&#237;ci&#243;&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-emacs-lisp.desktop&quot; 
+&quot;Comment[hu]=Emacs Lisp forr&#225;sk&#243;d&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-gtkrc.desktop&quot; 
+&quot;Comment[hu]=GTK konfigur&#225;ci&#243;s f&#225;jl&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-idl.desktop&quot; 
+&quot;Comment[hu]=IDL dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-install.desktop&quot; 
+&quot;Comment[hu]=Szoftver telep&#237;t&#233;si utas&#237;t&#225;sok&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-readme.desktop&quot; 
+&quot;Comment[hu]=README dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-scheme.desktop&quot; 
+&quot;Comment[hu]=Scheme forr&#225;sk&#243;d&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-setext.desktop&quot; 
+&quot;Comment[hu]=Setext dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-sql.desktop&quot; 
+&quot;Comment[hu]=SQL k&#243;d&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-textinfo.desktop&quot; 
+&quot;Comment[hu]=TEXInfo dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-troff-man.desktop&quot; 
+&quot;Comment[hu]=MAN k&#233;zik&#246;nyv oldal&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-troff-me.desktop&quot; 
+&quot;Comment[hu]=Troff me bemeneti dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-troff-mm.desktop&quot; 
+&quot;Comment[hu]=Troff mm bemeneti dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-troff-ms.desktop&quot; 
+&quot;Comment[hu]=Troff ms bemeneti dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/message/x-troff.desktop&quot; 
+&quot;Comment[hu]=Troff dokumentum&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/video/x-anim.desktop&quot; 
+&quot;Comment[hu]=ANIM anim&#225;ci&#243;&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/video/x-flc.desktop&quot; 
+&quot;Comment[hu]=FLC anim&#225;ci&#243;&quot;
+./addaline &quot;${woot}/usr/share/mimelnk/video/x-fli.desktop&quot; 
+&quot;Comment[hu]=FLI anim&#225;ci&#243;&quot;
+./addaline &quot;${woot}/usr/share/applications/kde/kdeprintfax.desktop&quot; 
+&quot;Name[hu]=KDEprintFAX&quot;
+./addaline &quot;${woot}/usr/share/applications/kde/kjscmd.desktop&quot; 
+&quot;GenericName[hu]=Javascript Konzol&quot;
+--------------------------------------------------------------------------------------------------
+
+DidouPh
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000140.html">[Pclos-il8n-dev] desktop files update - without dubi's new additions
+</A></li>
+	<LI>Next message: <A HREF="000142.html">[Pclos-il8n-dev] [Fwd: Re: Re: Synaptic update and asking for a bit	advice]
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#141">[ date ]</a>
+              <a href="thread.html#141">[ thread ]</a>
+              <a href="subject.html#141">[ subject ]</a>
+              <a href="author.html#141">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

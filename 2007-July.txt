@@ -1,0 +1,1869 @@
+From didouph at gmail.com  Sun Jul  1 15:48:08 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 01 Jul 2007 15:48:08 +0200
+Subject: [Pclos-il8n-dev] [Fwd: Beryl files translation]
+Message-ID: <4687B098.4080008@gmail.com>
+
+yes we do have the same problem and those files are the one embedded in 
+the pclinuxos release anyway !
+as i said it before, you always can try but will never translate 
+everything and maybe eaven if you manage to do it, you won't make it 
+happen for long and will have to restart soonner or later.
+
+when it comes to missing string, in translated softwares, once we've 
+made our best to get the strings translated, there is a point at wich we 
+need to drop it and focuss on the overall project and i do believe and i 
+think you will agree with me that an untranslated string is less 
+annoying than an untranslated software and that a 95% translated os is 
+rather better than a 50% one ... we're doing our best to get it 
+translated ... we can aim to 100% ... but we can't keep the developement 
+of the softwares from rolling so we need to find limits to our ambition 
+in order to achieve some goals ... one of those is to get pclinuxos to 
+speak as fluently as possible in as many language as possible and not to 
+limitate it's usage to anglo saxo linux junkies !
+
+i think we're on the good track eaven if my beryl manager shows some 
+untranslated strings !
+
+-------- Message original --------
+Sujet: 	Beryl files translation
+Date: 	01 Jul 2007 14:27:56 +0200
+De: 	Wladyslaw Pawlowski <uznamer at interia.pl>
+Pour: 	didouph at gmail.com
+
+
+
+Hi Didou,
+
+By mistake I have canceled your reply concerning Beryl files translation problems. Would you be so kind to resend it to me?
+
+My last mail was long but still lacking some very important information. Please do not think that I am not so naive to omit pclinuxos specific Beryl files when started my translations. I did it , of course, taking your French po as a format file. My reason for reaching Beryl site archive as my next step was only one: too many untranslated strings inside working Beryl Settings Manager in spite of my full translation of all four beryl po files. When I have translated beryl-plugins.po it was equal as yours but with so many English strings remaining that the rusult was quite unsatisfactory for me and I decided to do it once again with original po files downloaded from Beryl site. Now, with 1084 strings in beryl-plugin.po and 45 strings in beryl-settings.po my translation is much better. Still remains maybe 10% of strings in English but I am not able to do nothing more without any help from Beryl developers who know well the real reasons of such situation. I would like to stress as follows:  I have checked everything maybe about hundred times in KBabel and in working BSM the same. Therefore please do not expect from me to send you any other Beryl files. I could do it only after authors would correct their binary files duly to enable gettext to extract everything fully. Thus making translators able to do their job without fail. At present stage it is simply impossible.
+In you reply you did not mention what happens when you are starting Beryl Settings Manager with your translated files into French. Have you also the same untranslated strings which I have mentioned in my last mail? Additionally I would like to inform you that in my BSM, exactly in its tab Extras>Window Previews there are all strings in English in spite of my full translation (those strings are inside beryl-plugins.po). Is it the same in your French BSM?
+
+Best regards - Uznamer
+
+ 	
+----------------------------------------------------------------------
+Najdrozsze rozwody >> Zobacz
+>>> http://link.interia.pl/f1ae3
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070701/f702ea08/attachment.html>
+
+From jjdub at caramail.com  Sun Jul  1 20:31:50 2007
+From: jjdub at caramail.com (jean-jacques dubois)
+Date: Sun, 1 Jul 2007 18:31:50 +0000
+Subject: [Pclos-il8n-dev] .desktop files
+Message-ID: <17814301353319@lycos-europe.com>
+
+Hi,
+
+I sent to Didouph a file gathering the whole of the desktop files (updated or new translations).
+
+I installed pclinuxos 2007 final and I compare the files with CVS.
+
+Bye.
+
+www.jubii.fr c'est une seule interface pour communiquer. Email, t?l?phone gratuit, messagerie instantan?e, 10 Go d'espace de stockage. Avec www.jubii.fr simplifiez-vous la vie !
+
+From didouph at gmail.com  Mon Jul  2 11:17:39 2007
+From: didouph at gmail.com (didouph)
+Date: Mon, 02 Jul 2007 11:17:39 +0200
+Subject: [Pclos-il8n-dev] new commit
+Message-ID: <4688C2B3.1050404@gmail.com>
+
+Big update guys
+
+Updated :
+
+desktop-files/usr/share/applications/pclinuxos-drakconf.desktop
+desktop-files/usr/share/applications/pclinuxos-mozilla-firefox.desktop
+desktop-files/usr/share/applications/kde/kdeprintfax.desktop
+desktop-files/usr/share/applications/kde/kjscmd.desktop
+desktop-files/usr/share/desktop-directories/mandriva-moreapplications-sciences-computerscience.directory
+
+Added :
+
+desktop-files/usr/share/applications/kde/artsbuilder.desktop
+desktop-files/usr/share/applications/kde/artscontrol.desktop
+desktop-files/usr/share/applications/kde/kdf.desktop
+desktop-files/usr/share/applications/kde/kfaxview.desktop
+desktop-files/usr/share/applications/kde/kfontview.desktop
+desktop-files/usr/share/applications/kde/kghostview.desktop
+desktop-files/usr/share/applications/kde/kinfocenter.desktop
+desktop-files/usr/share/applications/kde/kjobviewer.desktop
+desktop-files/usr/share/applications/kde/knewsticker-standalone.desktop
+desktop-files/usr/share/applications/kde/kpager.desktop
+desktop-files/usr/share/applications/kde/krandrtray.desktop
+desktop-files/usr/share/applications/kde/kregexpeditor.desktop
+desktop-files/usr/share/applications/kde/ktimer.desktop
+desktop-files/usr/share/applications/kde/ktip.desktop
+desktop-files/usr/share/applications/kde/ktorrent.desktop
+desktop-files/usr/share/applications/kde/kview.desktop
+desktop-files/usr/share/applications/pclinuxos-gkrellm.desktop
+desktop-files/usr/share/applications/pclinuxos-putty.desktop
+desktop-files/usr/share/applications/searchmonkey.desktop
+desktop-files/usr/share/applnk/.hidden/arkplugin.desktop
+desktop-files/usr/share/applnk/.hidden/battery.desktop
+desktop-files/usr/share/applnk/.hidden/bwarning.desktop
+desktop-files/usr/share/applnk/.hidden/crashesplugin.desktop
+desktop-files/usr/share/applnk/.hidden/cwarning.desktop
+desktop-files/usr/share/applnk/.hidden/.directory
+desktop-files/usr/share/applnk/.hidden/dirfilterplugin.desktop
+desktop-files/usr/share/applnk/.hidden/email.desktop
+desktop-files/usr/share/applnk/.hidden/energy.desktop
+desktop-files/usr/share/applnk/.hidden/fileappearance.desktop
+desktop-files/usr/share/applnk/.hidden/filebehavior.desktop
+desktop-files/usr/share/applnk/.hidden/filepreviews.desktop
+desktop-files/usr/share/applnk/.hidden/fsview.desktop
+desktop-files/usr/share/applnk/.hidden/k3b-cue.desktop
+desktop-files/usr/share/applnk/.hidden/k3b-iso.desktop
+desktop-files/usr/share/applnk/.hidden/kcmkiolan.desktop
+desktop-files/usr/share/applnk/.hidden/kcmkonq.desktop
+desktop-files/usr/share/applnk/.hidden/kcmkonqyperformance.desktop
+desktop-files/usr/share/applnk/.hidden/kcmkonsole.desktop
+desktop-files/usr/share/applnk/.hidden/kcmkuick.desktop
+desktop-files/usr/share/applnk/.hidden/kcmkxmlrpcd.desktop
+desktop-files/usr/share/applnk/.hidden/kcmlisa.desktop
+desktop-files/usr/share/applnk/.hidden/kcmreslisa.desktop
+desktop-files/usr/share/applnk/.hidden/khtmlsettingsplugin.desktop
+desktop-files/usr/share/applnk/.hidden/kicker_config_appearance.desktop
+desktop-files/usr/share/applnk/.hidden/kicker_config_arrangement.desktop
+desktop-files/usr/share/applnk/.hidden/kicker_config.desktop
+desktop-files/usr/share/applnk/.hidden/kicker_config_hiding.desktop
+desktop-files/usr/share/applnk/.hidden/kicker_config_menus.desktop
+desktop-files/usr/share/applnk/.hidden/kimgalleryplugin.desktop
+desktop-files/usr/share/applnk/.hidden/knewstickerstub.desktop
+desktop-files/usr/share/applnk/.hidden/konqfilemgr.desktop
+desktop-files/usr/share/applnk/.hidden/konqhtml.desktop
+desktop-files/usr/share/applnk/.hidden/kuickplugin.desktop
+desktop-files/usr/share/applnk/.hidden/kwinactions.desktop
+desktop-files/usr/share/applnk/.hidden/kwinadvanced.desktop
+desktop-files/usr/share/applnk/.hidden/kwinfocus.desktop
+desktop-files/usr/share/applnk/.hidden/kwinmoving.desktop
+desktop-files/usr/share/applnk/.hidden/kwintranslucency.desktop
+desktop-files/usr/share/applnk/.hidden/lnkforward.desktop
+desktop-files/usr/share/applnk/.hidden/mediaplayerplugin.desktop
+desktop-files/usr/share/applnk/.hidden/passwords.desktop
+desktop-files/usr/share/applnk/.hidden/plugin_babelfish.desktop
+desktop-files/usr/share/applnk/.hidden/plugin_domtreeviewer.desktop
+desktop-files/usr/share/applnk/.hidden/plugin_validators.desktop
+desktop-files/usr/share/applnk/.hidden/plugin_webarchiver.desktop
+desktop-files/usr/share/applnk/.hidden/power.desktop
+desktop-files/usr/share/applnk/.hidden/randr.desktop
+desktop-files/usr/share/applnk/.hidden/smb.desktop
+desktop-files/usr/share/applnk/.hidden/socks.desktop
+desktop-files/usr/share/applnk/.hidden/uachangerplugin.desktop
+desktop-files/usr/share/applnk/.hidden/userinfo.desktop
+desktop-files/usr/share/applnk/.hidden/virtualdesktops.desktop
+desktop-files/usr/share/applnk/.hidden/xinerama.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Development/assistant.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Development/designer.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Development/dlgedit.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Development/linguist.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Graphics/ElectricEyes.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Graphics/ghostview.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Graphics/gimp.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Graphics/GnomeColorSelector.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Graphics/GnomeIconEditor.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Internet/mozilla-firefox.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Office/GnomeTimeTracker.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Office/mrproject.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Office/netscapeaddressbook.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Office/pybliographic.desktop
+desktop-files/usr/share/apps/kappfinder/apps/System/editres.desktop
+desktop-files/usr/share/apps/kappfinder/apps/System/xosview.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/Editors/gedit.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/Editors/gvim.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/Editors/nedit.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/Editors/xedit.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/XUtilities/xclipboard.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/XUtilities/xclock.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/XUtilities/Xrefresh.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/calctool.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/oclock.desktop
+desktop-files/usr/share/apps/kappfinder/apps/Utilities/SystemLogViewer.desktop
+desktop-files/usr/share/mimelnk/audio/x-pn-realaudio-plugin.desktop
+
+
+sounds like we have some translation work for you all!!
+
+Thanks dubi
+
+DidouPh
+
+
+From hopparz at gmail.com  Mon Jul  2 14:41:07 2007
+From: hopparz at gmail.com (=?UTF-8?Q?Hopp=C3=A1r_Zolt=C3=A1n?=)
+Date: Mon, 2 Jul 2007 14:41:07 +0200
+Subject: [Pclos-il8n-dev] Translation of console commands help
+Message-ID: <2f3d0f330707020541t1169d696n99dbe16c0069f25@mail.gmail.com>
+
+Hi,
+
+I don't know, but this step I think necessery to achieve more localized
+distro. For this we need po's of glibc 2.4, utlil-linux2.12r, and coreutils
+5.97 and some other small amount of files. But these 3 are the heart of
+console system messages, and translated console helps. I hope these files
+will be used up....
+
+My problem is that: There are no correct glibc 2.4 pot anywhere. I have
+older or newer one. Most of the packages are containing 2.2.5, 2.2.3, or
+similar. Somebody has got glibc2.4 pot file?
+
+On second: I checked coreutils, but the version doesn't match. In packages
+are only 5.94 (in Mandrake 2007 Spring also!), and we need 5.97. Mostly the
+5.94 enough.
+
+For util-linux2.12r - I've got the proper one.
+
+If anybody needs it I could send the pots or these po's.
+
+
+Zoltan
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070702/2a0743d7/attachment.html>
+
+From didouph at gmail.com  Tue Jul  3 18:11:48 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 03 Jul 2007 18:11:48 +0200
+Subject: [Pclos-il8n-dev] Kernel 2.6.18.8 POT file ready
+In-Reply-To: <2f3d0f330707020805p6582d2d7h1ef55ef7686003c1@mail.gmail.com>
+References: <2f3d0f330707020805p6582d2d7h1ef55ef7686003c1@mail.gmail.com>
+Message-ID: <468A7544.3090201@gmail.com>
+
+Hopp?r Zolt?n wrote:
+> I have made the POT file of the current kernel for precise kernel 
+> messages. Khm. 2 megabyte, and almost 10k of lines....
+>
+> Well, this takes some time to translate....
+>
+>
+> Zoltan 
+i will add this to the cvs but i don't think this is necessary !
+
+
+
+From didouph at gmail.com  Tue Jul  3 18:17:23 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 03 Jul 2007 18:17:23 +0200
+Subject: [Pclos-il8n-dev] [Fwd: Beryl files translation]
+In-Reply-To: <20070702133016.176C0A41A5@poczta.interia.pl>
+References: <20070702133016.176C0A41A5@poczta.interia.pl>
+Message-ID: <468A7693.4060609@gmail.com>
+
+tose files will be processed to the cvs !
+
+Wladyslaw Pawlowski wrote:
+> Yes. You are absolutely right. I know that translation process is an endless job. Anyway taking into account that I have checked everything hundred times and translated everything possible in beryl/emerald po files be so kind to include them in cvs without any delay.
+>
+>
+> didouph napisa?(a):
+>  yes we do have the same problem and those files are the one embedded in the pclinuxos release anyway !
+>  as i said it before, you always can try but will never translate everything and maybe eaven if you manage to do it, you won't make it happen for long and will have to restart soonner or later.
+>  
+>  when it comes to missing string, in translated softwares, once we've made our best to get the strings translated, there is a point at wich we need to drop it and focuss on the overall project and i do believe and i think you will agree with me that an untranslated string is less annoying than an untranslated software and that a 95% translated os is rather better than a 50% one ... we're doing our best to get it translated ... we can aim to 100% ... but we can't keep the developement of the softwares from rolling so we need to find limits to our ambition in order to achieve some goals ... one of those is to get pclinuxos to speak as fluently as possible in as many language as possible and not to limitate it's usage to anglo saxo linux junkies !
+>  
+>  i think we're on the good track eaven if my beryl manager shows some untranslated strings !
+>  
+>  -------- Message original -------- 
+>  Sujet: 
+> Beryl files translation
+>  
+>  
+>  Date: 
+> 01 Jul 2007 14:27:56 +0200
+>  
+>  
+>  De: 
+> Wladyslaw Pawlowski >uznamer at interia.pl>
+>  
+>  
+>  Pour: 
+> didouph at gmail.com
+>  
+>  
+>  
+>  
+>  
+> Hi Didou, By mistake I have canceled your reply concerning Beryl files translation problems. Would you be so kind to resend it to me? My last mail was long but still lacking some very important information. Please do not think that I am not so naive to omit pclinuxos specific Beryl files when started my translations. I did it , of course, taking your French po as a format file. My reason for reaching Beryl site archive as my next step was only one: too many untranslated strings inside working Beryl Settings Manager in spite of my full translation of all four beryl po files. When I have translated beryl-plugins.po it was equal as yours but with so many English strings remaining that the rusult was quite unsatisfactory for me and I decided to do it once again with original po files downloaded from Beryl site. Now, with 1084 strings in beryl-plugin.po and 45 strings in beryl-settings.po my translation is much better. Still remains maybe 10% of strings in English but I am not able to do nothing more without any help from Beryl developers who know well the real reasons of such situation. I would like to stress a s follows: I have checked everything maybe about hundred times in KBabel and in working BSM the same. Therefore please do not expect from me to send you any other Beryl files. I could do it only after authors would correct their binary files duly to enable gettext to extract everything fully. Thus making translators able to do their job without fail. At present stage it is simply impossible. In you reply you did not mention what happens when you are starting Beryl Settings Manager with your translated files into French. Have you also the same untranslated strings which I have mentioned in my last mail? Additionally I would like to inform you that in my BSM, exactly in its tab Extras>Window Previews there are all strings in English in spite of my full translation (those strings are inside beryl-plugins.po). Is it the same in your French BSM? Best regards - Uznamer 	 ---------------------------------------------------------------------- Najdrozsze rozwody >> Zobacz >>> http://link.interia.pl/f1ae3 
+>  
+>
+>
+>
+>
+> ----------------------------------------------------------------------
+> Znani na plazy 
+> Zobacz >>> http://link.interia.pl/f1ae1
+>
+>
+
+
+
+
+From didouph at gmail.com  Tue Jul  3 18:20:45 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 03 Jul 2007 18:20:45 +0200
+Subject: [Pclos-il8n-dev] Some translations
+In-Reply-To: <2f3d0f330706190259q10da5dddjafba231fd8905f79@mail.gmail.com>
+References: <2f3d0f330706190259q10da5dddjafba231fd8905f79@mail.gmail.com>
+Message-ID: <468A775D.6050906@gmail.com>
+
+i'm still looking for an answer to the question i asked you concerning 
+the place where the files hsould be put in order to be added to the cvs 
+i atached the archive you sent me to rember you of the files i'm talking 
+about ...
+
+please, don't forget to include full path to the file in the archive so 
+i don't spend my time looking what goes where !
+
+Didouph
+
+Hopp?r Zolt?n wrote:
+> Some translation what is ready, and missed. More repairs are with the 
+> next mail.
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Arch?vum.tar.bz2
+Type: application/octet-stream
+Size: 459413 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070703/896bb5d9/attachment.obj>
+
+From didouph.ph at laposte.net  Tue Jul  3 18:47:40 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 03 Jul 2007 18:47:40 +0200
+Subject: [Pclos-il8n-dev] addition
+Message-ID: <468A7DAC.6000904@laposte.net>
+
+latest cvs changes :
+
+added :
+pot/linux.pot
+po/hu/beryl-core.po
+po/hu/compiz.po
+po/hu/iso_3166.po
+po/hu/iso_4217.po
+po/hu/iso_639.po
+po/hu/kcmfonts.po
+po/hu/kcmlaptop.po
+po/hu/kdmconfig.po
+po/hu/kdmgreet.po
+po/hu/lynx.po
+po/hu/soundkonverter.po
+po/pl/beryl-core.po
+po/pl/beryl-manager.po
+po/pl/beryl-plugins.po
+po/pl/beryl-settings.po
+po/pl/emerald.po
+
+updated :
+po/hu/aquamarine.po
+po/hu/psmisc.po
+po/hu/shared-mime-info.po
+po/hu/synaptic.po
+po/hu/xchat.po
+
+thanks to all of you
+
+a note for the translators ...
+
+i'm happy to see that the flow of updates came back to its previous 
+state, nevertheless, i think we should focuss a bit on our main goal. 
+This goal is to translate pclinuxos, and not every single software that 
+the linux world offers ... thus, i think that we should work on the 
+translation yet open and started, finish them and then go back to 
+fetching new ones ... i also think that we should focuss on the core 
+files and softwares that makes pclos as it is and makes it gr8. so 
+focussing on the linux kernel output messages during compilation are not 
+must have for the average joe and thus are not necessary to be included 
+in the cvs ... no ? i'm looking forward to read some feedback and 
+comments on that point ...
+
+anyway, in plain text, the holly bible is 1 mb big ... so i find it 
+quite hillarious that the linux kernel po is 2 mb big :)
+
+last but not least, remove version and country tags from your po 
+submission file name. We only need the latest version and if you mention 
+the locale in the mail , i'll obviously figure out the actual locale i 
+must attach it to :) sometimes the version numbers/locale tag in 
+filenames can be puzzeling and this lead me to test hell when i validate 
+the file you submitted to me !
+
+thanks for your attention
+
+Didouph
+
+ps, a version of synaptic wich will be fully (100%) localizable is under 
+compilation ...
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070703/97990b97/attachment.html>
+
+From faqing at gmail.com  Wed Jul  4 01:40:28 2007
+From: faqing at gmail.com (faqing@gmail)
+Date: Wed, 4 Jul 2007 06:40:28 +0700
+Subject: [Pclos-il8n-dev] Chinese translation file: draklive-install.po
+Message-ID: <4410303608.20070704064028@gmail.com>
+
+To Chinese Translation Team
+
+Hello,
+
+  Just to let you know that I am taking the file draklive-install.po
+  for Chinese translation, if anyone there is taking please let me know.
+
+Thanks
+Best regards,
+Lang
+
+
+
+From didouph.ph at laposte.net  Wed Jul  4 23:19:33 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 04 Jul 2007 23:19:33 +0200
+Subject: [Pclos-il8n-dev] Chinese translation file: draklive-install.po
+In-Reply-To: <4410303608.20070704064028@gmail.com>
+References: <4410303608.20070704064028@gmail.com>
+Message-ID: <468C0EE5.4070405@laposte.net>
+
+faqing at gmail wrote:
+> To Chinese Translation Team
+>
+> Hello,
+>
+>   Just to let you know that I am taking the file draklive-install.po
+>   for Chinese translation, if anyone there is taking please let me know.
+>
+> Thanks
+> Best regards,
+> Lang
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+sounds like you're the chinese team atm :)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070704/bd593329/attachment.html>
+
+From didouph.ph at laposte.net  Thu Jul  5 22:59:35 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 05 Jul 2007 22:59:35 +0200
+Subject: [Pclos-il8n-dev] synaptic i18n
+Message-ID: <468D5BB7.1060102@laposte.net>
+
+please read this
+it's about synaptic i18nized, a rework by gettinther from the original 
+synaptic and designed for the pclinuxos platform.
+It will support 100% translation (exept for package description)
+
+http://www.mypclinuxos.com/index.php?option=com_smf&Itemid=99999999&topic=1147.0
+
+DidouPh
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070705/a2268fcc/attachment.html>
+
+From didouph.ph at laposte.net  Fri Jul  6 23:22:05 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 06 Jul 2007 23:22:05 +0200
+Subject: [Pclos-il8n-dev] synaptic-update.pot
+Message-ID: <468EB27D.9020803@laposte.net>
+
+guys, here is an unnoficial po that ir required for immediate 
+translation (as soon as possible please) to be added to the deviant 
+(pclinuxos) version of synaptic wich will support more translation
+
+return that pot file translated with your locale atached to it ... it 
+won't be published/added to the CVS and should be considered as critical 
+and 1st priority in all translation task by all team for wich the rest 
+of synaptic's translation has yet been fullfilled !
+
+DidouPh
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070706/b2e040d8/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synaptic_update.pot.tar.gz
+Type: application/gzip
+Size: 1524 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070706/b2e040d8/attachment.bin>
+
+From didouph at gmail.com  Sun Jul  8 10:08:48 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 08 Jul 2007 10:08:48 +0200
+Subject: [Pclos-il8n-dev] Synaptic update and asking for a bit advice
+In-Reply-To: <2f3d0f330707061648j2cdcb09fq8372c82810644bf0@mail.gmail.com>
+References: <2f3d0f330707061648j2cdcb09fq8372c82810644bf0@mail.gmail.com>
+Message-ID: <46909B90.7030202@gmail.com>
+
+added :
+other/usr/share/apps/kdm/themes/Dark2/background-hu.png
+po/hu/drakconf.po
+
+sent the synaptic-update.po for hungarian to gettingther for addition to 
+synaptic
+
+i'm waiting for other languages update/input assap !
+
+
+there will soon be updates here about the new synaptic
+
+DidouPh
+
+
+From didouph at gmail.com  Sun Jul  8 10:01:38 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 08 Jul 2007 10:01:38 +0200
+Subject: [Pclos-il8n-dev] Synaptic update and asking for a bit advice
+In-Reply-To: <2f3d0f330707061648j2cdcb09fq8372c82810644bf0@mail.gmail.com>
+References: <2f3d0f330707061648j2cdcb09fq8372c82810644bf0@mail.gmail.com>
+Message-ID: <469099E2.8010407@gmail.com>
+
+Hopp?r Zolt?n wrote:
+> Hi,
+>
+> I have done with the translation of synaptic update, and checked and 
+> repaired a bit (some typo) in drakconf. In the attachment you will 
+> find 2 pictures, where I need a bit advice to where to look for the 
+> missing (as you will see) untranslated strings, if you can. One of 
+> them is the KDM Theme Manager part of KDE control panel. The another 
+> one in Desktop section where in window on right - writes "disable 
+> focus stealing". The question is - translatable?
+>
+> Thanks.
+>
+> Ps.1.  Updated libDrakx.po almost ready (around 70-80 strings), 
+> libdrakx-standalone part in progress. The desktop files translation 
+> will go with the next mail.
+> Ps.2. The questionable login related files in one archieve - what you 
+> have sended back to me, (I have earlier picked up the wrong files) - 
+> the ' backgrund-hu.png' -
+> it's belongs to: / pclos-il8n/CVSROOT/other / usr / share / apps / kdm 
+> / themes / Dark2 .
+> The added 'dark theme' part in archieve is wrong, just delete it. the 
+> correct one will go to the same place as above, in next mail also.
+>
+> See you,
+>
+> Zoltan
+
+i forward those to dubi and ask him to have a look and tell you but i'm 
+sure this isn't yet translatable, else, it would have been translated :P
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pillanatfelv?tel1.jpg
+Type: image/jpeg
+Size: 86831 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070708/3c73acba/attachment.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pillanatfelv?tel2.jpg
+Type: image/jpeg
+Size: 90160 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070708/3c73acba/attachment-0001.jpg>
+
+From qla0 at vp.pl  Sun Jul  8 13:39:45 2007
+From: qla0 at vp.pl (qla)
+Date: Sun, 8 Jul 2007 13:39:45 +0200
+Subject: [Pclos-il8n-dev] Polish translation - synaptic, synaptic_update,
+	libDrakX
+Message-ID: <200707081339.45778.qla0@vp.pl>
+
+updated:
+
+synaptic.po
+libDraX.po - updated from fr
+
+About Synaptic:
+Still there is no string in synaptic.po:
+if in konsole type: synaptic --help when synaptic is running - showed this text
+> Another synaptic is running. Trying to bring it to the foreground
+=====
+
+translated:
+synaptic_update.po
+
+About synaptic_update.po:
+
+In KBabel Id: 50
+System Environmemt  <-- This is a spelling error or not ?
+or ?
+System Environment
+
+if "System Environment " it will be two the same entries.
+
+Id: 71 in KBabel
+System Environment
+
+qla
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: libDrakX.po.tar.bz2
+Type: application/x-tbz
+Size: 69829 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070708/59ef839c/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synaptic.po.tar.bz2
+Type: application/x-tbz
+Size: 21194 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070708/59ef839c/attachment-0001.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synaptic_update.po.tar.bz2
+Type: application/x-tbz
+Size: 2372 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070708/59ef839c/attachment-0002.bin>
+
+From didouph.ph at laposte.net  Mon Jul  9 10:47:25 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 09 Jul 2007 10:47:25 +0200
+Subject: [Pclos-il8n-dev] additions/updates
+Message-ID: <4691F61D.7070408@laposte.net>
+
+pl additions :
+
+po/pl/libDrakX.po
+
+pl updates :
+
+po/pl/synaptic.po
+
+
+i also forwarded the synaptic po's patch to gettingther for addition to 
+the cvs, please have a look at the forum to be aware about inclusion of 
+the transklations!
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070709/f2221dce/attachment.html>
+
+From didouph at gmail.com  Mon Jul  9 13:46:17 2007
+From: didouph at gmail.com (didouph)
+Date: Mon, 09 Jul 2007 13:46:17 +0200
+Subject: [Pclos-il8n-dev] Corrected emerald.po - pl localization
+In-Reply-To: <20070709102850.29141B89A@poczta.interia.pl>
+References: <20070709102850.29141B89A@poczta.interia.pl>
+Message-ID: <46922009.1090807@gmail.com>
+
+updated :
+
+po/pl/emerald.po
+
+Wladyslaw Pawlowski wrote:
+> Hi,
+>
+> I found out that some strings of emerald.po which I have translated earlier must be corrected because they have mistaken meaning. Be so kind to replace that po at Polish section of cvs. In accordance with your request I did not marked it with version and localization. I am working now on compiz.po and will send you it very soon. There is a similar situation with updated libDrakX-standalone.po which has been translated earlier by Qla- our team member. I hope it would be completed till the end of this week.
+>
+> Best regards- uznamer
+>
+> ----------------------------------------------------------------------
+> Kto zagra Pralata? Glosuj >>
+>
+>>>> http://link.interia.pl/f1aeb
+
+
+
+From hopparz at gmail.com  Mon Jul  9 16:51:15 2007
+From: hopparz at gmail.com (=?UTF-8?Q?Hopp=C3=A1r_Zolt=C3=A1n?=)
+Date: Mon, 9 Jul 2007 16:51:15 +0200
+Subject: [Pclos-il8n-dev] desktop files update - without dubi's new additions
+Message-ID: <2f3d0f330707090751u6b8805e2jbed3ffeb882fc598@mail.gmail.com>
+
+Here is the first .desktop update, currently without dubi's new additions.
+In the next mail will arrive the dubi's new desktop files additions, the
+login-kdm parts, updated libdrakx.po. I do as I could, and mail it to you
+asap.
+
+Zoltan
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070709/43aa9e8b/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Desktop-files-part1.txt.tar.gz
+Type: application/x-gzip
+Size: 5753 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070709/43aa9e8b/attachment.bin>
+
+From didouph at gmail.com  Tue Jul 10 01:07:13 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 10 Jul 2007 01:07:13 +0200
+Subject: [Pclos-il8n-dev] desktop files update - without dubi's new
+	additions
+In-Reply-To: <2f3d0f330707090751u6b8805e2jbed3ffeb882fc598@mail.gmail.com>
+References: <2f3d0f330707090751u6b8805e2jbed3ffeb882fc598@mail.gmail.com>
+Message-ID: <4692BFA1.1010901@gmail.com>
+
+embeded in this message you will see ANOTHER example of the submission 
+syntax for desktop files
+
+i converted latest submission to this format ... due to too many mistake 
+in the orginal adressing, only 20% of the files got updated, also some 
+entry listing empty files or duplicate entrys have been neglected in the 
+late update...
+
+example :
+
+----------------------
+adding Comment[hu]=Troff dokumentum to 
+/home/didouph/Desktop/pclos-il8n/CVSROOT/desktop-files/usr/share/mimelnk/message/x-troff.desktop
+cat: 
+/home/didouph/Desktop/pclos-il8n/CVSROOT/desktop-files/usr/share/mimelnk/message/x-troff.desktop: 
+No such file or directory
+----------------------
+
+there were about 250 lines to be updated out of about 10 000 and around 
+250 files to update out of 1 500 in the cvs, do you think it's kind not 
+to check if the adressing is correct before sending those to me for an 
+update ?
+
+On the other hand, just consider that despite the fact i spent 3 hours 
+trying to figure out wich hu entry was the good one, i never figured one 
+that sounded more appropriate to me ... i don't speak hungarian ...
+
+anyway, next time i simply won't try to process the file. i don't think 
+more explanations are needed, i've sent many warning about that before ...
+
+ok ...
+
+how to say that ...
+
+i know this style of layout is pretty BORRING, but it helps figure out 
+where are the problems in the files eaven if you don't speak the 
+language since it would help me to batch process the files and find 
+duplicates or missing entry ... if i need to do the pl myself (following 
+file) it's just plain stupid .
+
+USE THE FOLLOWING FORMAT !!
+
+refer to the mailing list archive for more informations about it
+
+it's addaline format ... don't tell me i wrote a program for nothing :)
+
+i asked for your input and comment about this method but got none, i'll 
+be glad to read from you if you disagree or dislike this submission 
+policy. i think we all are open for subjestion ... if someone don't 
+understand the content of a mail ... why not asking rather than doing 
+nonsense and putting everyone into troubles !
+
+sorry if i'm once again being hard to you despite the work you produce, 
+but it's really time killing to go on like that and fix issues at random 
+on aspect of the project that shouldn't need fixing ....
+
+
+----------------------------------------------------------------------------
+# batch patch script using addaline routine
+#
+# usage :
+# ./addaline "${woot}/path/to/desktop/file.desktop" "string[locale]=value"
+#
+# remove ./ if addaline is located in your path (/usr/sbin or /usr/bin 
+or /bin or ~/bin)
+# woot variable must be modifyed, only and only if you need to apply the 
+patch on a local copy of the cvs three !!
+
+woot=/home/didouph/Desktop/pclos-il8n/CVSROOT/desktop-files
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-communications.directory" 
+"Name[hu]=Kommunik?ci?"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-databases.directory" 
+"Name[hu]=Adatb?zisok"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-development-developmentenvironments.directory" 
+"Name[hu]=Fejleszt? k?rnyezetek"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-development-interpreters.directory" 
+"Name[hu]=Parancs?rtelmez?k"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-development-other.directory" 
+"Name[hu]=Egyebek"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-development-tools.directory" 
+"Name[hu]=Eszk?z?k"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-development.directory" 
+"Name[hu]=Fejleszt?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-documentation.directory" 
+"Name[hu]=Dokument?ci?"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-editors.directory 
+" "Name[hu]=Szerkeszt?k"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-economy.directory" 
+"Name[hu]=Gazdas?g"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-geography.directory" 
+"Name[hu]=F?ldrajz"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-history.directory" 
+"Name[hu]=T?rt?nelem"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-languages.directory" 
+"Name[hu]=Nyelvek"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-literature.directory" 
+"Name[hu]=Irodalom"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-other.directory" 
+"Name[hu]=Egy?b oktat?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-sciences.directory" 
+"Name[hu]=Tudom?ny"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-education-sports.directory" 
+"Name[hu]=Sport"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-education.directory" 
+"Name[hu]=Oktat?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-emulators.directory" 
+"Name[hu]=Emul?torok"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-finances.directory" 
+"Name[hu]=P?nz?gy"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-adventure.directory" 
+"Name[hu]=Kaland"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-arcade.directory" 
+"Name[hu]=?rk?d"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-boards.directory" 
+"Name[hu]=T?bl?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-cards.directory" 
+"Name[hu]=K?rtya"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-other.directory" 
+"Name[hu]=Egy?b"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-puzzles.directory" 
+"Name[hu]=Kirak?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-sports.directory" 
+"Name[hu]=Sport"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-strategy.directory" 
+"Name[hu]=Strat?gia"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games-toys.directory" 
+"Name[hu]=Apr? j?t?kszerek"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-games.directory" 
+"Name[hu]=J?t?kok"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-other.directory 
+" "Name[hu]=Egyebek"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-artificialintelligence.directory" 
+"Name[hu]=Mesters?ges Intelligencia"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-astronomy.directory" 
+"Name[hu]=Csillag?szat"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-biology.directory" 
+"Name[hu]=Biol?gia"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-chemistry.directory" 
+"Name[hu]=K?mia"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-computerscience.directory" 
+"Name[hu]=Informatika"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-datavisualization.directory" 
+"Name[hu]=Adatmegjelen?t?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-electricity.directory" 
+"Name[hu]=Elektromoss?g"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-geosciences.directory" 
+"Name[hu]=F?ldtan"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-imageprocessing.directory" 
+"Name[hu]=K?pfeldolgoz?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-mathematics.directory" 
+"Name[hu]=Matematika"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-numericanalysis.directory" 
+"Name[hu]=Sz?manal?zis"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-other.directory" 
+"Name[hu]=Egyebek"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-parallelcomputing.directory" 
+"Name[hu]=P?rhuzamos adatfeldolgoz?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-physics.directory" 
+"Name[hu]=Fizika"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences-robotics.directory" 
+"Name[hu]=Robotika"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications-sciences.directory" 
+"Name[hu]=Tudom?ny"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-moreapplications.directory" 
+"Name[hu]=Extra alkalmaz?sok"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-multimedia-graphics.directory" 
+"Name[hu]=Grafika"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-multimedia-other.directory" 
+"Name[hu]=Egyebek"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-multimedia-sound.directory" 
+"Name[hu]=Hang"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-multimedia-video.directory" 
+"Name[hu]=Video"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-multimedia.directory" 
+"Name[hu]=Multim?dia"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-networking.directory" 
+"Name[hu]=H?l?zat"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-accessories.directory" 
+"Name[hu]=Kell?kek"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-addressbooks.directory" 
+"Name[hu]=C?mjegyz?k"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-communications-fax.directory" 
+"Name[hu]=Fax"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-communications-other.directory" 
+"Name[hu]=Egy?b"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-communications-pda.directory" 
+"Name[hu]=PDA"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-communications-phone.directory" 
+"Name[hu]=Telef?nia"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-communications.directory" 
+"Name[hu]=Kommunik?ci?"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-drawing.directory" 
+"Name[hu]=Rajzol?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-graphs.directory" 
+"Name[hu]=Diagram"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-other.directory" 
+"Name[hu]=Egy?b"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-presentations.directory" 
+"Name[hu]=Bemutat?k"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-publishing.directory" 
+"Name[hu]=Publik?ci?"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-spreadsheets.directory" 
+"Name[hu]=T?bl?zatkezel?k"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-tasksmanagement.directory" 
+"Name[hu]=Feladatkezel?"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-timemanagement.directory" 
+"Name[hu]=?temez?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office-wordprocessors.directory" 
+"Name[hu]=Sz?vegszerkeszt?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-office.directory" 
+"Name[hu]=Iroda"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-other.directory" 
+"Name[hu]=Egy?b"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-archiving-backup.directory" 
+"Name[hu]=Archiv?l?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-archiving-cdburning.directory" 
+"Name[hu]=CD/DVD ?r?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-archiving-compression.directory" 
+"Name[hu]=T?m?r?t?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-archiving-other.directory" 
+"Name[hu]=Egy?b"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-archiving.directory" 
+"Name[hu]=Archiv?l?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-bootandinit.directory" 
+"Name[hu]=Rendszerind?t?s ?s inicializ?l?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-gnome-accessibility.directory" 
+"Name[hu]=El?rhet?s?gek"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-gnome-advanced.directory" 
+"Name[hu]=Fejlett be?ll?t?sok"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-gnome.directory" 
+"Name[hu]=Gnome"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-hardware.directory" 
+"Name[hu]=Hardver"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-kde.directory" 
+"Name[hu]=KDE"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-networking.directory" 
+"Name[hu]=H?l?zat"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-other.directory" 
+"Name[hu]=Egy?b"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-packaging.directory" 
+"Name[hu]=Csomagkezel?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration-printing.directory" 
+"Name[hu]=Nyomtat?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-configuration.directory" 
+"Name[hu]=Be?ll?t?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-filetools.directory" 
+"Name[hu]=F?jlkezel? eszk?z?k"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-monitoring.directory" 
+"Name[hu]=Monitoroz?s"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-terminals.directory" 
+"Name[hu]=Termin?lok"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system-texttools.directory" 
+"Name[hu]=Sz?veges eszk?z?k"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandriva-system.directory" 
+"Name[hu]=Rendszer"
+./addaline 
+"${woot}/usr/share/desktop-directories/mandrivalinux.directory" 
+"Name[hu]=Programok"
+./addaline "${woot}/usr/share/mimelnk/application/ andrew-inset.desktop" 
+"Comment[hu]=Andrew eszk?zt?r"
+./addaline "${woot}/usr/share/mimelnk/application/oda.desktop" 
+"Comment[hu]=ODA dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/qif.desktop" 
+"Comment[hu]=Quicken dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/rtf.desktop" 
+"Comment[hu]=Rich Text dokumentum"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-applix-spreadsheet.desktop" 
+"Comment[hu]=Applixware t?bl?zat dokumentum"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-applix-spread.desktop" 
+"Comment[hu]=Applixware t?bl?zat dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/x-applix-word.desktop" 
+"Comment[hu]=Applixware sz?veges dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/x-applixword.desktop " 
+"Comment[hu]=Applixware sz?veges dokumentum"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-applixgraphics.desktop" 
+"Comment[hu]=Applixware grafikai dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/x-asp.desktop" 
+"Comment[hu]=Akt?v Szerver lap"
+./addaline "${woot}/usr/share/mimelnk/application/x-backup.desktop" 
+"Comment[hu]=Biztons?gi ment?s f?jl"
+./addaline "${woot}/usr/share/mimelnk/application/x-bcpio.desktop" 
+"Comment[hu]=BCPIO dokumentum"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-bzip-compressed-tar.desktop" 
+"Comment[hu]=Tar arch?vum (Bzip2-t?m?r?t?ssel)"
+./addaline "${woot}/usr/share/mimelnk/application/x-cgi.desktop" 
+"Comment[hu]=CGI alkalmaz?s"
+./addaline "${woot}/usr/share/mimelnk/application/x-chess-pgn.desktop" 
+"Comment[hu]=PGN sakkj?t?k f?jl"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-compressed-tar.desktop" 
+"Comment[hu]=Tar arch?vum (Gzip-t?m?r?t?ssel)"
+./addaline "${woot}/usr/share/mimelnk/application/x-core-file.desktop" 
+"Comment[hu]=Mem?ria dump f?jl"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-cpio-compressed.desktop" 
+"Comment[hu]=CPIO arch?vum (Gzip-t?m?r?t?ssel)"
+./addaline "${woot}/usr/share/mimelnk/application/x-dia-diagram.desktop" 
+"Comment[hu]=Dia diagram"
+./addaline "${woot}/usr/share/mimelnk/application/x-e-theme.desktop" 
+"Comment[hu]=Enlightement t?ma"
+./addaline "${woot}/usr/share/mimelnk/application/x-font-afm.desktop" 
+"Comment[hu]=Metrikus Adobe bet?t?pus"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-font-linux-psf.desktop" 
+"Comment[hu]=Linux PSF konzol bet?t?pus"
+./addaline "${woot}/usr/share/mimelnk/application/x-glade.desktop" 
+"Comment[hu]=Glade projekt"
+./addaline "${woot}/usr/share/mimelnk/application/x-gnucash.desktop" 
+"Comment[hu]=GnuCash munkaf?zet"
+./addaline "${woot}/usr/share/mimelnk/application/x-gtar.desktop" 
+"Comment[hu]=gTar arch?vum"
+./addaline "${woot}/usr/share/mimelnk/application/x-hdf.desktop" 
+"Comment[hu]=HDF dokumentum"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-java-byte-code.desktop" 
+"Comment[hu]=Java byte-k?d"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-jbuilder-project.desktop" 
+"Comment[hu]=JBuilder Projekt f?jl"
+./addaline "${woot}/usr/share/mimelnk/application/x-kalbum.desktop" 
+"Comment[hu]=KAlbum k?pgy?jtem?ny"
+./addaline "${woot}/usr/share/mimelnk/application/x-catalog.desktop" 
+"Comment[hu]=Katalog adatb?zis"
+./addaline "${woot}/usr/share/mimelnk/application/x-katalogitem.desktop" 
+"Comment[hu]=Katalogiz?lt f?jl"
+./addaline "${woot}/usr/share/mimelnk/application/x-kbudget.desktop" 
+"Comment[hu]=KBudget f?jl"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-kde-app-info.desktop" 
+"Comment[hu]=KDE program r?szletek"
+./addaline "${woot}/usr/share/mimelnk/application/x-lhz.desktop" 
+"Comment[hu]=LHA arch?vum"
+./addaline "${woot}/usr/share/mimelnk/application/x-mif.desktop" 
+"Comment[hu]=FrameMaker interchange dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/x-netcdf.desktop" 
+"Comment[hu]=netCDF Unidata dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/x-object-file.desktop" 
+"Comment[hu]=T?rgyk?d f?jl"
+./addaline "${woot}/usr/share/mimelnk/application/x-object.desktop" 
+"Comment[hu]=T?rgyk?d f?jl"
+./addaline "${woot}/usr/share/mimelnk/application/x-oleo.desktop" 
+"Comment[hu]=GNU Oleo t?bl?zat dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/x-profile.desktop" 
+"Comment[hu]=Profiloz? eredm?nyek"
+./addaline "${woot}/usr/share/mimelnk/application/x-qw.desktop" 
+"Comment[hu]=Quicken for Windows dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/x-reject" 
+"Comment[hu]=Ledobott patch f?jl"
+./addaline "${woot}/usr/share/mimelnk/application/x-shar.desktop" 
+"Comment[hu]=Shell arch?vum"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-shared-library-la.desktop" 
+"Comment[hu]=Megosztott k?dk?nyvt?r"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-shared-library.desktop" 
+"Comment[hu]=Megosztott k?dk?nyvt?r"
+./addaline "${woot}/usr/share/mimelnk/application/x-smil.desktop" 
+"Comment[hu]=SMIL szkript"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-staroffice-presentation.desktop" 
+"Comment[hu]=Staroffice prezent?ci?s dokumentum"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-staroffice-spreadsheet.desktop" 
+"Comment[hu]=Staroffice t?bl?zat dokumentum"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-staroffice-words.desktop" 
+"Comment[hu]=Staroffice Writer sz?vegszerkeszt? dokumentum"
+./addaline "${woot}/usr/share/mimelnk/application/x-sv4cpio.desktop" 
+"Comment[hu]=SV4 CPIO arch?vum"
+./addaline "${woot}/usr/share/mimelnk/application/x-sv4crc.desktop" 
+"Comment[hu]=SV4 CPIO arch?vum CRC ellen?rz? ?sszeggel"
+./addaline "${woot}/usr/share/mimelnk/application/x-theme.desktop " 
+"Comment[hu]=t?ma"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-troff-man-compressed.desktop" 
+"Comment[hu]=Man oldalak (t?m?r?tett)"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-unix-archive.desktop" 
+"Comment[hu]=Unix AR archivum"
+./addaline "${woot}/usr/share/mimelnk/application/x-urpmi-media.desktop" 
+"Comment[hu]=Urpmi m?dium info"
+./addaline "${woot}/usr/share/mimelnk/application/x-urpmi.desktop" 
+"Comment[hu]=Urpmi szkript"
+./addaline "${woot}/usr/share/mimelnk/application/x-ustar.desktop" 
+"Comment[hu]=uStar arch?vum"
+./addaline 
+"${woot}/usr/share/mimelnk/application/x-vnd.kde.kugar.mixed.desktop" 
+"Comment[hu]=Kugar arch?vum"
+./addaline "${woot}/usr/share/mimelnk/application/x-wais-source.desktop" 
+"Comment[hu]=WAIS forr?sk?d"
+./addaline "${woot}/usr/share/mimelnk/application/x-xbase.desktop" 
+"Comment[hu]=X-Base adatb?zis"
+./addaline "${woot}/usr/share/mimelnk/application/zip.desktop" 
+"Comment[hu]=ZIP arch?vum"
+./addaline "${woot}/usr/share/mimelnk/audio/x-it.desktop" 
+"Comment[hu]=Impulse Tracker Audio file"
+./addaline "${woot}/usr/share/mimelnk/audio/x-real-audio.desktop" 
+"Comment[hu]=RealAudio/Video dokumentum"
+./addaline "${woot}/usr/share/mimelnk/audio/x-s3m.desktop" 
+"Comment[hu]=Scream Tracker 3 audio f?jl"
+./addaline "${woot}/usr/share/mimelnk/audio/x-stm.desktop" 
+"Comment[hu]=Scream Tracker audio f?jl"
+./addaline "${woot}/usr/share/mimelnk/audio/x-ulaw.desktop" 
+"Comment[hu]=Sun u-law audio f?jl"
+./addaline "${woot}/usr/share/mimelnk/audio/x-voc.desktop" 
+"Comment[hu]=VOC audio f?jl"
+./addaline "${woot}/usr/share/mimelnk/audio/x-xi.desktop" 
+"Comment[hu]=Scream Tracker hangszer f?jl"
+./addaline "${woot}/usr/share/mimelnk/audio/x-xm.desktop" 
+"Comment[hu]=FastTracker II audio f?jl"
+./addaline "${woot}/usr/share/mimelnk/image/bmp.desktop" 
+"Comment[hu]=Compuserve bitmap k?p f?jl"
+./addaline "${woot}/usr/share/mimelnk/image/cgm.desktop" 
+"Comment[hu]=Computer Graphics metaf?jl"
+./addaline "${woot}/usr/share/mimelnk/image/fax-g3.desktop" 
+"Comment[hu]=CCITT G3 fax f?jl"
+./addaline "${woot}/usr/share/mimelnk/image/fits.desktop" 
+"Comment[hu]=FITS k?p"
+./addaline "${woot}/usr/share/mimelnk/image/gif.desktop" 
+"Comment[hu]=Compuserve GIF k?p"
+./addaline "${woot}/usr/share/mimelnk/image/ief.desktop" 
+"Comment[hu]=IEF k?p"
+./addaline "${woot}/usr/share/mimelnk/image/jpg.desktop" 
+"Comment[hu]=JPG k?p"
+./addaline "${woot}/usr/share/mimelnk/image/pjpeg.desktop" 
+"Comment[hu]=Progressz?v JPG k?p (MS alias)"
+./addaline "${woot}/usr/share/mimelnk/image/png.desktop" 
+"Comment[hu]=Portable Network Graphics (PNG) k?p"
+./addaline "${woot}/usr/share/mimelnk/image/svg+xml.desktop" 
+"Comment[hu]=?tm?retezhet? Vektorgrafika (SVG) k?p"
+./addaline "${woot}/usr/share/mimelnk/image/svg-xml.desktop" 
+"Comment[hu]=SVG + XML k?p"
+./addaline "${woot}/usr/share/mimelnk/image/svg.desktop" 
+"Comment[hu]=SVG illusztr?ci?"
+./addaline "${woot}/usr/share/mimelnk/image/tiff.desktop" 
+"Comment[hu]=TIFF k?p"
+./addaline "${woot}/usr/share/mimelnk/image/vnd.desktop" 
+"Comment[hu]=VND grafikai k?p"
+./addaline "${woot}/usr/share/mimelnk/image/wmf.desktop" 
+"Comment[hu]=Windows Metaf?jl k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-3ds.desktop" 
+"Comment[hu]=3D Studio k?p f?jl"
+./addaline "${woot}/usr/share/mimelnk/image/x-applix-graphic.desktop" 
+"Comment[hu]=Applixware Graphics k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-bmp.desktop" 
+"Comment[hu]=BMP bitmap k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-cmu-raster.desktop" 
+"Comment[hu]=CMU raszter k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-compressed-xcf.desktop" 
+"Comment[hu]=Gimp dokumentum (t?m?r?tett)"
+./addaline "${woot}/usr/share/mimelnk/image/x-dds.desktop" 
+"Comment[hu]=DirectDraw fel?let f?jl"
+./addaline "${woot}/usr/share/mimelnk/image/x-djvu-2.desktop" 
+"Comment[hu]=DjVu dokumentum"
+./addaline "${woot}/usr/share/mimelnk/image/x-djvu.desktop" 
+"Comment[hu]=DjVu dokumentum"
+./addaline "${woot}/usr/share/mimelnk/image/x-eps.desktop" 
+"Comment[hu]=Tokozott Posztszkript K?p (EPS) f?jl"
+./addaline "${woot}/usr/share/mimelnk/image/x-exr.desktop" 
+"Comment[hu]=ILM EXR k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-hdr.desktop" 
+"Comment[hu]=Nagy felbont?s? ?s dinamik?j? k?p (HDR) "
+./addaline "${woot}/usr/share/mimelnk/image/x-ico.desktop" 
+"Comment[hu]=MS Windows ikon f?jl"
+./addaline "${woot}/usr/share/mimelnk/image/x-iff.desktop" 
+"Comment[hu]=IFF k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-ilbm.desktop" 
+"Comment[hu]=ILBM k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-jng.desktop" 
+"Comment[hu]=JNG k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-lwo.desktop" 
+"Comment[hu]=Lightwave objektum"
+./addaline "${woot}/usr/share/mimelnk/image/x-lws.desktop" 
+"Comment[hu]=Lightwave jelenet f?jl"
+./addaline "${woot}/usr/share/mimelnk/image/x-msod.desktop" 
+"Comment[hu]=MS Office ?bra"
+./addaline "${woot}/usr/share/mimelnk/image/x-pcx.desktop" 
+"Comment[hu]=ZSoft Paintbrush k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-photo-cd.desktop" 
+"Comment[hu]=PhotoCD k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-portable-anymap.desktop" 
+"Comment[hu]=PNM k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-portable-bitmap.desktop" 
+"Comment[hu]=Hordozhat? bitt?rk?pes k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-portable-graymap.desktop" 
+"Comment[hu]=Hordozhat? PGM k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-portable-greymap.desktop" 
+"Comment[hu]=Hordozhat? Greymap k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-portable-pixmap.desktop" 
+"Comment[hu]=Hordozhat? Pixmap k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-psd.desktop" 
+"Comment[hu]=Adobe Photoshop dokumentum"
+./addaline "${woot}/usr/share/mimelnk/image/x-raw.desktop" 
+"Comment[hu]=RAW Kamera k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-rgb.desktop" 
+"Comment[hu]=SGI k?p (RGB sz?nekkel)"
+./addaline "${woot}/usr/share/mimelnk/image/x-targa.desktop" 
+"Comment[hu]=Truevision Targa k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-tga.desktop" 
+"Comment[hu]=TarGA k?p"
+./addaline 
+"${woot}/usr/share/mimelnk/image/x-vnd.adobe.photoshop.desktop" 
+"Comment[hu]=Adobe Photoshop k?p"
+./addaline 
+"${woot}/usr/share/mimelnk/image/x-vnd.trolltech.qpicture.desktop" 
+"Comment[hu]=Trolltech QPicture metaf?jl"
+./addaline "${woot}/usr/share/mimelnk/image/x-wmf.desktop" 
+"Comment[hu]=MS Windows metaf?jl"
+./addaline "${woot}/usr/share/mimelnk/image/x-xbitmap.desktop" 
+"Comment[hu]=X bitt?rk?pes k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-xbm.desktop" 
+"Comment[hu]=X BitMap k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-xcf-gimp.desktop" 
+"Comment[hu]=GIMP nat?v k?pform?tum"
+./addaline "${woot}/usr/share/mimelnk/image/x-xcf.desktop" 
+"Comment[hu]=GIMP dokumentum"
+./addaline "${woot}/usr/share/mimelnk/image/x-xcursor.desktop" 
+"Comment[hu]=X11 eg?rkurzor"
+./addaline "${woot}/usr/share/mimelnk/image/x-xfig.desktop" 
+"Comment[hu]=XFig f?jl"
+./addaline "${woot}/usr/share/mimelnk/image/x-xpm.desktop" 
+"Comment[hu]=X PixMap k?p"
+./addaline "${woot}/usr/share/mimelnk/image/x-windowdump.desktop" 
+"Comment[hu]=X window k?p"
+./addaline "${woot}/usr/share/mimelnk/inode/katalog-directory.desktop" 
+"Comment[hu]=Katalogiz?lt Mappa"
+./addaline "${woot}/usr/share/mimelnk/message/x-gnu-rmail.desktop" 
+"Comment[hu]=GNU elektronikus lev?l?zenet"
+./addaline "${woot}/usr/share/mimelnk/text/abiword.desktop" 
+"Comment[hu]=Abiword dokumentum"
+./addaline "${woot}/usr/share/mimelnk/text/bib.desktop" 
+"Comment[hu]=Bibliogr?fiai adat"
+./addaline "${woot}/usr/share/mimelnk/text/mathml.desktop" "Comment[hu]="
+./addaline "${woot}/usr/share/mimelnk/text/richtext.desktop" 
+"Comment[hu]=Rich text doumentum"
+./addaline "${woot}/usr/share/mimelnk/message/spreadsheet.desktop" 
+"Comment[hu]=Interchange t?bl?zati dokumentum"
+./addaline 
+"${woot}/usr/share/mimelnk/message/tab-separated-values.desktop" 
+"Comment[hu]=Tabul?torral elk?l?n?tett sz?veges dokumentum"
+./addaline "${woot}/usr/share/mimelnk/message/x-authors.desktop" 
+"Comment[hu]=Tulajdonos lista"
+./addaline "${woot}/usr/share/mimelnk/message/x-copying.desktop" 
+"Comment[hu]=Szoftver licenc le?r?s"
+./addaline "${woot}/usr/share/mimelnk/message/x-credits.desktop" 
+"Comment[hu]=St?blista"
+./addaline "${woot}/usr/share/mimelnk/message/x-dcl.desktop" 
+"Comment[hu]=DCL szkript"
+./addaline "${woot}/usr/share/mimelnk/message/x-dsl.desktop" 
+"Comment[hu]=DSSSL documentum"
+./addaline "${woot}/usr/share/mimelnk/message/x-dtd.desktop" 
+"Comment[hu]=Dokumentumt?pus defin?ci?"
+./addaline "${woot}/usr/share/mimelnk/message/x-emacs-lisp.desktop" 
+"Comment[hu]=Emacs Lisp forr?sk?d"
+./addaline "${woot}/usr/share/mimelnk/message/x-gtkrc.desktop" 
+"Comment[hu]=GTK konfigur?ci?s f?jl"
+./addaline "${woot}/usr/share/mimelnk/message/x-idl.desktop" 
+"Comment[hu]=IDL dokumentum"
+./addaline "${woot}/usr/share/mimelnk/message/x-install.desktop" 
+"Comment[hu]=Szoftver telep?t?si utas?t?sok"
+./addaline "${woot}/usr/share/mimelnk/message/x-readme.desktop" 
+"Comment[hu]=README dokumentum"
+./addaline "${woot}/usr/share/mimelnk/message/x-scheme.desktop" 
+"Comment[hu]=Scheme forr?sk?d"
+./addaline "${woot}/usr/share/mimelnk/message/x-setext.desktop" 
+"Comment[hu]=Setext dokumentum"
+./addaline "${woot}/usr/share/mimelnk/message/x-sql.desktop" 
+"Comment[hu]=SQL k?d"
+./addaline "${woot}/usr/share/mimelnk/message/x-textinfo.desktop" 
+"Comment[hu]=TEXInfo dokumentum"
+./addaline "${woot}/usr/share/mimelnk/message/x-troff-man.desktop" 
+"Comment[hu]=MAN k?zik?nyv oldal"
+./addaline "${woot}/usr/share/mimelnk/message/x-troff-me.desktop" 
+"Comment[hu]=Troff me bemeneti dokumentum"
+./addaline "${woot}/usr/share/mimelnk/message/x-troff-mm.desktop" 
+"Comment[hu]=Troff mm bemeneti dokumentum"
+./addaline "${woot}/usr/share/mimelnk/message/x-troff-ms.desktop" 
+"Comment[hu]=Troff ms bemeneti dokumentum"
+./addaline "${woot}/usr/share/mimelnk/message/x-troff.desktop" 
+"Comment[hu]=Troff dokumentum"
+./addaline "${woot}/usr/share/mimelnk/video/x-anim.desktop" 
+"Comment[hu]=ANIM anim?ci?"
+./addaline "${woot}/usr/share/mimelnk/video/x-flc.desktop" 
+"Comment[hu]=FLC anim?ci?"
+./addaline "${woot}/usr/share/mimelnk/video/x-fli.desktop" 
+"Comment[hu]=FLI anim?ci?"
+./addaline "${woot}/usr/share/applications/kde/kdeprintfax.desktop" 
+"Name[hu]=KDEprintFAX"
+./addaline "${woot}/usr/share/applications/kde/kjscmd.desktop" 
+"GenericName[hu]=Javascript Konzol"
+--------------------------------------------------------------------------------------------------
+
+DidouPh
+
+
+
+From didouph at gmail.com  Tue Jul 10 11:43:05 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 10 Jul 2007 11:43:05 +0200
+Subject: [Pclos-il8n-dev] [Fwd: Re: Re: Synaptic update and asking for a bit
+	advice]
+Message-ID: <469354A9.9090204@gmail.com>
+
+
+
+-------- Original Message --------
+Subject: 	Re: Re: Synaptic update and asking for a bit advice
+Date: 	Mon, 9 Jul 2007 18:51:38 +0000
+From: 	jean-jacques dubois <jjdub at caramail.com>
+To: 	didouph <didouph at gmail.com>
+
+
+
+> De: didouph <didouph at gmail.com>
+> A: Hopp?r Zolt?n <hopparz at gmail.com>, pclos-il8n-dev at lists.berlios.de, "jj >> jean-jacques dubois" <jjdub at caramail.com>
+> Objet: Re: Synaptic update and asking for a bit advice
+> Date: Sun, 08 Jul 2007 10:01:38 +0200
+
+> Hopp?r Zolt?n wrote:
+> > Hi,
+> >
+> > I have done with the translation of synaptic update, and checked and 
+> > repaired a bit (some typo) in drakconf. In the attachment you will 
+> > find 2 pictures, where I need a bit advice to where to look for the 
+> > missing (as you will see) untranslated strings, if you can. One of 
+> > them is the KDM Theme Manager part of KDE control panel. The another 
+> > one in Desktop section where in window on right - writes "disable 
+> > focus stealing". The question is - translatable?
+> >
+> > Thanks.
+> >
+> > Zoltan
+> i forward those to dubi and ask him to have a look and tell you but i'm 
+> sure this isn't yet translatable, else, it would have been translated :P
+
+Ok, I will check that as soon as possible.
+
+Bye.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070710/90d7fc12/attachment.html>
+
+From didouph at gmail.com  Wed Jul 11 11:09:08 2007
+From: didouph at gmail.com (didouph)
+Date: Wed, 11 Jul 2007 11:09:08 +0200
+Subject: [Pclos-il8n-dev] compiz.po - Polish localization
+In-Reply-To: <20070710214129.14D0D123875@poczta.interia.pl>
+References: <20070710214129.14D0D123875@poczta.interia.pl>
+Message-ID: <46949E34.6010701@gmail.com>
+
+hi
+
+first, i'd like to thanks you for all the work you've done
+
+second, i'm not omniscient and they are some issue i cannot solve, let 
+me check the other language's po i can find for compiz and i will tell you
+anyway, maybe we simply should rename compiz to Gset-compiz to get it to 
+work
+
+third , if you have questions and answers, please use the list and not 
+my email since i will be the only one aware about what is going on and i 
+cannot deal with every single problem
+
+i strongly recommend you to rely more on the help from one anothore and 
+keep each other aware of what is going on, this is the purpose of this 
+list, the usage isn't that hard, so try to keep things organised so we 
+all understand what others are doing
+
+
+final : does anyone managed to see if compiz is organized properly and 
+translated
+since it doesn't work on my computer, i don't know if it's translated 
+properly
+
+please answer this message at least whith a no since it would help to 
+know if you all are still alive and working on the project !
+
+Wladyslaw Pawlowski wrote:
+> Hi,
+>
+> You will find enclosed compiz.po localized in Polish. Anyway I should stress that it is still useless due to unknown reasons, maybe similar like it was in case of beryl files. I mentioned it already in my earlier mail containing beryl localized files. The problems is that after converting it into compiz.mo and putting inside /usr/share/locale/pl/LC_MESSAGES folder then starting compiz manager there is NOTHING in Polish to read but English strings. Taking into account that compiz manager name is Gset-compiz I have checked if there is any po file inside gset-compiz_0.3.4.6pclos2007_i586.rpm I have found there is nothing to translate. Therefore I do not know what should be translated actually to get Gset-compiz to work in Polish? And second question is: what is compiz.po necessary for if its translation is doing nothing?
+>
+> Regards - Uznamer
+>
+>
+> ----------------------------------------------------------------------
+> Pochwal sie innym, jak mieszkasz!
+>>>> http://link.interia.pl/f1abe
+
+
+
+From didouph.ph at laposte.net  Fri Jul 13 00:26:12 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 13 Jul 2007 00:26:12 +0200
+Subject: [Pclos-il8n-dev] Polish translation - synaptic, synaptic_update,
+ libDrakX
+In-Reply-To: <4691F477.20201@laposte.net>
+References: <200707081339.45778.qla0@vp.pl> <4691F477.20201@laposte.net>
+Message-ID: <4696AA84.2070409@laposte.net>
+
+sorry, i've missrouted this message !
+
+so i've ressent it just ... now :)
+
+pierre-henri-ramboz wrote:
+> qla wrote:
+>> updated:
+>>
+>> synaptic.po
+>> libDraX.po - updated from fr
+>>
+>> About Synaptic:
+>> Still there is no string in synaptic.po:
+>> if in konsole type: synaptic --help when synaptic is running - showed this text
+>>   
+>>> Another synaptic is running. Trying to bring it to the foreground
+>>>     
+>> =====
+>>
+>> translated:
+>> synaptic_update.po
+>>
+>> About synaptic_update.po:
+>>
+>> In KBabel Id: 50
+>> System Environmemt  <-- This is a spelling error or not ?
+>> or ?
+>> System Environment
+>>
+>> if "System Environment " it will be two the same entries.
+>>
+>> Id: 71 in KBabel
+>> System Environment
+>>
+>> qla
+>>   
+>> ------------------------------------------------------------------------
+>>
+>> _______________________________________________
+>> Pclos-il8n-dev mailing list
+>> Pclos-il8n-dev at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>>   
+> i will procede those files pretty soon anyway
+>
+> the first message you mentioned isn't related to synaptic itself or at 
+> least it isn't transladable trough the po since i've tryed and didn't 
+> managed to translate it trough the po!
+>
+> the second one isn't a point in wich i'm competant, i will ask 
+> Gettingther to look after this very line and report assap his observation
+>
+> once the new synaptic goes to stable, all po files for synaptic will 
+> be replaced by the new one and we will jump to v2
+> so hurry on the translation or your work might be pulled down
+>
+> atm we have additional translations for
+>
+> fr / hu / pl
+>
+> nothing else !
+>
+> anyway thanks for your work qla, i will proceed it assap to the cvs 
+> and report here
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070713/7e01eb81/attachment.html>
+
+From didouph at gmail.com  Fri Jul 13 00:41:12 2007
+From: didouph at gmail.com (didouph)
+Date: Fri, 13 Jul 2007 00:41:12 +0200
+Subject: [Pclos-il8n-dev] compiz.po - Polish localization
+In-Reply-To: <20070712143325.97A8197A89D@poczta.interia.pl>
+References: <20070712143325.97A8197A89D@poczta.interia.pl>
+Message-ID: <4696AE08.7010408@gmail.com>
+
+nothing is wrong with the mailing list, the messages require approval, 
+that's it ... you just don't try, so your message aren't on the mailing 
+list ...
+
+"if at first you don't succedd, .. try again..."
+
+the size of the atachement require sometimes (above 40k) a validation by 
+the list owner ... me ... this is moderation... so you're registered, 
+keep sending ...
+
+anyway, your comments are listed and forwarded to the list, any comment 
+or improvement about is welcome
+
+didouph
+
+Wladyslaw Pawlowski wrote:
+> didouph napisa?(a):
+>> hi
+>>
+>> first, i'd like to thanks you for all the work you've done
+>>
+>> second, i'm not omniscient and they are some issue i cannot solve, let 
+>> me check the other language's po i can find for compiz and i will tell
+>> you
+>> anyway, maybe we simply should rename compiz to Gset-compiz to get it to 
+>> work
+>>
+> ===============================================================================================
+> Hi,
+>
+> I did it also before you advised me to do it. Anyway it does not work.
+> ===============================================================================================
+>
+> But > third , if you have questions and answers, please use the list and not 
+>> my email since i will be the only one aware about what is going on and i 
+>> cannot deal with every single problem
+>
+> ==============================================================================================
+> Dear friend, I am USING the list but that bloody list does reject all my mails!
+> Every mail I am sending you is going with a copy to pclos-i18n-dev at lists.berlios.de
+> and you should know about is because it can be read it at my mail header.
+> I am just wondering why it is still rejecting my mails is spite of getting the reminders
+> about my membership at liste.berlios.de from mailman-owner at lists.berlios.de
+> The last one I got was on 1st July.
+> Therefore please advise me by revert what I should do to send my mails on the list smoothly?
+> ==============================================================================================
+>> i strongly recommend you to rely more on the help from one anothore and 
+>> keep each other aware of what is going on, this is the purpose of this 
+>> list, the usage isn't that hard, so try to keep things organised so we 
+>> all understand what others are doing
+>
+> ==============================================================================================
+> Look above there are my explanations.
+> ==============================================================================================
+>  
+>> final : does anyone managed to see if compiz is organized properly and 
+>> translated
+>> since it doesn't work on my computer, i don't know if it's translated 
+>> properly
+>>
+>> please answer this message at least whith a no since it would help to 
+>> know if you all are still alive and working on the project !
+>
+> =============================================================================================
+> At my computer Beryl works fine with Polish translation, excluding some strings,
+> in accordance with my information within earlier mail.
+> But it does not concern Compiz (by the way, I am not using it at all considering 
+> Beryl much better).
+> Anyway when I am switching to it, just for testing, it does not work. Honestly saying
+> it works as a 3D Desktop Manager, but fully in English, omitting my translation.
+> I was doing all possible tricks to force it to change its working language. Changing
+> its name for gset-compiz.po, even using your French compiz.po as a replace. Anyway all in vain.
+>
+> Regards - Uznamer
+> ==============================================================================================
+>
+>
+>
+> ----------------------------------------------------------------------
+> O Twoich stronach juz si? m?wi...
+> Na >>> http://link.interia.pl/f1ad3
+>
+>
+>
+>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070713/ff4d8488/attachment.html>
+
+From didouph at gmail.com  Fri Jul 13 00:58:36 2007
+From: didouph at gmail.com (didouph)
+Date: Fri, 13 Jul 2007 00:58:36 +0200
+Subject: [Pclos-il8n-dev] All my mails are rejected
+In-Reply-To: <20070712214707.9F7DA50246C@f10.poczta.interia.pl>
+References: <20070712214707.9F7DA50246C@f10.poczta.interia.pl>
+Message-ID: <4696B21C.8070209@gmail.com>
+
+there is no reason for that
+
+pclos-i18n-dev at lists.berlios.de has your mail registered ( 
+uznamer at interia.pl )
+
+i have no solution or answer !
+
+i will investigate this issue anyway
+
+maybe it's related to your smtp ?
+
+didouph
+
+
+Wladyslaw Pawlowski wrote:
+> Hi, 
+>
+> I am sending always my correspondence to you with a copy to mailing list.
+> Below you will find what I am getting back:
+> ----------------------------------------------------------------------------
+>
+> This is the INTERIA.PL program at host smtp4.poczta.interia.pl.
+>
+> I'm sorry to have to inform you that your message could not be
+> be delivered to one or more recipients. It's attached below.
+>
+> For further assistance, please send mail to <postmaster>
+>
+> If you do so, please include this problem report. You can
+> delete your own text from the attached returned message.
+>
+> 			The INTERIA.PL program
+>
+> <pclos-i18n-dev at lists.berlios.de>: host lists.berlios.de[195.37.77.135]
+> said:
+>     550 <pclos-i18n-dev at lists.berlios.de>: Recipient address rejected:
+> User
+>     unknown in local recipient table (in reply to RCPT TO command)
+> ------------------------------------------------------------------------
+>
+> I do not understand what it means and what I am doing wrong?
+>
+> Best regards - Uznamer
+>
+>
+> ----------------------------------------------------------------------
+> Nie wiesz, gdzie sie kapac?
+> Kliknij 
+>>>> http://link.interia.pl/f1af9
+>
+>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070713/7821fc1e/attachment.html>
+
+From uznamer at interia.pl  Fri Jul 13 01:22:30 2007
+From: uznamer at interia.pl (Wladyslaw Pawlowski)
+Date: 13 Jul 2007 01:22:30 +0200
+Subject: [Pclos-il8n-dev] All my mails are rejected
+Message-ID: <20070712232230.5E0E52599A9@poczta.interia.pl>
+
+Hi,
+
+Many thanks for your prompt reply. My team fellow Qla just helped me to solve this problem. You did not notice that I was writting the wrong address. There is so small difference that it is really not easy to see it. As you surely know, shortage i18n means i-nternationalizatio-n (instead of 18 letters of nternationalizatio in the middle of this word). On the other hand l10n means l-okalizatio-n (the same pattern). Therefore how could I suppose that you have a mixture of both in your mailing list address? Instead of i18n you have il8n! The difference between letter "l" like love and number "1" meaning one is difficult to recognize when all letters are very small and your eyes are not so good. Never mind, the most important is that now everything has been cleared and I am sure that my following mails would reach you without fail.
+
+Thanks and regards - Uznamer
+
+
+didouph napisa?(a):
+ there is no reason for that
+ 
+ pclos-i18n-dev at lists.berlios.de has your mail registered ( uznamer at interia.pl )
+ 
+ i have no solution or answer !
+ 
+ i will investigate this issue anyway
+ 
+ maybe it's related to your smtp ?
+ 
+ didouph
+ 
+ 
+ Wladyslaw Pawlowski wrote: 
+Hi, I am sending always my correspondence to you with a copy to mailing list. Below you will find what I am getting back: ---------------------------------------------------------------------------- This is the INTERIA.PL program at host smtp4.poczta.interia.pl. I'm sorry to have to inform you that your message could not be be delivered to one or more recipients. It's attached below. For further assistance, please send mail to >postmaster> If you do so, please include this problem report. You can delete your own text from the attached returned message. 			The INTERIA.PL program >pclos-i18n-dev at lists.berlios.de>: host lists.berlios.de[195.37.77.135] said: 550 >pclos-i18n-dev at lists.berlios.de>: Recipient address rejected: User unknown in local recipient table (in reply to RCPT TO command) ------------------------------------------------------------------------ I do not understand what it means and what I am doing wrong? Best regards - Uznamer ---------------------------------------------------------------------- Nie wiesz, gdzie sie kapac? Kliknij 
+ 
+http://link.interia.pl/f1af9 
+ 
+ 
+ 
+ 
+
+
+
+----------------------------------------------------------------------
+Inspiruj?ca nagosc 
+Zobacz >>> http://link.interia.pl/f1ade
+
+
+
+
+From didouph.ph at laposte.net  Fri Jul 13 07:51:23 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 13 Jul 2007 07:51:23 +0200
+Subject: [Pclos-il8n-dev] All my mails are rejected
+In-Reply-To: <20070712232230.5E0E52599A9@poczta.interia.pl>
+References: <20070712232230.5E0E52599A9@poczta.interia.pl>
+Message-ID: <469712DB.5060606@laposte.net>
+
+now you see why i told everyone to be more "explicit" on the issues we
+face ... if we work together we solve them faster !
+
+DidouPh
+
+Wladyslaw Pawlowski wrote:
+> Hi,
+>
+> Many thanks for your prompt reply. My team fellow Qla just helped me tosolve this problem. You did not notice that I was writting the wrong address. There is so small difference that it is really not easy to see it. As you surely know, shortage i18n means i-nternationalizatio-n (instead of 18 letters of nternationalizatio in the middle of this word). On the other hand l10n means l-okalizatio-n (the same pattern). Therefore how could I suppose that you have a mixture of both in your mailing list address?Instead of i18n you have il8n! The difference between letter "l" like love and number "1" meaning one is difficult to recognize when all letters are very small and your eyes are not so good. Never mind, the most important is that now everything has been cleared and I am sure that my following mails would reach you without fail.
+>
+> Thanks and regards - Uznamer
+>
+>
+> didouph napisa?(a):
+>  there is no reason for that
+>  
+>  pclos-i18n-dev at lists.berlios.de has your mail registered ( uznamer at interia.pl )
+>  
+>  i have no solution or answer !
+>  
+>  i will investigate this issue anyway
+>  
+>  maybe it's related to your smtp ?
+>  
+>  didouph
+>  
+>  
+>  Wladyslaw Pawlowski wrote: 
+> Hi, I am sending always my correspondence to you with a copy to mailinglist. Below you will find what I am getting back: ---------------------------------------------------------------------------- This is the INTERIA.PL program at host smtp4.poczta.interia.pl. I'm sorry to have to informyou that your message could not be be delivered to one or more recipients. It's attached below. For further assistance, please send mail to >postmaster> If you do so, please include this problem report. You can delete your own text from the attached returned message. 			The INTERIA.PL program >pclos-i18n-dev at lists.berlios.de>: host lists.berlios.de[195.37.77.135] said: 550 >pclos-i18n-dev at lists.berlios.de>: Recipient address rejected: User unknown in local recipient table (in reply to RCPT TO command) ------------------------------------------------------------------------ I do not understand what it means and what I am doing wrong? Best regards - Uznamer -----------------------------------
+----------------------------------- Nie wiesz, gdzie sie kapac? Kliknij 
+>  
+> http://link.interia.pl/f1af9 
+>  
+>  
+>  
+>  
+>
+>
+>
+> ----------------------------------------------------------------------
+> Inspiruj?ca nagosc 
+> Zobacz >>> http://link.interia.pl/f1ade
+>
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+
+
+
+From didouph.ph at laposte.net  Sun Jul 15 17:32:29 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 15 Jul 2007 17:32:29 +0200
+Subject: [Pclos-il8n-dev] reminder
+Message-ID: <469A3E0D.8070306@laposte.net>
+
+the translation of synaptic_update.pot has been performed for 
+french/hungarian/polish ! we are still looking/waiting for patch on 
+these translations before moving synaptic.po to version 2 and release 
+the internationalized version of synaptic to the community.
+
+please don't forget to add your input !
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070715/678bd08d/attachment.html>
+

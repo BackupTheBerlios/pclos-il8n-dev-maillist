@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] Experimental desktop-files.in tree in CVS
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-June/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Experimental%20desktop-files.in%20tree%20in%20CVS&In-Reply-To=%3C485A6530.1020601%40smidovi.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000360.html">
+   <LINK REL="Next"  HREF="000370.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] Experimental desktop-files.in tree in CVS</H1>
+    <B>David Smid</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Experimental%20desktop-files.in%20tree%20in%20CVS&In-Reply-To=%3C485A6530.1020601%40smidovi.eu%3E"
+       TITLE="[Pclos-il8n-dev] Experimental desktop-files.in tree in CVS">david at smidovi.eu
+       </A><BR>
+    <I>Thu Jun 19 15:54:56 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000360.html">[Pclos-il8n-dev] My apologies...
+</A></li>
+        <LI>Next message: <A HREF="000370.html">[Pclos-il8n-dev] Experimental desktop-files.in tree in CVS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#365">[ date ]</a>
+              <a href="thread.html#365">[ thread ]</a>
+              <a href="subject.html#365">[ subject ]</a>
+              <a href="author.html#365">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>
+Hello,
+I've finally found out how to fix this issue:
+
+Alessio Adamo napsal(a):
+ &gt; I agree that it's a much cleaner way to work and I'm certainly in for
+ &gt; this change. I've tested your make_intltool_ready script few days ago
+ &gt; and actually allowed me to realise that there were 2 original Comment
+ &gt; strings in donate.desktop. So it's true, it's good help not to minimise
+ &gt; the chances of mistakes.
+ &gt;
+ &gt; Though, it doesn't seem to work completely right.
+ &gt;
+ &gt; For instance, in it.po the message &quot;Donate&quot; is untranslated although in
+ &gt; /etc/skel/donate.desktop and in /root/donate.desktop it is actually
+ &gt; translated.
+ &gt;
+ &gt; At the same time the message &quot;Support the developement of PCLinuxOS by
+ &gt; donating to the Team&quot; (the Comment) is translated with &quot;Fai una
+ &gt; donazione&quot; (the Name).
+ &gt;
+ &gt; There are several other examples. If required, I'll list them all. I had
+ &gt; a look also at fr.po and also there I could find some examples of this
+ &gt; misbehaviour.
+ &gt;
+ &gt; I can't figure out what the reason can be just by looking at the
+ &gt; original desktop-files. You're probably more indicated to find out.
+
+The problem was that the Name and Comment translations were mixed in the 
+.desktop files. I had to sort them prior to processing in make_intltool_ready 
+script.
+
+I've put experimental desktop-files.in tree into CVS repository, this tree is a 
+result of launching make_intltool_ready and make_intltool_update scripts.
+You can also find updated scripts in the root of this tree.
+I believe this setup will make translating .desktop files much easier and more 
+reliable.
+
+David
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000360.html">[Pclos-il8n-dev] My apologies...
+</A></li>
+	<LI>Next message: <A HREF="000370.html">[Pclos-il8n-dev] Experimental desktop-files.in tree in CVS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#365">[ date ]</a>
+              <a href="thread.html#365">[ thread ]</a>
+              <a href="subject.html#365">[ subject ]</a>
+              <a href="author.html#365">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

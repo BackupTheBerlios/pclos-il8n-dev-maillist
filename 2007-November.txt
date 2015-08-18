@@ -1,0 +1,1540 @@
+From didouph.ph at laposte.net  Thu Nov  1 01:26:56 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 01 Nov 2007 01:26:56 +0100
+Subject: [Pclos-il8n-dev] xaralx french translation
+Message-ID: <47291D50.60107@laposte.net>
+
+hi
+
+I'm one of MyPCLinuxOS.com admin and the leader of PCLinuxOS translation 
+group. I'm also working on the packaging as RPM for PCLinuxOS of the 
+xaraLx application and libraries.
+
+I recently registered on launchpad.net in order to take part in xaralx 
+translation. after a few days of delay i got the file and translated a 
+lot of the fuzzy in the french file and some untranslated (140) strings ...
+
+unfortunately i noticed i was not allowed to upload my files but only to 
+make proposal for translation ... the launchpad interface being what it 
+is ... is not my peace of cake and i would rather submit my translation 
+by upload rather than by per/string proposal ... since a 5 days delay 
+was applied to my xaralx.po download ... what would be a per string 
+delay ? ...  who knows ?... anyway ... i understand that i need to sign 
+that : 
+http://www.xaraxtreme.org/images/pdf/16-01-06/contributor_agreement.pdf
+
+but can't you point me to a way to do this electronically ?
+
+i have about 20 translators who will be ready and willing to take part 
+in this project and commit additions to the XaraLx translation ... which 
+sounds if not stalled, lacunar !
+
+should i continue the translation and release an unofficial more 
+performent than the official or seek a simple trunk submission and seek 
+integration in an open way ?
+
+I have not yet commited this file to the PCLOS-i18n team CVS for the 
+above reason ... but once i'll be over with the french translation, i 
+will upload my po for additional translation on our cvs !
+
+i really would like you to point me to a simple way not to do it 
+"underground" but to get the community enjoy the Xara experience in a 
+language they understand ...
+
+thanks for your attention
+
+DidouPh aka Pierre-Henri Ramboz
+
+ps : a copy of this message has been sent to the i18n-team for pclinuxos !
+
+
+
+From didouph at hotmail.com  Thu Nov  1 09:09:34 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Thu, 1 Nov 2007 08:09:34 +0000
+Subject: [Pclos-il8n-dev] (no subject)
+Message-ID: <BAY126-W422F81EF801073F6458E49A48C0@phx.gbl>
+
+
+hi all !
+
+i forward this to the list since i got no answers from either tom or any 
+
+of pclos devs about the inclusion and test of such patches in the 
+
+mainstream of either pclinuxos or mklivecd ... this mail is forwarded to 
+
+i18n list of pclinuxos an the mklivecd user list ....
+
+
+
+> hi tom
+
+> before i submit this to the list, here is a patch submitted to me that 
+
+> you should have a look at ... it's part of the i18n project of pclinuxos 
+
+> and is quite promising ... it adds some functionality to the mklivecd 
+
+> script and will be a good start to enable multiple keyboard support 
+
+> using grub !
+
+> can you check the "useability" of it to see if you don't see any breach 
+
+> since i've found none, this has been forwarded to texstar and ivan for 
+
+> testing too and certainly an integration on pclinuxos, if both of you 
+
+> confirm the efficiency of it, i will put it in pclos-i18n cvs for you to 
+
+> get the latest addition, soon will the i18n framework be applyed to 
+
+> mklivecd and we might see a mklivecd.po running around for translater to 
+
+> work on :)
+
+> 
+
+> yours didouph
+
+> 
+
+> -------- Original Message --------
+
+> Subject: 	Re: About the Czech PCLOS remaster and me
+
+> Date: 	Tue, 16 Oct 2007 16:09:39 +0200
+
+> From: 	David Smid 
+
+> To: 	Ramboz Pierre-Henri 
+
+> References: 	 
+
+> 
+
+> 
+
+> 
+
+> 
+
+> Ramboz Pierre-Henri wrote:
+
+>> hi,
+
+>> no idea if you got the point of what was my very question about you to
+
+>> altos.
+
+>> There is an "international" localization effort based @ mypclinuxos.com
+
+>> 
+
+>> this effort is backed up by one of the official packager and supported
+
+>> by the ripper gang ...
+
+>> So any enhancement and modification we made to the
+
+>> os/softwares/translations is embedded in the mainstrem.
+
+>> Thus, according to the info that altos gave me and that you seems to
+
+>> confirm, the enhancement you made to the mklivecd and installer/bootmenu
+
+>> are features we would be happy to add to the i18n project. and i think
+
+>> you guessed that i would be happy to have you being part of this
+
+>> project. the enhancements you made for czeck language should be shared
+
+>> by everyone.
+
+> 
+
+> I am aware of the official localization project and I fully support the idea.
+
+> My plan was first to make sure that we can really get the localization project
+
+> going and that we have enough forces to get through before we join the official
+
+> project at your side.
+
+> I think we are advancing quickly and we would be happy to join your ranks.
+
+> 
+
+>> anyway, the fact that you enhancement are rpm packaged and
+
+>> installable, does not means that these will not be wiped by the system
+
+>> updates ... all your changes will be futile especially to mklivecd wich
+
+>> is maintained by n#2 of mypclinuxos developers : ivan keres who will
+
+>> certainly be interrested in your hacks for integration in the main stream.
+
+> 
+
+> I know my packages cannot collide with the official ones. Therefore I never make
+
+> updates of existing packages. Our mklivecd package has different name and
+
+> contains only the renamed skript, so it does not interfere with anything else.
+
+> Of course, the possibility of pushing our changes upstream you are talking about
+
+> is much better that this.
+
+> 
+
+>> anyways, if you could send me a documented version of your changes or at
+
+>> least a diff of those files so i could investigate the usage of those
+
+>> "molested" files for the team to use it ...
+
+> 
+
+> I'm sending you the patch against original mklivecd version.
+
+> There are three new options:
+
+> 
+
+>    --bootmenu        What boot menu definition file should be used
+
+>                            in case that bootloader option is set to iso or grub.
+
+>                            For iso this file must be named 'isolinux.cfg',
+
+>                            for grub the name must be 'menu.lst'.
+
+>                            Boot menu will be generated if not specified.
+
+> 
+
+>    --boottheme       Which gfxboot theme should be used.
+
+>                            Defaults to 'pclinuxos'
+
+> 
+
+>    --bootlang   Which language shound be used as default
+
+>                            in the boot menu.
+
+>                            Defaults to 'en'.
+
+> 
+
+> These options add flexibility to the mklivecd script - without them it should
+
+> behave exactly the same as the original one.
+
+> 
+
+> I'm also sending you another patch - this one is for script /etc/rc.d/rc.
+
+> There is a overlooked limitation in the original script: when shutting down, the
+
+> message "Shutting down the system...Press Esc for verbose mode" won't get
+
+> translated to language set in /etc/sysconfig/i18n. (In contrast with startup
+
+> message - here reinstalling bootsplash package is sufficient to get it localized).
+
+> Packager of 'initscripts' package is Texstar. I wonder if you can persue him to
+
+>  incorporate this little change.
+
+> 
+
+>> i'm yet working on 3 scripts that altos sent me, in order to convert
+
+>> them to po files for the changes to be system wide and more robust
+
+>> towards system updates. this will also help us get the status of the
+
+>> czeck translation.
+
+>> 
+
+>> you can hook with the project member this way :
+
+>> http://www.mypclinuxos.com/forum/index.php?topic=1012.0
+
+>> 
+
+> 
+
+> I'll take a look.
+
+> 
+
+> 
+
+> Regards,
+
+> 
+
+> David
+
+> 
+
+> 
+
+> 
+
+
+
+
+
+
+_________________________________________________________________
+Votez pour vos s?ries TV pr?f?r?es et tentez de gagner un voyage ? Hawa? !
+http://messengerawards.divertissements.fr.msn.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071101/f585e74c/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: mklivecd.i18n.patch
+Type: application/octet-stream
+Size: 4056 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071101/f585e74c/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: rc.i18n.patch
+Type: application/octet-stream
+Size: 335 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071101/f585e74c/attachment-0001.obj>
+
+From david at smidovi.eu  Fri Nov  2 16:20:33 2007
+From: david at smidovi.eu (David Smid)
+Date: Fri, 02 Nov 2007 16:20:33 +0100
+Subject: [Pclos-il8n-dev] Language Localized Remaster HOWTO #1
+Message-ID: <472B4041.40103@smidovi.eu>
+
+INTRODUCTION
+
+It is important to note that the utilities for live CD creation and booting ARE
+NOT PCLinuxOS specific. These utilities are part of livecd project
+(http://livecd.berlios.de/) and are independent on PCLinuxOS. Although there are
+many options in bootmenu and mklivecd script, some of them have no effect on
+PCLinuxOS. Most of them are parts of Mandriva legacy. PCLinuxOS would need to be
+fixed up to be able to use those broken options.
+
+1. Bootmenu
+
+1.1 Overview
+
+The live CD bootmenu is not driven by Grub as many people assume but by Isolinux
+which is a part of Syslinux project (http://syslinux.zytor.com/). Isolinux
+implements a mechanism that allows boot from CD and run a bootmenu on any
+hardware configuration. After you select a bootmenu item, Isolinux gives control
+to image specified in that bootmenu item configuration and is no longer active.
+The only way for Isolinux to influence what follows next is to pass parameters
+to image being booted (usually kernel). But it's up to booting OS if it uses
+these parameters or not.
+
+Normally, Isolinux operates in text mode. To operate in graphics, gfxboot
+extension must be used. All bootmenu appearance and behaviour is defined in a
+gfxboot theme. PCLOS mklivecd uses gfxboot theme 'pclinuxos' contained in
+package 'pclinuxos-gfxboot-theme'. Contents of this package can be found in
+/usr/share/gfxboot/themes/pclinuxos.
+
+Live CD has the following structure:
+
+/boot/grub/		- not used
+/isolinux/
+	bootlogo	* gfxboot theme definition
+	lang		* contains code of default language (not present in original 'pclinuxos'
+theme)
+	mediacheck	- image containing program capable of checking CD's MD5 sum
+	memtest		- image containing program capable of testing RAM health
+	vmlinuz		- linux kernel image
+	isolinux.bin	- main Isolinux program, bootmenu entry point
+	boot.cat	- catalog ???
+	isolinux.cfg	- main menu definition
+	star.dat	* ???
+	16x16.fnt	* bootmenu font
+	initrd.gz	- initial RAM disk image containing lightweight version of linux
+	back.jpg	* bootmenu background screen
+	timer_a.jpg	* timer animation sprites
+	welcome.jpg	* initial screen
+	pclinuxos.pcx	* PCLinuxOS logo that appears on initial screen
+	*.tr		* language specific interface translations (does not affect main menu)
+	*.hlp		* language specific help translations
+
+
+Files marked with (-) belong to Isolinux and those marked with (*) belong to
+gfxboot extension.
+
+TO BE CONTINUED...
+
+David
+
+
+From didouph at hotmail.com  Sat Nov  3 22:39:11 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Sat, 3 Nov 2007 21:39:11 +0000
+Subject: [Pclos-il8n-dev] [Fwd: Re:]
+Message-ID: <BAY126-W253A902D29BFE1E9835284A48E0@phx.gbl>
+
+
+here is a forward of tom kelly's answer to my message about mklivecd patches
+
+
+
+-------- Message original --------
+
+From: - Sat Nov  3 18:57:30 2007
+
+X-Account-Key: account5
+
+X-UIDL: c72338b4-9668-4d5a-9f2c-4036d991138c
+
+X-Mozilla-Status: 0011
+
+X-Mozilla-Status2: 00000000
+
+X-Mozilla-Keys:
+
+X-WebMail: true
+
+X-Folder: INBOX
+
+X-Message-Delivery: Vj0zLjQuMDt1cz0wO2k9MDtsPTA7YT0w
+
+X-Message-Status: p:0
+
+X-SID-PRA: Tom Kelly 
+
+X-Message-Info: 
+
+HKIYGN+H3D/8TxgaGHOvQVioqR4KiLJF58uI2/c/8tqakoiFy4YouJq4B7jcTSsD978SilMcmiclBYomao6aPA==
+
+Received: from web51003.mail.re2.yahoo.com ([206.190.38.134]) by 
+
+bay0-mc5-f9.bay0.hotmail.com with Microsoft SMTPSVC(6.0.3790.2668);	 
+
+Sat, 3 Nov 2007 10:39:28 -0700
+
+Received: (qmail 79613 invoked by uid 60001); 3 Nov 2007 17:39:27 -0000
+
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;  s=s1024; d=yahoo.com; 
+
+ 
+
+h=X-YMail-OSG:Received:Date:From:Subject:To:In-Reply-To:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID; 
+
+ 
+
+b=18pa5XGuExb+y3NC7TOBcJlAxl8kcrDaS4rUJZJ0m5CiBhbaWAAHc2NaJj4bfAxssOzBTWrAyH3b+nbB8CaZHbrGpHSa4zAnvmUpxlR/66WvZkEZ93+uzj9W+hXSpCHXt/v4RMlnK3TCv8R4HQOxh3IrhFVnZvKMvetNJVpVbCM=;
+
+X-YMail-OSG: 
+
+wl_jlccVM1lOErVvUEygp_U7XG3QWHq4Hat.j7U94xg7qlXDwCnvei.ZJdk6D5OtnFtuA3ueJ7xecK.u8I.ykk2yHzWRr3LziNa1kDwxBDVM47mx29Y-
+
+Received: from [213.203.138.202] by web51003.mail.re2.yahoo.com via 
+
+HTTP; Sat, 03 Nov 2007 10:39:27 PDT
+
+Date: Sat, 3 Nov 2007 10:39:27 -0700 (PDT)
+
+From: Tom Kelly 
+
+Subject: Re:
+
+To: Ramboz Pierre-Henri 
+
+In-Reply-To: 
+
+MIME-Version: 1.0
+
+Content-Type: text/plain; charset=iso-8859-1
+
+Content-Transfer-Encoding: 8bit
+
+Message-ID: 
+
+Return-Path: tom_kelly33 at yahoo.com
+
+X-OriginalArrivalTime: 03 Nov 2007 17:39:28.0812 (UTC) 
+
+FILETIME=[7C0E6EC0:01C81E40]
+
+
+
+Hi Didouph,
+
+
+
+I apologize for not responding. I
+
+am forwarding this email to Texstar and
+
+Ikerekes and etjr.
+
+
+
+
+
+Tom
+
+
+
+
+
+--- Ramboz Pierre-Henri  wrote:
+
+
+
+> 
+
+> hi all !
+
+> 
+
+> i forward this to the list since i got no answers from either tom or any 
+
+> 
+
+> of pclos devs about the inclusion and test of such patches in the 
+
+> 
+
+> mainstream of either pclinuxos or mklivecd ... this mail is forwarded to 
+
+> 
+
+> i18n list of pclinuxos an the mklivecd user list ....
+
+> 
+
+> 
+
+> 
+
+>> hi tom
+
+> 
+
+>> before i submit this to the list, here is a patch submitted to me that 
+
+> 
+
+>> you should have a look at ... it's part of the i18n project of pclinuxos 
+
+> 
+
+>> and is quite promising ... it adds some functionality to the mklivecd 
+
+> 
+
+>> script and will be a good start to enable multiple keyboard support 
+
+> 
+
+>> using grub !
+
+> 
+
+>> can you check the "useability" of it to see if you don't see any breach 
+
+> 
+
+>> since i've found none, this has been forwarded to texstar and ivan for 
+
+> 
+
+>> testing too and certainly an integration on pclinuxos, if both of you 
+
+> 
+
+>> confirm the efficiency of it, i will put it in pclos-i18n cvs for you to 
+
+> 
+
+>> get the latest addition, soon will the i18n framework be applyed to 
+
+> 
+
+>> mklivecd and we might see a mklivecd.po running around for translater to 
+
+> 
+
+>> work on :)
+
+> 
+
+>> 
+
+> 
+
+>> yours didouph
+
+> 
+
+>> 
+
+> 
+
+>> -------- Original Message --------
+
+> 
+
+>> Subject: 	Re: About the Czech PCLOS remaster and me
+
+> 
+
+>> Date: 	Tue, 16 Oct 2007 16:09:39 +0200
+
+> 
+
+>> From: 	David Smid 
+
+> 
+
+>> To: 	Ramboz Pierre-Henri 
+
+> 
+
+>> References: 	 
+
+> 
+
+>> 
+
+> 
+
+>> 
+
+> 
+
+>> 
+
+> 
+
+>> 
+
+> 
+
+>> Ramboz Pierre-Henri wrote:
+
+> 
+
+>>> hi,
+
+> 
+
+>>> no idea if you got the point of what was my very question about you to
+
+> 
+
+>>> altos.
+
+> 
+
+>>> There is an "international" localization effort based @ mypclinuxos.com
+
+> 
+
+>>> 
+
+> 
+
+>>> this effort is backed up by one of the official packager and supported
+
+> 
+
+>>> by the ripper gang ...
+
+> 
+
+>>> So any enhancement and modification we made to the
+
+> 
+
+>>> os/softwares/translations is embedded in the mainstrem.
+
+> 
+
+>>> Thus, according to the info that altos gave me and that you seems to
+
+> 
+
+>>> confirm, the enhancement you made to the mklivecd and installer/bootmenu
+
+> 
+
+>>> are features we would be happy to add to the i18n project. and i think
+
+> 
+
+>>> you guessed that i would be happy to have you being part of this
+
+> 
+
+>>> project. the enhancements you made for czeck language should be shared
+
+> 
+
+>>> by everyone.
+
+> 
+
+>> 
+
+> 
+
+>> I am aware of the official localization project and I fully support the
+
+> idea.
+
+> 
+
+>> My plan was first to make sure that we can really get the localization
+
+> project
+
+> 
+
+>> going and that we have enough forces to get through before we join the
+
+> official
+
+> 
+
+>> project at your side.
+
+> 
+
+>> I think we are advancing quickly and we would be happy to join your ranks.
+
+> 
+
+>> 
+
+> 
+
+>>> anyway, the fact that you enhancement are rpm packaged and
+
+> 
+
+>>> installable, does not means that these will not be wiped by the system
+
+> 
+
+>>> updates ... all your changes will be futile especially to mklivecd wich
+
+> 
+
+>>> is maintained by n#2 of mypclinuxos developers : ivan keres who will
+
+> 
+
+>>> certainly be interrested in your hacks for integration in the main stream.
+
+> 
+
+>> 
+
+> 
+
+>> I know my packages cannot collide with the official ones. Therefore I never
+
+> make
+
+> 
+
+>> updates of existing packages. Our mklivecd package has different name and
+
+> 
+
+>> contains only the renamed skript, so it does not interfere with anything
+
+> else.
+
+> 
+
+>> Of course, the possibility of pushing our changes upstream you are talking
+
+> about
+
+> 
+
+>> is much better that this.
+
+> 
+
+>> 
+
+> 
+
+>>> anyways, if you could send me a documented version of your changes or at
+
+> 
+
+>>> least a diff of those files so i could investigate the usage of those
+
+> 
+
+>>> "molested" files for the team to use it ...
+
+> 
+
+>> 
+
+> 
+
+>> I'm sending you the patch against original mklivecd version.
+
+> 
+
+>> There are three new options:
+
+> 
+
+>> 
+
+> 
+
+>>    --bootmenu        What boot menu definition file should be used
+
+> 
+
+>>                            in case that bootloader option is set to iso or
+
+> grub.
+
+> 
+
+>>                            For iso this file must be named 'isolinux.cfg',
+
+> 
+
+>>                            for grub the name must be 'menu.lst'.
+
+> 
+
+>>                            Boot menu will be generated if not specified.
+
+> 
+
+>> 
+
+> 
+
+>>    --boottheme       Which gfxboot theme should be used.
+
+> 
+
+>>                            Defaults to 'pclinuxos'
+
+> 
+
+>> 
+
+> 
+
+>>    --bootlang   Which language shound be used as default
+
+> 
+
+>>                            in the boot menu.
+
+> 
+
+>>                            Defaults to 'en'.
+
+> 
+
+>> 
+
+> 
+
+>> These options add flexibility to the mklivecd script - without them it
+
+> should
+
+> 
+
+>> behave exactly the same as the original one.
+
+> 
+
+>> 
+
+> 
+
+>> I'm also sending you another patch - this one is for script /etc/rc.d/rc.
+
+> 
+
+>> There is a overlooked limitation in the original script: when shutting
+
+> down, the
+
+> 
+
+>> message "Shutting down the system...Press Esc for verbose mode" won't get
+
+> 
+
+>> translated to language set in /etc/sysconfig/i18n. (In contrast with
+
+> startup
+
+> 
+
+>> message - here reinstalling bootsplash package is sufficient to get it
+
+> localized).
+
+> 
+
+=== message truncated ===
+
+
+
+
+
+__________________________________________________
+
+Do You Yahoo!?
+
+Tired of spam?  Yahoo! Mail has the best spam protection around
+
+http://mail.yahoo.com
+
+
+
+
+
+
+
+
+_________________________________________________________________
+Votez pour vos s?ries TV pr?f?r?es et tentez de gagner un voyage ? Hawa? !
+http://messengerawards.divertissements.fr.msn.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071103/171d9965/attachment.html>
+
+From lisovszki at dunakanyar.net  Sat Nov  3 23:28:41 2007
+From: lisovszki at dunakanyar.net (Lisovszki =?iso-8859-1?q?S=E1ndor?=)
+Date: Sat, 3 Nov 2007 23:28:41 +0100
+Subject: [Pclos-il8n-dev] New hungarian translated applications po and mo
+	files
+Message-ID: <200711032328.41896.lisovszki@dunakanyar.net>
+
+Hello!
+
+I'm Sandor Lisovszki, from Hungary.
+
+I translated some  applications for hungarian languages. Those are:
+
+Streamtuner
+Streamripper
+Koverartist
+
+
+See you....
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Lisovszki.tar.gz
+Type: application/x-tgz
+Size: 35519 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071103/be8c3468/attachment.bin>
+
+From didouph.ph at laposte.net  Mon Nov  5 10:22:25 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 05 Nov 2007 10:22:25 +0100
+Subject: [Pclos-il8n-dev] mklivecd
+In-Reply-To: <200711032328.41896.lisovszki@dunakanyar.net>
+References: <200711032328.41896.lisovszki@dunakanyar.net>
+Message-ID: <472EE0D1.9040506@laposte.net>
+
+guys, i know this is none of your busyness (basically)
+but here is an information that is of some interrest for the overall 
+project and that should solve our issue with the "i18n" framework for 
+mklivecd on both pclinuxos and mandriva.
+
+Tom kelly just sent me an e.mail to transfer me the lead of the mklivecd 
+project
+
+this means that thanks to david's imput, the code may evolve to a new 
+version if compliant with mandriva and our work will beggin to interact 
+with SEVERAL distribution since i would keep the lead of both projects.
+
+what do you think of it and what if mklivecd had to become a part of the 
+i18n project's core !
+
+if it does, it will turn the project into a meta distribution one and 
+would drag us away from mypclinuxos, at least for a time !
+
+DidouPh
+
+
+
+From lisovszki at dunakanyar.net  Sat Nov  3 19:13:20 2007
+From: lisovszki at dunakanyar.net (Lisovszki =?iso-8859-1?q?S=E1ndor?=)
+Date: Sat, 3 Nov 2007 19:13:20 +0100
+Subject: [Pclos-il8n-dev] Contents of Pclos-il8n-dev digest...
+Message-ID: <200711031913.21710.lisovszki@dunakanyar.net>
+
+Hello all!
+
+My name is Sandor Lisovszki from Hungary.
+
+Please add me to the mailing list, because I will replace Zoltan Hoppar, in 
+here Hungary.
+
+I will be the hungarian community first person "it is soo stupid, isn't?"
+
+And please soory me, because my english knowledge is wery little...
+
+And thank you, for this Operation System again.
+
+
+I waiting for your answer...
+
+Best regards: Sandor
+
+
+From david at smidovi.eu  Mon Nov  5 16:00:45 2007
+From: david at smidovi.eu (David Smid)
+Date: Mon, 05 Nov 2007 16:00:45 +0100
+Subject: [Pclos-il8n-dev] mklivecd
+In-Reply-To: <472EE0D1.9040506@laposte.net>
+References: <200711032328.41896.lisovszki@dunakanyar.net>
+	<472EE0D1.9040506@laposte.net>
+Message-ID: <472F301D.7060407@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> guys, i know this is none of your busyness (basically)
+> but here is an information that is of some interrest for the overall 
+> project and that should solve our issue with the "i18n" framework for 
+> mklivecd on both pclinuxos and mandriva.
+> 
+> Tom kelly just sent me an e.mail to transfer me the lead of the mklivecd 
+> project
+> 
+> this means that thanks to david's imput, the code may evolve to a new 
+> version if compliant with mandriva and our work will beggin to interact 
+> with SEVERAL distribution since i would keep the lead of both projects.
+> 
+> what do you think of it and what if mklivecd had to become a part of the 
+> i18n project's core !
+> 
+> if it does, it will turn the project into a meta distribution one and 
+> would drag us away from mypclinuxos, at least for a time !
+> 
+> DidouPh
+
+I think having mklivecd under our control would be a great advantage.
+Which distributions are using mklivecd ?
+
+David
+
+
+
+From didouph.ph at laposte.net  Mon Nov  5 22:47:21 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 05 Nov 2007 22:47:21 +0100
+Subject: [Pclos-il8n-dev] mklivecd
+In-Reply-To: <472F301D.7060407@smidovi.eu>
+References: <200711032328.41896.lisovszki@dunakanyar.net>	<472EE0D1.9040506@laposte.net>
+	<472F301D.7060407@smidovi.eu>
+Message-ID: <472F8F69.807@laposte.net>
+
+David Smid a ?crit :
+> pierre-henri-ramboz napsal(a):
+>> guys, i know this is none of your busyness (basically)
+>> but here is an information that is of some interrest for the overall 
+>> project and that should solve our issue with the "i18n" framework for 
+>> mklivecd on both pclinuxos and mandriva.
+>>
+>> Tom kelly just sent me an e.mail to transfer me the lead of the mklivecd 
+>> project
+>>
+>> this means that thanks to david's imput, the code may evolve to a new 
+>> version if compliant with mandriva and our work will beggin to interact 
+>> with SEVERAL distribution since i would keep the lead of both projects.
+>>
+>> what do you think of it and what if mklivecd had to become a part of the 
+>> i18n project's core !
+>>
+>> if it does, it will turn the project into a meta distribution one and 
+>> would drag us away from mypclinuxos, at least for a time !
+>>
+>> DidouPh
+> 
+> I think having mklivecd under our control would be a great advantage.
+> Which distributions are using mklivecd ?
+> 
+> David
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+i think the good question is ... wich distribution isn't
+it's quite a responsability that tom gives me with it ...
+mklivecd is the tool that made linux take a step beyond with the 
+demomode and is the main element of the sucess of distributions like 
+pclinuxos / ubuntu and mandriva ... lets not forget about slax and lg3d !
+
+and the funny thing is that you (david) tom, ike, textar and i are the 
+last active dev on that very software. all pclinuxos users and active 
+community actors ...
+
+
+
+From david at smidovi.eu  Tue Nov  6 10:15:40 2007
+From: david at smidovi.eu (David Smid)
+Date: Tue, 06 Nov 2007 10:15:40 +0100
+Subject: [Pclos-il8n-dev] mklivecd
+In-Reply-To: <472F8F69.807@laposte.net>
+References: <200711032328.41896.lisovszki@dunakanyar.net>	<472EE0D1.9040506@laposte.net>	<472F301D.7060407@smidovi.eu>
+	<472F8F69.807@laposte.net>
+Message-ID: <473030BC.8050007@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> David Smid a ?crit :
+>> I think having mklivecd under our control would be a great advantage.
+>> Which distributions are using mklivecd ?
+>>
+>> David
+>>
+> i think the good question is ... wich distribution isn't
+> it's quite a responsability that tom gives me with it ...
+> mklivecd is the tool that made linux take a step beyond with the 
+> demomode and is the main element of the sucess of distributions like 
+> pclinuxos / ubuntu and mandriva ... lets not forget about slax and lg3d !
+
+Well, I think you're wrong here. Certainly, there are many linux live CDs but
+not all of them are build using mklivecd. Slax uses MySlax Creator, Ubuntu uses
+Reconstructor, and so on. As far as I know, mklivecd is used only by Mandriva
+and it's descendants.
+Even so, PCLinuxOS version of mklivecd is PCLOS specific and is not portable
+without editing (it has hard-wired usage of pclinuxos gfxboot theme).
+Also note, that project http://mklivecd.sourceforge.net/ is completely different
+thing, it has nothing in common with "our" mklivecd.
+
+David
+
+
+
+
+From didouph.ph at laposte.net  Tue Nov  6 17:04:46 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 06 Nov 2007 17:04:46 +0100
+Subject: [Pclos-il8n-dev] mklivecd
+In-Reply-To: <473030BC.8050007@smidovi.eu>
+References: <200711032328.41896.lisovszki@dunakanyar.net>	<472EE0D1.9040506@laposte.net>	<472F301D.7060407@smidovi.eu>	<472F8F69.807@laposte.net>
+	<473030BC.8050007@smidovi.eu>
+Message-ID: <4730909E.5050906@laposte.net>
+
+David Smid a ?crit :
+> pierre-henri-ramboz napsal(a):
+>> David Smid a ?crit :
+>>> I think having mklivecd under our control would be a great advantage.
+>>> Which distributions are using mklivecd ?
+>>>
+>>> David
+>>>
+>> i think the good question is ... wich distribution isn't
+>> it's quite a responsability that tom gives me with it ...
+>> mklivecd is the tool that made linux take a step beyond with the 
+>> demomode and is the main element of the sucess of distributions like 
+>> pclinuxos / ubuntu and mandriva ... lets not forget about slax and lg3d !
+> 
+> Well, I think you're wrong here. Certainly, there are many linux live CDs but
+> not all of them are build using mklivecd. Slax uses MySlax Creator, Ubuntu uses
+> Reconstructor, and so on. As far as I know, mklivecd is used only by Mandriva
+> and it's descendants.
+> Even so, PCLinuxOS version of mklivecd is PCLOS specific and is not portable
+> without editing (it has hard-wired usage of pclinuxos gfxboot theme).
+> Also note, that project http://mklivecd.sourceforge.net/ is completely different
+> thing, it has nothing in common with "our" mklivecd.
+> 
+> David
+> 
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+not to go too deep into this ...
+a : yes it's kind of not the same on every distro
+b : http://mklivecd.sourceforge.net/ =>  Last Modified: Thu, May 04 
+08:34:12 UTC 2002 it's an archaism and the "genesis" of livecd project !
+c : http://livecd.berlios.de/?Linux_Distros_Using_LiveCD
+d : mandy and pclinuxos uses patched mklivecd scripts bu both in the 
+livecd framework !
+e : (any)buntu and (any)lax(other) uses forked livecd ... check the code 
+and developers forum !
+
+mklivecd is how we usually refer to it in pclos but is actually the 
+livecd framework hosted and developed @ berlios.de
+
+but this is not the point in all of this ... the real point is to get it 
+more and more functional & flexible by eventually implement a modular 
+building process to get it easily portable and have a unified framework 
+to get it running !
+
+the amount of variable needed to built a livecd are so few that i don't 
+think it's such a big deal anyway and the fact that the software is 
+available as binary release on both debian and consors is a key 
+information and a must not be put under ...
+
+maybe i got missunderstood in my previous message, but what we are 
+talking about is a distribution independent tool that is driven by a 
+script called mklivecd wich variant are quite exotic on pclinuxos
+
+for instance ... i used both pclinuxos core and ike's patched cvs 
+mklivecd and tools ... the best imo is the cvs one wich is more 
+efficient, facst and don't produces glitches ...
+
+last, it lacks a lot of features like i18n framework and gettex support 
+... and you butyfull partches ...
+
+about those patches, i don't know if you noticed it but i sent em to 
+both tex and tom for 2 integration, not 1 ... so there would be more 
+compatibility ....
+
+lets not hijack this mailing list, there is a developer list @ berlios 
+for livecd users and developers !
+
+DidouPh
+
+
+
+From didouph.ph at laposte.net  Wed Nov  7 09:17:20 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 07 Nov 2007 09:17:20 +0100
+Subject: [Pclos-il8n-dev] YES !!
+Message-ID: <47317490.5070606@laposte.net>
+
+hello all
+here is a quote from my last exchange with texstar !
+
+[quote author=texstar link=action=profile;u=1 date=1194386794]
+[quote author=DidouPh link=action=profile;u=1343 date=1194367989]
+hello :
+
+Still no answer to my previous posts and, "patch to mklivecd and rc 
+files" topic got removed. does that means you don't care or enjoy those 
+patches ?
+
+i know you're kind of busy but once again, we need to know your point of 
+view on thothe hacks to keep implementing the i18n framework on 
+pclinuxos. Since livecd utils and mklivcd are key features to pclinuxos 
+expansion ... we really need to have your input on that very issue !
+[/quote]
+
+etjr has already applied those patches to mklivecd.
+
+
+[/quote]
+
+lets wait for the mklivecd rpm to be updated or lets work from cvs :)
+
+
+
+From david at smidovi.eu  Fri Nov  9 15:11:44 2007
+From: david at smidovi.eu (David Smid)
+Date: Fri, 09 Nov 2007 15:11:44 +0100
+Subject: [Pclos-il8n-dev] Language Localized Remaster HOWTO #2
+Message-ID: <47346AA0.70504@smidovi.eu>
+
+1.2 Customizing bootmenu
+
+The main menu of the boot screen that let you select what to boot is configured
+in isolinux.cfg. This file is not i18n ready and thus does not support menu item
+titles in multiple languages. Therefore it does not reflect selected language.
+It is recommended to translate the titles to the language of your remaster.
+UTF-8 characters can be used in the titles but there cannot be any spaces
+because Isolinux interprets space as end of string. This limitation can be
+overcome by using unicode character U+00A0 (unbreakable space).
+You will need enhanced version of mklivecd that is capable of using external
+isolinux.cfg to use your translated isolinux.cfg on your live CD.
+Although main menu is the most important part of the boot screen, there is more.
+Other parts belong to gfxboot theme and are much more i18n friendly.
+The best practice is to create your own gfxboot theme based on the default PCLOS
+theme pclinuxos-gfxboot-theme. You will need to get the source package by
+'apt-get source pclinuxos-gfxboot-theme'. Make a copy of source tree and change
+it's name, SPEC file, etc. You need to know how to build RPMs. Interface
+translations are in *.po files inside /po directory and help sources are in
+files help-install.*.html (for Isolinux backend) or help-boot.*.html (for Grub
+backend). Background image is in file back.jpg (Isolinux) or back-low.jpg (Grub).
+Interface behaviour can be modified by editing the *.inc files but it's very
+difficult because these source files are written in a strange programming
+language similar to Postscript. Once you have create your customized gfxboot
+theme, you can make a live CD to test it:
+
+mklivecd --bootmenu /my/isolinux.cfg --boottheme myboottheme --bootlang cs ...
+/tmp/mylivecd.iso
+
+TO BE CONTINUED...
+
+David
+
+
+
+From didouph.ph at laposte.net  Wed Nov 21 01:50:19 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 21 Nov 2007 01:50:19 +0100
+Subject: [Pclos-il8n-dev] updated
+Message-ID: <474380CB.6000106@laposte.net>
+
+new update :
+
+po/fr/synaptic.po
+
+enjoy
+
+good day all
+
+
+
+From didouph.ph at laposte.net  Thu Nov 22 22:27:08 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 22 Nov 2007 22:27:08 +0100
+Subject: [Pclos-il8n-dev] update
+Message-ID: <4745F42C.6040205@laposte.net>
+
+updated po/fr/drakconf.po
+updated po/fr/libDrakX.po
+
+both of these files had erroneous strings or misspeled words in the 
+translated part.
+
+Note for libdrakX.po
+
+i added a string :
+
+msgid "Select a graphical theme to display during boot"
+msgstr ""
+
+to all yet translated file ... please translate this line to get the 
+translation up to the same level on every started po translation
+
+the concerned teams are :
+
+cs / hu / pl / pt_BR / pt_PT /
+
+all other locale are still out of libDrakX.po ...
+
+lets all go to work guys :)
+
+consider processing those files as soon as possible since gettinther is 
+adding the i18n core translation files to the distro ............. now !
+
+DidouPh
+
+
+
+From david at smidovi.eu  Fri Nov 23 13:04:39 2007
+From: david at smidovi.eu (David Smid)
+Date: Fri, 23 Nov 2007 13:04:39 +0100
+Subject: [Pclos-il8n-dev] Czech translation update - the big one
+Message-ID: <4746C1D7.3050002@smidovi.eu>
+
+Hello,
+
+Here is a pack of czech translation files:
+
+drakconf.po
+draklive-install.po
+drakmenustyle.po
+drak3d.po
+kcmkicker.po
+kicker.po
+kmplayer.po
+ksplash.po
+libDrakX.po
+libDrakX-standalone.po
+rfbdrake.po
+rpm.po
+smart.pot
+synaptic.po
+userdrake.po
+
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: cs.tar.gz
+Type: application/x-gzip
+Size: 302488 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071123/df102a9f/attachment.bin>
+
+From didouph at gmail.com  Fri Nov 23 13:53:30 2007
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Fri, 23 Nov 2007 13:53:30 +0100
+Subject: [Pclos-il8n-dev] Forward of moderated message
+In-Reply-To: <mailman.0.1195820942.8831.pclos-il8n-dev@lists.berlios.de>
+References: <mailman.0.1195820942.8831.pclos-il8n-dev@lists.berlios.de>
+Message-ID: <a5c8450e0711230453m582616eejf4eea28e63b2892d@mail.gmail.com>
+
+hi all.
+
+thanks for this HUGE submission David and congratulation to the cs
+team for such a contribution.
+on the other hand. this is my pleasure to announce that gettinthe will
+be soon able to provide you with localized rpms of the drakxtools for
+you to betatest. so we are a few days away from the release of our
+work in the mainstream ...
+
+i will upload and make those files available later today for i'm not
+at home ... anyway
+
+thanks again.
+
+another information.
+
+i'm looking for youngblood to be added to the coder crew of livecd
+project ... if anyone feels like getting involved ...
+
+i'd be happy to register some new people with it
+
+last point .
+
+the cvs will be reorganised to fit better with system organisation ...
+i'll come back to you with more infos about it
+
+
+Good Job DidouPh
+
+On Nov 23, 2007 1:29 PM,  <pclos-il8n-dev-bounces at lists.berlios.de> wrote:
+>
+>
+> ---------- Forwarded message ----------
+> From: David Smid <david at smidovi.eu>
+> To: pclos-il8n-dev at lists.berlios.de
+> Date: Fri, 23 Nov 2007 13:04:39 +0100
+> Subject: Czech translation update - the big one
+> Hello,
+>
+> Here is a pack of czech translation files:
+>
+> drakconf.po
+> draklive-install.po
+> drakmenustyle.po
+> drak3d.po
+> kcmkicker.po
+> kicker.po
+> kmplayer.po
+> ksplash.po
+> libDrakX.po
+> libDrakX-standalone.po
+> rfbdrake.po
+> rpm.po
+> smart.pot
+> synaptic.po
+> userdrake.po
+>
+>
+> David
+>
+>
+
+
+From didouph.ph at laposte.net  Fri Nov 23 20:40:28 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 23 Nov 2007 20:40:28 +0100
+Subject: [Pclos-il8n-dev] Forward of moderated message
+In-Reply-To: <a5c8450e0711230453m582616eejf4eea28e63b2892d@mail.gmail.com>
+References: <mailman.0.1195820942.8831.pclos-il8n-dev@lists.berlios.de>
+	<a5c8450e0711230453m582616eejf4eea28e63b2892d@mail.gmail.com>
+Message-ID: <47472CAC.3090108@laposte.net>
+
+files added to the cvs
+
+updated : /po/fr/synaptic.po
+added : /po/fr/smart.po
+added : /pot/smart.pot
+
+Ramboz Pierre-Henri a ?crit :
+> hi all.
+> 
+> thanks for this HUGE submission David and congratulation to the cs
+> team for such a contribution.
+> on the other hand. this is my pleasure to announce that gettinthe will
+> be soon able to provide you with localized rpms of the drakxtools for
+> you to betatest. so we are a few days away from the release of our
+> work in the mainstream ...
+> 
+> i will upload and make those files available later today for i'm not
+> at home ... anyway
+> 
+> thanks again.
+> 
+> another information.
+> 
+> i'm looking for youngblood to be added to the coder crew of livecd
+> project ... if anyone feels like getting involved ...
+> 
+> i'd be happy to register some new people with it
+> 
+> last point .
+> 
+> the cvs will be reorganised to fit better with system organisation ...
+> i'll come back to you with more infos about it
+> 
+> 
+> Good Job DidouPh
+> 
+> On Nov 23, 2007 1:29 PM,  <pclos-il8n-dev-bounces at lists.berlios.de> wrote:
+>>
+>> ---------- Forwarded message ----------
+>> From: David Smid <david at smidovi.eu>
+>> To: pclos-il8n-dev at lists.berlios.de
+>> Date: Fri, 23 Nov 2007 13:04:39 +0100
+>> Subject: Czech translation update - the big one
+>> Hello,
+>>
+>> Here is a pack of czech translation files:
+>>
+>> drakconf.po
+>> draklive-install.po
+>> drakmenustyle.po
+>> drak3d.po
+>> kcmkicker.po
+>> kicker.po
+>> kmplayer.po
+>> ksplash.po
+>> libDrakX.po
+>> libDrakX-standalone.po
+>> rfbdrake.po
+>> rpm.po
+>> smart.pot
+>> synaptic.po
+>> userdrake.po
+>>
+>>
+>> David
+>>
+>>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+

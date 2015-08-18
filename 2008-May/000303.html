@@ -1,0 +1,294 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] Desktop files localization issue
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-May/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Desktop%20files%20localization%20issue&In-Reply-To=%3C48235360.1010208%40smidovi.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000302.html">
+   <LINK REL="Next"  HREF="000304.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] Desktop files localization issue</H1>
+    <B>David Smid</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Desktop%20files%20localization%20issue&In-Reply-To=%3C48235360.1010208%40smidovi.eu%3E"
+       TITLE="[Pclos-il8n-dev] Desktop files localization issue">david at smidovi.eu
+       </A><BR>
+    <I>Thu May  8 21:24:16 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000302.html">[Pclos-il8n-dev] Desktop files localization issue
+</A></li>
+        <LI>Next message: <A HREF="000304.html">[Pclos-il8n-dev] Desktop files localization issue
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#303">[ date ]</a>
+              <a href="thread.html#303">[ thread ]</a>
+              <a href="subject.html#303">[ subject ]</a>
+              <a href="author.html#303">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>pierre-henri-ramboz napsal(a):
+&gt;<i> David Smid a &#233;crit :
+</I>&gt;&gt;<i> Just a few questions for DidouPh:
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Have you tried to use the scripts I sent you ?
+</I>&gt;&gt;<i>
+</I>&gt;<i> not yet for i didn't understood how they work and need time to get 
+</I>&gt;<i> deeper into this... honestly i never use some software i don't 
+</I>&gt;<i> understand the mechanism of ... but i yet told you that ... it sounds 
+</I>&gt;<i> awesome but i don't understand the bennefits and drawback either ... i 
+</I>&gt;<i> think i really need a practical example to tell you what i think of it 
+</I>&gt;<i> and to use it either ... at the very moment, if it helps save time i'm 
+</I>&gt;<i> all for it ! if it facilitate the translation and incorporation in 
+</I>&gt;<i> mainstream, i'm all for it ...
+</I>
+OK, I'll try to give you a better explanation.
+
+1) What's wrong on current way of desktop files i18n and l10n
+- Translations are contained in .desktop files. This brings a very high
+risk of damaging it while adding or editing translations. A .desktop
+file is an integral part of software and as such it should not be
+touched by anybody else than the software authors.
+- Translations of messages for one locale are scattered among tens or
+hundreds of tiny files. It's very hard to guess what's already
+translated and what is not.
+- You cannot use standard l10n tools (KBabel).
+- It's quite probable that two or more language teams might want to edit
+one .desktop file at the same time. That would need someone to solve the
+conflicts.
+
+2) How should it look like to solve the problems mentioned above
+- .desktop file should be a &quot;skeleton&quot; that would contain only English
+phrases. No translations here.
+- ALL translated strings of ALL .desktop files for ONE locale should be
+contained in ONE file (preferably .po file).
+- These files should be thought of as the &quot;source&quot; files, that can be
+edited, but not used in software binary release.
+- Those &quot;classic&quot; .desktop files with all available translations should
+be able to be built anytime from the &quot;sources&quot;.
+- Notice, that there are no .mo files needed nor involved at all.
+
+3) Solution for this problem is already here. Its name is intltool.
+It's routinely used in many software projects. Unfortunately
+documentation of intltool utilities is a little bit &quot;fuzzy&quot;.
+It took me quite a lot of time to understand what they really do.
+The scripts I've sent you are just simple wrappers of intltool utilities
+adapted for our situation. Nothing else.
+I'll try to explain what they do. Don't hesitate to make experiments -
+just copy desktop-files tree to some temporary location, copy the
+scripts to this desktop-files directory, launch the scripts and watch
+what happens.
+
+make_intltool_ready
+===================
+&lt;-------------- converts current state to the new infrastructure. Needed
+to be launched only once.
+
+#!/bin/sh
+
+# Error fixes
+...
+&lt;-------------- This part of script fixes a lot of problems with current
+.desktop files. Otherwise, they couldn't have been adapted.
+
+# intltool adaption process
+mkdir po
+
+intltool-prepare
+&lt;------------------ Creates .desktop.in files from .desktop files by
+removing of all translations. These translations are moved to .po files
+- one .po files per each locale. Also creates po/POTFILES.in with list
+of all .desktop.in files.
+
+cd po
+sed -i -e '1 i[encoding: UTF-8]' POTFILES.in
+INTLTOOL_EXTRACT=/usr/bin/intltool-extract intltool-update -p -g
+desktop-files
+&lt;------------------ Creates desktop-files.pot file
+
+cat &gt; header &lt;&lt;EOT
+# Translation of PCLinuxOS desktop files to %locale.
+# FIRST AUTHOR &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">EMAIL at ADDRESS</A>&gt;, YEAR.
+#
+msgid &quot;&quot;
+msgstr &quot;&quot;
+&quot;Project-Id-Version: PCLinuxOS 2007\n&quot;
+&quot;Report-Msgid-Bugs-To: \n&quot;
+&quot;POT-Creation-Date: 2008-04-23 16:03+0200\n&quot;
+&quot;PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n&quot;
+&quot;Last-Translator: FULL NAME &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">EMAIL at ADDRESS</A>&gt;\n&quot;
+&quot;Language-Team: LANGUAGE &lt;%<A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">locale at li.org</A>&gt;\n&quot;
+&quot;MIME-Version: 1.0\n&quot;
+&quot;Content-Type: text/plain; charset=UTF-8\n&quot;
+&quot;Content-Transfer-Encoding: 8bit\n&quot;
+
+EOT
+
+for fil in `ls *.po`
+do
+    LOCALE=${fil%%.po}
+    echo &quot;Processing $LOCALE ...&quot;
+    sed -e &quot;s/%locale/$LOCALE/g&quot; header &gt; header.tmp
+    cat header.tmp $fil &gt; $fil.tmp
+    mv -f $fil.tmp $fil
+    INTLTOOL_EXTRACT=/usr/bin/intltool-extract intltool-update -d -g
+desktop-files $LOCALE
+&lt;------------------- Adds proper header to all .po files and appends all
+untranslated messages from desktop-files.pot
+
+done
+rm -f header.tmp
+
+find . -name *.in -not -name POTFILES.in -print | (while read; do rm -f
+${REPLY%%.in}; done )
+&lt;------------------- Deletes all original .desktop files, they are not
+needed now. Only .desktop.in files should remain.
+
+
+
+make_intltool_update
+====================
+&lt;------------------- Updates desktop-files.pot and all .po files after
+adding new .desktop file(s) to the tree. Also adds new .desktop.in items
+to the list in POTFILES.in.
+
+#!/bin/sh
+
+intltool-prepare
+&lt;------------------- Processes newly added .desktop files and creates
+.desktop.in files from them
+
+cd po
+INTLTOOL_EXTRACT=/usr/bin/intltool-extract intltool-update -p -g
+desktop-files
+&lt;------------------- Updates desktop-files.pot
+
+for fil in `ls *.po`
+do
+    LOCALE=${fil%%.po}
+    echo &quot;Processing $LOCALE ...&quot;
+    msguniq $fil -o $fil.tmp
+    mv -f $fil.tmp $fil
+    INTLTOOL_EXTRACT=/usr/bin/intltool-extract intltool-update -d -g
+desktop-files $LOCALE
+&lt;------------------- Adds new messages to all .po files, makes sure all
+msgids are unique.
+
+done
+
+find . -name *.in -not -name POTFILES.in -print | (while read; do rm -f
+${REPLY%%.in}; done )
+&lt;------------------- Deletes all newly added .desktop files, they are
+not needed now. Only .desktop.in files should remain.
+
+
+
+
+build_desktop_files
+===================
+&lt;------------------- Builds all .desktop files from source .desktop.in
+files and .po files, result will be saved in directory
+../desktop-files-build, directory tree will be mirrored.
+In ../desktop-files-build, you will get exactly the same result, the
+same files, that are held in CVS now. But they are only a result of
+build process, not the editable sources. They should not be in CVS.
+These .desktop files can be injected to repository packages, the same
+way they are getting there now.
+
+#!/bin/sh
+
+mkdir ../desktop-files-build 2&gt;/dev/null
+
+find . -type d -not -name CVS -not -name .svn -not -path &quot;./po&quot; -exec
+mkdir -p ../desktop-files-build/{} \;
+&lt;------------------- Copies directory structure to ../desktop-files-build
+
+find . -name &quot;*.in&quot; -not -name POTFILES.in -print | while read
+do
+    intltool-merge -d -u -c po/.intltool-merge-cache po &quot;$REPLY&quot;
+../desktop-files-build/&quot;${REPLY%%.in}&quot;
+&lt;------------------- Builds .desktop files from .desktop.in source
+files, uses .po files to get messages translations.
+
+done
+
+&gt;&gt;<i> Do you plan to use this infrastructure for desktop-files localization ?
+</I>&gt;&gt;<i>
+</I>&gt;<i> if i understand it and it is accepted by the pclinuxos packagers and 
+</I>&gt;<i> (who knows) kde packagers for theire cvs, yes (don't forget that 50% of 
+</I>&gt;<i> the desktop files in the cvs are KDE desktop file ... so it means we are 
+</I>&gt;<i> bleeding edge of the i18n work in this area !
+</I>
+It is not necessary for packagers to accept our work in form of
+.desktop.in + .po translations combo, although it's preferable.
+We can provide ordinary .desktop files as well, just like we provided
+them before.
+
+&gt;&gt;<i> How exactly get the translations from our CVS to mainstream packages now (I 
+</I>&gt;&gt;<i> think Gettinther is somehow involved in this ...) ?
+</I>&gt;&gt;<i>
+</I>&gt;<i> You have two options ...
+</I>&gt;<i> 1 : get added by the software packager in the package during an update!
+</I>&gt;<i> 2 : get added to the package by a 3rd party packager (gettinther, me, you ?)
+</I>&gt;<i> 
+</I>&gt;<i> we have no trail of addition, we just make noise !
+</I>
+There is also a third option: to get it added upstream by the software
+author.
+
+&gt;<i> unfortunately, its opensource, we propose and the ripper gang do as they 
+</I>&gt;<i> wish ... so that's why a I18N team active in the developement of 100% 
+</I>&gt;<i> localized iso is a must have @ mypclinuxos, to endavour a nonofficial 
+</I>&gt;<i> distribution with i18n support and &quot;compliant&quot; rpms with specific 
+</I>&gt;<i> repository ...
+</I>&gt;<i> 
+</I>&gt;<i> for desktop files or any piece of software that we develop or any 
+</I>&gt;<i> framework we develop, the big thing is will it be added ... except for 
+</I>&gt;<i> what i and gettinther, especially the DrakxTools and synaptic aswell as 
+</I>&gt;<i> some desktop files ... almost everything is &quot;to be done&quot; and not done yet
+</I>&gt;<i> 
+</I>&gt;<i> at the very moment i'm wondering if a flavored distribution isn't the 
+</I>&gt;<i> final objective ... since i18n team is very &quot;limitated&quot; in its weight 
+</I>&gt;<i> upon the evolution and update of pclinuxos ...
+</I>
+OK, so our only chance is to make the process of adding our achievements
+to PCLOS packages as simple as possible. We need to create some
+automatic facility for creating patches - because patches are very easy
+to add to SRPM. We need to bombard packagers with i18n and l10n patches
+because they can't refuse them just because their incorporation involves
+too much work.
+
+David
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000302.html">[Pclos-il8n-dev] Desktop files localization issue
+</A></li>
+	<LI>Next message: <A HREF="000304.html">[Pclos-il8n-dev] Desktop files localization issue
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#303">[ date ]</a>
+              <a href="thread.html#303">[ thread ]</a>
+              <a href="subject.html#303">[ subject ]</a>
+              <a href="author.html#303">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

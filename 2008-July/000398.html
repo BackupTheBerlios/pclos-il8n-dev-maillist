@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] New drakxtools
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-July/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20drakxtools&In-Reply-To=%3C4880EDDF.3070405%40fastwebnet.it%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000396.html">
+   <LINK REL="Next"  HREF="000401.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] New drakxtools</H1>
+    <B>Alessio Adamo</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20drakxtools&In-Reply-To=%3C4880EDDF.3070405%40fastwebnet.it%3E"
+       TITLE="[Pclos-il8n-dev] New drakxtools">alessioadamo at fastwebnet.it
+       </A><BR>
+    <I>Fri Jul 18 21:24:15 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000396.html">[Pclos-il8n-dev] New drakxtools (was:Russian translation of	drakconf.po)
+</A></li>
+        <LI>Next message: <A HREF="000401.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#398">[ date ]</a>
+              <a href="thread.html#398">[ thread ]</a>
+              <a href="subject.html#398">[ subject ]</a>
+              <a href="author.html#398">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Yes, I've noticed that I had to use that command once I had got an error 
+message with merge and I read the makefile (I've always removed the pot 
+file prior to starting the operations).
+
+I've used the version 10.29.7 of drakxtools.
+
+I have a weakly relate question:
+
+is it possible to implement in a makefile instructions like
+
+sed -e 's/gettext//' scriptname &gt; scriptname_input
+xgettext -s -kgprintf --language=Shell scriptname_input -o 
+scriptname_temp.pot
+sed -e 's/\\\\/\\/g' scriptname_temp.pot &gt; scriptname.pot
+rm scriptname_input
+rm scriptname_temp.pot
+
+Regards,
+Alessio
+
+David Smid ha scritto:
+&gt;<i> Alessio Adamo napsal(a):
+</I>&gt;<i>   
+</I>&gt;&gt;<i> By the way...
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Will the new pot and po files be added to the CVS any time soon?
+</I>&gt;&gt;<i>     
+</I>&gt;<i>
+</I>&gt;<i> I hope I'll be able to find some time to check it and commit it soon.
+</I>&gt;<i>
+</I>&gt;<i> BTW, what drakxtools version did you use to produce those new .pot and .po files ?
+</I>&gt;<i> Did you realize that the rebuild command had changed from 
+</I>&gt;<i> &quot;INTLTOOL_EXTRACT=/usr/bin/intltool-extract make merge&quot; to 
+</I>&gt;<i> &quot;INTLTOOL_EXTRACT=/usr/bin/intltool-extract make update_n_merge&quot; in drakxtools 
+</I>&gt;<i> 10.29.7 ?
+</I>&gt;<i> Did you remove the original .pot file prior to running this command ?
+</I>&gt;<i>
+</I>&gt;<i> David
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Pclos-il8n-dev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">Pclos-il8n-dev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev</A>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000396.html">[Pclos-il8n-dev] New drakxtools (was:Russian translation of	drakconf.po)
+</A></li>
+	<LI>Next message: <A HREF="000401.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#398">[ date ]</a>
+              <a href="thread.html#398">[ thread ]</a>
+              <a href="subject.html#398">[ subject ]</a>
+              <a href="author.html#398">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

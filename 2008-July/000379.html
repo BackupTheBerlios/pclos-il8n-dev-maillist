@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] New Drak utilities
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-July/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20Drak%20utilities&In-Reply-To=%3C486D36DE.6000701%40fastwebnet.it%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   <LINK REL="Next"  HREF="000383.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] New Drak utilities</H1>
+    <B>Alessio Adamo</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20Drak%20utilities&In-Reply-To=%3C486D36DE.6000701%40fastwebnet.it%3E"
+       TITLE="[Pclos-il8n-dev] New Drak utilities">alessioadamo at fastwebnet.it
+       </A><BR>
+    <I>Thu Jul  3 22:30:22 CEST 2008</I>
+    <P><UL>
+        
+        <LI>Next message: <A HREF="000383.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#379">[ date ]</a>
+              <a href="thread.html#379">[ thread ]</a>
+              <a href="subject.html#379">[ subject ]</a>
+              <a href="author.html#379">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>This is the procedure I've followed.
+
+1) Download the source rpms
+2) Check whether there is a po section in the source
+       2a) Check whether the pot file is included
+3) Check whether patches are applied to some of the files
+       3a) Check whether those patches change some messages
+
+If there was no po section, I've built the pot file from scratch. This 
+was only the case of draklive-install (for a reason difficult to 
+understand, since the messages are available in Mandriva). Then I've 
+updated our CVS po files against the generated pot. I've tested the 
+italian mo version on my system and it works perfectly.
+
+If there was a po section but the pot file was not there, I read one po 
+file through write to read from which files the messages were originated 
+(this is the case of userdrake, for instance). Then I generated the pot 
+file and compared the number of messages of the original po and my pot. 
+Actually userdrake was my first package of this kind and I haven't been 
+so careful. So, for a small mistake in the xgettext command, the 
+messages contained in a small file were substituted and not added. 
+That's why I'm sending po and pot again. Moreover, in my pot the 
+original path of the files from which the messages were coming was lost, 
+because I put them in the same folder. For this reason I'm sending again 
+also drakmenustyle and drakwizard, I've added the proper path to the 
+files of origin.
+
+In userdrake, after rebuilding the pot file, I found some PCLOS-specific 
+messages which were not present in the various po files. I checked 
+whether those messages were untranslated in my install and indeed they 
+were. I've translated them, created the mo file and substituted the one 
+found on my system and everything was translated. This means that the 
+installed mo come from those po which, in turn, come straight from 
+Mandriva with no modifications. Strangely, the developers modified 
+directly the source without using a patch.
+
+After that experience, I started to rebuild all the pot from scratch to 
+find any custom modifications. If no modification was found and if the 
+pot file was available in the po section, I used the original one, anyway.
+
+When patches were introducing or modifying messages, I've added/modified 
+them manually in the pot file. This is, for instance, the case of 
+drakconf, where Welcome to PCLinuxOS control center was not translated 
+because coming from a patch (PCLinuxOS replaces Mandriva). Many other 
+PCLOS/Mandriva substitutions come from patches in libDrakX and 
+libDrakX-standalone. The last testing updates allowed me to test whether 
+my job was good. For some reason after the boot my system performed the 
+new live setting procedure. It asked for language, type of keyboard and 
+so on. But first of all it showed the PCLOS licence disclaimer which 
+comes from a patch which substitutes Mandriva with PCLinuxOS in the 
+Mandriva disclaimer. That was perfectly translated to italian, thanks 
+the modifications I had done.
+
+By the way, this is also showing that our dream of a multi-language 
+live-DVD is getting true. So, let's move our asses and translate the few 
+messages which the Mandriva team has not done for us already and let's 
+make it true.
+
+I'm available for deeper details on my procedures.
+
+Thanks for listening,
+
+Alessio
+
+
+David Smid ha scritto:
+&gt;<i> Alessio Adamo napsal(a):
+</I>&gt;<i>   
+</I>&gt;&gt;<i> Here's a new batch of pot and po files for the new Drak tools.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Still other files are supposed to come very soon.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>     
+</I>&gt;<i>
+</I>&gt;<i> Just a question:
+</I>&gt;<i> How do you produce the new .pot and .po files ?
+</I>&gt;<i>
+</I>&gt;<i> David
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Pclos-il8n-dev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">Pclos-il8n-dev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev</A>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakmenustyle.tar.gz
+Type: application/x-gzip
+Size: 9665 bytes
+Desc: not available
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/62791a9e/attachment.bin">https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/62791a9e/attachment.bin</A>&gt;
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakwizard.tar.gz
+Type: application/x-gzip
+Size: 2002583 bytes
+Desc: not available
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/62791a9e/attachment-0001.bin">https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/62791a9e/attachment-0001.bin</A>&gt;
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: userdrake.tar.gz
+Type: application/x-gzip
+Size: 179530 bytes
+Desc: not available
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/62791a9e/attachment-0002.bin">https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/62791a9e/attachment-0002.bin</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	<LI>Next message: <A HREF="000383.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#379">[ date ]</a>
+              <a href="thread.html#379">[ thread ]</a>
+              <a href="subject.html#379">[ subject ]</a>
+              <a href="author.html#379">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

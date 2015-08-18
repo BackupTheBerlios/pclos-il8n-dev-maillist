@@ -1,0 +1,2252 @@
+From alessioadamo at fastwebnet.it  Thu Jul  3 22:32:48 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Thu, 03 Jul 2008 22:32:48 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <48686E64.2080706@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>
+	<48686E64.2080706@smidovi.eu>
+Message-ID: <486D3770.1070300@fastwebnet.it>
+
+New stuff, part I
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> Here's a new batch of pot and po files for the new Drak tools.
+>>
+>> Still other files are supposed to come very soon.
+>>
+>>     
+>
+> Just a question:
+> How do you produce the new .pot and .po files ?
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakx-kbd-mouse-x11.tar.gz
+Type: application/x-gzip
+Size: 1162662 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/96cdd678/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Thu Jul  3 22:34:43 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Thu, 03 Jul 2008 22:34:43 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <48686E64.2080706@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>
+	<48686E64.2080706@smidovi.eu>
+Message-ID: <486D37E3.2010501@fastwebnet.it>
+
+New stuff part II
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> Here's a new batch of pot and po files for the new Drak tools.
+>>
+>> Still other files are supposed to come very soon.
+>>
+>>     
+>
+> Just a question:
+> How do you produce the new .pot and .po files ?
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakx-net.tar.gz
+Type: application/x-gzip
+Size: 2621650 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/1da4127e/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Thu Jul  3 22:37:49 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Thu, 03 Jul 2008 22:37:49 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <48686E64.2080706@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>
+	<48686E64.2080706@smidovi.eu>
+Message-ID: <486D389D.1020906@fastwebnet.it>
+
+New stuff part III.
+
+I'll send lidDrakX and libDrakX-standalone tomorrow even if they're 
+ready because I'm afraid to fill the mailbox of someone.
+
+Stay tuned,
+
+;-)
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> Here's a new batch of pot and po files for the new Drak tools.
+>>
+>> Still other files are supposed to come very soon.
+>>
+>>     
+>
+> Just a question:
+> How do you produce the new .pot and .po files ?
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: printerdrake.tar.gz
+Type: application/x-gzip
+Size: 2116183 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/782040c7/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Thu Jul  3 22:30:22 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Thu, 03 Jul 2008 22:30:22 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <48686E64.2080706@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>
+	<48686E64.2080706@smidovi.eu>
+Message-ID: <486D36DE.6000701@fastwebnet.it>
+
+This is the procedure I've followed.
+
+1) Download the source rpms
+2) Check whether there is a po section in the source
+       2a) Check whether the pot file is included
+3) Check whether patches are applied to some of the files
+       3a) Check whether those patches change some messages
+
+If there was no po section, I've built the pot file from scratch. This 
+was only the case of draklive-install (for a reason difficult to 
+understand, since the messages are available in Mandriva). Then I've 
+updated our CVS po files against the generated pot. I've tested the 
+italian mo version on my system and it works perfectly.
+
+If there was a po section but the pot file was not there, I read one po 
+file through write to read from which files the messages were originated 
+(this is the case of userdrake, for instance). Then I generated the pot 
+file and compared the number of messages of the original po and my pot. 
+Actually userdrake was my first package of this kind and I haven't been 
+so careful. So, for a small mistake in the xgettext command, the 
+messages contained in a small file were substituted and not added. 
+That's why I'm sending po and pot again. Moreover, in my pot the 
+original path of the files from which the messages were coming was lost, 
+because I put them in the same folder. For this reason I'm sending again 
+also drakmenustyle and drakwizard, I've added the proper path to the 
+files of origin.
+
+In userdrake, after rebuilding the pot file, I found some PCLOS-specific 
+messages which were not present in the various po files. I checked 
+whether those messages were untranslated in my install and indeed they 
+were. I've translated them, created the mo file and substituted the one 
+found on my system and everything was translated. This means that the 
+installed mo come from those po which, in turn, come straight from 
+Mandriva with no modifications. Strangely, the developers modified 
+directly the source without using a patch.
+
+After that experience, I started to rebuild all the pot from scratch to 
+find any custom modifications. If no modification was found and if the 
+pot file was available in the po section, I used the original one, anyway.
+
+When patches were introducing or modifying messages, I've added/modified 
+them manually in the pot file. This is, for instance, the case of 
+drakconf, where Welcome to PCLinuxOS control center was not translated 
+because coming from a patch (PCLinuxOS replaces Mandriva). Many other 
+PCLOS/Mandriva substitutions come from patches in libDrakX and 
+libDrakX-standalone. The last testing updates allowed me to test whether 
+my job was good. For some reason after the boot my system performed the 
+new live setting procedure. It asked for language, type of keyboard and 
+so on. But first of all it showed the PCLOS licence disclaimer which 
+comes from a patch which substitutes Mandriva with PCLinuxOS in the 
+Mandriva disclaimer. That was perfectly translated to italian, thanks 
+the modifications I had done.
+
+By the way, this is also showing that our dream of a multi-language 
+live-DVD is getting true. So, let's move our asses and translate the few 
+messages which the Mandriva team has not done for us already and let's 
+make it true.
+
+I'm available for deeper details on my procedures.
+
+Thanks for listening,
+
+Alessio
+
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> Here's a new batch of pot and po files for the new Drak tools.
+>>
+>> Still other files are supposed to come very soon.
+>>
+>>     
+>
+> Just a question:
+> How do you produce the new .pot and .po files ?
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakmenustyle.tar.gz
+Type: application/x-gzip
+Size: 9665 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/62791a9e/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakwizard.tar.gz
+Type: application/x-gzip
+Size: 2002583 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/62791a9e/attachment-0001.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: userdrake.tar.gz
+Type: application/x-gzip
+Size: 179530 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080703/62791a9e/attachment-0002.bin>
+
+From alessioadamo at fastwebnet.it  Fri Jul  4 20:27:06 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Fri, 04 Jul 2008 20:27:06 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <48686E64.2080706@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>
+	<48686E64.2080706@smidovi.eu>
+Message-ID: <486E6B7A.1070602@fastwebnet.it>
+
+As I promised, today it's the turn of libDrakX...
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> Here's a new batch of pot and po files for the new Drak tools.
+>>
+>> Still other files are supposed to come very soon.
+>>
+>>     
+>
+> Just a question:
+> How do you produce the new .pot and .po files ?
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: libDrakX.tar.gz
+Type: application/x-gzip
+Size: 3349483 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080704/f219afdc/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Fri Jul  4 20:30:59 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Fri, 04 Jul 2008 20:30:59 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <48686E64.2080706@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>
+	<48686E64.2080706@smidovi.eu>
+Message-ID: <486E6C63.8080706@fastwebnet.it>
+
+... adn libDrakX-standalone.
+
+I dindn't get the confirmation of the files sent yesterday. Can, please, 
+someone confirm they arrived?
+
+Thank you, Alessio
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> Here's a new batch of pot and po files for the new Drak tools.
+>>
+>> Still other files are supposed to come very soon.
+>>
+>>     
+>
+> Just a question:
+> How do you produce the new .pot and .po files ?
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: libDrakX-standalone.tar.gz
+Type: application/x-gzip
+Size: 1505374 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080704/1254e959/attachment.bin>
+
+From lisovszki at gmail.com  Sat Jul  5 17:14:39 2008
+From: lisovszki at gmail.com (=?UTF-8?B?TGlzb3ZzemtpIFPDoW5kb3I=?=)
+Date: Sat, 05 Jul 2008 17:14:39 +0200
+Subject: [Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 16, Issue 6
+In-Reply-To: <mailman.6018.1215245813.5435.pclos-il8n-dev@lists.berlios.de>
+References: <mailman.6018.1215245813.5435.pclos-il8n-dev@lists.berlios.de>
+Message-ID: <486F8FDF.1030401@gmail.com>
+
+pclos-il8n-dev-request at lists.berlios.de ?rta:
+> Send Pclos-il8n-dev mailing list submissions to
+> 	pclos-il8n-dev at lists.berlios.de
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> or, via email, send a message with subject or body 'help' to
+> 	pclos-il8n-dev-request at lists.berlios.de
+>
+> You can reach the person managing the list at
+> 	pclos-il8n-dev-owner at lists.berlios.de
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Pclos-il8n-dev digest..."
+>
+>
+> Today's Topics:
+>
+>    1. Re: New Drak utilities (Alessio Adamo)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Fri, 04 Jul 2008 20:30:59 +0200
+> From: Alessio Adamo <alessioadamo at fastwebnet.it>
+> Subject: Re: [Pclos-il8n-dev] New Drak utilities
+> To: pclos-il8n-dev at lists.berlios.de
+> Message-ID: <486E6C63.8080706 at fastwebnet.it>
+> Content-Type: text/plain; charset="utf-8"
+>
+> ... adn libDrakX-standalone.
+>
+> I dindn't get the confirmation of the files sent yesterday. Can, please, 
+> someone confirm they arrived?
+>
+> Thank you, Alessio
+>
+> David Smid ha scritto:
+>   
+>> Alessio Adamo napsal(a):
+>>   
+>>     
+>>> Here's a new batch of pot and po files for the new Drak tools.
+>>>
+>>> Still other files are supposed to come very soon.
+>>>
+>>>     
+>>>       
+>> Just a question:
+>> How do you produce the new .pot and .po files ?
+>>
+>> David
+>> _______________________________________________
+>> Pclos-il8n-dev mailing list
+>> Pclos-il8n-dev at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>>
+>>   
+>>     
+>
+> -------------- next part --------------
+> A non-text attachment was scrubbed...
+> Name: libDrakX-standalone.tar.gz
+> Type: application/x-gzip
+> Size: 1505374 bytes
+> Desc: not available
+> Url : https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080704/1254e959/attachment.gz 
+>
+> ------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>
+> End of Pclos-il8n-dev Digest, Vol 16, Issue 6
+> *********************************************
+>
+>   
+Hi!
+
+Alessio!
+
+You are a great man :) you work much more than I...:)
+
+One question: where can I find the new draktools .po or .pot 
+files?....by the way now I started to translate the liveusb, 
+gtklive..etc .pot file..
+
+Thanks again you work!
+
+
+
+From david at smidovi.eu  Sat Jul  5 20:16:01 2008
+From: david at smidovi.eu (David Smid)
+Date: Sat, 05 Jul 2008 20:16:01 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <486D36DE.6000701@fastwebnet.it>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>	<48686E64.2080706@smidovi.eu>
+	<486D36DE.6000701@fastwebnet.it>
+Message-ID: <486FBA61.9060800@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> This is the procedure I've followed.
+> 
+> 1) Download the source rpms
+> 2) Check whether there is a po section in the source
+>       2a) Check whether the pot file is included
+> 3) Check whether patches are applied to some of the files
+>       3a) Check whether those patches change some messages
+> 
+
+Alessio, this a tremendous amount of work you have done. Unfortunately, 
+the same thing could be achieved much more easier.
+
+Drakxtools, for example, are pretty intltool-ized. All you need to 
+generate the .pot file and update all the .po files to contain all valid 
+msgids (and only them), is to enter the po subdirectory, delete the .pot 
+file and type this command:
+
+INTLTOOL_EXTRACT=/usr/bin/intltool-extract make merge
+
+If you use "msgcat --unique --use-first" to merge our current 
+translations with Mandriva translations before that, you will get .po 
+files that are very near to being complete.
+
+Also much of other work you've done manually can be done by using some 
+of the msg* tools.
+
+The rule of thumb is: such work must have been already done sometimes 
+before, so there's a good chance some lazy developer invented a way how 
+to make it easy and automated.
+
+
+David
+
+
+From alessioadamo at fastwebnet.it  Sun Jul  6 11:12:22 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Sun, 06 Jul 2008 11:12:22 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <486FBA61.9060800@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>	<48686E64.2080706@smidovi.eu>	<486D36DE.6000701@fastwebnet.it>
+	<486FBA61.9060800@smidovi.eu>
+Message-ID: <48708C76.1090907@fastwebnet.it>
+
+I've tried to apply this method to both drak3d and userdrake. With the 
+first I get what I should get, but with the second I get empty catalogs, 
+only the original messages. why?
+
+I understand the principle of this method now, however, thank you for 
+telling me.
+
+One thing is not clear to me, whether upon installation the patches will 
+be applied before message extraction or after. If the second was true, 
+that would be a problem.
+
+By the way, the manual update of the messages subject to patches is 
+unavoidable also with this method.
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> This is the procedure I've followed.
+>>
+>> 1) Download the source rpms
+>> 2) Check whether there is a po section in the source
+>>       2a) Check whether the pot file is included
+>> 3) Check whether patches are applied to some of the files
+>>       3a) Check whether those patches change some messages
+>>
+>>     
+>
+> Alessio, this a tremendous amount of work you have done. Unfortunately, 
+> the same thing could be achieved much more easier.
+>
+> Drakxtools, for example, are pretty intltool-ized. All you need to 
+> generate the .pot file and update all the .po files to contain all valid 
+> msgids (and only them), is to enter the po subdirectory, delete the .pot 
+> file and type this command:
+>
+> INTLTOOL_EXTRACT=/usr/bin/intltool-extract make merge
+>
+> If you use "msgcat --unique --use-first" to merge our current 
+> translations with Mandriva translations before that, you will get .po 
+> files that are very near to being complete.
+>
+> Also much of other work you've done manually can be done by using some 
+> of the msg* tools.
+>
+> The rule of thumb is: such work must have been already done sometimes 
+> before, so there's a good chance some lazy developer invented a way how 
+> to make it easy and automated.
+>
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+From david at smidovi.eu  Sun Jul  6 15:37:24 2008
+From: david at smidovi.eu (David Smid)
+Date: Sun, 06 Jul 2008 15:37:24 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <48708C76.1090907@fastwebnet.it>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>	<48686E64.2080706@smidovi.eu>	<486D36DE.6000701@fastwebnet.it>	<486FBA61.9060800@smidovi.eu>
+	<48708C76.1090907@fastwebnet.it>
+Message-ID: <4870CA94.3030307@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> I've tried to apply this method to both drak3d and userdrake. With the 
+> first I get what I should get, but with the second I get empty catalogs, 
+> only the original messages. why?
+
+I have no idea, I would have to investigate this problem first and I 
+would need more information on the procedure you've tried.
+
+> I understand the principle of this method now, however, thank you for 
+> telling me.
+> 
+> One thing is not clear to me, whether upon installation the patches will 
+> be applied before message extraction or after. If the second was true, 
+> that would be a problem.
+> 
+> By the way, the manual update of the messages subject to patches is 
+> unavoidable also with this method.
+
+It's simple: by using command (after installing SRPM, of course)
+
+rpmbuild -bp --nodeps SPECS/package.spec
+
+you will get the package source tree in BUILD/package-x.y/ with all 
+patches applied. And such tree is exactly the one you need to extract 
+msgids from.
+
+David
+
+
+From alessioadamo at fastwebnet.it  Sun Jul  6 21:24:32 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Sun, 06 Jul 2008 21:24:32 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <4870CA94.3030307@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>	<486787FE.8070804@fastwebnet.it>	<48686E64.2080706@smidovi.eu>	<486D36DE.6000701@fastwebnet.it>	<486FBA61.9060800@smidovi.eu>	<48708C76.1090907@fastwebnet.it>
+	<4870CA94.3030307@smidovi.eu>
+Message-ID: <48711BF0.7060302@fastwebnet.it>
+
+Thanks to your instructions I learnt many things today. I've almost 
+finished to repeat the po and pot building according to the clean and 
+fast procedure. Sorry if I stuffed your mailbox for no reason, next time 
+I will send a link for downloading.
+
+Alessio.
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> I've tried to apply this method to both drak3d and userdrake. With the 
+>> first I get what I should get, but with the second I get empty catalogs, 
+>> only the original messages. why?
+>>     
+>
+> I have no idea, I would have to investigate this problem first and I 
+> would need more information on the procedure you've tried.
+>
+>   
+>> I understand the principle of this method now, however, thank you for 
+>> telling me.
+>>
+>> One thing is not clear to me, whether upon installation the patches will 
+>> be applied before message extraction or after. If the second was true, 
+>> that would be a problem.
+>>
+>> By the way, the manual update of the messages subject to patches is 
+>> unavoidable also with this method.
+>>     
+>
+> It's simple: by using command (after installing SRPM, of course)
+>
+> rpmbuild -bp --nodeps SPECS/package.spec
+>
+> you will get the package source tree in BUILD/package-x.y/ with all 
+> patches applied. And such tree is exactly the one you need to extract 
+> msgids from.
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+From lisovszki at gmail.com  Sun Jul  6 21:07:16 2008
+From: lisovszki at gmail.com (=?ISO-8859-1?Q?Lisovszki_S=E1ndor?=)
+Date: Sun, 06 Jul 2008 21:07:16 +0200
+Subject: [Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 16, Issue 7
+In-Reply-To: <mailman.41.1215338465.28728.pclos-il8n-dev@lists.berlios.de>
+References: <mailman.41.1215338465.28728.pclos-il8n-dev@lists.berlios.de>
+Message-ID: <487117E4.1040909@gmail.com>
+
+pclos-il8n-dev-request at lists.berlios.de ?rta:
+> Send Pclos-il8n-dev mailing list submissions to
+> 	pclos-il8n-dev at lists.berlios.de
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> or, via email, send a message with subject or body 'help' to
+> 	pclos-il8n-dev-request at lists.berlios.de
+>
+> You can reach the person managing the list at
+> 	pclos-il8n-dev-owner at lists.berlios.de
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Pclos-il8n-dev digest..."
+>
+>
+> Today's Topics:
+>
+>    1. Re: Pclos-il8n-dev Digest, Vol 16, Issue 6 (Lisovszki S?ndor)
+>    2. Re: New Drak utilities (David Smid)
+>    3. Re: New Drak utilities (Alessio Adamo)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Sat, 05 Jul 2008 17:14:39 +0200
+> From: Lisovszki S?ndor <lisovszki at gmail.com>
+> Subject: Re: [Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 16, Issue 6
+> To: pclos-il8n-dev at lists.berlios.de
+> Message-ID: <486F8FDF.1030401 at gmail.com>
+> Content-Type: text/plain; charset=UTF-8; format=flowed
+>
+> pclos-il8n-dev-request at lists.berlios.de ?rta:
+>   
+>> Send Pclos-il8n-dev mailing list submissions to
+>> 	pclos-il8n-dev at lists.berlios.de
+>>
+>> To subscribe or unsubscribe via the World Wide Web, visit
+>> 	https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>> or, via email, send a message with subject or body 'help' to
+>> 	pclos-il8n-dev-request at lists.berlios.de
+>>
+>> You can reach the person managing the list at
+>> 	pclos-il8n-dev-owner at lists.berlios.de
+>>
+>> When replying, please edit your Subject line so it is more specific
+>> than "Re: Contents of Pclos-il8n-dev digest..."
+>>
+>>
+>> Today's Topics:
+>>
+>>    1. Re: New Drak utilities (Alessio Adamo)
+>>
+>>
+>> ----------------------------------------------------------------------
+>>
+>> Message: 1
+>> Date: Fri, 04 Jul 2008 20:30:59 +0200
+>> From: Alessio Adamo <alessioadamo at fastwebnet.it>
+>> Subject: Re: [Pclos-il8n-dev] New Drak utilities
+>> To: pclos-il8n-dev at lists.berlios.de
+>> Message-ID: <486E6C63.8080706 at fastwebnet.it>
+>> Content-Type: text/plain; charset="utf-8"
+>>
+>> ... adn libDrakX-standalone.
+>>
+>> I dindn't get the confirmation of the files sent yesterday. Can, please, 
+>> someone confirm they arrived?
+>>
+>> Thank you, Alessio
+>>
+>> David Smid ha scritto:
+>>   
+>>     
+>>> Alessio Adamo napsal(a):
+>>>   
+>>>     
+>>>       
+>>>> Here's a new batch of pot and po files for the new Drak tools.
+>>>>
+>>>> Still other files are supposed to come very soon.
+>>>>
+>>>>     
+>>>>       
+>>>>         
+>>> Just a question:
+>>> How do you produce the new .pot and .po files ?
+>>>
+>>> David
+>>> _______________________________________________
+>>> Pclos-il8n-dev mailing list
+>>> Pclos-il8n-dev at lists.berlios.de
+>>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>>>
+>>>   
+>>>     
+>>>       
+>> -------------- next part --------------
+>> A non-text attachment was scrubbed...
+>> Name: libDrakX-standalone.tar.gz
+>> Type: application/x-gzip
+>> Size: 1505374 bytes
+>> Desc: not available
+>> Url : https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080704/1254e959/attachment.gz 
+>>
+>> ------------------------------
+>>
+>> _______________________________________________
+>> Pclos-il8n-dev mailing list
+>> Pclos-il8n-dev at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>>
+>>
+>> End of Pclos-il8n-dev Digest, Vol 16, Issue 6
+>> *********************************************
+>>
+>>   
+>>     
+> Hi!
+>
+> Alessio!
+>
+> You are a great man :) you work much more than I...:)
+>
+> One question: where can I find the new draktools .po or .pot 
+> files?....by the way now I started to translate the liveusb, 
+> gtklive..etc .pot file..
+>
+> Thanks again you work!
+>
+>
+>
+> ------------------------------
+>
+> Message: 2
+> Date: Sat, 05 Jul 2008 20:16:01 +0200
+> From: David Smid <david at smidovi.eu>
+> Subject: Re: [Pclos-il8n-dev] New Drak utilities
+> To: pclos-il8n-dev at lists.berlios.de
+> Message-ID: <486FBA61.9060800 at smidovi.eu>
+> Content-Type: text/plain; charset=UTF-8; format=flowed
+>
+> Alessio Adamo napsal(a):
+>   
+>> This is the procedure I've followed.
+>>
+>> 1) Download the source rpms
+>> 2) Check whether there is a po section in the source
+>>       2a) Check whether the pot file is included
+>> 3) Check whether patches are applied to some of the files
+>>       3a) Check whether those patches change some messages
+>>
+>>     
+>
+> Alessio, this a tremendous amount of work you have done. Unfortunately, 
+> the same thing could be achieved much more easier.
+>
+> Drakxtools, for example, are pretty intltool-ized. All you need to 
+> generate the .pot file and update all the .po files to contain all valid 
+> msgids (and only them), is to enter the po subdirectory, delete the .pot 
+> file and type this command:
+>
+> INTLTOOL_EXTRACT=/usr/bin/intltool-extract make merge
+>
+> If you use "msgcat --unique --use-first" to merge our current 
+> translations with Mandriva translations before that, you will get .po 
+> files that are very near to being complete.
+>
+> Also much of other work you've done manually can be done by using some 
+> of the msg* tools.
+>
+> The rule of thumb is: such work must have been already done sometimes 
+> before, so there's a good chance some lazy developer invented a way how 
+> to make it easy and automated.
+>
+>
+> David
+>
+>
+> ------------------------------
+>
+> Message: 3
+> Date: Sun, 06 Jul 2008 11:12:22 +0200
+> From: Alessio Adamo <alessioadamo at fastwebnet.it>
+> Subject: Re: [Pclos-il8n-dev] New Drak utilities
+> To: pclos-il8n-dev at lists.berlios.de
+> Message-ID: <48708C76.1090907 at fastwebnet.it>
+> Content-Type: text/plain; charset=UTF-8; format=flowed
+>
+> I've tried to apply this method to both drak3d and userdrake. With the 
+> first I get what I should get, but with the second I get empty catalogs, 
+> only the original messages. why?
+>
+> I understand the principle of this method now, however, thank you for 
+> telling me.
+>
+> One thing is not clear to me, whether upon installation the patches will 
+> be applied before message extraction or after. If the second was true, 
+> that would be a problem.
+>
+> By the way, the manual update of the messages subject to patches is 
+> unavoidable also with this method.
+>
+> David Smid ha scritto:
+>   
+>> Alessio Adamo napsal(a):
+>>   
+>>     
+>>> This is the procedure I've followed.
+>>>
+>>> 1) Download the source rpms
+>>> 2) Check whether there is a po section in the source
+>>>       2a) Check whether the pot file is included
+>>> 3) Check whether patches are applied to some of the files
+>>>       3a) Check whether those patches change some messages
+>>>
+>>>     
+>>>       
+>> Alessio, this a tremendous amount of work you have done. Unfortunately, 
+>> the same thing could be achieved much more easier.
+>>
+>> Drakxtools, for example, are pretty intltool-ized. All you need to 
+>> generate the .pot file and update all the .po files to contain all valid 
+>> msgids (and only them), is to enter the po subdirectory, delete the .pot 
+>> file and type this command:
+>>
+>> INTLTOOL_EXTRACT=/usr/bin/intltool-extract make merge
+>>
+>> If you use "msgcat --unique --use-first" to merge our current 
+>> translations with Mandriva translations before that, you will get .po 
+>> files that are very near to being complete.
+>>
+>> Also much of other work you've done manually can be done by using some 
+>> of the msg* tools.
+>>
+>> The rule of thumb is: such work must have been already done sometimes 
+>> before, so there's a good chance some lazy developer invented a way how 
+>> to make it easy and automated.
+>>
+>>
+>> David
+>> _______________________________________________
+>> Pclos-il8n-dev mailing list
+>> Pclos-il8n-dev at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>>
+>>   
+>>     
+>
+>
+>
+> ------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>
+> End of Pclos-il8n-dev Digest, Vol 16, Issue 7
+> *********************************************
+>
+>   
+Hi everyone!
+
+Now I worked much :)
+
+I retranslated the new libDrakX files, and I translated the 
+gtk-liveinstall, liveusb, mkremaster and the new synaptic .pot files to 
+hungarian language..
+
+I send it to you thoes fileslike the new libDrakX tools in the: 
+hungarian_new.tar.gz file, and the other tools in the 
+mkremaster_liveusb_synaptic_gtk_liveinstall_new_hungarian_files.tar file.
+
+Thank you...soon or later I will send to you the desktop files, but 
+please tell me, how many desktop files need to translate it to hungarian 
+language?
+
+See you..
+
+Lisovszki
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: hungarian_new.tar.gz
+Type: application/x-gzip
+Size: 237007 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080706/e67f8ebe/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: mkremaster_liveusb_synaptic_gtk_liveinstall_new_hungarian_files.tar.gz
+Type: application/x-gzip
+Size: 42057 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080706/e67f8ebe/attachment-0001.bin>
+
+From didouph at gmail.com  Mon Jul  7 09:13:56 2008
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Mon, 7 Jul 2008 09:13:56 +0200
+Subject: [Pclos-il8n-dev] a few notes...
+Message-ID: <a5c8450e0807070013q6e867631k12a5a5adf1498fb5@mail.gmail.com>
+
+hi all,
+
+Like you might all know ... i'm a bit off and david is maintaining the CVS
+wile Alessio is digging the drakx tools. and i'm focussing on a new host for
+our projects and setting up a decent portal for our work.
+
+but this mail is not about that... its more related to the usage of the list
+for the contributers aswell as the users.
+
+1 : please, for readability sake, DONT reply to diggest by adding a quick
+message at the end with an atachement. Its plain boring and very hard to
+read wile it gets the topic of your message being inconsistant and prevent
+target audience from coping with the iritation, such mean of posting result
+in. please, remove the part not needed and add a revelent subject to your
+post !
+
+2 : prety close to 1, please post your submission as "standalone" mails or
+they loose consistancy when the list is browsed by external users or by "me"
+:)
+
+3 : (for david) : please inform people of what has been added or updated in
+the cvs in detail so there is no confusion or wonders
+
+4 : to all :  consider this list as being still our MAIN mean of
+communication ... if the info is not there ... its probably nowhere else !
+
+5 : to alessio ... i'm a bit lost in the recent changes ... i'll be back on
+translation in a few days but don't know what are the pending tasks, what
+need to be done from scratch or not and what needs to just be updated ... a
+full repository synch and a check in the log would tell me but since we
+don't have such skills, it would be nice if someone (don't know, maybe you
+or someone else) could maintain a changelog that we could exchange on this
+list ! and latter add to the portal !
+
+Good day yall
+
+DidouPh
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080707/c7e8cd33/attachment.html>
+
+From alessioadamo at fastwebnet.it  Thu Jul 10 22:55:07 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Thu, 10 Jul 2008 22:55:07 +0200
+Subject: [Pclos-il8n-dev] a few notes...
+In-Reply-To: <a5c8450e0807070013q6e867631k12a5a5adf1498fb5@mail.gmail.com>
+References: <a5c8450e0807070013q6e867631k12a5a5adf1498fb5@mail.gmail.com>
+Message-ID: <4876772B.6050604@fastwebnet.it>
+
+Ramboz Pierre-Henri ha scritto:
+> 5 : to alessio ... i'm a bit lost in the recent changes ... i'll be 
+> back on translation in a few days but don't know what are the pending 
+> tasks, what need to be done from scratch or not and what needs to just 
+> be updated ... a full repository synch and a check in the log would 
+> tell me but since we don't have such skills, it would be nice if 
+> someone (don't know, maybe you or someone else) could maintain a 
+> changelog that we could exchange on this list ! and latter add to the 
+> portal !
+>
+> Good day yall
+>
+> DidouPh
+
+Hi DidouPh!
+Following David's instructions, I decided to re-prepare the updated 
+po(s) automatically by using the intl-tools. Less chances of mistakes. I 
+think you can hold on until these po(s) hit the CVS. Anyway there will 
+be only few messages to translate in most fortunate cases (french is one 
+of them). If you want to start to translate something I suggest you to 
+the shell scripts (liveusb, redo-mbr, ...)
+
+After the new system files will appear on the CVS, I'll take care of 
+sending a changelog through the mailing list whenever needed.
+
+How is it going with the portal, by the way?
+
+Alessio
+
+PS. Sorry for late reply, I've been busy this week
+
+
+From didouph at gmail.com  Sat Jul 12 08:41:51 2008
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Sat, 12 Jul 2008 08:41:51 +0200
+Subject: [Pclos-il8n-dev] a few notes...
+In-Reply-To: <a5c8450e0807070013q6e867631k12a5a5adf1498fb5@mail.gmail.com>
+References: <a5c8450e0807070013q6e867631k12a5a5adf1498fb5@mail.gmail.com>
+Message-ID: <a5c8450e0807112341r42090245hb8f0ecb48da596f1@mail.gmail.com>
+
+no reply ?
+
+2008/7/7 Ramboz Pierre-Henri <didouph at gmail.com>:
+
+> hi all,
+>
+> Like you might all know ... i'm a bit off and david is maintaining the CVS
+> wile Alessio is digging the drakx tools. and i'm focussing on a new host for
+> our projects and setting up a decent portal for our work.
+>
+> but this mail is not about that... its more related to the usage of the
+> list for the contributers aswell as the users.
+>
+> 1 : please, for readability sake, DONT reply to diggest by adding a quick
+> message at the end with an atachement. Its plain boring and very hard to
+> read wile it gets the topic of your message being inconsistant and prevent
+> target audience from coping with the iritation, such mean of posting result
+> in. please, remove the part not needed and add a revelent subject to your
+> post !
+>
+> 2 : prety close to 1, please post your submission as "standalone" mails or
+> they loose consistancy when the list is browsed by external users or by "me"
+> :)
+>
+> 3 : (for david) : please inform people of what has been added or updated in
+> the cvs in detail so there is no confusion or wonders
+>
+> 4 : to all :  consider this list as being still our MAIN mean of
+> communication ... if the info is not there ... its probably nowhere else !
+>
+> 5 : to alessio ... i'm a bit lost in the recent changes ... i'll be back on
+> translation in a few days but don't know what are the pending tasks, what
+> need to be done from scratch or not and what needs to just be updated ... a
+> full repository synch and a check in the log would tell me but since we
+> don't have such skills, it would be nice if someone (don't know, maybe you
+> or someone else) could maintain a changelog that we could exchange on this
+> list ! and latter add to the portal !
+>
+> Good day yall
+>
+> DidouPh
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080712/6a85b7e8/attachment.html>
+
+From didouph at gmail.com  Sun Jul 13 15:42:51 2008
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Sun, 13 Jul 2008 15:42:51 +0200
+Subject: [Pclos-il8n-dev] flyspray bug tracker
+Message-ID: <a5c8450e0807130642j3ef7989fse57dde7a632979ee@mail.gmail.com>
+
+hi all
+the bugtracker is there
+http://www.matoilnet.net/~pclos-i18n/flyspray/index.php?do=toplevel&project=1
+feel free to register on it and mail me when done so i can grant you access
+to it as editor ...
+
+you may yet try it by posting "fake" bugs and issues...
+its yet very raw but i'm open for suggestions...
+
+since i'm experiencing speed issues with joomla 1.5 and having kind of
+tricky issues with bridging joomla with flyspray (witch got smooth with v1)
+i'm thinking of dropping it for something else and keep the bug tracker
+independent from the portal.
+
+in other words, i'll rather go for a bugtracker+forum+minimal frontpage
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080713/fe2b77bf/attachment.html>
+
+From david at smidovi.eu  Sun Jul 13 20:34:09 2008
+From: david at smidovi.eu (David Smid)
+Date: Sun, 13 Jul 2008 20:34:09 +0200
+Subject: [Pclos-il8n-dev] a few notes...
+In-Reply-To: <a5c8450e0807112341r42090245hb8f0ecb48da596f1@mail.gmail.com>
+References: <a5c8450e0807070013q6e867631k12a5a5adf1498fb5@mail.gmail.com>
+	<a5c8450e0807112341r42090245hb8f0ecb48da596f1@mail.gmail.com>
+Message-ID: <487A4AA1.50605@smidovi.eu>
+
+Ramboz Pierre-Henri napsal(a):
+> 3 : (for david) : please inform people of what has been added or updated 
+> in the cvs in detail so there is no confusion or wonders
+
+> no reply ?
+> 
+
+I'm sorry, I got very busy during my mission at Douai, working from 
+morning till night.
+Every CVS addition committed by me was properly announced in this 
+mailing list.
+Few are still waiting in the queue, 'cause as I said, I'm fed up with 
+computers these days, but this won't last long.
+
+
+David
+
+
+From didouph at gmail.com  Wed Jul 16 10:41:39 2008
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Wed, 16 Jul 2008 10:41:39 +0200
+Subject: [Pclos-il8n-dev] flyspray bug tracker
+In-Reply-To: <487BA0AA.1040605@fastwebnet.it>
+References: <a5c8450e0807130642j3ef7989fse57dde7a632979ee@mail.gmail.com>
+	<487BA0AA.1040605@fastwebnet.it>
+Message-ID: <a5c8450e0807160141r3f7e47edvf7b193069ebadba3@mail.gmail.com>
+
+i tested and things seems workable
+here is the link again
+http://www.matoilnet.net/~pclos-i18n/flyspray/
+
+it works, trust me !
+
+2008/7/14 Alessio Adamo <alessioadamo at fastwebnet.it>:
+
+> When I try to complete the registration yesterday I got error 404. Today
+> the same.
+>
+>
+> Ramboz Pierre-Henri ha scritto:
+>
+>> hi all
+>> the bugtracker is there
+>>
+>> http://www.matoilnet.net/~pclos-i18n/flyspray/index.php?do=toplevel&project=1<http://www.matoilnet.net/%7Epclos-i18n/flyspray/index.php?do=toplevel&project=1><
+>> http://www.matoilnet.net/%7Epclos-i18n/flyspray/index.php?do=toplevel&project=1
+>> >
+>>
+>> feel free to register on it and mail me when done so i can grant you
+>> access to it as editor ...
+>>
+>> you may yet try it by posting "fake" bugs and issues...
+>> its yet very raw but i'm open for suggestions...
+>>
+>> since i'm experiencing speed issues with joomla 1.5 and having kind of
+>> tricky issues with bridging joomla with flyspray (witch got smooth with v1)
+>> i'm thinking of dropping it for something else and keep the bug tracker
+>> independent from the portal.
+>>
+>> in other words, i'll rather go for a bugtracker+forum+minimal frontpage
+>>
+>> ------------------------------------------------------------------------
+>>
+>> _______________________________________________
+>> Pclos-il8n-dev mailing list
+>> Pclos-il8n-dev at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>>
+>>
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080716/7b5a293c/attachment.html>
+
+From nleo at nleo.ru  Wed Jul 16 14:52:22 2008
+From: nleo at nleo.ru (Nikitin Leo)
+Date: Wed, 16 Jul 2008 16:52:22 +0400
+Subject: [Pclos-il8n-dev] Russian translation of drakconf.po
+In-Reply-To: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>
+References: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>
+Message-ID: <487DEF06.6020505@nleo.ru>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080716/93e0c0da/attachment.html>
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: drakconf.po
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080716/93e0c0da/attachment.ksh>
+
+From alessioadamo at fastwebnet.it  Thu Jul 17 23:16:25 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Thu, 17 Jul 2008 23:16:25 +0200
+Subject: [Pclos-il8n-dev] Russian translation of drakconf.po
+In-Reply-To: <487DEF06.6020505@nleo.ru>
+References: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>
+	<487DEF06.6020505@nleo.ru>
+Message-ID: <487FB6A9.8050106@fastwebnet.it>
+
+Thank you for you contribution, Leo. Since I found some fatal errors in 
+the submitted file, I'm wondering how you processed it. Did you use some 
+software like kbabel or poedit, or just a text editor?
+
+By the way...
+
+Will the new pot and po files be added to the CVS any time soon?
+
+Nikitin Leo ha scritto:
+> Hi all!
+>
+> Here is my RU translation of drakconf.po (not tested yet).
+> Please correct me if I'm doing something wrong (I'm a newcomer).
+>
+> Thank you!
+>
+> Leo
+
+
+
+From david at smidovi.eu  Fri Jul 18 07:36:17 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 18 Jul 2008 07:36:17 +0200
+Subject: [Pclos-il8n-dev] New drakxtools (was:Russian translation of
+	drakconf.po)
+In-Reply-To: <487FB6A9.8050106@fastwebnet.it>
+References: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>	<487DEF06.6020505@nleo.ru>
+	<487FB6A9.8050106@fastwebnet.it>
+Message-ID: <48802BD1.8060406@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> By the way...
+> 
+> Will the new pot and po files be added to the CVS any time soon?
+
+I hope I'll be able to find some time to check it and commit it soon.
+
+BTW, what drakxtools version did you use to produce those new .pot and .po files ?
+Did you realize that the rebuild command had changed from 
+"INTLTOOL_EXTRACT=/usr/bin/intltool-extract make merge" to 
+"INTLTOOL_EXTRACT=/usr/bin/intltool-extract make update_n_merge" in drakxtools 
+10.29.7 ?
+Did you remove the original .pot file prior to running this command ?
+
+David
+
+
+From nleo at nleo.ru  Fri Jul 18 12:53:47 2008
+From: nleo at nleo.ru (Nikitin Leo)
+Date: Fri, 18 Jul 2008 14:53:47 +0400
+Subject: [Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 16, Issue 15
+In-Reply-To: <mailman.45.1216375286.24127.pclos-il8n-dev@lists.berlios.de>
+References: <mailman.45.1216375286.24127.pclos-il8n-dev@lists.berlios.de>
+Message-ID: <4880763B.3090702@nleo.ru>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080718/533bad5d/attachment.html>
+
+From alessioadamo at fastwebnet.it  Fri Jul 18 21:24:15 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Fri, 18 Jul 2008 21:24:15 +0200
+Subject: [Pclos-il8n-dev] New drakxtools
+In-Reply-To: <48802BD1.8060406@smidovi.eu>
+References: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>	<487DEF06.6020505@nleo.ru>	<487FB6A9.8050106@fastwebnet.it>
+	<48802BD1.8060406@smidovi.eu>
+Message-ID: <4880EDDF.3070405@fastwebnet.it>
+
+Yes, I've noticed that I had to use that command once I had got an error 
+message with merge and I read the makefile (I've always removed the pot 
+file prior to starting the operations).
+
+I've used the version 10.29.7 of drakxtools.
+
+I have a weakly relate question:
+
+is it possible to implement in a makefile instructions like
+
+sed -e 's/gettext//' scriptname > scriptname_input
+xgettext -s -kgprintf --language=Shell scriptname_input -o 
+scriptname_temp.pot
+sed -e 's/\\\\/\\/g' scriptname_temp.pot > scriptname.pot
+rm scriptname_input
+rm scriptname_temp.pot
+
+Regards,
+Alessio
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> By the way...
+>>
+>> Will the new pot and po files be added to the CVS any time soon?
+>>     
+>
+> I hope I'll be able to find some time to check it and commit it soon.
+>
+> BTW, what drakxtools version did you use to produce those new .pot and .po files ?
+> Did you realize that the rebuild command had changed from 
+> "INTLTOOL_EXTRACT=/usr/bin/intltool-extract make merge" to 
+> "INTLTOOL_EXTRACT=/usr/bin/intltool-extract make update_n_merge" in drakxtools 
+> 10.29.7 ?
+> Did you remove the original .pot file prior to running this command ?
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+From alessioadamo at fastwebnet.it  Fri Jul 18 21:37:08 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Fri, 18 Jul 2008 21:37:08 +0200
+Subject: [Pclos-il8n-dev] Russian translation of drakconf.po
+In-Reply-To: <4880763B.3090702@nleo.ru>
+References: <mailman.45.1216375286.24127.pclos-il8n-dev@lists.berlios.de>
+	<4880763B.3090702@nleo.ru>
+Message-ID: <4880F0E4.6050308@fastwebnet.it>
+
+Don't worry, Leo, I've also run into this kind of mistakes at the 
+beginning (and I still run into others. We're all learning). That's why 
+it's easier if you use a program which has been written for the job, 
+instead of a simple text editor. If you're using Windows, start to 
+download poedit. Then, tomorrow I'll send you the entire batch of 
+russian po files, with brief instructions. You'll see there is not much 
+to be translated.
+
+Bye,
+
+Alessio
+
+Nikitin Leo ha scritto:
+> Dear Alessio,
+>
+> I'm very sorry. But what is a fatal error in this case? I used Akelpad 
+> text editor only (I performed the job on windows computer).
+> How can I fix the issue?
+>
+> Leo
+
+
+
+From didouph at gmail.com  Sat Jul 19 09:02:37 2008
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Sat, 19 Jul 2008 09:02:37 +0200
+Subject: [Pclos-il8n-dev] Notification from Flyspray
+In-Reply-To: <487F96E8.3050301@fastwebnet.it>
+References: <20080717183921.62470.1245674968.swift@www.matoilnet.net>
+	<487F96E8.3050301@fastwebnet.it>
+Message-ID: <a5c8450e0807190002s64f7a666s958c448fb4cb3c37@mail.gmail.com>
+
+can you try and register here :
+http://www.matoilnet.net/~pclos-i18n/
+then tell me what you get please.
+
+and in the future .. try to avoid the first message and only send me the
+contextual bug repport, that helps :)
+also please use the mailing list to get everyone informed about what
+happened to you so the bug can be confirmed .
+
+thanks, DidouPh
+
+2008/7/17 Alessio Adamo <alessioadamo at fastwebnet.it>:
+
+> didouph, unfortunately I've got the same error (404). Tried with both
+> Firefox3 and Konqueror. Can you try on my behalf?
+>
+> Thank you,
+> Alessio
+>
+> PCLinuxOS i18n ha scritto:
+>
+>> THIS IS AN AUTOMATED MESSAGE, DO NOT REPLY.
+>>
+>> Notice from PCLinuxOS i18n
+>>
+>> This address has been used to register a Flyspray account.  If you were
+>> not expecting this message, please ignore and delete it.  Go to the
+>> following URL to complete your registration:
+>>
+>> "
+>> http://www.matoilnet.net/~pclos-i18n/index.php?option=com_flyspray&amp;do=register&magic_url=725db661f355abeda7f476ecb52cac94<http://www.matoilnet.net/%7Epclos-i18n/index.php?option=com_flyspray&do=register&magic_url=725db661f355abeda7f476ecb52cac94>
+>> Username: Gianvacca
+>> Your confirmation code is: 734afbb06453694640ab
+>> You are receiving this message because you have requested it from the
+>> Flyspray bugtracking system.  If you did not expect this message or don't
+>> want to receive mails in future, you can change your notification settings
+>> at the URL shown above.
+>>
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080719/d01d0128/attachment.html>
+
+From david at smidovi.eu  Sat Jul 19 09:03:42 2008
+From: david at smidovi.eu (David Smid)
+Date: Sat, 19 Jul 2008 09:03:42 +0200
+Subject: [Pclos-il8n-dev] New drakxtools
+In-Reply-To: <4880EDDF.3070405@fastwebnet.it>
+References: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>	<487DEF06.6020505@nleo.ru>	<487FB6A9.8050106@fastwebnet.it>	<48802BD1.8060406@smidovi.eu>
+	<4880EDDF.3070405@fastwebnet.it>
+Message-ID: <488191CE.9080306@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> I have a weakly relate question:
+> 
+> is it possible to implement in a makefile instructions like
+> 
+> sed -e 's/gettext//' scriptname > scriptname_input
+> xgettext -s -kgprintf --language=Shell scriptname_input -o 
+> scriptname_temp.pot
+> sed -e 's/\\\\/\\/g' scriptname_temp.pot > scriptname.pot
+> rm scriptname_input
+> rm scriptname_temp.pot
+
+Yes, it is. You need a target (what you want to produce). That would be 
+scriptname.pot.
+Then you need the dependencies (what targets should be available prior 
+to building this target). That would be scriptname
+A then you can write your commands:
+
+-----------------------------------------------------------------------
+
+scriptname.pot: scriptname
+	sed -e 's/gettext//' scriptname > scriptname_input
+	xgettext -s -kgprintf --language=Shell scriptname_input -o 
+scriptname_temp.pot
+	sed -e 's/\\\\/\\/g' scriptname_temp.pot > scriptname.pot
+	rm scriptname_input
+	rm scriptname_temp.pot
+
+-----------------------------------------------------------------------
+
+or more generally:
+
+-----------------------------------------------------------------------
+
+SCRIPTS := scriptname scriptname2
+POTS := ${patsubst %,%.pot,${SCRIPTS}}
+
+all: ${POTS}
+
+${POTS} : %.pot : %
+	sed -e 's/gettext//' $< > $<_input
+	xgettext -s -kgprintf --language=Shell $<_input -o $<_temp.pot
+	sed -e 's/\\\\/\\/g' $<_temp.pot > $@
+	rm $<_input
+	rm $<_temp.pot
+
+-----------------------------------------------------------------------
+
+Last question concerning your drakxtools pots and pos:
+
+Have you tried to merge our (PCLOS) existing translations with those 
+upstream (Mandriva) translations ?
+
+David
+
+
+From didouph at gmail.com  Sat Jul 19 09:10:48 2008
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Sat, 19 Jul 2008 09:10:48 +0200
+Subject: [Pclos-il8n-dev] cancellation
+Message-ID: <a5c8450e0807190010h31f34e16h9886fee68a3ad37a@mail.gmail.com>
+
+i'm disabeling the test website since i broke accidentaly the database.
+i will come back to you with a new version soon (within the next 24)
+
+sorry DidouPh
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080719/3c953a76/attachment.html>
+
+From alessioadamo at fastwebnet.it  Sat Jul 19 14:00:58 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Sat, 19 Jul 2008 14:00:58 +0200
+Subject: [Pclos-il8n-dev] New drakxtools
+In-Reply-To: <488191CE.9080306@smidovi.eu>
+References: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>	<487DEF06.6020505@nleo.ru>	<487FB6A9.8050106@fastwebnet.it>	<48802BD1.8060406@smidovi.eu>	<4880EDDF.3070405@fastwebnet.it>
+	<488191CE.9080306@smidovi.eu>
+Message-ID: <4881D77A.7000504@fastwebnet.it>
+
+That's good, because those are the instructions I need to generate the 
+potfiles with my last versions of localizable redo-mbr, gtk-liveinstall, 
+live-usb, mkremaster.
+
+I've merged drakconf and userdrake when available. I didn't do it with 
+libDrakX and libDrakX standalone because formerly they contained also 
+all messages from printerdrake, drakbackup, and others which are now in 
+separate pots. Anyway there are less than 10 messages to be translated 
+for all the main languages.
+
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> I have a weakly relate question:
+>>
+>> is it possible to implement in a makefile instructions like
+>>
+>> sed -e 's/gettext//' scriptname > scriptname_input
+>> xgettext -s -kgprintf --language=Shell scriptname_input -o 
+>> scriptname_temp.pot
+>> sed -e 's/\\\\/\\/g' scriptname_temp.pot > scriptname.pot
+>> rm scriptname_input
+>> rm scriptname_temp.pot
+>>     
+>
+> Yes, it is. You need a target (what you want to produce). That would be 
+> scriptname.pot.
+> Then you need the dependencies (what targets should be available prior 
+> to building this target). That would be scriptname
+> A then you can write your commands:
+>
+> -----------------------------------------------------------------------
+>
+> scriptname.pot: scriptname
+> 	sed -e 's/gettext//' scriptname > scriptname_input
+> 	xgettext -s -kgprintf --language=Shell scriptname_input -o 
+> scriptname_temp.pot
+> 	sed -e 's/\\\\/\\/g' scriptname_temp.pot > scriptname.pot
+> 	rm scriptname_input
+> 	rm scriptname_temp.pot
+>
+> -----------------------------------------------------------------------
+>
+> or more generally:
+>
+> -----------------------------------------------------------------------
+>
+> SCRIPTS := scriptname scriptname2
+> POTS := ${patsubst %,%.pot,${SCRIPTS}}
+>
+> all: ${POTS}
+>
+> ${POTS} : %.pot : %
+> 	sed -e 's/gettext//' $< > $<_input
+> 	xgettext -s -kgprintf --language=Shell $<_input -o $<_temp.pot
+> 	sed -e 's/\\\\/\\/g' $<_temp.pot > $@
+> 	rm $<_input
+> 	rm $<_temp.pot
+>
+> -----------------------------------------------------------------------
+>
+> Last question concerning your drakxtools pots and pos:
+>
+> Have you tried to merge our (PCLOS) existing translations with those 
+> upstream (Mandriva) translations ?
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+From david at smidovi.eu  Mon Jul 21 12:10:20 2008
+From: david at smidovi.eu (David Smid)
+Date: Mon, 21 Jul 2008 12:10:20 +0200
+Subject: [Pclos-il8n-dev] New drakxtools
+In-Reply-To: <4881D77A.7000504@fastwebnet.it>
+References: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>	<487DEF06.6020505@nleo.ru>	<487FB6A9.8050106@fastwebnet.it>	<48802BD1.8060406@smidovi.eu>	<4880EDDF.3070405@fastwebnet.it>	<488191CE.9080306@smidovi.eu>
+	<4881D77A.7000504@fastwebnet.it>
+Message-ID: <4884608C.4040806@smidovi.eu>
+
+ > David Smid ha scritto:
+ >> Last question concerning your drakxtools pots and pos:
+ >>
+ >> Have you tried to merge our (PCLOS) existing translations with those
+ >> upstream (Mandriva) translations ?
+
+Alessio Adamo napsal(a):
+> I've merged drakconf and userdrake when available. I didn't do it with 
+> libDrakX and libDrakX standalone because formerly they contained also 
+> all messages from printerdrake, drakbackup, and others which are now in 
+> separate pots. Anyway there are less than 10 messages to be translated 
+> for all the main languages.
+
+Merging PCLOS and Mandriva translations by using "msgcat --unique --use-first" 
+BEFORE executing "make update_n_merge" would easily solve this.
+It's true that after merging both catalogues with "msgcat --unique --use-first" 
+you will end up with merged catalogue that contains many msgids that are no more 
+needed and useless.
+But "make update_n_merge" will fix that - it creates .pot file according to 
+sources and than it leaves in .po files only msgids that are contained in this 
+.pot file. Thus any excess messages will be automatically thrown away.
+
+Yeah, I know I'm a damn annoying perfectionist :)
+
+If you don't want to bother with this issue again, I'll just commit the files 
+you've sent me into CVS, no problem with that. Or I can do it all by myself.
+
+David
+
+
+
+From alessioadamo at fastwebnet.it  Tue Jul 22 00:20:16 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Tue, 22 Jul 2008 00:20:16 +0200
+Subject: [Pclos-il8n-dev] New drakxtools
+In-Reply-To: <4884608C.4040806@smidovi.eu>
+References: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>	<487DEF06.6020505@nleo.ru>	<487FB6A9.8050106@fastwebnet.it>	<48802BD1.8060406@smidovi.eu>	<4880EDDF.3070405@fastwebnet.it>	<488191CE.9080306@smidovi.eu>	<4881D77A.7000504@fastwebnet.it>
+	<4884608C.4040806@smidovi.eu>
+Message-ID: <48850BA0.4080602@fastwebnet.it>
+
+No problem, David.
+
+Here they are.
+
+Please, notice that I didn't touch the hungarian files again because the 
+hungarian translator gave me already the final version of all po(s).
+
+Thank you for uploading.
+
+Alessio
+
+David Smid ha scritto:
+> Merging PCLOS and Mandriva translations by using "msgcat --unique --use-first" 
+> BEFORE executing "make update_n_merge" would easily solve this.
+> It's true that after merging both catalogues with "msgcat --unique --use-first" 
+> you will end up with merged catalogue that contains many msgids that are no more 
+> needed and useless.
+> But "make update_n_merge" will fix that - it creates .pot file according to 
+> sources and than it leaves in .po files only msgids that are contained in this 
+> .pot file. Thus any excess messages will be automatically thrown away.
+>
+> Yeah, I know I'm a damn annoying perfectionist :)
+>
+> If you don't want to bother with this issue again, I'll just commit the files 
+> you've sent me into CVS, no problem with that. Or I can do it all by myself.
+>
+> David
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Update.tar.bz2
+Type: application/x-bzip
+Size: 206141 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080722/f1571093/attachment.bin>
+
+From david at smidovi.eu  Tue Jul 22 11:21:10 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 22 Jul 2008 11:21:10 +0200
+Subject: [Pclos-il8n-dev] Polish (pl) and Brazilian (pt_BR) libDrakX.po fix
+Message-ID: <4885A686.1050102@smidovi.eu>
+
+Polish (pl) and Brazilian (pt_BR) libDrakX.po contained doubled msgids.
+Fixed in CVS.
+
+David
+
+
+From david at smidovi.eu  Tue Jul 22 11:22:40 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 22 Jul 2008 11:22:40 +0200
+Subject: [Pclos-il8n-dev] New drakxtools
+In-Reply-To: <48850BA0.4080602@fastwebnet.it>
+References: <mailman.49.1216202470.6801.pclos-il8n-dev@lists.berlios.de>	<487DEF06.6020505@nleo.ru>	<487FB6A9.8050106@fastwebnet.it>	<48802BD1.8060406@smidovi.eu>	<4880EDDF.3070405@fastwebnet.it>	<488191CE.9080306@smidovi.eu>	<4881D77A.7000504@fastwebnet.it>	<4884608C.4040806@smidovi.eu>
+	<48850BA0.4080602@fastwebnet.it>
+Message-ID: <4885A6E0.9030001@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> No problem, David.
+> 
+> Here they are.
+> 
+> Please, notice that I didn't touch the hungarian files again because the 
+> hungarian translator gave me already the final version of all po(s).
+> 
+> Thank you for uploading.
+> 
+> Alessio
+
+Hi, I've just tried generate the files myself. Then I sorted and compared your 
+cs/libDrakX.po and my cs/libDrakX.po. Here are the results:
+
+================================================================================
+--- alessio.po	2008-07-22 10:58:06.000000000 +0200
++++ david.po	2008-07-22 10:57:49.000000000 +0200
+@@ -6,7 +6,7 @@
+  msgid ""
+  msgstr ""
+  "Project-Id-Version: cs\n"
+-"POT-Creation-Date: 2008-07-06 20:35+0200\n"
++"POT-Creation-Date: 2008-07-22 10:54+0200\n"
+  "PO-Revision-Date: 2006-09-13 20:54+0200\n"
+  "Last-Translator: Michal Bukovjan <bukm at centrum.cz>\n"
+  "Language-Team: Czech <cs at li.org>\n"
+@@ -2707,11 +2707,11 @@
+  msgstr ""
+  "?vod\n"
+  "\n"
+-"Opera?n? syst?m a r?zn? ??sti dostupn? v distribuci Mandriva Linux jsou "
+-"naz?v?ny \"Softwarov? produkty\" (\"Software Products\"). Softwarov? "
+-"produkty zahrnuj?, ale nejsou omezeny, na programy, metody, pravidla a "
+-"dokumentaci, vztahuj?c? se k opera?n?mu syst?mu a dal??m komponent?m "
+-"distribuce Mandriva Linux.\n"
++"Opera?n? syst?m a r?zn? ??sti dostupn? v distribuci PCLinuxOS jsou naz?v?ny "
++"\"Softwarov? produkty\" (\"Software Products\"). Softwarov? produkty "
++"zahrnuj?, ale nejsou omezeny, na programy, metody, pravidla a dokumentaci, "
++"vztahuj?c? se k opera?n?mu syst?mu a dal??m komponent?m distribuce "
++"PCLinuxOS.\n"
+  "\n"
+  "\n"
+  "1. License Agreement\n"
+@@ -4083,9 +4083,9 @@
+  msgstr "Pros?m po?kejte"
+
+  #: do_pkgs.pm:215
+-#, c-format
++#, fuzzy, c-format
+  msgid "Please wait updating apt-get file list"
+-msgstr ""
++msgstr "Pros?m ?ekejte, aktualizuji seznam soubor?"
+
+  #: lang.pm:380 mirror.pm:32 timezone.pm:247
+  #, c-format
+@@ -6438,8 +6438,8 @@
+  "\n"
+  "[VOLBY]:\n"
+  "  --help            - vyp??e tuto n?pov?du.\n"
+-"  --report          - program m??e b?t libovoln? Mandriva Linux n?stroj\n"
+-"  --incident        - program m??e b?t libovoln? Mandriva Linux n?stroj"
++"  --report          - program m??e b?t libovoln? PCLinuxOS n?stroj\n"
++"  --incident        - program m??e b?t libovoln? PCLinuxOS Linux n?stroj"
+
+  #: standalone.pm:88
+  #, fuzzy, c-format
+@@ -6485,7 +6485,7 @@
+  "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+  msgstr ""
+  "[VOLBY]...\n"
+-"  -no-confirmation      nepotvrzuje prvn? ot?zku v re?imu Mandriva Update\n"
++"  -no-confirmation      nepotvrzuje prvn? ot?zku \n"
+  "  --no-verify-rpm       neprov?d? ov??en? podpisu u bal??k?\n"
+  "  --changelog-first      v okn? s popisem nejd??ve zobraz? changelog p?ed "
+  "seznamem soubor?\n"
+=============================================================================
+
+The files are different - yours contains Mandriva translations. Maybe this could 
+be caused by msgcat switch "--unique": using this switch is evil in this 
+context, I apologize for giving you a bad advice.
+
+Please find a patch attached to this email - it contains few modifications of 
+drakxtools Makefiles. Copy the patch to the BUILD directory and apply it from there:
+
+patch -p0 < patch -p0 < drakxtools-10.29.7_pclos-i18n.patch
+
+Then go to drakxtools-10.29.7/perl-install/share/po and type this:
+
+make merge_with_pclos PCLOS_I18N_CVSROOT=/opt/devel/pclos-i18n.dev/CVSROOT/
+
+Change PCLOS_I18N_CVSROOT content according to location of your local CVS tree. 
+This will merge PCLOS translations with Mandriva translations, original ones 
+will be renamed to *.dist.
+
+Then type:
+
+make update_n_merge
+
+And finally:
+
+make pclos_tree
+
+This will generate translation tree compatible with CVS into subdirectory 'pclos'.
+
+Repeat all once again for 'drakxtools-10.29.7/perl-install/standalone/po' and 
+you're finished.
+The best way to include that updated Hungarian translation is to copy it to 
+local CVS tree beforehand. Then it will be processed like all others.
+
+David
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakxtools-10.29.7_pclos-i18n.patch
+Type: text/x-patch
+Size: 2306 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080722/0b40a335/attachment.bin>
+
+From david at smidovi.eu  Tue Jul 22 11:48:38 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 22 Jul 2008 11:48:38 +0200
+Subject: [Pclos-il8n-dev] Hungarian (hu) translation of drak utilities
+	updated in CVS
+Message-ID: <4885ACF6.6040805@smidovi.eu>
+
+Hello,
+
+I've put into CVS these files:
+	/po/hu/
+		drakbackup.po
+		drakbt.po
+		drakconf.po
+		draklive-install.po
+		drakmenustyle.po
+		drakvirt.po
+		drakwizard.po
+		drakx-kbd-mouse-x11.po
+		drakx-net.po
+		drak3d.po
+		libDrakX.po
+		libDrakX-standalone.po
+		printerdrake.po
+		rfbdrake.po
+		userdrake.po
+
+
+David
+
+
+From david at smidovi.eu  Tue Jul 22 11:59:33 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 22 Jul 2008 11:59:33 +0200
+Subject: [Pclos-il8n-dev] Hungarian (hu) translation of gtk-liveinstall,
+ liveusb, mkremaster, synaptic added or updated in CVS
+Message-ID: <4885AF85.3090302@smidovi.eu>
+
+Hello,
+
+I've put into CVS these files:
+	/po/hu/
+		gtk-liveinstall.po
+		liveusb.po
+		mkremaster.po
+
+Updated this:
+	/po/hu/
+		synaptic.po
+
+David
+
+
+From didouph at gmail.com  Thu Jul 24 09:24:59 2008
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Thu, 24 Jul 2008 09:24:59 +0200
+Subject: [Pclos-il8n-dev] google code
+Message-ID: <a5c8450e0807240024u597dd5f9jf548d4f95343b0f5@mail.gmail.com>
+
+http://code.google.com/p/pclinuxos-i18n/
+
+this is our new home :)
+
+cheeper faster better than anything i could set-up
+
+so please register there...
+
+i will upload the berlios cvs to the google code svn and eventually add a
+google group to add visibility (this will eventually replace our current
+list)
+
+register there for updates and expect a brand new repository organisation.
+
+enjoy
+
+DidouPh
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080724/b029e331/attachment.html>
+
+From david at smidovi.eu  Thu Jul 24 11:30:56 2008
+From: david at smidovi.eu (David Smid)
+Date: Thu, 24 Jul 2008 11:30:56 +0200
+Subject: [Pclos-il8n-dev] google code
+In-Reply-To: <a5c8450e0807240024u597dd5f9jf548d4f95343b0f5@mail.gmail.com>
+References: <a5c8450e0807240024u597dd5f9jf548d4f95343b0f5@mail.gmail.com>
+Message-ID: <48884BD0.9000301@smidovi.eu>
+
+Ramboz Pierre-Henri napsal(a):
+> http://code.google.com/p/pclinuxos-i18n/
+
+http://pclinuxos-i18n.googlecode.com/ works aswell :)
+
+> this is our new home :)
+> 
+> cheeper faster better than anything i could set-up
+> 
+> so please register there...
+
+Administrator must add your address to the project, there's no way I could do it 
+myself. My address david at smidovi.eu should be Google friendly, try to add it, 
+please.
+
+> i will upload the berlios cvs to the google code svn and eventually add 
+> a google group to add visibility (this will eventually replace our 
+> current list)
+> register there for updates and expect a brand new repository organisation.
+
+Could we discuss how will the new repository organisation look like ? I have 
+some ideas.
+
+First of all I'm convinced it has to be package oriented instead of locale oriented.
+
+My proposal:
+
+/<package_name>/
+		po/
+				<gettext_domain1>/
+						<gettext_domain1>.pot
+						locale1.po
+						locale2.po
+						...
+				<gettext_domain2>/
+				...
+		desktop.in/
+				<desktop-file-name1>.desktop.in
+				<desktop-file-name2>.desktop.in
+				...
+		misc/
+		Makefile	# Various targets for: SRPM retrieving, .pot
+				# extraction, .po merging, patch generating,
+				# integrity checking, patched SRPM building ...
+
+Directories with content ignored by SVN:
+		desktop/
+		build/
+		tmp/
+
+
+What I'm trying to achieve is to simplify and automatize the process of patching 
+source RPMs and testing of translation injection.
+
+David
+
+
+From noreply at googlegroups.com  Thu Jul 24 14:33:00 2008
+From: noreply at googlegroups.com (noreply at googlegroups.com)
+Date: Thu, 24 Jul 2008 12:33:00 +0000
+Subject: [Pclos-il8n-dev] =?iso-8859-1?q?Google_Groupes_=3A_Vous_avez_=E9t?=
+	=?iso-8859-1?q?=E9_invit=E9_=E0_rejoindre_le_groupe_pclinuxos-i18n?=
+	=?iso-8859-1?q?=2E?=
+Message-ID: <20080724123305.1465514BEE8@mail.berlios.de>
+
+ DidouPh aka Pierre-Henri RAMBOZ DidouPh at gmail.com vous a invit? ? rejoindre 
+le groupe pclinuxos-i18n et vous envoie le message suivant :
+
+here is the group i have registered on google for s to manage discussions... 
+feel free to join it individually !
+ 
+ Description du groupe :
+
+Discussions related to pclinuxos-i18n project ( http://code.google.com/p/
+pclinuxos-i18n )
+ 
+ ---------------------- Informations relatives ? Google Groupes ---------------
+-------
+ 
+ Vous pouvez accepter cette invitation en cliquant sur l'URL suivante :
+ 
+ http://groups.google.fr/group/pclinuxos-i18n/sub?s=chMBKwgAAABoTAZoMU0CIBHRChVWUBSy&hl=fr
+
+L'acc?s au groupe sur le Web n?cessite un Compte Google. Si vous n'avez pas 
+encore cr?? de Compte Google, vous devrez effectuer cette op?ration avant 
+d'acc?der au groupe. Pour cr?er un compte, acc?dez ? la page :
+ 
+ http://www.google.com/accounts/NewAccount?service=groups2&reqemail=pclos-il8n-dev%40lists.berlios.de&continue=http%3A%2F%2Fgroups.google.fr%2Fgroup%2Fpclinuxos-i18n%3Fhl%3Dfr
+
+ --------------------- Si ce message n'a pas ?t? sollicit? --------------------
+-
+ 
+ Si vous pensez que ce message rel?ve d'une utilisation abusive, informez-en 
+l'?quipe Google Groupes ? l'aide de l'URL ci-dessous.
+ 
+ http://groups.google.fr/groups/abuse?invite=YQAAAAAAYTr_AAAAAAhuokMAAAAABrgo4w&hl=fr
+
+
+From lisovszki at gmail.com  Thu Jul 24 20:33:23 2008
+From: lisovszki at gmail.com (=?UTF-8?B?TGlzb3ZzemtpIFPDoW5kb3I=?=)
+Date: Thu, 24 Jul 2008 20:33:23 +0200
+Subject: [Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 16, Issue 21
+In-Reply-To: <mailman.51.1216893706.9519.pclos-il8n-dev@lists.berlios.de>
+References: <mailman.51.1216893706.9519.pclos-il8n-dev@lists.berlios.de>
+Message-ID: <4888CAF3.3050002@gmail.com>
+
+pclos-il8n-dev-request at lists.berlios.de ?rta:
+> Send Pclos-il8n-dev mailing list submissions to
+> 	pclos-il8n-dev at lists.berlios.de
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> or, via email, send a message with subject or body 'help' to
+> 	pclos-il8n-dev-request at lists.berlios.de
+>
+> You can reach the person managing the list at
+> 	pclos-il8n-dev-owner at lists.berlios.de
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Pclos-il8n-dev digest..."
+>
+>
+> Today's Topics:
+>
+>    1. google code (Ramboz Pierre-Henri)
+>    2. Re: google code (David Smid)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Thu, 24 Jul 2008 09:24:59 +0200
+> From: "Ramboz Pierre-Henri" <didouph at gmail.com>
+> Subject: [Pclos-il8n-dev] google code
+> To: pclos-il8n-dev <Pclos-il8n-dev at lists.berlios.de>
+> Message-ID:
+> 	<a5c8450e0807240024u597dd5f9jf548d4f95343b0f5 at mail.gmail.com>
+> Content-Type: text/plain; charset="utf-8"
+>
+> http://code.google.com/p/pclinuxos-i18n/
+>
+> this is our new home :)
+>
+> cheeper faster better than anything i could set-up
+>
+> so please register there...
+>
+> i will upload the berlios cvs to the google code svn and eventually add a
+> google group to add visibility (this will eventually replace our current
+> list)
+>
+> register there for updates and expect a brand new repository organisation.
+>
+> enjoy
+>
+> DidouPh
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL: https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080724/b029e331/attachment-0001.html 
+>
+> ------------------------------
+>
+> Message: 2
+> Date: Thu, 24 Jul 2008 11:30:56 +0200
+> From: David Smid <david at smidovi.eu>
+> Subject: Re: [Pclos-il8n-dev] google code
+> To: pclos-il8n-dev at lists.berlios.de
+> Message-ID: <48884BD0.9000301 at smidovi.eu>
+> Content-Type: text/plain; charset=UTF-8; format=flowed
+>
+> Ramboz Pierre-Henri napsal(a):
+>   
+>> http://code.google.com/p/pclinuxos-i18n/
+>>     
+>
+> http://pclinuxos-i18n.googlecode.com/ works aswell :)
+>
+>   
+>> this is our new home :)
+>>
+>> cheeper faster better than anything i could set-up
+>>
+>> so please register there...
+>>     
+>
+> Administrator must add your address to the project, there's no way I could do it 
+> myself. My address david at smidovi.eu should be Google friendly, try to add it, 
+> please.
+>
+>   
+>> i will upload the berlios cvs to the google code svn and eventually add 
+>> a google group to add visibility (this will eventually replace our 
+>> current list)
+>> register there for updates and expect a brand new repository organisation.
+>>     
+>
+> Could we discuss how will the new repository organisation look like ? I have 
+> some ideas.
+>
+> First of all I'm convinced it has to be package oriented instead of locale oriented.
+>
+> My proposal:
+>
+> /<package_name>/
+> 		po/
+> 				<gettext_domain1>/
+> 						<gettext_domain1>.pot
+> 						locale1.po
+> 						locale2.po
+> 						...
+> 				<gettext_domain2>/
+> 				...
+> 		desktop.in/
+> 				<desktop-file-name1>.desktop.in
+> 				<desktop-file-name2>.desktop.in
+> 				...
+> 		misc/
+> 		Makefile	# Various targets for: SRPM retrieving, .pot
+> 				# extraction, .po merging, patch generating,
+> 				# integrity checking, patched SRPM building ...
+>
+> Directories with content ignored by SVN:
+> 		desktop/
+> 		build/
+> 		tmp/
+>
+>
+> What I'm trying to achieve is to simplify and automatize the process of patching 
+> source RPMs and testing of translation injection.
+>
+> David
+>
+>
+> ------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>
+> End of Pclos-il8n-dev Digest, Vol 16, Issue 20
+> **********************************************
+>
+>   
+Hi!
+
+Please add me too to the project: lisovszki at gmail.com  (Sandor Lisovszki)
+
+Thx..
+
+
+From david at smidovi.eu  Tue Jul 29 11:41:04 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 29 Jul 2008 11:41:04 +0200
+Subject: [Pclos-il8n-dev] distibution/release/organisation
+In-Reply-To: <48896783.9020306@smidovi.eu>
+References: <daa630ae-b51c-4d09-afff-2a1cbb0267df@a3g2000prm.googlegroups.com>
+	<933e036d-b99a-4975-bc7e-2609055f7c57@b2g2000prf.googlegroups.com>
+	<48896783.9020306@smidovi.eu>
+Message-ID: <488EE5B0.4090006@smidovi.eu>
+
+This is a copy of mail sent to the PCLinuxOS-i18n Google group 
+(http://groups.google.com/group/pclinuxos-i18n).
+
+What is the primary mailing list now, Didouph ?
+Is the BerliOS mailing list going to be abandoned ?
+
+========================================================================
+> Gianvacca napsal(a):
+>> Please, can someone summarise the the conclusions? The conversation
+>> was probably easier to follow live, but so written it's difficult.
+>>
+>> To me it's not difficult to take an srpm with a localization part,
+>> retrieve the various messages, translate the missing parts and put the
+>> complete po back. The problem is when localization is not present ab
+>> initio.
+
+David Smid napsal(a):
+> I will make some experiments today and then I'll send here some 
+> preliminary framework description + some real life example.
+
+Here it is (uploaded to the pclinuxos-i18n group home). It turned out that
+making a real life example means also getting it
+all done. That's why it's delayed.
+
+So it's more a framework preview than some simple real life example.
+How it works:
+
+In the root, there are two dirs: "packages" and "tools". Tools directory holds
+some necessary tools while packages holds ... surprise coming .... package entries.
+Each package is represented by its directory tree and a Makefile. This Makefile
+is usually a one-liner that only includes ../Makefile.common.
+
+There are already entries for two packages in the experimental tree: synaptic
+and vit.
+If you want add an entry for new package (say krusader), go to tools/ dir and
+launch new-package script from here:
+
+./new-package krusader ../../pclos-i18n.dev/CVSROOT
+
+The second parameter is optional - it's the root of the old CVS repository.
+If you specify it, all existing .po and .pot files will be copied from it to the
+new destination.
+Any existing .desktop files must be copied by hand to the right place.
+
+Then go to ../packages/krusader and here you will find complete structure of
+package entry. Lets start with some help:
+
+[david at localhost krusader]# make help
+make
+	- build .mo files and .desktop files, see result in build/
+	and desktop/ dirs.
+
+make clean
+	- delete any intermediate files or dirs
+
+make install [ INSTALL_ROOT=<install_root> ]
+	- install files, default INSTALL_ROOT is /tmp
+
+make new-release [ MESSAGE=<changelog_message> ]
+	- increase the RPM release number or sync version with upstream
+
+make rpm
+	- build the RPM and SRPM, see result in build/ dir
+
+make desktop-update
+	- after adding new .desktop file in desktop.in/ tree,
+	convert it to .desktop.in file and
+	extract translations to desktop.in/po/*.po files
+
+
+Making RPM is just two words away:
+
+[david at localhost krusader]# make rpm
+
+Your RPM is in build/noarch/krusader-l10n-1.90.0-1pclos2007.noarch.rpm, SRPM is
+in build/krusader-l10n-1.90.0-1pclos2007.src.rpm .
+
+Generated RPM currently does not use the "overriding" technique, but that's just
+a matter of editing "packages/template.spec.in" and this functionality will be
+added later. Also remember, that this is still a work in progress.
+
+Using "make something" command in the package/ directory has the same meaning as
+entering every package subdirectory and launching "make something" from here.
+
+Requires intltool, gettext, rpm-build and rpm-tools.
+
+
+David
+
+
+

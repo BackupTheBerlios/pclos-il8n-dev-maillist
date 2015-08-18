@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] New Drak utilities
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-July/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20Drak%20utilities&In-Reply-To=%3C486FBA61.9060800%40smidovi.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000379.html">
+   <LINK REL="Next"  HREF="000384.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] New Drak utilities</H1>
+    <B>David Smid</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20Drak%20utilities&In-Reply-To=%3C486FBA61.9060800%40smidovi.eu%3E"
+       TITLE="[Pclos-il8n-dev] New Drak utilities">david at smidovi.eu
+       </A><BR>
+    <I>Sat Jul  5 20:16:01 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000379.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+        <LI>Next message: <A HREF="000384.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#383">[ date ]</a>
+              <a href="thread.html#383">[ thread ]</a>
+              <a href="subject.html#383">[ subject ]</a>
+              <a href="author.html#383">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Alessio Adamo napsal(a):
+&gt;<i> This is the procedure I've followed.
+</I>&gt;<i> 
+</I>&gt;<i> 1) Download the source rpms
+</I>&gt;<i> 2) Check whether there is a po section in the source
+</I>&gt;<i>       2a) Check whether the pot file is included
+</I>&gt;<i> 3) Check whether patches are applied to some of the files
+</I>&gt;<i>       3a) Check whether those patches change some messages
+</I>&gt;<i> 
+</I>
+Alessio, this a tremendous amount of work you have done. Unfortunately, 
+the same thing could be achieved much more easier.
+
+Drakxtools, for example, are pretty intltool-ized. All you need to 
+generate the .pot file and update all the .po files to contain all valid 
+msgids (and only them), is to enter the po subdirectory, delete the .pot 
+file and type this command:
+
+INTLTOOL_EXTRACT=/usr/bin/intltool-extract make merge
+
+If you use &quot;msgcat --unique --use-first&quot; to merge our current 
+translations with Mandriva translations before that, you will get .po 
+files that are very near to being complete.
+
+Also much of other work you've done manually can be done by using some 
+of the msg* tools.
+
+The rule of thumb is: such work must have been already done sometimes 
+before, so there's a good chance some lazy developer invented a way how 
+to make it easy and automated.
+
+
+David
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000379.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+	<LI>Next message: <A HREF="000384.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#383">[ date ]</a>
+              <a href="thread.html#383">[ thread ]</a>
+              <a href="subject.html#383">[ subject ]</a>
+              <a href="author.html#383">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

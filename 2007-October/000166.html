@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] About the Czech PCLOS remaster and me
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2007-October/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20About%20the%20Czech%20PCLOS%20remaster%20and%20me&In-Reply-To=%3C4715DC66.8060502%40smidovi.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000163.html">
+   <LINK REL="Next"  HREF="000165.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] About the Czech PCLOS remaster and me</H1>
+    <B>David Smid</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20About%20the%20Czech%20PCLOS%20remaster%20and%20me&In-Reply-To=%3C4715DC66.8060502%40smidovi.eu%3E"
+       TITLE="[Pclos-il8n-dev] About the Czech PCLOS remaster and me">david at smidovi.eu
+       </A><BR>
+    <I>Wed Oct 17 11:56:54 CEST 2007</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000163.html">[Pclos-il8n-dev] About the Czech PCLOS remaster and me
+</A></li>
+        <LI>Next message: <A HREF="000165.html">[Pclos-il8n-dev] About the Czech PCLOS remaster and me
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#166">[ date ]</a>
+              <a href="thread.html#166">[ thread ]</a>
+              <a href="subject.html#166">[ subject ]</a>
+              <a href="author.html#166">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>
+Hello all in this mailing list,
+
+Ramboz Pierre-Henri napsal(a):
+&gt;<i> Hi
+</I>&gt;<i> 
+</I>&gt;<i> i will send your rc patch to tex as soon as i'll get it tested ...
+</I>&gt;<i> 
+</I>&gt;<i> i'm wondering if the mklivecd is that new as far as you can yet define
+</I>&gt;<i> the bootmenu file, i used this hack to remaster the french pclinuxiso
+</I>&gt;<i> and produced an automated script wich was interactivelly creating the
+</I>&gt;<i> remaster ...
+</I>
+I'm not quite sure I understand what you're talking about. We use the new
+mklivecd in conjuction with our own boot theme based on 'pclinuxos' gfx boot
+theme and with our own isolinux.cfg with menu labels translated to czech.
+I even managed to get spaces into the labels - think that is normaly forbidden
+in isolinux.cfg.
+Our boot theme has slightly simplified options menu, our site url at lower right
+corner of the background and last but not least, it has completely reworked help
+contents. Although the original help was translated to many languages including
+czech, it originated from Mandriva and thus totally out of reality.
+
+
+&gt;<i> btw i'm wondering if you know how and could implement the usage of po/mo
+</I>&gt;<i> files to get mklivecd localized and if you know how to change the
+</I>&gt;<i> keyboard layout from initial boot ...
+</I>&gt;<i> 
+</I>&gt;<i> those two issues are connundrum eaven to ivan tom and i, if you find a
+</I>&gt;<i> way to hack into it ... that would be nice to share your knowledge :)
+</I>
+
+Well, mklivecd was not written with internationalization in mind but it shoud
+not be so hard to fix it.
+All it takes is to carefully embrace all to-be-localized texts in N() function
+call used by all Drak tools.
+
+Example:
+-------------------------
+#!/usr/bin/perl
+
+use lib qw(/usr/lib/libDrakX);
+
+# Use &quot;bootsplash&quot; text domain, i.e. bootsplash.mo file
+BEGIN { unshift @::textdomains, 'bootsplash' }
+
+# Functions N and N_ are defined in this libDrakX module
+use common;
+
+# Print localized messages
+print N(&quot;Booting the system...&quot;) . N(&quot;Press Esc for verbose mode.&quot;) . &quot;\n&quot;;
+--------------------------
+
+Concerning the keyboard layout, there are two issues:
+Keyboard layout active in the boot menu is defined by chosen language, you can
+set the default boot menu language (and thus the default keyboard too) by using
+the new mklivecd parameter --bootlang.
+Keyboard layout in Linux is defined system-wide in file /etc/sysconfig/keyboard
+and can be changed ad-hoc by command 'loadkeys'.
+
+Regards,
+
+David
+
+BTW, could anybody please create the Czech forum and all the structures
+necessary to include Czech language in the project ?
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000163.html">[Pclos-il8n-dev] About the Czech PCLOS remaster and me
+</A></li>
+	<LI>Next message: <A HREF="000165.html">[Pclos-il8n-dev] About the Czech PCLOS remaster and me
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#166">[ date ]</a>
+              <a href="thread.html#166">[ thread ]</a>
+              <a href="subject.html#166">[ subject ]</a>
+              <a href="author.html#166">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

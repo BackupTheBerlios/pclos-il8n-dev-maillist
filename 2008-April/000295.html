@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] Hmm..
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-April/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Hmm..&In-Reply-To=%3C48180DF3.3030605%40smidovi.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000294.html">
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] Hmm..</H1>
+    <B>David Smid</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Hmm..&In-Reply-To=%3C48180DF3.3030605%40smidovi.eu%3E"
+       TITLE="[Pclos-il8n-dev] Hmm..">david at smidovi.eu
+       </A><BR>
+    <I>Wed Apr 30 08:13:07 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000294.html">[Pclos-il8n-dev] Hmm..
+</A></li>
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#295">[ date ]</a>
+              <a href="thread.html#295">[ thread ]</a>
+              <a href="subject.html#295">[ subject ]</a>
+              <a href="author.html#295">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>pierre-henri-ramboz napsal(a):
+&gt;<i> @ David ... what are your reactions to the mail i yet sent about the 
+</I>&gt;<i> tools you designed to manage desktop files ?
+</I>
+I'm afraid I didn't receive any e-mail from you since April 14th ...
+Could you resend it ?
+
+
+&gt;<i> what framework would you introduce to facilitate the translation process 
+</I>&gt;<i> with new/recently/to-be programs that will need translation of the 
+</I>&gt;<i> desktop files ?
+</I>&gt;<i> i think that you've created something nice but we need to learn how to 
+</I>&gt;<i> master it. powerfull tools are only usefull in masters hand!
+</I>
+I don't know if I understand it right but I'll try to answer:
+
+I think that the software author should be responsible for i18n. He/she should 
+provide framework for managing translations. We all know that this is not how it 
+works in real world. In cases when l10n is not a part of the program build 
+process all we can do is to provide a patch with translated .desktop file.
+For such project I would recommend just to add their .desktop file to our tree 
+and run make_intltool_update script. If we need the true blue .desktop file with 
+translations for such project (we need to prepare patch for SRPM) - just launch 
+script build_desktop_files.
+If, on the other side, we can change the software build process to some extent, 
+the best way is to have .desktop.in file as a source and to build a .desktop 
+file from it and from the .po files during the build process. All you need for 
+this is the intltool-merge utility (see VIT SRPM for example).
+Mature projects usually already have such .desktop file compilation in their 
+build process.
+The important thing is that .desktop.in file is the real source file - .desktop 
+file can be &quot;cooked&quot; any time from it if you have translations.
+
+This is rather complex issue and to find a complete solution I would need to 
+examine the problem a little more and to answer few questions:
+
+How do the translated .desktop files get into official packages now ?
+Isn't it too labour-intensive ?
+Should we provide some patch-making infrastructure ?
+Or should we just make one-for-all package from our .desktop files rather than 
+injecting them into individual packages ?
+
+
+&gt;<i> what about that livecd i18n team / project ?
+</I>
+I think it's a good idea but where would it be hosted ? If I understood it 
+right, mypclinuxos.com is shutting down soon ...
+
+David
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000294.html">[Pclos-il8n-dev] Hmm..
+</A></li>
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#295">[ date ]</a>
+              <a href="thread.html#295">[ thread ]</a>
+              <a href="subject.html#295">[ subject ]</a>
+              <a href="author.html#295">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

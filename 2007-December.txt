@@ -1,0 +1,265 @@
+From didouph.ph at laposte.net  Mon Dec  3 21:05:27 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 03 Dec 2007 21:05:27 +0100
+Subject: [Pclos-il8n-dev] kbudget po
+Message-ID: <47546187.7070308@laposte.net>
+
+updated : po/fr/kbudget.po
+
+thanks
+
+DidouPh
+
+
+
+From lisovszki at dunakanyar.net  Mon Dec 17 21:07:19 2007
+From: lisovszki at dunakanyar.net (Lisovszki =?iso-8859-1?q?S=E1ndor?=)
+Date: Mon, 17 Dec 2007 21:07:19 +0100
+Subject: [Pclos-il8n-dev] updated synaptic.po
+Message-ID: <200712172107.20338.lisovszki@dunakanyar.net>
+
+
+Hi all! 
+
+Here is the updated synaptic_hu.po.
+
+Happy Holidays for all of us!
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synaptic_hu.po
+Type: application/x-gettext
+Size: 64585 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071217/05cd97b9/attachment.bin>
+
+From didouph.ph at laposte.net  Wed Dec 19 00:57:47 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 19 Dec 2007 00:57:47 +0100
+Subject: [Pclos-il8n-dev] updated synaptic.po
+In-Reply-To: <200712172107.20338.lisovszki@dunakanyar.net>
+References: <200712172107.20338.lisovszki@dunakanyar.net>
+Message-ID: <47685E7B.6030708@laposte.net>
+
+Lisovszki S?ndor a ?crit :
+> Hi all! 
+> 
+> Here is the updated synaptic_hu.po.
+> 
+> Happy Holidays for all of us!
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+i checked this po against the old one ... this isnt an update but a full 
+rtranslation of the french one to hungarian ... can you please provide 
+an update based on the urrent hu one please
+
+DidouPh
+
+
+
+From lisovszki at gmail.com  Wed Dec 19 13:47:33 2007
+From: lisovszki at gmail.com (=?UTF-8?Q?S=C3=A1ndor_Lisovszki?=)
+Date: Wed, 19 Dec 2007 13:47:33 +0100
+Subject: [Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 9, Issue 3
+In-Reply-To: <mailman.57.1198062057.29142.pclos-il8n-dev@lists.berlios.de>
+References: <mailman.57.1198062057.29142.pclos-il8n-dev@lists.berlios.de>
+Message-ID: <fcbeadf30712190447k4bf94f45ld7e8c7b6eaa7f4e2@mail.gmail.com>
+
+.....sorry....yes of course, this is the full
+rtranslation of the french one to hungarian..
+
+it's my fault....
+
+
+2007/12/19, pclos-il8n-dev-request at lists.berlios.de <
+pclos-il8n-dev-request at lists.berlios.de>:
+>
+> Send Pclos-il8n-dev mailing list submissions to
+>        pclos-il8n-dev at lists.berlios.de
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+>        https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> or, via email, send a message with subject or body 'help' to
+>        pclos-il8n-dev-request at lists.berlios.de
+>
+> You can reach the person managing the list at
+>        pclos-il8n-dev-owner at lists.berlios.de
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Pclos-il8n-dev digest..."
+>
+>
+> Today's Topics:
+>
+>   1. Re: updated synaptic.po (pierre-henri-ramboz)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Wed, 19 Dec 2007 00:57:47 +0100
+> From: pierre-henri-ramboz <didouph.ph at laposte.net>
+> Subject: Re: [Pclos-il8n-dev] updated synaptic.po
+> To: pclos-il8n-dev at lists.berlios.de
+> Message-ID: <47685E7B.6030708 at laposte.net>
+> Content-Type: text/plain; charset=UTF-8; format=flowed
+>
+> Lisovszki S?ndor a ?crit :
+> > Hi all!
+> >
+> > Here is the updated synaptic_hu.po.
+> >
+> > Happy Holidays for all of us!
+> >
+> >
+> > ------------------------------------------------------------------------
+> >
+> > _______________________________________________
+> > Pclos-il8n-dev mailing list
+> > Pclos-il8n-dev at lists.berlios.de
+> > https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> i checked this po against the old one ... this isnt an update but a full
+> rtranslation of the french one to hungarian ... can you please provide
+> an update based on the urrent hu one please
+>
+> DidouPh
+>
+>
+>
+> ------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>
+> End of Pclos-il8n-dev Digest, Vol 9, Issue 3
+> ********************************************
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071219/d5bdb271/attachment.html>
+
+From didouph.ph at laposte.net  Wed Dec 19 20:29:48 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 19 Dec 2007 20:29:48 +0100
+Subject: [Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 9, Issue 3
+In-Reply-To: <fcbeadf30712190447k4bf94f45ld7e8c7b6eaa7f4e2@mail.gmail.com>
+References: <mailman.57.1198062057.29142.pclos-il8n-dev@lists.berlios.de>
+	<fcbeadf30712190447k4bf94f45ld7e8c7b6eaa7f4e2@mail.gmail.com>
+Message-ID: <4769712C.1070504@laposte.net>
+
+S?ndor Lisovszki a ?crit :
+
+don't worry ... just compare the strings in the one you sent me and the 
+one yet in the cvs, and add what is not yet into it ... so it would be 
+fully updated.
+
+i forward this mail to zoltan, the latest translator of the current po.
+
+according to the mailing list history, synaptic is one of the top 
+translated app for polish and is as clean as the french one ...
+
+DidouPh
+> .....sorry....yes of course, this is the full
+> rtranslation of the french one to hungarian..
+>  
+> it's my fault....
+> 
+>  
+> 2007/12/19, pclos-il8n-dev-request at lists.berlios.de 
+> <mailto:pclos-il8n-dev-request at lists.berlios.de> 
+> <pclos-il8n-dev-request at lists.berlios.de 
+> <mailto:pclos-il8n-dev-request at lists.berlios.de>>:
+> 
+>     Send Pclos-il8n-dev mailing list submissions to
+>            pclos-il8n-dev at lists.berlios.de
+>     <mailto:pclos-il8n-dev at lists.berlios.de>
+> 
+>     To subscribe or unsubscribe via the World Wide Web, visit
+>            https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>     <https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev>
+>     or, via email, send a message with subject or body 'help' to
+>            pclos-il8n-dev-request at lists.berlios.de
+>     <mailto:pclos-il8n-dev-request at lists.berlios.de>
+> 
+>     You can reach the person managing the list at
+>            pclos-il8n-dev-owner at lists.berlios.de
+>     <mailto:pclos-il8n-dev-owner at lists.berlios.de>
+> 
+>     When replying, please edit your Subject line so it is more specific
+>     than "Re: Contents of Pclos-il8n-dev digest..."
+> 
+> 
+>     Today's Topics:
+> 
+>       1. Re: updated synaptic.po (pierre-henri-ramboz)
+> 
+> 
+>     ----------------------------------------------------------------------
+> 
+>     Message: 1
+>     Date: Wed, 19 Dec 2007 00:57:47 +0100
+>     From: pierre-henri-ramboz <didouph.ph at laposte.net
+>     <mailto:didouph.ph at laposte.net>>
+>     Subject: Re: [Pclos-il8n-dev] updated synaptic.po
+>     To: pclos-il8n-dev at lists.berlios.de
+>     <mailto:pclos-il8n-dev at lists.berlios.de>
+>     Message-ID: <47685E7B.6030708 at laposte.net
+>     <mailto:47685E7B.6030708 at laposte.net>>
+>     Content-Type: text/plain; charset=UTF-8; format=flowed
+> 
+>     Lisovszki S?ndor a ?crit :
+>      > Hi all!
+>      >
+>      > Here is the updated synaptic_hu.po.
+>      >
+>      > Happy Holidays for all of us!
+>      >
+>      >
+>      >
+>     ------------------------------------------------------------------------
+>      >
+>      > _______________________________________________
+>      > Pclos-il8n-dev mailing list
+>      > Pclos-il8n-dev at lists.berlios.de
+>     <mailto:Pclos-il8n-dev at lists.berlios.de>
+>      > https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>     <https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev>
+>     i checked this po against the old one ... this isnt an update but a full
+>     rtranslation of the french one to hungarian ... can you please provide
+>     an update based on the urrent hu one please
+> 
+>     DidouPh
+> 
+> 
+> 
+>     ------------------------------
+> 
+>     _______________________________________________
+>     Pclos-il8n-dev mailing list
+>     Pclos-il8n-dev at lists.berlios.de <mailto:Pclos-il8n-dev at lists.berlios.de>
+>     https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+>     End of Pclos-il8n-dev Digest, Vol 9, Issue 3
+>     ********************************************
+> 
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+
+
+

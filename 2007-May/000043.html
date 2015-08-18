@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] new strings in the draklive-install.po
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2007-May/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20new%20strings%20in%20the%20draklive-install.po&In-Reply-To=%3C463A5428.4090105%40laposte.net%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000045.html">
+   <LINK REL="Next"  HREF="000046.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] new strings in the draklive-install.po</H1>
+    <B>pierre-henri-ramboz</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20new%20strings%20in%20the%20draklive-install.po&In-Reply-To=%3C463A5428.4090105%40laposte.net%3E"
+       TITLE="[Pclos-il8n-dev] new strings in the draklive-install.po">didouph.ph at laposte.net
+       </A><BR>
+    <I>Thu May  3 23:29:12 CEST 2007</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000045.html">[Pclos-il8n-dev] soundkonverter nl translation
+</A></li>
+        <LI>Next message: <A HREF="000046.html">[Pclos-il8n-dev] Concerne index-fr.html
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#43">[ date ]</a>
+              <a href="thread.html#43">[ thread ]</a>
+              <a href="subject.html#43">[ subject ]</a>
+              <a href="author.html#43">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>OK
+
+all of you guys, look for the draklive-install.po
+
+and search for the string :
+&quot;You need to reboot for the partition table modifications to take place&quot;
+and replace it with :
+&quot;You need to reboot then select Use Existing Partitions&quot;
+
+then add @ the end of the file :
+msgid &quot;Basic&quot;
+msgstr &quot;&quot;
+
+don't forget to fill in with the appropriate translation !!
+
+if some of you guys are too lazy to look for the strings, i can send you 
+a sed script but i think this is much faster to do it this way :) rather 
+than learning sed !
+
+these translations are TOP PRIORITY
+
+French and Polish version yet available
+
+Micha&#179; Wazgird a &#233;crit :
+&gt;<i> Dnia czwartek 03 maja 2007 14:08, napisa&#179;e&#182;:
+</I>&gt;&gt;<i> Micha&#179; Wazgird a &#233;crit :
+</I>&gt;&gt;&gt;<i> There's some changes in the TR4 draklive-install.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> One of them is mising translation of:
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> msgid &quot;Basic&quot;
+</I>&gt;&gt;&gt;<i> msgstr &quot;&quot;
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> shown in the dialog of select wchich partitions to format. I thing it was
+</I>&gt;&gt;&gt;<i> missing from the beginigng.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Second is, that in TR4 string about &quot;reboot to save partition table&quot;
+</I>&gt;&gt;&gt;<i> changed into
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> msgid &quot;You need to reboot then select Use Existing Partitions&quot;
+</I>&gt;&gt;&gt;<i> msgstr &quot;&quot;
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Polish updated po file will there be soon.
+</I>&gt;&gt;<i> i'm still looking for a diff lile or anything that would let me report
+</I>&gt;&gt;<i> to the other where to add theyre translation to keep a clean framework !
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> i need the lines where your modification have been made
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> thanks
+</I>&gt;<i>
+</I>&gt;<i> Ups, forgot about that.
+</I>&gt;<i>
+</I>&gt;<i> The changed one is that form the 349 line:
+</I>&gt;<i>
+</I>&gt;<i> msgid &quot;You need to reboot for the partition table modifications to take place&quot;
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> The 'Basic' i've added after &quot;msgid &quot;Advanced&quot;&quot; from line 20, to keep things 
+</I>&gt;<i> in place.
+</I>&gt;<i>
+</I>&gt;<i>
+</I>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000045.html">[Pclos-il8n-dev] soundkonverter nl translation
+</A></li>
+	<LI>Next message: <A HREF="000046.html">[Pclos-il8n-dev] Concerne index-fr.html
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#43">[ date ]</a>
+              <a href="thread.html#43">[ thread ]</a>
+              <a href="subject.html#43">[ subject ]</a>
+              <a href="author.html#43">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] distibution/release/organisation
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-July/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20distibution/release/organisation&In-Reply-To=%3C488EE5B0.4090006%40smidovi.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000413.html">
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] distibution/release/organisation</H1>
+    <B>David Smid</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20distibution/release/organisation&In-Reply-To=%3C488EE5B0.4090006%40smidovi.eu%3E"
+       TITLE="[Pclos-il8n-dev] distibution/release/organisation">david at smidovi.eu
+       </A><BR>
+    <I>Tue Jul 29 11:41:04 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000413.html">[Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 16, Issue 21
+</A></li>
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#414">[ date ]</a>
+              <a href="thread.html#414">[ thread ]</a>
+              <a href="subject.html#414">[ subject ]</a>
+              <a href="author.html#414">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>This is a copy of mail sent to the PCLinuxOS-i18n Google group 
+(<A HREF="http://groups.google.com/group/pclinuxos-i18n">http://groups.google.com/group/pclinuxos-i18n</A>).
+
+What is the primary mailing list now, Didouph ?
+Is the BerliOS mailing list going to be abandoned ?
+
+========================================================================
+&gt;<i> Gianvacca napsal(a):
+</I>&gt;&gt;<i> Please, can someone summarise the the conclusions? The conversation
+</I>&gt;&gt;<i> was probably easier to follow live, but so written it's difficult.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> To me it's not difficult to take an srpm with a localization part,
+</I>&gt;&gt;<i> retrieve the various messages, translate the missing parts and put the
+</I>&gt;&gt;<i> complete po back. The problem is when localization is not present ab
+</I>&gt;&gt;<i> initio.
+</I>
+David Smid napsal(a):
+&gt;<i> I will make some experiments today and then I'll send here some 
+</I>&gt;<i> preliminary framework description + some real life example.
+</I>
+Here it is (uploaded to the pclinuxos-i18n group home). It turned out that
+making a real life example means also getting it
+all done. That's why it's delayed.
+
+So it's more a framework preview than some simple real life example.
+How it works:
+
+In the root, there are two dirs: &quot;packages&quot; and &quot;tools&quot;. Tools directory holds
+some necessary tools while packages holds ... surprise coming .... package entries.
+Each package is represented by its directory tree and a Makefile. This Makefile
+is usually a one-liner that only includes ../Makefile.common.
+
+There are already entries for two packages in the experimental tree: synaptic
+and vit.
+If you want add an entry for new package (say krusader), go to tools/ dir and
+launch new-package script from here:
+
+./new-package krusader ../../pclos-i18n.dev/CVSROOT
+
+The second parameter is optional - it's the root of the old CVS repository.
+If you specify it, all existing .po and .pot files will be copied from it to the
+new destination.
+Any existing .desktop files must be copied by hand to the right place.
+
+Then go to ../packages/krusader and here you will find complete structure of
+package entry. Lets start with some help:
+
+[<A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">david at localhost</A> krusader]# make help
+make
+	- build .mo files and .desktop files, see result in build/
+	and desktop/ dirs.
+
+make clean
+	- delete any intermediate files or dirs
+
+make install [ INSTALL_ROOT=&lt;install_root&gt; ]
+	- install files, default INSTALL_ROOT is /tmp
+
+make new-release [ MESSAGE=&lt;changelog_message&gt; ]
+	- increase the RPM release number or sync version with upstream
+
+make rpm
+	- build the RPM and SRPM, see result in build/ dir
+
+make desktop-update
+	- after adding new .desktop file in desktop.in/ tree,
+	convert it to .desktop.in file and
+	extract translations to desktop.in/po/*.po files
+
+
+Making RPM is just two words away:
+
+[<A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">david at localhost</A> krusader]# make rpm
+
+Your RPM is in build/noarch/krusader-l10n-1.90.0-1pclos2007.noarch.rpm, SRPM is
+in build/krusader-l10n-1.90.0-1pclos2007.src.rpm .
+
+Generated RPM currently does not use the &quot;overriding&quot; technique, but that's just
+a matter of editing &quot;packages/template.spec.in&quot; and this functionality will be
+added later. Also remember, that this is still a work in progress.
+
+Using &quot;make something&quot; command in the package/ directory has the same meaning as
+entering every package subdirectory and launching &quot;make something&quot; from here.
+
+Requires intltool, gettext, rpm-build and rpm-tools.
+
+
+David
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000413.html">[Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 16, Issue 21
+</A></li>
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#414">[ date ]</a>
+              <a href="thread.html#414">[ thread ]</a>
+              <a href="subject.html#414">[ subject ]</a>
+              <a href="author.html#414">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

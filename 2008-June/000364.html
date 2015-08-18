@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] mkremaster modified for gettext
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-June/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20mkremaster%20modified%20for%20gettext&In-Reply-To=%3C485A5D2C.105%40fastwebnet.it%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000363.html">
+   <LINK REL="Next"  HREF="000366.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] mkremaster modified for gettext</H1>
+    <B>Alessio Adamo</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20mkremaster%20modified%20for%20gettext&In-Reply-To=%3C485A5D2C.105%40fastwebnet.it%3E"
+       TITLE="[Pclos-il8n-dev] mkremaster modified for gettext">alessioadamo at fastwebnet.it
+       </A><BR>
+    <I>Thu Jun 19 15:20:44 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000363.html">[Pclos-il8n-dev] mkremaster modified for gettext
+</A></li>
+        <LI>Next message: <A HREF="000366.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#364">[ date ]</a>
+              <a href="thread.html#364">[ thread ]</a>
+              <a href="subject.html#364">[ subject ]</a>
+              <a href="author.html#364">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>David, aesthetics is important also to me and I want to redo everything 
+to make it look better.
+
+I've finally realized how initscripts get localized and I will implement 
+that system into my script modifications. It's very simple, you just 
+need such a function:
+
+gprintf() {
+        local TEXT=`gettext -e &quot;$1&quot;`
+    shift
+    printf &quot;$TEXT&quot; &quot;$@&quot;
+}
+
+Then you use it like this:
+
+gprintf &quot;Hello\nworld&quot;; echo
+echo
+NAME=Alessio
+SURNAME=Adamo
+echo &quot;$(gprintf &quot;Surname: \&quot;%s\&quot;\nName: \&quot;%s\&quot;\n&quot; $SURNAME $NAME)&quot;
+
+I've tested it and it works flawlessly.
+
+In addition, there's no need to call gettext.sh so that the gettext-base 
+package is enough (we get rid of a dependency). Finally, in the message 
+id you can remove the ugly \\n, \\t, \\\&quot; and substitute them with 
+prettier \n, \t, \&quot;
+
+Regards,
+Alessio
+
+
+David Smid ha scritto:
+&gt;<i> Alessio Adamo napsal(a):
+</I>&gt;<i>   
+</I>&gt;&gt;<i> Thank you, David.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> My experiment didn't work because with
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> gettext -e &quot;Hello\nworld&quot; the template string is &quot;Hello\nworld&quot;, while with
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> printf $&quot;Hello\nworld&quot; the template string becomes &quot;Hello\\nworld&quot;
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> do you think I should change the scripts for using this syntax?
+</I>&gt;&gt;<i>     
+</I>&gt;<i>
+</I>&gt;<i> I don't think so. Even gettext authors do not recommend the $&quot;...&quot; syntax.
+</I>&gt;<i> But next time you can try something like this:
+</I>&gt;<i>
+</I>&gt;<i>   printf &quot;`gettext &quot;File %s was deleted\n&quot;`&quot; $FILE
+</I>&gt;<i>
+</I>&gt;<i> in order to have better looking msgids.
+</I>&gt;<i>
+</I>&gt;<i> David
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Pclos-il8n-dev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">Pclos-il8n-dev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev</A>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000363.html">[Pclos-il8n-dev] mkremaster modified for gettext
+</A></li>
+	<LI>Next message: <A HREF="000366.html">[Pclos-il8n-dev] New Drak utilities
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#364">[ date ]</a>
+              <a href="thread.html#364">[ thread ]</a>
+              <a href="subject.html#364">[ subject ]</a>
+              <a href="author.html#364">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

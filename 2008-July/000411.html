@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] google code
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-July/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20google%20code&In-Reply-To=%3C48884BD0.9000301%40smidovi.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000410.html">
+   <LINK REL="Next"  HREF="000412.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] google code</H1>
+    <B>David Smid</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20google%20code&In-Reply-To=%3C48884BD0.9000301%40smidovi.eu%3E"
+       TITLE="[Pclos-il8n-dev] google code">david at smidovi.eu
+       </A><BR>
+    <I>Thu Jul 24 11:30:56 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000410.html">[Pclos-il8n-dev] google code
+</A></li>
+        <LI>Next message: <A HREF="000412.html">[Pclos-il8n-dev] Google Groupes : Vous avez &#233;t&#233; invit&#233; &#224; rejoindre le groupe pclinuxos-i18n.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#411">[ date ]</a>
+              <a href="thread.html#411">[ thread ]</a>
+              <a href="subject.html#411">[ subject ]</a>
+              <a href="author.html#411">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ramboz Pierre-Henri napsal(a):
+&gt;<i> <A HREF="http://code.google.com/p/pclinuxos-i18n/">http://code.google.com/p/pclinuxos-i18n/</A>
+</I>
+<A HREF="http://pclinuxos-i18n.googlecode.com/">http://pclinuxos-i18n.googlecode.com/</A> works aswell :)
+
+&gt;<i> this is our new home :)
+</I>&gt;<i> 
+</I>&gt;<i> cheeper faster better than anything i could set-up
+</I>&gt;<i> 
+</I>&gt;<i> so please register there...
+</I>
+Administrator must add your address to the project, there's no way I could do it 
+myself. My address <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">david at smidovi.eu</A> should be Google friendly, try to add it, 
+please.
+
+&gt;<i> i will upload the berlios cvs to the google code svn and eventually add 
+</I>&gt;<i> a google group to add visibility (this will eventually replace our 
+</I>&gt;<i> current list)
+</I>&gt;<i> register there for updates and expect a brand new repository organisation.
+</I>
+Could we discuss how will the new repository organisation look like ? I have 
+some ideas.
+
+First of all I'm convinced it has to be package oriented instead of locale oriented.
+
+My proposal:
+
+/&lt;package_name&gt;/
+		po/
+				&lt;gettext_domain1&gt;/
+						&lt;gettext_domain1&gt;.pot
+						locale1.po
+						locale2.po
+						...
+				&lt;gettext_domain2&gt;/
+				...
+		desktop.in/
+				&lt;desktop-file-name1&gt;.desktop.in
+				&lt;desktop-file-name2&gt;.desktop.in
+				...
+		misc/
+		Makefile	# Various targets for: SRPM retrieving, .pot
+				# extraction, .po merging, patch generating,
+				# integrity checking, patched SRPM building ...
+
+Directories with content ignored by SVN:
+		desktop/
+		build/
+		tmp/
+
+
+What I'm trying to achieve is to simplify and automatize the process of patching 
+source RPMs and testing of translation injection.
+
+David
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000410.html">[Pclos-il8n-dev] google code
+</A></li>
+	<LI>Next message: <A HREF="000412.html">[Pclos-il8n-dev] Google Groupes : Vous avez &#233;t&#233; invit&#233; &#224; rejoindre le groupe pclinuxos-i18n.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#411">[ date ]</a>
+              <a href="thread.html#411">[ thread ]</a>
+              <a href="subject.html#411">[ subject ]</a>
+              <a href="author.html#411">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

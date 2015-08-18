@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] Swedish (Svenska) Localization project
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-April/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Swedish%20%28Svenska%29%20Localization%20project&In-Reply-To=%3CBLU125-W496D695A1335E7B8CEF97EA4F40%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000241.html">
+   <LINK REL="Next"  HREF="000242.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] Swedish (Svenska) Localization project</H1>
+    <B>Ramboz Pierre-Henri</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Swedish%20%28Svenska%29%20Localization%20project&In-Reply-To=%3CBLU125-W496D695A1335E7B8CEF97EA4F40%40phx.gbl%3E"
+       TITLE="[Pclos-il8n-dev] Swedish (Svenska) Localization project">didouph at hotmail.com
+       </A><BR>
+    <I>Wed Apr  2 12:05:42 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000241.html">[Pclos-il8n-dev] R: Pclos-il8n-dev Digest, Vol 13, Issue 1
+</A></li>
+        <LI>Next message: <A HREF="000242.html">[Pclos-il8n-dev] html code additions
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#240">[ date ]</a>
+              <a href="thread.html#240">[ thread ]</a>
+              <a href="subject.html#240">[ subject ]</a>
+              <a href="author.html#240">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>
+A S a &#233;crit :
+
+&gt;<i> Just ironing and grasping the whole CVS concept at the moment. Feels odd,
+</I>&gt;<i> thinking I used to work as a IT specialist around Solaris, NT, some
+</I>&gt;<i> GNU/Linux, ISP, Networking along with DMS (document management systems) 7-8
+</I>&gt;<i> years ago that I only used CVS a few times back in 1999 while I think I was
+</I>&gt;<i> messing with a Red Hat install a little. Then I broke down in exhaust
+</I>&gt;<i> depression and 2 kids was born.. I got lots of time but far less energy as
+</I>&gt;<i> one used to have.. err.. used to spend is more suitable expression since one
+</I>&gt;<i> worked with no sleep for 2 days at the time back then. I suspect it goes
+</I>&gt;<i> under the definition of young and stupid :P
+</I>
+i'm back to that young and stoopid age
+
+&gt;<i> Anyhow, this is the procedure?
+</I>&gt;<i> 
+</I>&gt;<i> * Checkout needed localization files via CVS. Took me a minute to get the
+</I>&gt;<i> &quot;think&quot; right for the module definition. So I grabbed all content in &quot;fr/&quot;
+</I>&gt;<i> as a workbase with:
+</I>&gt;<i> cvs -z3 -d:pserver:<A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">anonymous at cvs.pclos-il8n.berlios.de</A>:/cvsroot/pclos-il8n/
+</I>&gt;<i> co ./CVSROOT/po/fr
+</I>&gt;<i> 
+</I>
+right
+
+but you also could use cervisa and then be able late in the future to 
+monitor changes from your local folder and the whole cvs three
+
+if i where you i would :
+
+get the whole three copyed to my desktop
+seek for missing files in my locale install
+check against what is in /po/fr and /po/hu
+then translate the from fr or hu po files translate to swedish
+
+they are some files in the pot directory that are critical to the sstem 
+core translation, those files are :
+synaptic-update.pot and vit.pot
+both are part of default pclinuxinstall and are basis for translation
+synaptic-update is bound to be used as a patch on the synaptic.po 
+located in the fr section of po module.
+
+also consider that the first translation to make are the drak tool's 
+ones so if you need a roadmap, you could :
+
+1 : translate vit synaptic and synaptic-update
+2 : translate bootsplash.po drakconf.po draklive-install.po 
+drakmenustyle.po libDrakX.po libDrakX-standalone.po userdrake.po
+3 : and now go on with desktop files !
+
+&gt;<i> * Edit po files either by KBabel or favorite editor.
+</I>
+kbabel is better for bigginers
+don't forget your credit and e.mail
+
+&gt;<i> * In order to submit Swedish locale file/files I will then tar.gz and send
+</I>&gt;<i> to mailinglist according to submission policy, naming the Swedish
+</I>&gt;<i> bootsplash.po --&gt; bootsplash-sv_SE.po? And from there you and others will
+</I>&gt;<i> review it and then toss it into cvs module se/?
+</I>
+yes
+
+if you send a bundle of file, you may simply add the locale code to the 
+tar.gz no need to add it to every files
+
+i created the sv_SE directory on the cvs three !
+
+have fun
+
+DidouPh
+
+
+
+_________________________________________________________________
+Avec Hotmail, vos e-mails vous suivent partout ! Mettez Hotmail sur votre mobile !
+<A HREF="http://www.messengersurvotremobile.com/?d=hotmail">http://www.messengersurvotremobile.com/?d=hotmail</A>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080402/9ba7b034/attachment.html">https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080402/9ba7b034/attachment.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000241.html">[Pclos-il8n-dev] R: Pclos-il8n-dev Digest, Vol 13, Issue 1
+</A></li>
+	<LI>Next message: <A HREF="000242.html">[Pclos-il8n-dev] html code additions
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#240">[ date ]</a>
+              <a href="thread.html#240">[ thread ]</a>
+              <a href="subject.html#240">[ subject ]</a>
+              <a href="author.html#240">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

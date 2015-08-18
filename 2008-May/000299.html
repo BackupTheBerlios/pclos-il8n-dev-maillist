@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] Hmm..
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-May/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Hmm..&In-Reply-To=%3C481B96D5.80708%40laposte.net%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000298.html">
+   <LINK REL="Next"  HREF="000300.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] Hmm..</H1>
+    <B>pierre-henri-ramboz</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Hmm..&In-Reply-To=%3C481B96D5.80708%40laposte.net%3E"
+       TITLE="[Pclos-il8n-dev] Hmm..">didouph.ph at laposte.net
+       </A><BR>
+    <I>Sat May  3 00:33:57 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000298.html">[Pclos-il8n-dev] Install help in Czech
+</A></li>
+        <LI>Next message: <A HREF="000300.html">[Pclos-il8n-dev] [it]apt.po + 2 revised desktop files
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#299">[ date ]</a>
+              <a href="thread.html#299">[ thread ]</a>
+              <a href="subject.html#299">[ subject ]</a>
+              <a href="author.html#299">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>
+
+David Smid a &#233;crit :
+&gt;<i> pierre-henri-ramboz napsal(a):
+</I>&gt;&gt;<i> @ David ... what are your reactions to the mail i yet sent about the 
+</I>&gt;&gt;<i> tools you designed to manage desktop files ?
+</I>&gt;<i> 
+</I>&gt;<i> I'm afraid I didn't receive any e-mail from you since April 14th ...
+</I>&gt;<i> Could you resend it ?
+</I>
+Its on the list archives ...
+
+&gt;<i> 
+</I>&gt;&gt;<i> what framework would you introduce to facilitate the translation process 
+</I>&gt;&gt;<i> with new/recently/to-be programs that will need translation of the 
+</I>&gt;&gt;<i> desktop files ?
+</I>&gt;&gt;<i> i think that you've created something nice but we need to learn how to 
+</I>&gt;&gt;<i> master it. powerfull tools are only usefull in masters hand!
+</I>&gt;<i> 
+</I>&gt;<i> I don't know if I understand it right but I'll try to answer:
+</I>&gt;<i> 
+</I>&gt;<i> I think that the software author should be responsible for i18n. He/she should 
+</I>&gt;<i> provide framework for managing translations. We all know that this is not how it 
+</I>&gt;<i> works in real world. In cases when l10n is not a part of the program build 
+</I>&gt;<i> process all we can do is to provide a patch with translated .desktop file.
+</I>&gt;<i> For such project I would recommend just to add their .desktop file to our tree 
+</I>&gt;<i> and run make_intltool_update script. If we need the true blue .desktop file with 
+</I>&gt;<i> translations for such project (we need to prepare patch for SRPM) - just launch 
+</I>&gt;<i> script build_desktop_files.
+</I>&gt;<i> If, on the other side, we can change the software build process to some extent, 
+</I>&gt;<i> the best way is to have .desktop.in file as a source and to build a .desktop 
+</I>&gt;<i> file from it and from the .po files during the build process. All you need for 
+</I>&gt;<i> this is the intltool-merge utility (see VIT SRPM for example).
+</I>&gt;<i> Mature projects usually already have such .desktop file compilation in their 
+</I>&gt;<i> build process.
+</I>&gt;<i> The important thing is that .desktop.in file is the real source file - .desktop 
+</I>&gt;<i> file can be &quot;cooked&quot; any time from it if you have translations.
+</I>&gt;<i> 
+</I>&gt;<i> This is rather complex issue and to find a complete solution I would need to 
+</I>&gt;<i> examine the problem a little more and to answer few questions:
+</I>&gt;<i> 
+</I>&gt;<i> How do the translated .desktop files get into official packages now ?
+</I>&gt;<i> Isn't it too labour-intensive ?
+</I>&gt;<i> Should we provide some patch-making infrastructure ?
+</I>&gt;<i> Or should we just make one-for-all package from our .desktop files rather than 
+</I>&gt;<i> injecting them into individual packages ?
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>
+thats exactly the points i made in the post you missed !
+
+&gt;&gt;<i> what about that livecd i18n team / project ?
+</I>&gt;<i> 
+</I>&gt;<i> I think it's a good idea but where would it be hosted ? If I understood it 
+</I>&gt;<i> right, mypclinuxos.com is shutting down soon ...
+</I>&gt;<i> 
+</I>
+NO IT WON'T SHUT DOWN !
+:<i>p
+</I>
+&gt;<i> David
+</I>&gt;<i> 
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Pclos-il8n-dev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">Pclos-il8n-dev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev</A>
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000298.html">[Pclos-il8n-dev] Install help in Czech
+</A></li>
+	<LI>Next message: <A HREF="000300.html">[Pclos-il8n-dev] [it]apt.po + 2 revised desktop files
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#299">[ date ]</a>
+              <a href="thread.html#299">[ thread ]</a>
+              <a href="subject.html#299">[ subject ]</a>
+              <a href="author.html#299">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,2246 @@
+From alessioadamo at fastwebnet.it  Tue Apr  1 11:13:32 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Tue, 1 Apr 2008 11:13:32 +0200 (CEST)
+Subject: [Pclos-il8n-dev] Synaptic[it]
+Message-ID: <15250105.2388291207041212433.JavaMail.root@pr001msr>
+
+Hello everybody!
+
+Last time I've sent the italian synaptic_update.po with the wrong charset. This 
+time it's written in the correct utf-8 charset.
+
+I've also amended the main synaptic.po file. Indeed, I had noticed that the ital
+ian version already in the CVS had some missing or fuzzy translations. Moreover,
+ when compared to the french version, it was noticeable that also some original 
+messages were missing. Therefore I decided to integrate it and revise it. Now it
+'s colinear with the french version.
+
+;-)
+
+Take care!
+
+Gianvacca
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Synaptic.tar.gz
+Type: application/x-gzip
+Size: 19800 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080401/6d6f6cb2/attachment.bin>
+
+From didouph.ph at laposte.net  Wed Apr  2 08:29:44 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 02 Apr 2008 08:29:44 +0200
+Subject: [Pclos-il8n-dev] Synaptic[it]
+In-Reply-To: <15250105.2388291207041212433.JavaMail.root@pr001msr>
+References: <15250105.2388291207041212433.JavaMail.root@pr001msr>
+Message-ID: <47F327D8.20303@laposte.net>
+
+all italian files updated / added to the cvs except for the desktop 
+files that have not been edited yet...
+
+thanks alessio
+
+DidouPh
+
+
+
+From didouph at hotmail.com  Wed Apr  2 09:10:58 2008
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Wed, 2 Apr 2008 07:10:58 +0000
+Subject: [Pclos-il8n-dev] Swedish (Svenska) Localization project
+Message-ID: <BLU125-W1341983CDD00F045252EC4A4F40@phx.gbl>
+
+
+hi cryoniq
+thaks for your interrest in our project, if you need any guidance, feel 
+free to ask and i'll be happy to help you out, else, i' looking forward 
+for your input to the project, on this list.
+
+DidouPh
+
+
+A S a ?crit :
+> Hi there!
+> 
+> I am interested in contribute to PCLinuxOS by making a Swedish (Svenska)
+> Localization. If I am not mistaken it is [sv-SE] which is the correct
+> language code for this localization?
+> 
+> I have registered to pclos-i18n-dev mailing list.
+> Registered to BerliOS Developer as: cryoniq
+> 
+> With Regards
+> 
+> /Cryoniq - aka Anders
+> 
+
+
+
+
+_________________________________________________________________
+D?couvrez les profils Messenger de vos amis !
+http://home.services.spaces.live.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080402/70c48b5c/attachment.html>
+
+From alessioadamo at fastwebnet.it  Wed Apr  2 11:59:40 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Wed, 2 Apr 2008 11:59:40 +0200 (CEST)
+Subject: [Pclos-il8n-dev] R: Pclos-il8n-dev Digest, Vol 13, Issue 1
+Message-ID: <29115233.2496901207130380424.JavaMail.root@pr001msr>
+
+" i just spoted this one :
+
+the file in
+
+other/usr/share/apps/ksplash/Themes/Dark/Theme.rc
+
+you've sent me a html file where i should have a plain text file ... i
+atach both version as atachement to this mail :)
+
+DidouPh"
+
+It's not the only one unfortunately, also the last GreeterThheme.desktop files W
+hy there always have to be mistakes?
+
+These are hopefully correct.
+
+Gianvacca.
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: other.tar.gz
+Type: application/x-gzip
+Size: 1797 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080402/3ae67035/attachment.bin>
+
+From didouph at hotmail.com  Wed Apr  2 12:05:42 2008
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Wed, 2 Apr 2008 10:05:42 +0000
+Subject: [Pclos-il8n-dev] Swedish (Svenska) Localization project
+Message-ID: <BLU125-W496D695A1335E7B8CEF97EA4F40@phx.gbl>
+
+
+A S a ?crit :
+
+> Just ironing and grasping the whole CVS concept at the moment. Feels odd,
+> thinking I used to work as a IT specialist around Solaris, NT, some
+> GNU/Linux, ISP, Networking along with DMS (document management systems) 7-8
+> years ago that I only used CVS a few times back in 1999 while I think I was
+> messing with a Red Hat install a little. Then I broke down in exhaust
+> depression and 2 kids was born.. I got lots of time but far less energy as
+> one used to have.. err.. used to spend is more suitable expression since one
+> worked with no sleep for 2 days at the time back then. I suspect it goes
+> under the definition of young and stupid :P
+
+i'm back to that young and stoopid age
+
+> Anyhow, this is the procedure?
+> 
+> * Checkout needed localization files via CVS. Took me a minute to get the
+> "think" right for the module definition. So I grabbed all content in "fr/"
+> as a workbase with:
+> cvs -z3 -d:pserver:anonymous at cvs.pclos-il8n.berlios.de:/cvsroot/pclos-il8n/
+> co ./CVSROOT/po/fr
+> 
+
+right
+
+but you also could use cervisa and then be able late in the future to 
+monitor changes from your local folder and the whole cvs three
+
+if i where you i would :
+
+get the whole three copyed to my desktop
+seek for missing files in my locale install
+check against what is in /po/fr and /po/hu
+then translate the from fr or hu po files translate to swedish
+
+they are some files in the pot directory that are critical to the sstem 
+core translation, those files are :
+synaptic-update.pot and vit.pot
+both are part of default pclinuxinstall and are basis for translation
+synaptic-update is bound to be used as a patch on the synaptic.po 
+located in the fr section of po module.
+
+also consider that the first translation to make are the drak tool's 
+ones so if you need a roadmap, you could :
+
+1 : translate vit synaptic and synaptic-update
+2 : translate bootsplash.po drakconf.po draklive-install.po 
+drakmenustyle.po libDrakX.po libDrakX-standalone.po userdrake.po
+3 : and now go on with desktop files !
+
+> * Edit po files either by KBabel or favorite editor.
+
+kbabel is better for bigginers
+don't forget your credit and e.mail
+
+> * In order to submit Swedish locale file/files I will then tar.gz and send
+> to mailinglist according to submission policy, naming the Swedish
+> bootsplash.po --> bootsplash-sv_SE.po? And from there you and others will
+> review it and then toss it into cvs module se/?
+
+yes
+
+if you send a bundle of file, you may simply add the locale code to the 
+tar.gz no need to add it to every files
+
+i created the sv_SE directory on the cvs three !
+
+have fun
+
+DidouPh
+
+
+
+_________________________________________________________________
+Avec Hotmail, vos e-mails vous suivent partout ! Mettez Hotmail sur votre mobile !
+http://www.messengersurvotremobile.com/?d=hotmail
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080402/9ba7b034/attachment.html>
+
+From didouph.ph at laposte.net  Wed Apr  2 12:19:16 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 02 Apr 2008 12:19:16 +0200
+Subject: [Pclos-il8n-dev] R: Pclos-il8n-dev Digest, Vol 13, Issue 1
+In-Reply-To: <29115233.2496901207130380424.JavaMail.root@pr001msr>
+References: <29115233.2496901207130380424.JavaMail.root@pr001msr>
+Message-ID: <47F35DA4.4040301@laposte.net>
+
+theme.rc was still faulty ... i fixed it by scrapping the html code in 
+the author and website url lines
+
+alessioadamo at fastwebnet.it a ?crit :
+> " i just spoted this one :
+> 
+> the file in
+> 
+> other/usr/share/apps/ksplash/Themes/Dark/Theme.rc
+> 
+> you've sent me a html file where i should have a plain text file ... i
+> atach both version as atachement to this mail :)
+> 
+> DidouPh"
+> 
+> It's not the only one unfortunately, also the last GreeterThheme.desktop files W
+> hy there always have to be mistakes?
+> 
+> These are hopefully correct.
+> 
+> Gianvacca.
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+
+
+
+
+From alessioadamo at fastwebnet.it  Thu Apr  3 16:13:37 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Thu, 3 Apr 2008 16:13:37 +0200 (CEST)
+Subject: [Pclos-il8n-dev] html code additions
+Message-ID: <1481291.2627411207232017065.JavaMail.root@pr001msr>
+
+I realized that I was using a wrong procedure to retrieve files from the CVS, wh
+ich was adding html code to some of them. Also synaptic.po and maybe tightvnc.po
+ are affected. I'll check them out and give the clean version.
+
+I'm very sorry.
+
+Alessio
+
+
+
+From alessioadamo at fastwebnet.it  Thu Apr  3 17:15:12 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Thu, 3 Apr 2008 17:15:12 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]po files cleaned from html
+Message-ID: <16726466.2634491207235712352.JavaMail.root@pr001msr>
+
+Hi, everybody!
+
+As I mentioned in my previous e-mail, I realised that I was using a wrong proced
+ure to download files from the CVS. As a consequence of it, html code was added 
+to them.
+Two po files affected by it
+synaptic.po
+tightvnc.po
+were corrected.
+At the same time I corrected a spelling mistake in draklive-install.po
+
+Thank you for patience,
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]po files corrections.tar.gz
+Type: application/x-gzip
+Size: 22503 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080403/2fba9898/attachment.bin>
+
+From didouph.ph at laposte.net  Thu Apr  3 18:01:44 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 03 Apr 2008 18:01:44 +0200
+Subject: [Pclos-il8n-dev] [it]po files cleaned from html
+In-Reply-To: <16726466.2634491207235712352.JavaMail.root@pr001msr>
+References: <16726466.2634491207235712352.JavaMail.root@pr001msr>
+Message-ID: <47F4FF68.5010907@laposte.net>
+
+all changes applyed to cvs
+
+thanks
+
+Didouph
+
+alessioadamo at fastwebnet.it a ?crit :
+> Hi, everybody!
+> 
+> As I mentioned in my previous e-mail, I realised that I was using a wrong proced
+> ure to download files from the CVS. As a consequence of it, html code was added 
+> to them.
+> Two po files affected by it
+> synaptic.po
+> tightvnc.po
+> were corrected.
+> At the same time I corrected a spelling mistake in draklive-install.po
+
+
+
+
+From david at smidovi.eu  Fri Apr  4 09:14:51 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 04 Apr 2008 09:14:51 +0200
+Subject: [Pclos-il8n-dev] vit update & apt update
+Message-ID: <47F5D56B.8080304@smidovi.eu>
+
+Hello,
+
+There is an update of vit in testing on PASS - the only change in it is renaming 
+ati_7x driver to ati_8x, so I dared to make all the changes in po files by 
+myself. If these po files are OK, I'll include them in the next vit release.
+Concerning the Italian translation: I had to convert the DOS ends of lines to 
+UNIX ones and I've also added a descriptive header to the po file.
+
+In attachment you will also find a set of .po files generated from an updated 
+apt package. All the translations need to be completed.
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: apt_l10n.tgz
+Type: application/x-compressed-tar
+Size: 139582 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080404/3a5ba82c/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit_update.tgz
+Type: application/x-compressed-tar
+Size: 7281 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080404/3a5ba82c/attachment-0001.bin>
+
+From didouph.ph at laposte.net  Fri Apr  4 20:53:41 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 04 Apr 2008 20:53:41 +0200
+Subject: [Pclos-il8n-dev] vit update & apt update
+In-Reply-To: <47F5D56B.8080304@smidovi.eu>
+References: <47F5D56B.8080304@smidovi.eu>
+Message-ID: <47F67935.5010702@laposte.net>
+
+files updated
+
+thanks david ... sounds like some work has to be done on apt :)
+
+get the po guys !!
+
+DidouPh
+
+David Smid a ?crit :
+> Hello,
+> 
+> There is an update of vit in testing on PASS - the only change in it is 
+> renaming ati_7x driver to ati_8x, so I dared to make all the changes in 
+> po files by myself. If these po files are OK, I'll include them in the 
+> next vit release.
+> Concerning the Italian translation: I had to convert the DOS ends of 
+> lines to UNIX ones and I've also added a descriptive header to the po file.
+> 
+> In attachment you will also find a set of .po files generated from an 
+> updated apt package. All the translations need to be completed.
+> 
+> David
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+
+
+
+
+From alessioadamo at fastwebnet.it  Fri Apr  4 22:58:49 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Fri, 4 Apr 2008 22:58:49 +0200 (CEST)
+Subject: [Pclos-il8n-dev] vit update [it] (David Smid)
+Message-ID: <15603387.2754131207342729469.JavaMail.root@pr001msr>
+
+Hi, David!
+
+Thanks a lot for your work! I have some questions: how did you see the dos ends 
+of lines? And how did you replace them with UNIX ends?
+
+Alessio Adamo
+[it]translator
+
+
+
+From cryoniq at gmail.com  Sat Apr  5 13:52:04 2008
+From: cryoniq at gmail.com (A S)
+Date: Sat, 5 Apr 2008 13:52:04 +0200
+Subject: [Pclos-il8n-dev] bootsplash.po and vit.po [sv_SE]
+Message-ID: <22d880e20804050452v50a4b512g7e8fabb269d667db@mail.gmail.com>
+
+Hello everyone!
+
+Let's see if I got this right. Start with two not so major swedish
+translated po files:
+
+/po/sv_SE/bootsplash.po
+/po/sv_SE/vit.po
+
+I am not sure how the rest of you do it, but I have a feeling I lack a
+"testing procedure" where I actually can bring these translations into an
+install and make sure translations were interpreted correctly in their true
+situation, before submitting them. As it is now, I am studying procedures
+and apps and twist and turn some translations quite a bit, without slight
+clue how it actually will turn out when applied. Maybe this is something
+normal  :D
+
+Hope they are not contaminated with some html etc (hence starting out with 2
+small translations and iron out possible mistakes in my procedure before I
+get too far in the much larger synaptic.po I work on at the moment). I
+brought them down via Cervisia and not command line CVS so there are
+possible new room for glitches (unknown fact to me though).
+
+I am sure however most of you can tell at once by just looking at for
+example vit.po if there is something not like it should.
+
+Anyhow. Currently working on synaptic.po [sv_SE].
+
+Regards
+
+/Crysto
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080405/4b0ca553/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: bootsplash.po.and.vit.po-sv_SE.tar.gz
+Type: application/x-gzip
+Size: 2553 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080405/4b0ca553/attachment.bin>
+
+From david at smidovi.eu  Sat Apr  5 19:09:50 2008
+From: david at smidovi.eu (David Smid)
+Date: Sat, 05 Apr 2008 19:09:50 +0200
+Subject: [Pclos-il8n-dev] vit update [it] (David Smid)
+In-Reply-To: <15603387.2754131207342729469.JavaMail.root@pr001msr>
+References: <15603387.2754131207342729469.JavaMail.root@pr001msr>
+Message-ID: <47F7B25E.6010909@smidovi.eu>
+
+alessioadamo at fastwebnet.it napsal(a):
+> Hi, David!
+> 
+> Thanks a lot for your work! I have some questions: how did you see the dos ends 
+> of lines? And how did you replace them with UNIX ends?
+> 
+> Alessio Adamo
+> [it]translator
+
+In mcedit DOS ends of lines are visible as ^M. In KWrite you can take
+look what option is checked in "Tools->End of Line". This submenu can be
+also used to replace DOS ends of lines to the UNIX ones. Or you can use
+dos2unix utility.
+
+David
+
+
+From david at smidovi.eu  Sat Apr  5 19:19:50 2008
+From: david at smidovi.eu (David Smid)
+Date: Sat, 05 Apr 2008 19:19:50 +0200
+Subject: [Pclos-il8n-dev] bootsplash.po and vit.po [sv_SE]
+In-Reply-To: <22d880e20804050452v50a4b512g7e8fabb269d667db@mail.gmail.com>
+References: <22d880e20804050452v50a4b512g7e8fabb269d667db@mail.gmail.com>
+Message-ID: <47F7B4B6.7090604@smidovi.eu>
+
+A S napsal(a):
+
+> I am not sure how the rest of you do it, but I have a feeling I lack a
+> "testing procedure" where I actually can bring these translations into
+> an install and make sure translations were interpreted correctly in
+> their true situation, before submitting them. As it is now, I am
+> studying procedures and apps and twist and turn some translations quite
+> a bit, without slight clue how it actually will turn out when applied.
+> Maybe this is something normal  :D
+
+Testing the translation is quite easy - just compile it by typing:
+
+msgfmt vit.po -o vit.mo
+
+Then copy the file vit.mo to directory
+/usr/share/locale/sv_SE/LC_MESSAGES/ and launch vit to check it - it
+should talk to you in your language.
+It the case of vit, you need version vit-1.1 from testing, former
+versions are not internationalized.
+This procedure is universal and should work for all internationalized
+applications.
+
+David
+
+
+From alessioadamo at fastwebnet.it  Sat Apr  5 17:19:01 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Sat, 5 Apr 2008 17:19:01 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]po_files_update; [it]Desktop-files
+Message-ID: <23773223.2787871207408741444.JavaMail.root@pr001msr>
+
+Hi, everybody!
+
+I was translating both in Windows and in PCLOS and I wasn't aware of the Linux/D
+OS end of lines. I found in poEdit the option to convert to Linux ends. So I con
+verted all po(s). Meanwhile I profited to edit the headers and do some minor cor
+rections.
+
+I attach also the fist part of desktop files, to make DidouPh's life easier. Ano
+ther part will come soon.
+
+Early next week, instead, I'll send the italian default home page and the italia
+n guide for installation.
+
+Have a nice weekend!
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]desktop-files.tar.gz
+Type: application/x-gzip
+Size: 50552 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080405/2758ba36/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]po_files.tar.gz
+Type: application/x-gzip
+Size: 163509 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080405/2758ba36/attachment-0001.bin>
+
+From didouph.ph at laposte.net  Sat Apr  5 22:30:38 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 05 Apr 2008 22:30:38 +0200
+Subject: [Pclos-il8n-dev] bootsplash.po and vit.po [sv_SE]
+In-Reply-To: <47F7B4B6.7090604@smidovi.eu>
+References: <22d880e20804050452v50a4b512g7e8fabb269d667db@mail.gmail.com>
+	<47F7B4B6.7090604@smidovi.eu>
+Message-ID: <47F7E16E.9030504@laposte.net>
+
+it rings my bell about the wiki ... i almost forgot about it and didn't 
+finished it on mypclinuxos ... maybe some of you guys could continue 
+edditing it and add to the procedure involved in the localisation, 
+technicals and practical aspects ...
+
+that would be highly apreciated :)
+
+DidouPh
+
+David Smid a ?crit :
+> A S napsal(a):
+> 
+>> I am not sure how the rest of you do it, but I have a feeling I lack a
+>> "testing procedure" where I actually can bring these translations into
+>> an install and make sure translations were interpreted correctly in
+>> their true situation, before submitting them. As it is now, I am
+>> studying procedures and apps and twist and turn some translations quite
+>> a bit, without slight clue how it actually will turn out when applied.
+>> Maybe this is something normal  :D
+> 
+> Testing the translation is quite easy - just compile it by typing:
+> 
+> msgfmt vit.po -o vit.mo
+> 
+> Then copy the file vit.mo to directory
+> /usr/share/locale/sv_SE/LC_MESSAGES/ and launch vit to check it - it
+> should talk to you in your language.
+> It the case of vit, you need version vit-1.1 from testing, former
+> versions are not internationalized.
+> This procedure is universal and should work for all internationalized
+> applications.
+> 
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+
+
+From david at smidovi.eu  Sun Apr  6 08:27:53 2008
+From: david at smidovi.eu (David Smid)
+Date: Sun, 06 Apr 2008 08:27:53 +0200
+Subject: [Pclos-il8n-dev] VIT cleaned up & desktop file l10n needed
+Message-ID: <47F86D69.9080407@smidovi.eu>
+
+Hello all,
+
+I've cleaned up all vit translations using msgmerge:
+
+msgmerge -U --backup=simple cs.po vit.pot
+
+This way I've added new messages from vit.pot to all .po files and
+messages not used anymore in vit have been commented out.
+
+There are two new messages in .po files: VIT desktop icon name and
+comment. So, if you want to translate vit .desktop file texts to your
+language, just grab your .po file and fill in the msgstrs. I'm going to
+release a new vit version soon.
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit.tgz
+Type: application/x-compressed-tar
+Size: 9084 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080406/ac04bd06/attachment.bin>
+
+From cryoniq at gmail.com  Sun Apr  6 14:47:03 2008
+From: cryoniq at gmail.com (A S)
+Date: Sun, 6 Apr 2008 14:47:03 +0200
+Subject: [Pclos-il8n-dev] [Update] vit.po [sv_SE]
+Message-ID: <22d880e20804060547u18cd6272j6c5ae1acde3eb22a@mail.gmail.com>
+
+Update of new v1.2 vit.po [sv_SE]
+
+/po/sv_SE/vit.po
+
+Changes:
++Corrected some minor spelling errors.
++Translated the 2 new additions.
++Discovered and translated a word that was missed in a sentence.
++Polished some sentences being on "install and remove driver buttons" by
+have them begin with caps in order to avoid them look too similiar to the
+user.
+
+/Cryoniq
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080406/d20d23ff/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit.po-sv_SE.tar.gz
+Type: application/x-gzip
+Size: 2059 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080406/d20d23ff/attachment.bin>
+
+From cryoniq at gmail.com  Sun Apr  6 16:34:43 2008
+From: cryoniq at gmail.com (A S)
+Date: Sun, 6 Apr 2008 16:34:43 +0200
+Subject: [Pclos-il8n-dev] bootsplash.po and vit.po [sv_SE]
+In-Reply-To: <47F7B4B6.7090604@smidovi.eu>
+References: <22d880e20804050452v50a4b512g7e8fabb269d667db@mail.gmail.com>
+	<47F7B4B6.7090604@smidovi.eu>
+Message-ID: <22d880e20804060734l44722734xf98d151cb815c8b8@mail.gmail.com>
+
+Worked like a charm. However I am in confusion since update of
+/po/sv_SE/vit.po 1.2.
+I noticed that the section "ATI 7X" was replaced by "ATI 8X". That is what
+is shown in vit.po when looking at it and editing it with Kbabel. I thought
+it was ok with the 1.2 I submitted today. I compiled it into vit.mo and
+copied it to the location over the other. Then started up vit 1.1 etc.
+To my surprise I notice that there are no tab with "ATI 8X". And the tab
+"ATI 7X" is still there.. and what is more.. the section with it has 50%
+parts that isn't translated.
+Very weird since there are no "ATI 7X" showing at any ID in Kbabel.
+
+Going to look at vit.po with standard text editor no and try figure out if
+something is wrong. Feel kinda wrong to have untranslated parts in program,
+but not in Kbabel ^^
+
+/Cryoniq
+
+2008/4/5, David Smid <david at smidovi.eu>:
+>
+> A S napsal(a):
+>
+>
+> > I am not sure how the rest of you do it, but I have a feeling I lack a
+> > "testing procedure" where I actually can bring these translations into
+> > an install and make sure translations were interpreted correctly in
+> > their true situation, before submitting them. As it is now, I am
+> > studying procedures and apps and twist and turn some translations quite
+> > a bit, without slight clue how it actually will turn out when applied.
+> > Maybe this is something normal  :D
+>
+>
+> Testing the translation is quite easy - just compile it by typing:
+>
+> msgfmt vit.po -o vit.mo
+>
+> Then copy the file vit.mo to directory
+> /usr/share/locale/sv_SE/LC_MESSAGES/ and launch vit to check it - it
+> should talk to you in your language.
+> It the case of vit, you need version vit-1.1 from testing, former
+> versions are not internationalized.
+> This procedure is universal and should work for all internationalized
+> applications.
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080406/1aa7446f/attachment.html>
+
+From dsmid at atlas.cz  Sun Apr  6 16:48:48 2008
+From: dsmid at atlas.cz (Smid David)
+Date: Sun, 06 Apr 2008 14:48:48 GMT
+Subject: [Pclos-il8n-dev] bootsplash.po and vit.po [sv_SE]
+Message-ID: <0981c1847576436db216750f8a85f2ba@b881cd33c21e4399805765a373c74539>
+
+ 
+> Worked like a charm. However I am in confusion since update of /po/sv_SE/vit.po 1.2.
+> I noticed that the section "ATI 7X" was replaced by "ATI 8X". That is what is shown in
+> vit.po when looking at it and editing it with Kbabel. I thought it was ok with the 1.2 I
+> submitted today. I compiled it into vit.mo and copied it to the location over the other.
+> Then started up vit 1.1 etc.
+> To my surprise I notice that there are no tab with "ATI 8X". And the tab "ATI 7X" is still
+> there.. and what is more.. the section with it has 50% parts that isn't translated.
+> Very weird since there are no "ATI 7X" showing at any ID in Kbabel.
+> Going to look at vit.po with standard text editor no and try figure out if something is
+> wrong. Feel kinda wrong to have untranslated parts in program, but not in Kbabel ^^
+> /Cryoniq
+
+You need vit-1.1-2pclos2007 - in this release Tex replaced "ATI 7X" by "ATI 8X":
+
+ftp://ftp.ch.debian.org/mirror/pclinuxos/apt/pclinuxos/2007/RPMS.testing/vit-1.1-2pclos2007.noarch.rpm
+
+David
+
+From alessioadamo at fastwebnet.it  Sun Apr  6 23:24:46 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Sun, 6 Apr 2008 23:24:46 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]new stuff
+Message-ID: <30736790.2844321207517086412.JavaMail.root@pr001msr>
+
+Hi, guys!
+
+It's the italian translator typing!
+
+Here you get the last vit updated version, the welcome webpage and the installat
+ion help plus screenshots.
+
+Before I leave you... I noticed that in vit there is a typo in an original messa
+ge, the one describing the Nvidia 169.xx driver. PLESE instead of PLEASE. ;-)
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]new stuff.tar.gz
+Type: application/x-gzip
+Size: 612414 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080406/f3fdb140/attachment.bin>
+
+From didouph.ph at laposte.net  Mon Apr  7 09:36:54 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 07 Apr 2008 09:36:54 +0200
+Subject: [Pclos-il8n-dev] bootsplash.po and vit.po [sv_SE]
+In-Reply-To: <0981c1847576436db216750f8a85f2ba@b881cd33c21e4399805765a373c74539>
+References: <0981c1847576436db216750f8a85f2ba@b881cd33c21e4399805765a373c74539>
+Message-ID: <47F9CF16.6000600@laposte.net>
+
+the framework used to translate string using po files in sftwares like 
+vit only translate what is translated in the po file ... in your 
+personal situation, the po file containing the 8x string was considered 
+as lacking the 7x string to the framework (gettext) let the original 
+english version of the string in place. the same would have happened if 
+you had 1.2 version of vit instaled wile using the 1.1 version of the po 
+... you would have been able to read the strings in english but not in 
+sv when looking at 8X tab ...
+
+this is the strenght and weakness of this system ... al translations are 
+not necessary, but a tiny change of 1 digit in the original code can 
+result in untranslated strings.
+
+DidouPh
+
+
+Smid David a ?crit :
+>  
+>> Worked like a charm. However I am in confusion since update of /po/sv_SE/vit.po 1.2.
+>> I noticed that the section "ATI 7X" was replaced by "ATI 8X". That is what is shown in
+>> vit.po when looking at it and editing it with Kbabel. I thought it was ok with the 1.2 I
+>> submitted today. I compiled it into vit.mo and copied it to the location over the other.
+>> Then started up vit 1.1 etc.
+>> To my surprise I notice that there are no tab with "ATI 8X". And the tab "ATI 7X" is still
+>> there.. and what is more.. the section with it has 50% parts that isn't translated.
+>> Very weird since there are no "ATI 7X" showing at any ID in Kbabel.
+>> Going to look at vit.po with standard text editor no and try figure out if something is
+>> wrong. Feel kinda wrong to have untranslated parts in program, but not in Kbabel ^^
+>> /Cryoniq
+> 
+> You need vit-1.1-2pclos2007 - in this release Tex replaced "ATI 7X" by "ATI 8X":
+> 
+> ftp://ftp.ch.debian.org/mirror/pclinuxos/apt/pclinuxos/2007/RPMS.testing/vit-1.1-2pclos2007.noarch.rpm
+> 
+> David
+> 
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+
+
+
+
+From david at smidovi.eu  Mon Apr  7 09:43:24 2008
+From: david at smidovi.eu (David Smid)
+Date: Mon, 07 Apr 2008 09:43:24 +0200
+Subject: [Pclos-il8n-dev] [it]new stuff
+In-Reply-To: <30736790.2844321207517086412.JavaMail.root@pr001msr>
+References: <30736790.2844321207517086412.JavaMail.root@pr001msr>
+Message-ID: <47F9D09C.20007@smidovi.eu>
+
+alessioadamo at fastwebnet.it napsal(a):
+> Hi, guys!
+> 
+> It's the italian translator typing!
+> 
+> Here you get the last vit updated version, the welcome webpage and the installat
+> ion help plus screenshots.
+> 
+> Before I leave you... I noticed that in vit there is a typo in an original messa
+> ge, the one describing the Nvidia 169.xx driver. PLESE instead of PLEASE. ;-)
+
+Thanks for the report, I will wait two days for any additional vit l10n updates 
+with .desktop texts translations and then I'll fix that typo in all .po files 
+and in the VIT script itself.
+That means on Wednesday I'm going to release a new VIT version.
+
+David
+
+
+
+From didouph.ph at laposte.net  Mon Apr  7 09:54:19 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 07 Apr 2008 09:54:19 +0200
+Subject: [Pclos-il8n-dev] bootsplash.po and vit.po [sv_SE]
+In-Reply-To: <47F9CF16.6000600@laposte.net>
+References: <0981c1847576436db216750f8a85f2ba@b881cd33c21e4399805765a373c74539>
+	<47F9CF16.6000600@laposte.net>
+Message-ID: <47F9D32B.2060804@laposte.net>
+
+All the file submitted this week should be up to date in the cvs ...
+
+WOW sounds like a lot of things are going on those days ... lets hope we 
+will soon be able to provide the i18n DVD :)
+
+DidouPh
+
+pierre-henri-ramboz a ?crit :
+> the framework used to translate string using po files in sftwares like 
+> vit only translate what is translated in the po file ... in your 
+> personal situation, the po file containing the 8x string was considered 
+> as lacking the 7x string to the framework (gettext) let the original 
+> english version of the string in place. the same would have happened if 
+> you had 1.2 version of vit instaled wile using the 1.1 version of the po 
+> ... you would have been able to read the strings in english but not in 
+> sv when looking at 8X tab ...
+> 
+> this is the strenght and weakness of this system ... al translations are 
+> not necessary, but a tiny change of 1 digit in the original code can 
+> result in untranslated strings.
+> 
+> DidouPh
+> 
+> 
+> Smid David a ?crit :
+>>  
+>>> Worked like a charm. However I am in confusion since update of /po/sv_SE/vit.po 1.2.
+>>> I noticed that the section "ATI 7X" was replaced by "ATI 8X". That is what is shown in
+>>> vit.po when looking at it and editing it with Kbabel. I thought it was ok with the 1.2 I
+>>> submitted today. I compiled it into vit.mo and copied it to the location over the other.
+>>> Then started up vit 1.1 etc.
+>>> To my surprise I notice that there are no tab with "ATI 8X". And the tab "ATI 7X" is still
+>>> there.. and what is more.. the section with it has 50% parts that isn't translated.
+>>> Very weird since there are no "ATI 7X" showing at any ID in Kbabel.
+>>> Going to look at vit.po with standard text editor no and try figure out if something is
+>>> wrong. Feel kinda wrong to have untranslated parts in program, but not in Kbabel ^^
+>>> /Cryoniq
+>> You need vit-1.1-2pclos2007 - in this release Tex replaced "ATI 7X" by "ATI 8X":
+>>
+>> ftp://ftp.ch.debian.org/mirror/pclinuxos/apt/pclinuxos/2007/RPMS.testing/vit-1.1-2pclos2007.noarch.rpm
+>>
+>> David
+>>
+>>
+>>
+>> ------------------------------------------------------------------------
+>>
+>> _______________________________________________
+>> Pclos-il8n-dev mailing list
+>> Pclos-il8n-dev at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+
+
+
+
+From didouph at hotmail.com  Tue Apr  8 09:31:37 2008
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Tue, 8 Apr 2008 07:31:37 +0000
+Subject: [Pclos-il8n-dev] Something about PCLinuxOS's Localization
+Message-ID: <BLU125-W4010CD7A18D40042498DA6A4F20@phx.gbl>
+
+
+hi arthurg
+
+thanks for your effort in translating pclinuxos
+
+about grub,
+
+i checked grub source and it seems there is no i18n framework for it
+BUT : if you have a look at isolinux folder on a livecd, you may fing 
+XX.tr and XX.hlp wich are used to translate the bootloader in accordance 
+with the locale mentioned as "XX" on the other hand, you have a 
+bootsplash.po that translate the initial screens after grub ... but i 
+personally have no idea where the isolinux files need to be placed 
+except for the livecd ...
+
+so yes things are missing, but i don't know if it is a po or something else.
+
+understanding how things works helps a lot in doing a clean translation 
+... our work here is not only in translating strings of text from one 
+language to another but also document the process of translating the 
+system widely, including keyboard and aspect to facilitate every single 
+regional specification.
+
+why don't you ask some more question and we will see if we can help you 
+more... we also would be pleased to see the result/output of the 
+chionese team on the pclos-il8n dev list so it could be added to the cvs 
+and pushed into mainstream.
+
+feel free to register on the pclos-il8n-dev at lists.berlios.de list... 
+thus all team members will be able to answer to your questions ... i 
+don't have all answers :)
+
+DidouPh
+
+
+athurg a ?crit :
+> Hello Didouph:
+>   I'm Athurg, one of the chinese team members. This is the first time i try to 
+> contact someone in PCLinuxOS Team. I have  tried to translate some po file in 
+> the CVS. But i think this file list in the CVS seems not enough.For example 
+> the Grub's interface, how to translate them?
+
+
+
+
+_________________________________________________________________
+Cr?ez votre disque dur virtuel Windows Live SkyDrive, 5Go de stockage gratuit !
+http://www.windowslive.fr/skydrive/
+
+From david at smidovi.eu  Tue Apr  8 09:55:09 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 08 Apr 2008 09:55:09 +0200
+Subject: [Pclos-il8n-dev] Something about PCLinuxOS's Localization
+In-Reply-To: <BLU125-W4010CD7A18D40042498DA6A4F20@phx.gbl>
+References: <BLU125-W4010CD7A18D40042498DA6A4F20@phx.gbl>
+Message-ID: <47FB24DD.1000800@smidovi.eu>
+
+Ramboz Pierre-Henri napsal(a):
+> about grub,
+> 
+> i checked grub source and it seems there is no i18n framework for it
+> BUT : if you have a look at isolinux folder on a livecd, you may fing 
+> XX.tr and XX.hlp wich are used to translate the bootloader in accordance 
+> with the locale mentioned as "XX" on the other hand, you have a 
+> bootsplash.po that translate the initial screens after grub ... but i 
+> personally have no idea where the isolinux files need to be placed 
+> except for the livecd ...
+> DidouPh
+> 
+> 
+> athurg a ?crit :
+>> Hello Didouph:
+>>   I'm Athurg, one of the chinese team members. This is the first time i try to 
+>> contact someone in PCLinuxOS Team. I have  tried to translate some po file in 
+>> the CVS. But i think this file list in the CVS seems not enough.For example 
+>> the Grub's interface, how to translate them?
+
+I know pretty much about Grub and Isolinux localization (in fact it's a matter 
+of GfxBoot, which is loosely coupled with both of these boot loaders)
+
+I've also sent two fragments of "Language Localized Remaster HOWTO" that were 
+dealing with GfxBoot here in the maillist before I gave up due to lack of time 
+and feedback.
+
+
+David
+
+
+
+
+From didouph.ph at laposte.net  Tue Apr  8 10:08:51 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 08 Apr 2008 10:08:51 +0200
+Subject: [Pclos-il8n-dev] Something about PCLinuxOS's Localization
+In-Reply-To: <47FB24DD.1000800@smidovi.eu>
+References: <BLU125-W4010CD7A18D40042498DA6A4F20@phx.gbl>
+	<47FB24DD.1000800@smidovi.eu>
+Message-ID: <47FB2813.7080100@laposte.net>
+
+hi david
+
+i remember you did but still never got answer to request for adding it 
+to the wiki ... :)
+
+things need to be public in order to be accessed ... we don't do things 
+for us but the community ...
+
+anyway the process of translating grub is kind of different than the 
+rest of the system ... it would be nice to investigate this a bit deeper 
+and evbentually to hack into it for better user experience , why not 
+starting a chil project to the i18n related to language friendliness of 
+the bootloader, that you could "moderate" ?
+
+in order to show you that at least one person cared about your work (and 
+still does) i atached the howto you wrote to this mail...
+
+thanks again for it david
+
+Diouph
+(cc to arthurg)
+
+David Smid a ?crit :
+> Ramboz Pierre-Henri napsal(a):
+>> about grub,
+>>
+>> i checked grub source and it seems there is no i18n framework for it
+>> BUT : if you have a look at isolinux folder on a livecd, you may fing 
+>> XX.tr and XX.hlp wich are used to translate the bootloader in accordance 
+>> with the locale mentioned as "XX" on the other hand, you have a 
+>> bootsplash.po that translate the initial screens after grub ... but i 
+>> personally have no idea where the isolinux files need to be placed 
+>> except for the livecd ...
+>> DidouPh
+>>
+>>
+>> athurg a ?crit :
+>>> Hello Didouph:
+>>>   I'm Athurg, one of the chinese team members. This is the first time i try to 
+>>> contact someone in PCLinuxOS Team. I have  tried to translate some po file in 
+>>> the CVS. But i think this file list in the CVS seems not enough.For example 
+>>> the Grub's interface, how to translate them?
+> 
+> I know pretty much about Grub and Isolinux localization (in fact it's a matter 
+> of GfxBoot, which is loosely coupled with both of these boot loaders)
+> 
+> I've also sent two fragments of "Language Localized Remaster HOWTO" that were 
+> dealing with GfxBoot here in the maillist before I gave up due to lack of time 
+> and feedback.
+> 
+> 
+> David
+> 
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: howto_1-2.txt
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080408/bbdc360d/attachment.txt>
+
+From david at smidovi.eu  Tue Apr  8 10:23:04 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 08 Apr 2008 10:23:04 +0200
+Subject: [Pclos-il8n-dev] Something about PCLinuxOS's Localization
+In-Reply-To: <47FB2813.7080100@laposte.net>
+References: <BLU125-W4010CD7A18D40042498DA6A4F20@phx.gbl>	<47FB24DD.1000800@smidovi.eu>
+	<47FB2813.7080100@laposte.net>
+Message-ID: <47FB2B68.4090909@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> hi david
+> 
+> i remember you did but still never got answer to request for adding it 
+> to the wiki ... :)
+
+If I remember it right I think I didn't know the "whereabouts" concerning wiki 
+access and then it somehow evaporated from my mind...
+Wiki is definitely the best media format for such things.
+
+> things need to be public in order to be accessed ... we don't do things 
+> for us but the community ...
+> 
+> anyway the process of translating grub is kind of different than the 
+> rest of the system ... it would be nice to investigate this a bit deeper 
+> and evbentually to hack into it for better user experience , why not 
+> starting a chil project to the i18n related to language friendliness of 
+> the bootloader, that you could "moderate" ?
+
+Why not, but where would be such project based, now when mypclinuxos.com is 
+closing down ?
+
+
+David
+
+
+From cryoniq at gmail.com  Tue Apr  8 13:58:04 2008
+From: cryoniq at gmail.com (Anders S.)
+Date: Tue, 8 Apr 2008 13:58:04 +0200
+Subject: [Pclos-il8n-dev] synaptic.po [sv_SE]
+Message-ID: <22d880e20804080458q3e2aa5e8mf9e455691faa525e@mail.gmail.com>
+
+Hello!
+
+/po/sv_SE/synaptic.po
+
+Moving on to handle synaptic-update..  :)
+
+Regards
+
+/Cryoniq
+
+From david at smidovi.eu  Fri Apr 11 08:23:37 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 11 Apr 2008 08:23:37 +0200
+Subject: [Pclos-il8n-dev] VIT update & command-not-found
+Message-ID: <47FF03E9.5020903@smidovi.eu>
+
+Hello all,
+
+I've sent to Textstar new VIT release 1.1-4 yesterday. It contains all the 
+updated translations and I also fixed the "PLESE" typo in the script and all the 
+.po files.
+
+I'm also attaching Czech translation and the .pot file of command-not-found 
+utility (my creation). Only a few messages.
+
+
+command-not-found:
+-----------------
+
+Tool that informs PCLinuxOS user about missing program availability.
+This utility was inspired by Ubuntu's command-not-found package but it's
+implemented in a different way.
+
+Example:
+
+[root at localhost /]# vit
+Program "vit" is not installed.
+It's part of the following package:
+---------------------------------------------------------------------
+Package:                 vit-1.1-1pclos2007.noarch
+Description:             Video Installation Tool for ATI & Nvidia
+Install by typing:       su -c 'apt-get install vit'
+---------------------------------------------------------------------
+
+
+
+David
+
+From alessioadamo at fastwebnet.it  Fri Apr 11 14:52:10 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Fri, 11 Apr 2008 14:52:10 +0200 (CEST)
+Subject: [Pclos-il8n-dev] Command not found (also in my mail!)
+Message-ID: <16784749.3293921207918330799.JavaMail.root@pr001msr>
+
+Hi, David!
+
+It's great news that we can have a "command not found" message in our languages!
+
+However I didn't get any attachment. Did you forget it?
+
+Alessio
+
+
+
+From david at smidovi.eu  Fri Apr 11 16:37:31 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 11 Apr 2008 16:37:31 +0200
+Subject: [Pclos-il8n-dev] Command not found (also in my mail!)
+In-Reply-To: <16784749.3293921207918330799.JavaMail.root@pr001msr>
+References: <16784749.3293921207918330799.JavaMail.root@pr001msr>
+Message-ID: <47FF77AB.5020408@smidovi.eu>
+
+alessioadamo at fastwebnet.it napsal(a):
+> Hi, David!
+> 
+> It's great news that we can have a "command not found" message in our languages!
+> 
+> However I didn't get any attachment. Did you forget it?
+
+I certainly did not forget it. It must be the mailing list eating attachments.
+I'll send a copy of this mail including those attachments to your email address.
+
+David
+
+From alessioadamo at fastwebnet.it  Fri Apr 11 20:14:20 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Fri, 11 Apr 2008 20:14:20 +0200 (CEST)
+Subject: [Pclos-il8n-dev] Vit update
+Message-ID: <27929379.3326721207937660606.JavaMail.root@pr001msr>
+
+Thank you, David, this time I've got the attachments.
+
+However that vit update resembles the version we had before you commented out so
+me messages and added the lines for the .desktop file. Is this really the final 
+version?
+
+I'm asking you because, if this is the case, in this version of the italian po, 
+there are some mistakes that I'd like to correct.
+
+Alessio
+
+
+
+From didouph.ph at laposte.net  Fri Apr 11 20:15:02 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 11 Apr 2008 20:15:02 +0200
+Subject: [Pclos-il8n-dev] VIT update & command-not-found
+In-Reply-To: <47FF03E9.5020903@smidovi.eu>
+References: <47FF03E9.5020903@smidovi.eu>
+Message-ID: <47FFAAA6.9060308@laposte.net>
+
+thanks david but it sounds like there is a mail delivery issue ... can 
+you both resend the atachement (you and croniq) so i can update the cvs 
+and fix the mailing list issue
+
+thanks didouph
+
+David Smid a ?crit :
+> Hello all,
+> 
+> I've sent to Textstar new VIT release 1.1-4 yesterday. It contains all 
+> the updated translations and I also fixed the "PLESE" typo in the script 
+> and all the .po files.
+> 
+> I'm also attaching Czech translation and the .pot file of 
+> command-not-found utility (my creation). Only a few messages.
+> 
+> 
+> command-not-found:
+> -----------------
+> 
+> Tool that informs PCLinuxOS user about missing program availability.
+> This utility was inspired by Ubuntu's command-not-found package but it's
+> implemented in a different way.
+> 
+> Example:
+> 
+> [root at localhost /]# vit
+> Program "vit" is not installed.
+> It's part of the following package:
+> ---------------------------------------------------------------------
+> Package:                 vit-1.1-1pclos2007.noarch
+> Description:             Video Installation Tool for ATI & Nvidia
+> Install by typing:       su -c 'apt-get install vit'
+> ---------------------------------------------------------------------
+> 
+> 
+> 
+> David
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+
+
+
+
+From david at smidovi.eu  Fri Apr 11 20:32:40 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 11 Apr 2008 20:32:40 +0200
+Subject: [Pclos-il8n-dev] Vit update
+In-Reply-To: <27929379.3326721207937660606.JavaMail.root@pr001msr>
+References: <27929379.3326721207937660606.JavaMail.root@pr001msr>
+Message-ID: <47FFAEC8.4090408@smidovi.eu>
+
+alessioadamo at fastwebnet.it napsal(a):
+> Thank you, David, this time I've got the attachments.
+> 
+> However that vit update resembles the version we had before you commented out so
+> me messages and added the lines for the .desktop file. Is this really the final 
+> version?
+> 
+> I'm asking you because, if this is the case, in this version of the italian po, 
+> there are some mistakes that I'd like to correct.
+> 
+> Alessio
+
+I used the most recent version I could reach - the one you've sent to
+this list on April 6th, 23:24 in message labeled "[it][new stuff]"
+
+Is there any newer version ?
+
+David
+
+
+From david at smidovi.eu  Fri Apr 11 20:34:33 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 11 Apr 2008 20:34:33 +0200
+Subject: [Pclos-il8n-dev] VIT update & command-not-found
+Message-ID: <47FFAF39.30600@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> thanks david but it sounds like there is a mail delivery issue ... can
+> you both resend the atachement (you and croniq) so i can update the cvs
+> and fix the mailing list issue
+
+Here it is ...
+
+David
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: command-not-found.tgz
+Type: application/x-compressed-tar
+Size: 1490 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080411/4e4a8aa9/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit_update.tgz
+Type: application/x-compressed-tar
+Size: 8945 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080411/4e4a8aa9/attachment-0001.bin>
+
+From cryoniq at gmail.com  Fri Apr 11 22:20:12 2008
+From: cryoniq at gmail.com (Anders S.)
+Date: Fri, 11 Apr 2008 22:20:12 +0200
+Subject: [Pclos-il8n-dev] finished: synaptic.po-sv_SE
+Message-ID: <22d880e20804111320y34ab06d2l3bdb4abdca18c141@mail.gmail.com>
+
+Hello!
+
+Not sure if this one got lost somewhere that I mailed in a couple of days
+ago. However resending it again here. Containing tar.gz with translated
+synaptic:
+
+/po/sv_SE/synaptic.po
+
+Working on: drakconf.po [sv_SE]
+
+Regards
+
+/Cryoniq
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080411/78e614b5/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synaptic.po-[sv_SE].tar.gz
+Type: application/x-gzip
+Size: 18132 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080411/78e614b5/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Sat Apr 12 01:32:32 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Sat, 12 Apr 2008 01:32:32 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]last vit and command-not-found
+Message-ID: <1968018.3341651207956752818.JavaMail.root@pr001msr>
+
+|I used the most recent version I could reach - the one you've sent to
+|this list on April 6th, 23:24 in message labeled "[it][new stuff]"
+|
+|Is there any newer version ?
+|
+|David
+
+Hi, David!
+
+The last [it]vit is already uploaded into the CVS and it is different from the o
+ne you sent. However I'm sending it again because I discovered a typo (69 instea
+d of 169).
+
+I'm attaching also the [it]command-not-found.po
+Be aware, though, that one message is duplicated, precisely: "Install by typing:
+\\t"
+
+Going to bed, now
+
+Bye!
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]Last vit and command-not-found.tar.gz
+Type: application/x-gzip
+Size: 3451 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080412/73190671/attachment.bin>
+
+From david at smidovi.eu  Sat Apr 12 08:33:42 2008
+From: david at smidovi.eu (David Smid)
+Date: Sat, 12 Apr 2008 08:33:42 +0200
+Subject: [Pclos-il8n-dev] [it]last vit and command-not-found
+In-Reply-To: <1968018.3341651207956752818.JavaMail.root@pr001msr>
+References: <1968018.3341651207956752818.JavaMail.root@pr001msr>
+Message-ID: <480057C6.1020203@smidovi.eu>
+
+alessioadamo at fastwebnet.it napsal(a):
+> |I used the most recent version I could reach - the one you've sent to
+> |this list on April 6th, 23:24 in message labeled "[it][new stuff]"
+> |
+> |Is there any newer version ?
+> |
+> |David
+> 
+> Hi, David!
+> 
+> The last [it]vit is already uploaded into the CVS and it is different from the o
+> ne you sent. However I'm sending it again because I discovered a typo (69 instea
+> d of 169).
+
+I don't know what is in the CVS because I can't get there right now.
+I used translation you've sent on April 6th, 23:24 and I fixed the PLESE
+typo. In fact, I fixed this type in ALL translation. That's the only
+difference.
+
+
+> I'm attaching also the [it]command-not-found.po
+> Be aware, though, that one message is duplicated, precisely: "Install by typing:
+> \\t"
+
+OK. I've sent on contribs new vit and command-not-found releases
+containing you're updates. Just please fix that PLESE typo on your side
+or grab the vit.po file I'm sending to stay synchronized.
+
+I've also fixed that duplicated message problem in command-not-found.pot
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: cnf_vit_update.tgz
+Type: application/x-compressed-tar
+Size: 3311 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080412/881a45c5/attachment.bin>
+
+From didouph.ph at laposte.net  Sun Apr 13 16:28:23 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 13 Apr 2008 16:28:23 +0200
+Subject: [Pclos-il8n-dev] vit/cnf update
+Message-ID: <48021887.8040506@laposte.net>
+
+cvs updated
+added latest files from david
+
+discarded all files from alessio related to vit > developers get 
+priority on translators !
+
+i hacked into cnf it and fr po to remove duplicate lines...
+updated cnf pot file
+
+updated french vit.po
+
+please check all your files alessio and don't submit nev files on top of 
+developers update !
+
+it can drive the cvs to hell
+
+btw, the berlios maintenance is over so we can have fune again :)
+
+DidouPh
+
+
+
+From alessioadamo at fastwebnet.it  Sun Apr 13 22:39:22 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Sun, 13 Apr 2008 22:39:22 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]Further desktop files translations
+Message-ID: <20349216.3436911208119162445.JavaMail.root@pr001msr>
+
+Hello, guys!
+
+I'm finally starting to see the light at the end of the tunnel. The translation 
+of the desktop files is almost complete, only the mimelnk directory is missing (
+still a lot of work, actually... ARGH!!!)
+
+Please, note that last time the .directory files in /root/Documents; /root/Music
+; /root/Movies and /root/Pictures didn't get updated, so I'm sending them again.
+
+Note also that in the CVS, in 
+
+desktop-files/usr/share/desktop-directories
+
+the hungarian translation for mandriva-moreapplications-editors.directory and fo
+r mandriva-moreapplications-other.directory was in a separated text file. I've i
+ntegrated the strings in the proper .directory file, so now the text files can b
+e deleted.
+
+At the same time I'm sending again the xml file for the KDM Dark theme, correcte
+d not to display the login information. So now background-it.png in that folder 
+can be deleted.
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]desktop-files.tar.gz
+Type: application/x-gzip
+Size: 82442 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080413/90e240a6/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]dark theme.tar.gz
+Type: application/x-gzip
+Size: 1316 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080413/90e240a6/attachment-0001.bin>
+
+From didouph.ph at laposte.net  Sun Apr 13 23:16:55 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 13 Apr 2008 23:16:55 +0200
+Subject: [Pclos-il8n-dev] [it]Further desktop files translations
+In-Reply-To: <20349216.3436911208119162445.JavaMail.root@pr001msr>
+References: <20349216.3436911208119162445.JavaMail.root@pr001msr>
+Message-ID: <48027847.3020604@laposte.net>
+
+all files updated in the cvs ...
+
+Thanks for your submissions !
+
+DidouPh
+
+alessioadamo at fastwebnet.it a ?crit :
+> Hello, guys!
+> 
+> I'm finally starting to see the light at the end of the tunnel. The translation 
+> of the desktop files is almost complete, only the mimelnk directory is missing (
+> still a lot of work, actually... ARGH!!!)
+> 
+> Please, note that last time the .directory files in /root/Documents; /root/Music
+> ; /root/Movies and /root/Pictures didn't get updated, so I'm sending them again.
+> 
+> Note also that in the CVS, in 
+> 
+> desktop-files/usr/share/desktop-directories
+> 
+> the hungarian translation for mandriva-moreapplications-editors.directory and fo
+> r mandriva-moreapplications-other.directory was in a separated text file. I've i
+> ntegrated the strings in the proper .directory file, so now the text files can b
+> e deleted.
+> 
+> At the same time I'm sending again the xml file for the KDM Dark theme, correcte
+> d not to display the login information. So now background-it.png in that folder 
+> can be deleted.
+> 
+> Alessio
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+
+
+
+
+From didouph.ph at laposte.net  Mon Apr 14 08:42:21 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 14 Apr 2008 08:42:21 +0200
+Subject: [Pclos-il8n-dev] k3b
+In-Reply-To: <48027847.3020604@laposte.net>
+References: <20349216.3436911208119162445.JavaMail.root@pr001msr>
+	<48027847.3020604@laposte.net>
+Message-ID: <4802FCCD.1040803@laposte.net>
+
+fixed a typo in K3B french po
+
+
+
+From alessioadamo at fastwebnet.it  Mon Apr 14 18:01:03 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Mon, 14 Apr 2008 18:01:03 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]/root/xxxxx/.directory
+Message-ID: <17507820.3507151208188863539.JavaMail.root@pr001msr>
+
+Hi, Didouph!
+
+In the last tarball I sent you there were also the following hidden files:
+
+/root/Movies/.directory
+/root/Pictures/.directory
+/root/Documents/.directory
+/root/Music/.directory
+
+These were not updated. You can either find them in my previous e-mail or just c
+opy them from
+
+/etc/skel/Movies 
+
+and so on
+
+Thanks
+
+
+
+From cryoniq at gmail.com  Tue Apr 15 20:59:15 2008
+From: cryoniq at gmail.com (Anders S.)
+Date: Tue, 15 Apr 2008 20:59:15 +0200
+Subject: [Pclos-il8n-dev] Humble Forum Section Request: Swedish (Svenska)
+Message-ID: <22d880e20804151159y2132a91fnf436a5d557d7c2b4@mail.gmail.com>
+
+Hi!
+
+I have a humble request about a "Swedish (Svenska)" forum section to be
+added under /Localization/ at MyPCLinuxOS; A place where I can add
+translation dictionary lists and other usefull information for a hopefully
+larger Swedish translation team in the future and all that makes it easier
+for others to enter project. :)
+
+/Cryoniq
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080415/b9040768/attachment.html>
+
+From cryoniq at gmail.com  Wed Apr 16 03:39:19 2008
+From: cryoniq at gmail.com (Anders S.)
+Date: Wed, 16 Apr 2008 03:39:19 +0200
+Subject: [Pclos-il8n-dev] finished: drakconf.po-sv_SE
+Message-ID: <22d880e20804151839s7a2a6990t7c411ddd36d44f72@mail.gmail.com>
+
+Hi again,
+
+Another finished translation:
+
+/po/sv_SE/drakconf.po
+
+(Moving on to translate:
+draklive-install.po)<http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/po/fr/draklive-install.po>
+
+Regards
+
+/Cryoniq
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080416/d1feac45/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakconf.po-[sv_SE].tar.gz
+Type: application/x-gzip
+Size: 8987 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080416/d1feac45/attachment.bin>
+
+From cryoniq at gmail.com  Thu Apr 17 02:45:07 2008
+From: cryoniq at gmail.com (Anders S.)
+Date: Thu, 17 Apr 2008 02:45:07 +0200
+Subject: [Pclos-il8n-dev] draklive-Install.po-[sv_SE]
+Message-ID: <22d880e20804161745u580d6bdcm7b178fe9e1acde42@mail.gmail.com>
+
+And another Swedish translation for the cvs to chew on:
+
+/po/sv_SE/draklive-install.po
+
+
+Cheers :)
+
+/Cryoniq
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080417/5bd7f172/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: draklive-install.po-[sv_SE].tar.gz
+Type: application/x-gzip
+Size: 4728 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080417/5bd7f172/attachment.bin>
+
+From didouph at hotmail.com  Sun Apr 20 17:42:08 2008
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Sun, 20 Apr 2008 15:42:08 +0000
+Subject: [Pclos-il8n-dev] Something about PCLinuxOS's Localization
+Message-ID: <BLU125-W4901DC9B6D0E9BE3F214D9A4E60@phx.gbl>
+
+
+hi
+
+1 : i never said it was the editing of the two files mentioned that 
+could solve the problem
+2 : i never said i knew how
+3 : david answered your question on 08/04/08
+
+> I know pretty much about Grub and Isolinux localization (in fact it's a matter 
+> of GfxBoot, which is loosely coupled with both of these boot loaders)
+> 
+> I've also sent two fragments of "Language Localized Remaster HOWTO" that were 
+> dealing with GfxBoot here in the maillist before I gave up due to lack of time 
+> and feedback.
+> 
+> 
+> David
+
+and the mentioned fragments are atached to this message
+
+please reply on the list ... so its easyer to deal with replyes and make 
+sure you got all info
+
+i hope it will help you to read those first lines about a full 
+localization howto
+
+take care of your computer
+
+DidouPh
+
+
+
+Athurg Gooth a ?crit :
+> hi:
+> 	I'm so sorry for replying to you so late. Because my computer was
+> broken, and all my personal data are in it.
+> 	i have even tried to do something with the XX.tr and XX.hlp, But these
+> two files are not a  pure text file, it contains many special char. i
+> don't know if i can edit it by using any text editor such as gedit.
+> 	and i found the po files in the "fr" folder are not the all. Some po
+> files such as the Banshee's are not in there. But i can find out it in
+> the PCLinuxOS-gnome.iso's fr locales. I don't know which is the latest
+> po file locate in, the CVS or the latest version.
+>  	So please give me a place which the latest po files locate in. thank
+> you!
+> ? 2008-04-08?? 07:31 +0000?Ramboz Pierre-Henri???
+>> hi arthurg
+>>
+>> thanks for your effort in translating pclinuxos
+>>
+>> about grub,
+>>
+>> i checked grub source and it seems there is no i18n framework for it
+>> BUT : if you have a look at isolinux folder on a livecd, you may fing 
+>> XX.tr and XX.hlp wich are used to translate the bootloader in
+>> accordance 
+>> with the locale mentioned as "XX" on the other hand, you have a 
+>> bootsplash.po that translate the initial screens after grub ... but i 
+>> personally have no idea where the isolinux files need to be placed 
+>> except for the livecd ...
+>>
+>> so yes things are missing, but i don't know if it is a po or something
+>> else.
+>>
+>> understanding how things works helps a lot in doing a clean
+>> translation 
+>> ... our work here is not only in translating strings of text from one 
+>> language to another but also document the process of translating the 
+>> system widely, including keyboard and aspect to facilitate every
+>> single 
+>> regional specification.
+>>
+>> why don't you ask some more question and we will see if we can help
+>> you 
+>> more... we also would be pleased to see the result/output of the 
+>> chionese team on the pclos-il8n dev list so it could be added to the
+>> cvs 
+>> and pushed into mainstream.
+>>
+>> feel free to register on the pclos-il8n-dev at lists.berlios.de list... 
+>> thus all team members will be able to answer to your questions ... i 
+>> don't have all answers :)
+>>
+>> DidouPh
+>>
+>>
+>> athurg a ?crit :
+>>> Hello Didouph:
+>>> I'm Athurg, one of the chinese team members. This is the first time
+>> i try to 
+>>> contact someone in PCLinuxOS Team. I have tried to translate some po
+>> file in 
+>>> the CVS. But i think this file list in the CVS seems not enough.For
+>> example 
+>>> the Grub's interface, how to translate them?
+>>
+>>
+>>
+>>
+>> ______________________________________________________________________
+>> Plus de 15 millions de fran?ais utilisent Windows Live Messenger !
+>> T?l?chargez Messenger, c'est gratuit !
+> 
+> 
+> 
+
+
+
+_________________________________________________________________
+Votre contact a choisi Hotmail, l'e-mail ultra s?curis?. Cr?ez un compte gratuitement !
+http://www.windowslive.fr/hotmail/default.asp
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080420/6f2dd2c4/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [Pclos-il8n-dev] Language Localized Remaster HOWTO #1.eml
+Type: application/octet-stream
+Size: 6620 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080420/6f2dd2c4/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [Pclos-il8n-dev] Language Localized Remaster HOWTO #2.eml
+Type: application/octet-stream
+Size: 5967 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080420/6f2dd2c4/attachment-0001.obj>
+
+From alessioadamo at fastwebnet.it  Tue Apr 22 20:54:01 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Tue, 22 Apr 2008 20:54:01 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]po files
+Message-ID: <20410041.4231261208890441107.JavaMail.root@pr001msr>
+
+Hi, guys!
+
+I've made some minor corrections to 3 po files and started to work at apt.po
+I'm sending you the most up to date file.
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]po files.tar.gz
+Type: application/x-gzip
+Size: 159556 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080422/8458458b/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Wed Apr 23 18:51:55 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Wed, 23 Apr 2008 18:51:55 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]Mimelnk files
+Message-ID: <31621869.4319331208969515697.JavaMail.root@pr001msr>
+
+Hi, everybody!
+
+Fresh translations of desktop files today! Only the mimelnk files were missing a
+nd translation is proceeding quickly. At the moment I've translated all files in
+ the following folders:
+/desktop-files/usr/share/mimelnk/application
+/desktop-files/usr/share/mimelnk/audio
+/desktop-files/usr/share/mimelnk/text
+/desktop-files/usr/share/mimelnk/video
+(/desktop-files/usr/share/mimelnk/inode contains only one element which has alre
+ady the italian translation)
+I've sent only the files which needed modifications.
+_______________________________
+Meanwhile, I'd like to report that there is a bit of mess in the CVS, I think (e
+specially with hungarian translations). Let me explain:
+
+Folder /desktop-files/usr/share/mimelnk/application
+
+In some cases the hungarian translation is in a file with a single line (therefo
+re an incorrect desktop file) which is a duplicate of a proper desktop file:
+
+andrew-inset.desktop
+x-applix-spread (the correct one is x-applixspread.desktop)
+x-applixword.desktop
+x-catalog.desktop (the correct one is x-katalog.desktop)
+x-reject (the correct one is x-reject.desktop)
+x-theme.desktop
+
+In all these cases, I've pasted the hungarian translation in the correct copy. S
+o, the wrong one can be deleted without pity.
+
+Then, the following pairs of mimetype refer to the same extension. Is it OK?
+
+x-applixspread.desktop/x-applixspreadsheet.desktop
+x-applix-word.desktop/x-applixword.desktop
+x-object-file.desktop/x-object.desktop
+
+If one of each has to be eliminated, I would delete that with less translations.
+
+Finally x-sharedlib.desktop seems to refer to the same file type as x-sharedlibr
+ary.desktop, but it has no argument in the line pattern=.
+
+
+Folder /desktop-files/usr/share/mimelnk/message
+
+This folder does not contain proper mimetype desktop files. Again, these files j
+ust contain a line with a hungarian comment. However, I've noticed that they are
+ duplicated in /desktop-files/usr/share/mimelnk/text and that the copies lack th
+e hungarian translation. Therefore, I added the hungarian comments found in [...
+]/message to the desktop files in [...]/text.
+
+Nonetheless, x-gnu-rmail.desktop is only present in [...]/message and is an inco
+rrect desktop file
+
+I hope it is clear enough.
+_______________________________
+Now the italian translation is almost complete. Only folder /desktop-files/usr/s
+hare/mimelnk/image is missing, plus apt.po. But this is not that essential, I gu
+ess. You can't imagine how happy I am.
+
+Take care,
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]mimelnk.tar.gz
+Type: application/x-gzip
+Size: 13426 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080423/8e0f2018/attachment.bin>
+
+From david at smidovi.eu  Thu Apr 24 13:28:54 2008
+From: david at smidovi.eu (David Smid)
+Date: Thu, 24 Apr 2008 13:28:54 +0200
+Subject: [Pclos-il8n-dev] [it]Mimelnk files
+In-Reply-To: <31621869.4319331208969515697.JavaMail.root@pr001msr>
+References: <31621869.4319331208969515697.JavaMail.root@pr001msr>
+Message-ID: <48106EF6.1030206@smidovi.eu>
+
+alessioadamo at fastwebnet.it napsal(a):
+> _______________________________
+> Meanwhile, I'd like to report that there is a bit of mess in the CVS, I think (e
+> specially with hungarian translations). Let me explain:
+
+I think the desktop-files tree is a real mess. Translating .desktop files this 
+way is a suicide. This task must be done by strictly dividing original desktop 
+files and localizations. I think intltool is a proper tool for doing this.
+
+I sat down and wrote some scripts that make the transition easy.
+
+Script make_intltool_ready first corrects lots of problems found in current 
+.desktop files, then calls intltool-prepare to generate the infrastructure.
+Then intltool-update is used to generate the desktop-files.pot file and finally 
+all locales are processed to contain all available msgids.
+At the end, there should be NO files with .desktop extension, only files with 
+.desktop.in extension. These files do not contain any translations, all the 
+translations are in po/$LOCALE.po files.
+
+If you have a new .desktop file and want to add it, just place it on proper 
+location and call the second script - make_intltool_update. That script should 
+incorporate all messages from that new .desktop file into existing .po files, 
+updates desktop-files.pot and converts that new .desktop file into new 
+.desktop.in file.
+
+And last but not least, if you want to build the real .desktop files with 
+current translations, just call the third script - build_desktop_files.
+This script should generate complete desktop-file tree into directory 
+../desktop-files-build. This tree contains only the real .desktop files with 
+translations.
+
+
+Please note that you have to install intltool package before launching the scripts.
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: intltool_transition_scripts.tar.gz
+Type: application/x-gzip
+Size: 1566 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080424/fef1cd78/attachment.bin>
+
+From david at smidovi.eu  Thu Apr 24 13:46:14 2008
+From: david at smidovi.eu (David Smid)
+Date: Thu, 24 Apr 2008 13:46:14 +0200
+Subject: [Pclos-il8n-dev] [it]Mimelnk files
+In-Reply-To: <48106EF6.1030206@smidovi.eu>
+References: <31621869.4319331208969515697.JavaMail.root@pr001msr>
+	<48106EF6.1030206@smidovi.eu>
+Message-ID: <48107306.30804@smidovi.eu>
+
+There was a minor bug in the scripts, use this corrected version instead please.
+
+David
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: intltool_transition_scripts_2.tar.gz
+Type: application/x-gzip
+Size: 1562 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080424/3dd4580f/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Thu Apr 24 15:29:17 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Thu, 24 Apr 2008 15:29:17 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]Last mimelnk .desktop files
+Message-ID: <927516.4394951209043757607.JavaMail.root@pr001msr>
+
+Hi, guys!
+
+Today I've finished the translation of all the mimelnk files. This batch goes to
+ /desktop-files/usr/share/mimelnk/image.
+
+Also in this directory there is an improper file with the hungarian comment only
+, which I pasted in the correct one:
+
+x-windowdump.desktop (wrong) / x-xwindowdump.desktop (correct)
+
+In addition there are in some cases files which refer to the same mime. I'll omi
+t .desktop:
+
+x-djvu-2 / x-djvu
+x-portable-graymap / x-portable-greymap
+x-targa / x-tga
+x-xbitmap / x-xbm
+x-xcf / x-xcf-gimp
+jpeg / jpg
+psd / x-vnd.adobe.photoshop
+
+svg-xml lacks a line patterns= and maybe it would be the same as svg+xml
+
+wmf also laks a line patterns= I didn't take a note if there was another file re
+ferring di Windows Meta File, though.
+______________________
+
+Tomorrow I'm leaving for Leeds (UK) and I won't be much available for translatin
+g for about 1 month. However, the most is done. Only apt.po is missing. I hope s
+oon we'll have a multilanguage DVD.
+
+Bye!
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]mimelnk in image.tar.gz
+Type: application/x-gzip
+Size: 3488 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080424/7eff33c4/attachment.bin>
+
+From david at smidovi.eu  Fri Apr 25 14:26:11 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 25 Apr 2008 14:26:11 +0200
+Subject: [Pclos-il8n-dev] VIT update
+Message-ID: <4811CDE3.70004@smidovi.eu>
+
+Hello all,
+
+I revised the VIT package a little bit to be easier to update without the need 
+to update all translations after every little change.
+
+All the data that are often changing are now parametrized.
+
+Please take a look at the .po files, they should be OK but I might have 
+overlooked something.
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit_update_0425.tar.gz
+Type: application/x-gzip
+Size: 7138 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080425/2ef591f4/attachment.bin>
+
+From david at smidovi.eu  Fri Apr 25 14:28:40 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 25 Apr 2008 14:28:40 +0200
+Subject: [Pclos-il8n-dev] Install help in Czech
+Message-ID: <4811CE78.6080901@smidovi.eu>
+
+Here is the Installation Help in Czech.
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Install-cs.tar.gz
+Type: application/x-gzip
+Size: 767718 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080425/06be5e72/attachment.bin>
+
+From cryoniq at gmail.com  Tue Apr 29 00:52:07 2008
+From: cryoniq at gmail.com (Anders S.)
+Date: Tue, 29 Apr 2008 00:52:07 +0200
+Subject: [Pclos-il8n-dev] Hmm..
+Message-ID: <22d880e20804281552r2a0dbd5m841935351b852259@mail.gmail.com>
+
+Is mailinglist working like it should? I submitted 2 .po 1-2 weeks ago, and
+fiddling around forum section for Swedish, and I heard nothing in feedback,
+nor have the .po files showed up in the CVS.. Just curious if something is
+wrong..
+
+/Cryoniq
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080429/abd2849d/attachment.html>
+
+From david at smidovi.eu  Tue Apr 29 07:17:11 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 29 Apr 2008 07:17:11 +0200
+Subject: [Pclos-il8n-dev] Hmm..
+In-Reply-To: <22d880e20804281552r2a0dbd5m841935351b852259@mail.gmail.com>
+References: <22d880e20804281552r2a0dbd5m841935351b852259@mail.gmail.com>
+Message-ID: <4816AF57.1020704@smidovi.eu>
+
+Anders S. napsal(a):
+> Is mailinglist working like it should? I submitted 2 .po 1-2 weeks ago, 
+> and fiddling around forum section for Swedish, and I heard nothing in 
+> feedback, nor have the .po files showed up in the CVS.. Just curious if 
+> something is wrong..
+> 
+> /Cryoniq
+
+It seems didouph is busy right now ...
+
+David
+
+
+
+From didouph.ph at laposte.net  Tue Apr 29 19:20:34 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 29 Apr 2008 19:20:34 +0200
+Subject: [Pclos-il8n-dev] Hmm..
+In-Reply-To: <4816AF57.1020704@smidovi.eu>
+References: <22d880e20804281552r2a0dbd5m841935351b852259@mail.gmail.com>
+	<4816AF57.1020704@smidovi.eu>
+Message-ID: <481758E2.6000709@laposte.net>
+
+yes sorry i'm pretty busy at work right now ...
+
+@ cryoniq ... can you tel me wich po and eventually resent them in a 
+single tar.gz archive and i will se if i yet added them to the cvs (my 
+local copy should be identical to online cvs but i could be wrong and 
+cvs demon could be too ... since i doublechecked all the submissions 
+you've made ... its kind of puzzeling ...
+
+once again resend the files here and i'll add them
+
+@ David ... what are your reactions to the mail i yet sent about the 
+tools you designed to manage desktop files ?
+what framework would you introduce to facilitate the translation process 
+with new/recently/to-be programs that will need translation of the 
+desktop files ?
+i think that you've created something nice but we need to learn how to 
+master it. powerfull tools are only usefull in masters hand!
+
+what about that livecd i18n team / project ?
+
+anyway i will forward your latest additions to the cvs assap
+
+
+@ alessio i will subit your updates to the CVS real soon (maybe in a few 
+minutes)
+
+
+
+
+
+From david at smidovi.eu  Wed Apr 30 08:13:07 2008
+From: david at smidovi.eu (David Smid)
+Date: Wed, 30 Apr 2008 08:13:07 +0200
+Subject: [Pclos-il8n-dev] Hmm..
+In-Reply-To: <481758E2.6000709@laposte.net>
+References: <22d880e20804281552r2a0dbd5m841935351b852259@mail.gmail.com>	<4816AF57.1020704@smidovi.eu>
+	<481758E2.6000709@laposte.net>
+Message-ID: <48180DF3.3030605@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> @ David ... what are your reactions to the mail i yet sent about the 
+> tools you designed to manage desktop files ?
+
+I'm afraid I didn't receive any e-mail from you since April 14th ...
+Could you resend it ?
+
+
+> what framework would you introduce to facilitate the translation process 
+> with new/recently/to-be programs that will need translation of the 
+> desktop files ?
+> i think that you've created something nice but we need to learn how to 
+> master it. powerfull tools are only usefull in masters hand!
+
+I don't know if I understand it right but I'll try to answer:
+
+I think that the software author should be responsible for i18n. He/she should 
+provide framework for managing translations. We all know that this is not how it 
+works in real world. In cases when l10n is not a part of the program build 
+process all we can do is to provide a patch with translated .desktop file.
+For such project I would recommend just to add their .desktop file to our tree 
+and run make_intltool_update script. If we need the true blue .desktop file with 
+translations for such project (we need to prepare patch for SRPM) - just launch 
+script build_desktop_files.
+If, on the other side, we can change the software build process to some extent, 
+the best way is to have .desktop.in file as a source and to build a .desktop 
+file from it and from the .po files during the build process. All you need for 
+this is the intltool-merge utility (see VIT SRPM for example).
+Mature projects usually already have such .desktop file compilation in their 
+build process.
+The important thing is that .desktop.in file is the real source file - .desktop 
+file can be "cooked" any time from it if you have translations.
+
+This is rather complex issue and to find a complete solution I would need to 
+examine the problem a little more and to answer few questions:
+
+How do the translated .desktop files get into official packages now ?
+Isn't it too labour-intensive ?
+Should we provide some patch-making infrastructure ?
+Or should we just make one-for-all package from our .desktop files rather than 
+injecting them into individual packages ?
+
+
+> what about that livecd i18n team / project ?
+
+I think it's a good idea but where would it be hosted ? If I understood it 
+right, mypclinuxos.com is shutting down soon ...
+
+David
+
+
+

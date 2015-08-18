@@ -1,0 +1,64 @@
+From didouph.ph at laposte.net  Sun Sep 30 09:23:34 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 30 Sep 2007 09:23:34 +0200
+Subject: [Pclos-il8n-dev] back and running
+Message-ID: <46FF4EF6.9040901@laposte.net>
+
+hi all
+after 50 days away from the internet, i proundly announce you that
+
+1 : i'm back online
+
+2 : 2 just added :
+ po/zh-CN/draklive-install.po
+ po/pt_PT/bootsplash.po
+ po/pt_PT/drakconf.po
+ po/pt_PT/draklive-install.po
+ po/pt_PT/drakmenustyle.po
+
+3 : the project goes back to active state
+
+thanks to our portuguese and chinese translators for those files
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070930/71595aba/attachment.html>
+
+From didouph at hotmail.com  Sun Sep 30 10:30:28 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Sun, 30 Sep 2007 08:30:28 +0000
+Subject: [Pclos-il8n-dev] [Fwd: i18n]
+Message-ID: <BAY126-W410C622AD96EF730D4DF62A4AC0@phx.gbl>
+
+
+
+here is a message i got from gettinther a few weeks ago wich should beinterresting to all of you
+-------- Original Message --------            Subject:       i18n              Date:       Fri, 31 Aug 2007 16:21:00 +0100              From:       gettinther <gettinther at gmail.com>              To:       didouph at hotmail.com      
+
+Hi didouph,Sorry to hear about you pc.I've gotten more involved with the pclos team since I undertook to supplycompiz-fusion to the community.  I've offered to Tex to act as liaisonbetween you guys and the pclos team (I'll rebuild the packages using yourwork and send them to Tex for inclusion).  He'll add Synaptic soon buthasn't yet decided how to handle the other packages.Until I get a decision from Tex, please do not mention this e-mail.I'll need the cvs pserver link to be able to download your work so far aswell as a prioritisation of the packages.I hope you get back online soon.Gettinther
+_________________________________________________________________
+Essayez Live.com et cr?ez l'Internet qui vous ressemble : infos, sports, m?t?o et bien plus encore !
+http://www.live.com/getstarted
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070930/56820656/attachment.html>
+
+From didouph at hotmail.com  Sun Sep 30 17:21:43 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Sun, 30 Sep 2007 15:21:43 +0000
+Subject: [Pclos-il8n-dev] Pclos Translation
+Message-ID: <BAY126-W13D5C2F6387D9FCA333A81A4AC0@phx.gbl>
+
+
+ok...
+
+anyways, thanks and sorry not to have answered before due to laptopissues.
+
+Sergio Fernandes wrote:  Hello :-)That problem is resolved :-)I was downloading the wrong way ....I'm still translating the core files..Sergio FernandesOn 30/09/2007, Ramboz Pierre-Henri <didouph at hotmail.com> wrote:         Sergio Fernandes wrote:Hello,Sorry to email you, I just have a question:why can't I open the .po files in kbabel listed here:http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/po/fr/I downloaded them but kabel can't open them. says it's no valid .po file....I want to translate them to portuguese. I think no one is translating toportuguese.Thanks,Sergio Fernandescan you please tell me what files you are refferingto ?------------------------------Exprimez-vous en direct avec Windows Live Messenger ! Windows LiveMessenger !<http://imagine-msn.com/messenger/launch80/default.aspx?locale=fr-fr&source=joinmsncom/messenger>          
+
+_________________________________________________________________
+Essayez Live.com et cr?ez l'Internet qui vous ressemble : infos, sports, m?t?o et bien plus encore !
+http://www.live.com/getstarted
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070930/e3ede082/attachment.html>
+

@@ -1,0 +1,1008 @@
+From youknowwho.xz at gmail.com  Sun Jun 10 23:49:18 2007
+From: youknowwho.xz at gmail.com (cybersoulx)
+Date: Sun, 10 Jun 2007 18:49:18 -0300
+Subject: [Pclos-il8n-dev] (no subject)
+Message-ID: <466C71DE.8050203@gmail.com>
+
+[es-ARG]
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-manager.po.tar.gz
+Type: application/gzip
+Size: 2451 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070610/10c472ad/attachment.bin>
+
+From didouph.ph at laposte.net  Mon Jun 11 10:18:32 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 11 Jun 2007 10:18:32 +0200
+Subject: [Pclos-il8n-dev] (no subject)
+In-Reply-To: <466C71DE.8050203@gmail.com>
+References: <466C71DE.8050203@gmail.com>
+Message-ID: <466D0558.8050405@laposte.net>
+
+cybersoulx a ?crit :
+> [es-ARG]
+>
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+Files added, in the po/es section,
+
+Can you please focuss on the installer (draklive-install.po) and the 
+other drak tools so we could provide a decent ES locale for the Upcoming 
+multilingual DVD ?
+
+Thanks .
+
+DidouPh
+
+
+
+
+From youknowwho.xz at gmail.com  Sun Jun 10 04:25:50 2007
+From: youknowwho.xz at gmail.com (cybersoulx)
+Date: Sat, 09 Jun 2007 23:25:50 -0300
+Subject: [Pclos-il8n-dev] (no subject)
+Message-ID: <466B612E.60000@gmail.com>
+
+Hi, I'm from Argentina, I'm in the Spanish localization project, in your 
+post you say it necessary to send you an e-mail with mail BerliOS id. so 
+here it is, id:youknowwho.
+Hope to send you a file in a few moments, hope it's submission it's 
+correct, otherwise, let me know...Youknowwho.
+
+
+From qla0 at vp.pl  Mon Jun 11 20:03:18 2007
+From: qla0 at vp.pl (qla)
+Date: Mon, 11 Jun 2007 20:03:18 +0200
+Subject: [Pclos-il8n-dev] devede, synaptic, libDrakX-standalone   - pl
+Message-ID: <200706112003.18963.qla0@vp.pl>
+
+Polish translation:
+
+devede - from v.2.13c
+synaptic - from v.0.57.2
+libDrakX-standalone - translated and updated from CVS (fr)
+
+pozdrowienia ;)
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: devede_pl.po.tar.bz2
+Type: application/x-tbz
+Size: 5174 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070611/9ebe1ca3/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synaptic_pl.po.tar.bz2
+Type: application/x-tbz
+Size: 21145 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070611/9ebe1ca3/attachment-0001.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: libDrakX-standalone_pl.v1.1.po.tar.bz2
+Type: application/x-tbz
+Size: 38103 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070611/9ebe1ca3/attachment-0002.bin>
+
+From didouph.ph at laposte.net  Tue Jun 12 19:09:51 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 12 Jun 2007 19:09:51 +0200
+Subject: [Pclos-il8n-dev] devede, synaptic, libDrakX-standalone   - pl
+In-Reply-To: <200706112003.18963.qla0@vp.pl>
+References: <200706112003.18963.qla0@vp.pl>
+Message-ID: <466ED35F.1070706@laposte.net>
+
+qla a ?crit :
+> Polish translation:
+>
+> devede - from v.2.13c
+> synaptic - from v.0.57.2
+> libDrakX-standalone - translated and updated from CVS (fr)
+>
+> pozdrowienia ;)
+>   
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+files added to the cvs answell as
+
+libDrakX & liDrakx-standalone updated in the /po/fr so i strongly 
+recommand everyone to recheck these two files in your locale since the 
+french version added a few messages that were missing translation !!
+
+dubi will soon send a mail to the list explaining some issues he's been 
+facing in the translation of pcc and some similarity to the SYNAPTIC 
+issue(untranslatable strings)
+
+DidouPh
+
+
+
+
+
+
+From jjdub at caramail.com  Wed Jun 13 20:49:30 2007
+From: jjdub at caramail.com (jean-jacques dubois)
+Date: Wed, 13 Jun 2007 18:49:30 +0000
+Subject: [Pclos-il8n-dev] About menu in backup (PCC).
+Message-ID: <122901639916581@lycos-europe.com>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070613/9adfb293/attachment.html>
+
+From didouph.ph at laposte.net  Thu Jun 14 12:31:39 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 14 Jun 2007 12:31:39 +0200
+Subject: [Pclos-il8n-dev] frapelli
+Message-ID: <4671190B.5010803@laposte.net>
+
+welcome to our new translator :
+
+frapelli
+
+what's next frapelli ?
+
+there is a tread about that in the i18n forum, but, i can tell you the basic scheme : 
+
+translate : 
+
+draklive-install.po / drakconf.po / drakwhatever.po 
+files in /desktop-files (icons and menus)
+translate core applications (synaptic, k3b ...)
+
+the post is there : http://www.mypclinuxos.com/index.php?option=com_smf&Itemid=6&topic=1012.0
+
+bye guys
+
+DidouPh
+
+
+
+From didouph.ph at laposte.net  Thu Jun 14 12:47:19 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 14 Jun 2007 12:47:19 +0200
+Subject: [Pclos-il8n-dev] synaptic
+In-Reply-To: <4671190B.5010803@laposte.net>
+References: <4671190B.5010803@laposte.net>
+Message-ID: <46711CB7.8090003@laposte.net>
+
+i forgot to mention that gettingther and i are investigating the 
+synaptic untranslatable category section and we haven't yet found a 
+solution to it... making the seach as double blind (no communication) 
+we've fallen on the same conclusion
+
+category comes from the rpm
+category listed in the po only refers to deb files
+synptic isn't haddling those cat since the po doesn't translate them 
+when we add them to the po
+apt neither for the same reason
+a list of those category is stored somewhere, we need to find it to find 
+how !
+
+that's where we are ...
+
+DidouPh
+
+
+From jjdub at caramail.com  Thu Jun 14 19:22:39 2007
+From: jjdub at caramail.com (jean-jacques dubois)
+Date: Thu, 14 Jun 2007 17:22:39 +0000
+Subject: [Pclos-il8n-dev] Untranslated elements in Kde Control Center !!!
+Message-ID: <165133655720876@lycos-europe.com>
+
+Hello,
+
+I need your help about these elements still in English in Kde Control Center, if not I will become insane.
+
+Here is :
+
+KDM theme manager -> Enable KDM Theme (?????)
+                              -> Install New Theme (?????)
+                              -> Remove new theme (?????)
+
+Images indexation -> Dialog Box -> Cannot find executables "gift" and/or "gift-add-collection.pl" in the
+                                                                 PATH. (?????)
+                                                                 Please install the "GNU Image Finding Tool". (?????)
+
+Windows decorations ->Use button color for the close buttons (?????)
+                                         -> Purpose of title-bend color (????)
+                                         -> Windows border (?????)
+                                         -> Titlebar buttons (????)
+                                         -> Spacing between the titlebar buttons: (?????)
+                                         -> Offset of titlebar height: (????)
+                                         -> Addition to margin under the buttons: (????)
+
+Fonts -> Use anti-aliasing:  (kcmfonts.po)
+           -> Force fonts DPI: (?????)
+           -> Enabled  (kcmfonts.po)
+           -> System settings  (kcmfonts.po)
+           -> Disabled (kcmfonts.po)
+
+Taskbar ->Use custom colors (?????)
+                ->Inactive task text color: (kcmtaskbar.po)
+                ->Active task text color: (kcmtaskbar.po)
+                ->Bacground color: (kcmtaskbar.po)
+
+Laptop battery -> Show battery level percentage (????)
+
+We must know in which po files these texts must be translated (kde-i18n po files).
+
+Thanks for your help.
+
+Bye.
+
+
+From jjdub at caramail.com  Thu Jun 14 19:53:48 2007
+From: jjdub at caramail.com (jean-jacques dubois)
+Date: Thu, 14 Jun 2007 17:53:48 +0000
+Subject: [Pclos-il8n-dev] Menu in backup (PCC).
+Message-ID: <12290163993439@lycos-europe.com>
+
+Hi,
+
+about this famous menu not translated in backup, I discovered several things :
+
+1. The translations of the menu (Load profile, save profile as,etc.) were available in po : Drakbackup (I have po file).
+
+2. But with the Mandriva 2007 version, Drakbackup.po was removed and the translations, available in this po, were gathered with other translations in libDrakX.po or libDrakX-standalone.po (I think that it is 2nd)
+
+3. I installed the mo of Drakbackup in /usr/share/local/... to test, but that didn't change anything. the elements are always in English. I checked in Mandriva 2007 version and they have the same problem (thus it is a beautiful bug). Haaaa !!! Mandriva and its bugs.
+
+Bye.
+
+
+From didouph.ph at laposte.net  Sat Jun 16 20:12:35 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 16 Jun 2007 20:12:35 +0200
+Subject: [Pclos-il8n-dev] pclinuxos nl
+Message-ID: <46742813.10504@laposte.net>
+
+here are some infos on an new torrent available !
+
+can the nl people grab it and tell us if it's based on these translation 
+and what elements are missing !
+
+once i'll get those infos i'll try to get in touch with the guy who 
+released it so i could invite him to join us !
+
+thanks,
+
+didouph
+
+-------------------------------------------
+
+A new torrent has been uploaded.
+
+Name: PCLinuxOS 2007.NL
+Size: 696.69 MB
+Category: PCLinuxOS
+Uploaded by: KdEsp
+
+Description:
+-------------------------------------------------------------------------------
+<p><big>PCLinuxOS 2007.NL - The Dutch localized version</big></p>
+<p>This Dutch localized version of <b><a href="http://linuxtracker.org/torrents-details.php?id=4143">PCLinuxOS 2007 Final</a></b> is an <u>inofficial</u> PCLinuxOS version, based on the <a href="http://linuxtracker.org/torrents-details.php?id=4143">official version</a> of <i>Texstar</i> and his <i>"Ripper Gang"</i>.</p>
+<p><b>*</b> <a href="http://www.pclinuxos.nl/">www.pclinuxos.nl</a></p>
+<p>MD5 sum: 44c75763a4ec05a51297ecf7b197f661</p>
+-------------------------------------------------------------------------------
+
+You can use the URL below to download the torrent (you may have to login).
+
+http://linuxtracker.org/torrents-details.php?id=4245&hit=1
+
+--
+LinuxTracker
+
+----------------------------------------------------------------------
+
+
+From didouph.ph at laposte.net  Sat Jun 16 20:14:47 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 16 Jun 2007 20:14:47 +0200
+Subject: [Pclos-il8n-dev] oups
+Message-ID: <46742897.7020004@laposte.net>
+
+a sequel to previous message,
+
+the same kind of release has been made in DE ... so it sounds like there 
+is another i18n team somewhere ! someone who we arn't eaven aware of and 
+who is not aware about us apparently !
+
+
+From didouph at gmail.com  Sun Jun 24 09:47:08 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 24 Jun 2007 09:47:08 +0200
+Subject: [Pclos-il8n-dev]
+	=?utf-8?q?Traductions_d=27=C3=A9l=C3=A9ments_dan?=
+	=?utf-8?q?s_kcontrol?=
+In-Reply-To: <13576514421076@lycos-europe.com>
+References: <13576514421076@lycos-europe.com>
+Message-ID: <467E217C.9060809@gmail.com>
+
+TO all :
+
+added :
+
+po/fr/kcmfonts.po
+po/fr/kcmlaptop.po
+po/fr/kcmtaskbar.po
+po/fr/kdmgreet.po
+po/fr/kwin_clients.po
+
+
+those files are fixing some of kde missing translation, compare them to 
+your locale file and apply modification for 100% kde translation
+
+a little precision on the window decoration missing translation. these 
+are related to the "custom" aspect of those... this is the same issue as 
+for an icon set or a kdm theme, i don't think this is a critical issue 
+and that this should be given any credit in the high priority section
+
+jean-jacques dubois a ?crit :
+> Salut Didouph,
+>
+> voici les fichiers dont certaines traductions manquaient dans kcontrol.
+>
+> Concernant d?corations de fen?tres, il manque trois lignes ? traduire. Malheureusement, je ne sias o? ces traductions doivent ?tre effectu?es.
+>
+> Concernant kdmgreet, celui-ci se rapporte aux menus de l'?cran de connexion kdm. J'ai remplac? failsafe par sa traduction fran?aise : Mode sans ?chec.
+>
+> Voil? en ce qui concerne les traductions.
+>
+> A+.
+>
+> www.jubii.fr c'est une seule interface pour communiquer. Email, t?l?phone gratuit, messagerie instantan?e, 10 Go d'espace de stockage. Avec www.jubii.fr simplifiez-vous la vie !
+
+
+
+
+From didouph.ph at laposte.net  Mon Jun 25 10:47:41 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 25 Jun 2007 10:47:41 +0200
+Subject: [Pclos-il8n-dev]
+ =?utf-8?q?Traductions_d=27=C3=A9l=C3=A9ments_dan?=
+ =?utf-8?q?s_kcontrol?=
+In-Reply-To: <467E217C.9060809@gmail.com>
+References: <13576514421076@lycos-europe.com> <467E217C.9060809@gmail.com>
+Message-ID: <467F812D.1090200@laposte.net>
+
+just updated
+
+po/fr/kcmlaptop.po
+
+
+this file contained encoding errors so i had to fix it
+
+refresh your cvs to apply the changes
+sorry for the inconvenience
+
+DidouPh
+
+didouph a ?crit :
+> TO all :
+>
+> added :
+>
+> po/fr/kcmfonts.po
+> po/fr/kcmlaptop.po
+> po/fr/kcmtaskbar.po
+> po/fr/kdmgreet.po
+> po/fr/kwin_clients.po
+>
+>
+> those files are fixing some of kde missing translation, compare them to 
+> your locale file and apply modification for 100% kde translation
+>
+> a little precision on the window decoration missing translation. these 
+> are related to the "custom" aspect of those... this is the same issue as 
+> for an icon set or a kdm theme, i don't think this is a critical issue 
+> and that this should be given any credit in the high priority section
+>
+> jean-jacques dubois a ?crit :
+>   
+>> Salut Didouph,
+>>
+>> voici les fichiers dont certaines traductions manquaient dans kcontrol.
+>>
+>> Concernant d?corations de fen?tres, il manque trois lignes ? traduire. Malheureusement, je ne sias o? ces traductions doivent ?tre effectu?es.
+>>
+>> Concernant kdmgreet, celui-ci se rapporte aux menus de l'?cran de connexion kdm. J'ai remplac? failsafe par sa traduction fran?aise : Mode sans ?chec.
+>>
+>> Voil? en ce qui concerne les traductions.
+>>
+>> A+.
+>>
+>> www.jubii.fr c'est une seule interface pour communiquer. Email, t?l?phone gratuit, messagerie instantan?e, 10 Go d'espace de stockage. Avec www.jubii.fr simplifiez-vous la vie !
+>>     
+>
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+
+
+
+
+From hopparz at gmail.com  Tue Jun 26 08:53:42 2007
+From: hopparz at gmail.com (=?UTF-8?Q?Hopp=C3=A1r_Zolt=C3=A1n?=)
+Date: Tue, 26 Jun 2007 08:53:42 +0200
+Subject: [Pclos-il8n-dev] ISO - UTF8 conversion
+Message-ID: <2f3d0f330706252353m59da92c9me4d110d0887e3a73@mail.gmail.com>
+
+Hi Everyone!
+
+I've met with an very interesting problem - I've got the correct translation
+of some files, but I have noticed that some of them are in wrong charset
+format. Using the old ISO8859-2, and this not causing error for Kbabel - but
+but for us - maybe (????? chars are already wrong inside the po). The
+question is how can I convert these files to get proper UTF8 instead of ISO
+encoded files?
+
+Zoltan
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070626/1b539614/attachment.html>
+
+From didouph.ph at laposte.net  Tue Jun 26 23:28:04 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 26 Jun 2007 23:28:04 +0200
+Subject: [Pclos-il8n-dev] ISO - UTF8 conversion
+In-Reply-To: <2f3d0f330706252353m59da92c9me4d110d0887e3a73@mail.gmail.com>
+References: <2f3d0f330706252353m59da92c9me4d110d0887e3a73@mail.gmail.com>
+Message-ID: <468184E4.7090705@laposte.net>
+
+iconv -f iso-8859-2 -t utf8 input.file > output.file
+
+feel free to add this solution to the wiki :)
+
+DidouPh
+
+Hopp?r Zolt?n a ?crit :
+> Hi Everyone!
+>
+> I've met with an very interesting problem - I've got the correct 
+> translation of some files, but I have noticed that some of them are in 
+> wrong charset format. Using the old ISO8859-2, and this not causing 
+> error for Kbabel - but but for us - maybe (????? chars are already 
+> wrong inside the po). The question is how can I convert these files to 
+> get proper UTF8 instead of ISO encoded files?
+>
+> Zoltan
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+
+
+
+
+From didouph.ph at laposte.net  Wed Jun 27 22:08:26 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 27 Jun 2007 22:08:26 +0200
+Subject: [Pclos-il8n-dev] ISO - UTF8 conversion
+In-Reply-To: <2f3d0f330706270501r65c2d89dw91f4234eac60fc43@mail.gmail.com>
+References: <2f3d0f330706252353m59da92c9me4d110d0887e3a73@mail.gmail.com>	
+	<468184E4.7090705@laposte.net>
+	<2f3d0f330706270501r65c2d89dw91f4234eac60fc43@mail.gmail.com>
+Message-ID: <4682C3BA.2040800@laposte.net>
+
+i'm not sure to understand what you mean !
+
+do you ask me if i ever used such a tool (iconv) or if i and the rest of 
+the translator have converted french po to utf ?
+
+Hopp?r Zolt?n a ?crit :
+> Hi Diduph!
+>
+> Wow. :)  Whew, that was hard. :)
+>
+> Ps. With this step after few file conversion - I've got an almost 
+> fully hungarian talker console commands PCLOS system. Not much, but 
+> advancing futher and futher. So - thanks.
+>
+> Ps2. Do you have already translated console elements (commands, 
+> messages)? Or you got it before?
+>
+> 2007/6/26, pierre-henri-ramboz < didouph.ph at laposte.net 
+> <mailto:didouph.ph at laposte.net>>:
+>
+>     iconv -f iso-8859-2 -t utf8 input.file > output.file
+>
+>     feel free to add this solution to the wiki :)
+>
+>     DidouPh
+>
+>     Hopp?r Zolt?n a ?crit :
+>     > Hi Everyone!
+>     >
+>     > I've met with an very interesting problem - I've got the correct
+>     > translation of some files, but I have noticed that some of them
+>     are in
+>     > wrong charset format. Using the old ISO8859-2, and this not causing
+>     > error for Kbabel - but but for us - maybe (????? chars are already
+>     > wrong inside the po). The question is how can I convert these
+>     files to
+>     > get proper UTF8 instead of ISO encoded files?
+>     >
+>     > Zoltan
+>     >
+>     ------------------------------------------------------------------------
+>
+>     >
+>     > _______________________________________________
+>     > Pclos-il8n-dev mailing list
+>     > Pclos-il8n-dev at lists.berlios.de
+>     <mailto:Pclos-il8n-dev at lists.berlios.de>
+>     > https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>     >
+>
+>
+>
+
+
+
+
+From didouph at gmail.com  Wed Jun 27 22:50:13 2007
+From: didouph at gmail.com (didouph)
+Date: Wed, 27 Jun 2007 22:50:13 +0200
+Subject: [Pclos-il8n-dev] [Fwd: Console parts]
+Message-ID: <4682CD85.90109@gmail.com>
+
+
+
+-------- Message original --------
+Sujet: 	Console parts
+Date: 	Wed, 27 Jun 2007 17:39:53 +0200
+De: 	Hopp?r Zolt?n <hopparz at gmail.com>
+Pour: 	didouph at gmail.com
+
+
+
+Hi,
+
+Well I have found many parts of console commands, POT files, or po 
+files. If it helps, then I can post to you later when we finished. If 
+you could the give me e-mail contacts to post them directly or - what do 
+you think - better to post to you, you will upload and send an message 
+to the other translators?
+By the way, there are some commands, wich hasn't got translation of - 
+-help option, but I search after it. I will cumulate together those 
+commands names where I didn't found. On second - mostly it seems there 
+are only 6 or 7 language wich seems to be mostly supported, and what can 
+be founded in sources. If we really want to support all of the languages 
+what is listed in berlios, then this will be not so much....
+
+Zoltan
+
+
+
+
+
+From hopparz at gmail.com  Thu Jun 28 12:48:42 2007
+From: hopparz at gmail.com (=?UTF-8?Q?Hopp=C3=A1r_Zolt=C3=A1n?=)
+Date: Thu, 28 Jun 2007 12:48:42 +0200
+Subject: [Pclos-il8n-dev] Console parts
+Message-ID: <2f3d0f330706280348o38a33957x9e70dc1ec4479942@mail.gmail.com>
+
+Hi,
+
+Sorry my bad english. I meant that you in PCLOS french translation did you
+translated console commands, messages to your language? Because, i'm stucked
+a bit. I couldn't find a proper template or translation for glibc 2.4, and
+coreutils 2.97. For util-linux2.12r I have found one, and this was wich I
+have converted with iconv. But glibc also contains console commands, and
+many things witch must be translated, I think.
+With several files of this, and you got an fully translated PCLOS on
+console. Can you help with these files? I will help to yours if you need.
+
+Zoltan
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070628/2d7767b2/attachment.html>
+
+From didouph at gmail.com  Sat Jun 30 08:55:06 2007
+From: didouph at gmail.com (didouph)
+Date: Sat, 30 Jun 2007 08:55:06 +0200
+Subject: [Pclos-il8n-dev]
+	=?utf-8?q?Concerne_mise_=C3=A0_jour_des_=2Edeskt?=
+	=?utf-8?q?op_files?=
+In-Reply-To: <10949343558410@lycos-europe.com>
+References: <10949343558410@lycos-europe.com>
+Message-ID: <4685FE4A.7080703@gmail.com>
+
+hi all,
+
+1 : thanks dubi for the information !
+2 :  Dudbi checket all of the desktop files from the final version and 
+backward translated them, they will be forwarded soon for addition to 
+the cvs.
+
+anyway i have 2 questions :
+
+A : Have those translation been made in accordance with the cvs actual 
+content or only on the installed pclinuxos ?
+
+if they took place on the system ones, thus these are not upgrades but 
+fork (new branch) of the translation project and will not be added. 
+please conform to the cvs and provide additive changes or a simple 
+upgrade as exlained in the forum and on the list by submitting a list of 
+changes to apply to the files you modified and a tar.gz package of the 
+files not yet present that you want to see added to the repository. this 
+prevent the pulldown of files and the destruction of other's work !
+
+
+B : can you please check that if you've been working from the cvs, that 
+no modification has been applyed since your last edition !
+
+this will prevent erroneous change or double translation
+
+Last but not least !  i yet have invited you to communicate trough the 
+list rather than in private mail, i know that we used to do so but we're 
+now part of a larger effort and thus we need to share the information on 
+the actual task we're working on to keep the work revealent. in this 
+very task of yours, the fact of getting people informed on what you're 
+doing, will ensure and doublecheck of every single file before 
+submission in order to prevent overwriting and waste of translation !
+
+thanks for your attention and keep the work and you voice up and loud
+
+DidouPh
+
+
+jean-jacques dubois a ?crit :
+> Salut Didouph,
+>
+> j'ai rev?rifi? l'ensemble des desktop files ? partir de la version 
+> finale, et j'ai effectu? des mises ? jour et de nouvelles traductions.
+> C'est pourquoi, je t'enverrai fin de semaine, l'ensemble de ces 
+> fichiers pour que tu puisses mettre ? jour le CVS.
+>
+> Voil?.
+>
+> A+.
+>
+>
+>
+> * ? Envie d'Agir ?
+> Programme en faveur de l'initiative des jeunes du Minist?re de la 
+> Jeunesse, des Sports et de la Vie Associative, en partenariat avec le 
+> Cr?dit Agricole. * Cliquez ici * 
+> <http://ad.fr.doubleclick.net/clk;111715106;17556236;x>*
+> * *
+>
+
+
+
+
+
+From didouph at gmail.com  Sat Jun 30 09:12:36 2007
+From: didouph at gmail.com (didouph)
+Date: Sat, 30 Jun 2007 09:12:36 +0200
+Subject: [Pclos-il8n-dev] Beryl files and their translation problems.
+In-Reply-To: <20070629220730.58991719095@poczta.interia.pl>
+References: <20070629220730.58991719095@poczta.interia.pl>
+Message-ID: <46860264.6030704@gmail.com>
+
+hi,
+
+my reply will be short,
+
+as far as you mention that your translation arn't based on the pclinuxos 
+embeded po, i will not submit them to the cvs
+i strongly recommand you to check the strings related to those files 
+against the french ones for instance that are fully translated exept for 
+some, i repeat some of the elements you mention.
+this can be due to two things A : the files you're working on are more 
+recent and some entrys got modifyed in the cvs po? or pclinuxos specific 
+strings exist (we yet faced that and that is prety boring :P )
+
+anyway, i would like you to check these files against the cvs.
+
+if you already processed to such a check, get me informed and i will 
+push those files in the main branch !
+
+
+about the fact that wer will have to "redo" the work ... sorry if you 
+find that surprising but ... we all are prety aware of that kind of 
+issue and have yet had to retranslate some softwares due to version 
+rework ans similar issue and we will have to do so again soon... our 
+work is endless and is for the beneffit not only of pclinuxos but also 
+of a marge bunch ,of mandriva compatible os... we are sensitive to 
+version upgrade of the os, software scripts and to the developer's mood. 
+we can't prevent to project to merge and only can be happy to still have 
+something to do :)
+
+anyway i think we all apreciate the tremendous work you produced in 
+translating those large po files and will be happy to include your work 
+in the cvs.
+
+please consider posting on the mailing list for the next input you will 
+make, so that everyone will be informed about your statements and 
+progress and you will beneffit from our global experience
+
+thanks
+
+DidouPh
+
+Wladyslaw Pawlowski a ?crit :
+> Hi Didou,
+>
+> Enclosed you will find four beryl files which I have just translated into Polish plus emerald.po. It was really hard work to accomplish. Actually I was the second translator, not the first one for Polish localization. Nevertheless I corrected many fuzzy or improper translations and added a really huge amount of not translated positions. The final result is still not satisfactory due to strange problems with many words which do not want to appear in Polish in spite of translating them duly using KBabel. All concerned files have been downloaded from original Beryl archives and fully updated using intltools-update pl command at console. I suppose that remaining English words in translated po files it is common problem for all localizations. Therefore I am really surprised there is no information about it till now at our localization forum or mailing-list. A few days ago I have sent a mail to Beryl developers advising them about translation problems and have got a reply which does not explain actually nothing how to solve them. Anyway it is very interesting because maybe my (pardon, our) efforts are useless taking into account that Beryl would be only history soon and we will be forced to start again with translating a new 3D Desktop Manager named Compiz-Fusion.
+>
+> Below you will find my mail and reply from Beryl i18n team head (Jigish 'CyberOrg' Gohil) as I would like to avoid repeating to write the same thing twice:
+>
+> Would be nice to hear from you what do you think about it?
+>
+> Best regards - Uznamer
+>
+>
+>
+>
+> ===========================================================================================================
+> Hi Uznamer
+>
+> Thanks for your email.
+>
+> Bery-settings translations will soon be useless as you fear.
+>
+> We are in the process of merge as you know, currently we do not have
+> proper translation mechanism in place, we are discussing various ways
+> we can do it, you can see the information about the suggestion here:
+>
+> http://www.ubaight.com/pipermail/compcomm/2007-June/001486.html
+>
+> Please join the discussion and put down your suggestions on obby.
+>
+> Thanks again
+>
+> -J
+>
+> On 24 Jun 2007 18:33:20 +0200, Wladyslaw Pawlowski <uznamer at interia.pl>
+> wrote:
+>> 23rd June 2007
+>>
+>> Hi,
+>>
+>> My nick is Uznamer. I am a member of PCLinuxOS Polish localization team.
+> I
+>> have already translated all Beryl po files. Of course, I am not at your
+>> list of translators. The first Polish translator was Piotr Drag as you
+>> maybe know. The problem is that he has translated beryl-plugins.po
+> which
+>> has only 867 positions while other national translators had translated
+>> their po files with many more positions. Most of them 1006 positions
+> and some
+>> of them (Spanish one for example) even 1248. It is impossible to
+>> understand how it could happen. In my opinion they should be all the
+> same.
+>> Am I wrong? Taking it into account I have updated beryl-settings.po
+> with intltool-update pl_PL command and have got the pot file with 1084
+> positions inside. Aftre translating it fully the result could be checked 
+> after starting Beryl
+>> Settings Manager. Now it looks almost like full translated into Polish.
+>> Anyway it does not mean that everything is already OK. We have still
+> many
+>> English words inside it in spite of being previously completely
+>> translated. Even worse, there are just at the beginning of Manager, at
+> his
+>> first page, so say. I mean there are General Options and its tabs like
+>> Shortcuts; Settings, Profiles and Desktop Integration, everything still
+> in
+>>  English. Also in the whole Manager there are not coming out in Polish
+> such
+>> a words like: shortcuts, advanced, disabled, button etc. There is no
+>> possibility to force them appear as Polish words in spite of the fact
+> that
+>> they have been properly translated with a help of Kbabel.
+>> The special case is with the subtitle in General Options which says:
+>> 'Beryl Core Options - Options.... which are the part of the core
+> of
+>> beryl, and are not a part of the plugins. I did not found it in
+> any
+>> of Beryl po files! You can found it only inside the binary
+> beryl-settings file
+>> at /usr/bin address. There is also one tab inside Extras, named Window
+>> Previews where everything remains in English after translation. I
+> suppose
+>> you can agree that such a translation for any user who does not know
+>> English at all is really annoying.
+>>
+>> I am full aware that Beryl is merging now with Compiz and becoming
+>> Compiz-Fusion. Does it mean that its translation would be useless soon?
+>>
+>> Please be so kind to advise what should I do to solve that problem or
+> when
+>> I could find such advise if it was already mentioned anywhere.
+>>
+>> Best regards - Uznamer
+>
+>> PS - My files have 1.4 or 1.5 version number. They have been numbered such way for our Polish team inner needs. Maybe I should renumber them duly into v.1.1 when sending them to you? Because it is actually the first version I am sending there.
+>>
+>> ----------------------------------------------------------------------
+>
+
+
+
+
+From didouph at gmail.com  Sat Jun 30 08:57:03 2007
+From: didouph at gmail.com (didouph)
+Date: Sat, 30 Jun 2007 08:57:03 +0200
+Subject: [Pclos-il8n-dev] [Fwd: Beryl files and their translation problems.]
+Message-ID: <4685FEBF.9000500@gmail.com>
+
+
+
+-------- Message original --------
+Sujet: 	Beryl files and their translation problems.
+Date: 	30 Jun 2007 00:07:30 +0200
+De: 	Wladyslaw Pawlowski <uznamer at interia.pl>
+Pour: 	didouph at gmail.com
+
+
+
+Hi Didou,
+
+Enclosed you will find four beryl files which I have just translated into Polish plus emerald.po. It was really hard work to accomplish. Actually I was the second translator, not the first one for Polish localization. Nevertheless I corrected many fuzzy or improper translations and added a really huge amount of not translated positions. The final result is still not satisfactory due to strange problems with many words which do not want to appear in Polish in spite of translating them duly using KBabel. All concerned files have been downloaded from original Beryl archives and fully updated using intltools-update pl command at console. I suppose that remaining English words in translated po files it is common problem for all localizations. Therefore I am really surprised there is no information about it till now at our localization forum or mailing-list. A few days ago I have sent a mail to Beryl developers advising them about translation problems and have got a reply which does not explain actually nothing how to solve them. Anyway it is very interesting because maybe my (pardon, our) efforts are useless taking into account that Beryl would be only history soon and we will be forced to start again with translating a new 3D Desktop Manager named Compiz-Fusion.
+
+Below you will find my mail and reply from Beryl i18n team head (Jigish 'CyberOrg' Gohil) as I would like to avoid repeating to write the same thing twice:
+
+Would be nice to hear from you what do you think about it?
+
+Best regards - Uznamer
+
+
+
+
+===========================================================================================================
+Hi Uznamer
+
+Thanks for your email.
+
+Bery-settings translations will soon be useless as you fear.
+
+We are in the process of merge as you know, currently we do not have
+proper translation mechanism in place, we are discussing various ways
+we can do it, you can see the information about the suggestion here:
+
+http://www.ubaight.com/pipermail/compcomm/2007-June/001486.html
+
+Please join the discussion and put down your suggestions on obby.
+
+Thanks again
+
+-J
+
+On 24 Jun 2007 18:33:20 +0200, Wladyslaw Pawlowski <uznamer at interia.pl>
+wrote:
+> 23rd June 2007
+>
+> Hi,
+>
+> My nick is Uznamer. I am a member of PCLinuxOS Polish localization team.
+I
+> have already translated all Beryl po files. Of course, I am not at your
+> list of translators. The first Polish translator was Piotr Drag as you
+> maybe know. The problem is that he has translated beryl-plugins.po
+which
+> has only 867 positions while other national translators had translated
+> their po files with many more positions. Most of them 1006 positions
+and some
+> of them (Spanish one for example) even 1248. It is impossible to
+> understand how it could happen. In my opinion they should be all the
+same.
+> Am I wrong? Taking it into account I have updated beryl-settings.po
+with intltool-update pl_PL command and have got the pot file with 1084
+positions inside. Aftre translating it fully the result could be checked 
+after starting Beryl
+> Settings Manager. Now it looks almost like full translated into Polish.
+> Anyway it does not mean that everything is already OK. We have still
+many
+> English words inside it in spite of being previously completely
+> translated. Even worse, there are just at the beginning of Manager, at
+his
+> first page, so say. I mean there are General Options and its tabs like
+> Shortcuts; Settings, Profiles and Desktop Integration, everything still
+in
+>  English. Also in the whole Manager there are not coming out in Polish
+such
+> a words like: shortcuts, advanced, disabled, button etc. There is no
+> possibility to force them appear as Polish words in spite of the fact
+that
+> they have been properly translated with a help of Kbabel.
+> The special case is with the subtitle in General Options which says:
+> 'Beryl Core Options - Options.... which are the part of the core
+of
+> beryl, and are not a part of the plugins. I did not found it in
+any
+> of Beryl po files! You can found it only inside the binary
+beryl-settings file
+> at /usr/bin address. There is also one tab inside Extras, named Window
+> Previews where everything remains in English after translation. I
+suppose
+> you can agree that such a translation for any user who does not know
+> English at all is really annoying.
+>
+> I am full aware that Beryl is merging now with Compiz and becoming
+> Compiz-Fusion. Does it mean that its translation would be useless soon?
+>
+> Please be so kind to advise what should I do to solve that problem or
+when
+> I could find such advise if it was already mentioned anywhere.
+>
+> Best regards - Uznamer
+
+>
+>PS - My files have 1.4 or 1.5 version number. They have been numbered such way for our Polish team inner needs. Maybe I should renumber them duly into v.1.1 when sending them to you? Because it is actually the first version I am sending there.
+>
+> ----------------------------------------------------------------------
+
+-- 
+CyberOrg Info
+Novell & IBM Partner
+7 FF Unad Deep, Tower A
+Susen Tarsali Road
+Vadodara 390 009
+T. +91 265 3042956 M +91 9898092956
+Web. http://www.cyberorg.info
+
+
+
+ 	
+----------------------------------------------------------------------
+Najdrozsze rozwody >> Zobacz
+>>> http://link.interia.pl/f1ae3
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: emerald_pl_v.1.2.po.tar.bz2
+Type: application/octet-stream
+Size: 5781 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070630/82d17695/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-settings_pl_v.1.5.po.tar.bz2
+Type: application/octet-stream
+Size: 1845 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070630/82d17695/attachment-0001.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-plugins._pl_v.1.4.po.tar.bz2
+Type: application/octet-stream
+Size: 21581 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070630/82d17695/attachment-0002.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-manager_pl_v.1.5.po.tar.bz2
+Type: application/octet-stream
+Size: 2627 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070630/82d17695/attachment-0003.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-core_pl_v.1.5.po.tar.bz2
+Type: application/octet-stream
+Size: 4746 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070630/82d17695/attachment-0004.obj>
+

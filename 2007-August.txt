@@ -1,0 +1,105 @@
+From didouph at gmail.com  Mon Aug  6 17:15:54 2007
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Mon, 6 Aug 2007 17:15:54 +0200
+Subject: [Pclos-il8n-dev] anything new
+Message-ID: <a5c8450e0708060815r2d76ed75x64fc067d21e998dc@mail.gmail.com>
+
+it's been a wile since i havn't got a mail from anyone or either a post in
+the forum...
+
+so i'm wondering what is going on, what is cooking or not ...
+
+should the project be considered as frozen if not dead ?
+no more translation needed ?
+
+i hope to read from you soon.
+
+DidouPh
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070806/5ae1c57f/attachment.html>
+
+From sergiocerquidelo at gmail.com  Wed Aug 22 20:40:57 2007
+From: sergiocerquidelo at gmail.com (Sergio Fernandes)
+Date: Wed, 22 Aug 2007 13:40:57 -0500
+Subject: [Pclos-il8n-dev] Portuguese (pt-PT)Translated po files
+Message-ID: <5b9069570708221140i536f967s56d3e52f3c3a68c5@mail.gmail.com>
+
+Hello all,
+
+in the .tar.gz goes:
+bootsplah.po
+drakconf.po
+draklive-install.po
+drakmenustyle.po
+
+translated to pt-PT
+
+Sergio Fernandes
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070822/219c4ca5/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: boot_drakconf_draklive_drakmenustyle_pt-PT.tar.gz
+Type: application/x-gzip
+Size: 13590 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070822/219c4ca5/attachment.bin>
+
+From didouph.ph at laposte.net  Mon Aug 27 15:59:56 2007
+From: didouph.ph at laposte.net (didouph.ph at laposte.net)
+Date: Mon, 27 Aug 2007 15:59:56 +0200 (CEST)
+Subject: [Pclos-il8n-dev] Portuguese (pt-PT)Translated po files
+Message-ID: <27688744.333611188223196257.JavaMail.www@wwinf8201>
+
+
+sorry to reply so late ... but once again i must mention that i no longuer have any computer so i won't be able to push those files in cvs till 2 weeks ... i'm saving them for a later addition
+
+thanks for your effort and help
+
+sorry for the inconvenience
+
+DidouPh
+
+> Message du 22/08/07 20:42
+> De : "Sergio Fernandes" <sergiocerquidelo at gmail.com>
+> A : pclos-il8n-dev at lists.berlios.de
+> Copie ? : 
+> Objet : [Pclos-il8n-dev] Portuguese (pt-PT)Translated po files
+>
+> Hello all,
+> 
+> in the .tar.gz goes:
+> bootsplah.po
+> drakconf.po
+> draklive-install.po
+> drakmenustyle.po
+> 
+> translated to pt-PT
+> 
+> Sergio Fernandes
+> >
+> [ boot_drakconf_draklive_drakmenustyle_pt-PT.tar.gz (18.2 Ko) ]
+> [ (pas de nom de fichier) (0.2 Ko) ]
+
+
+
+
+
+From sergiocerquidelo at gmail.com  Tue Aug 28 17:40:28 2007
+From: sergiocerquidelo at gmail.com (Sergio Fernandes)
+Date: Tue, 28 Aug 2007 10:40:28 -0500
+Subject: [Pclos-il8n-dev] Translating to Portuguese
+Message-ID: <5b9069570708280840pbc4d206w6748fcf64929436b@mail.gmail.com>
+
+Hello again
+
+I'll continue translating the core files...but it's slow because, for
+example, libdrakx has 2216 messages to translate...I'll do my best :-)
+
+Sergio Fernandes
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070828/c74367e4/attachment.html>
+

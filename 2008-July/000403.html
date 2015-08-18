@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] New drakxtools
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-July/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20drakxtools&In-Reply-To=%3C4881D77A.7000504%40fastwebnet.it%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000401.html">
+   <LINK REL="Next"  HREF="000404.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] New drakxtools</H1>
+    <B>Alessio Adamo</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20drakxtools&In-Reply-To=%3C4881D77A.7000504%40fastwebnet.it%3E"
+       TITLE="[Pclos-il8n-dev] New drakxtools">alessioadamo at fastwebnet.it
+       </A><BR>
+    <I>Sat Jul 19 14:00:58 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000401.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+        <LI>Next message: <A HREF="000404.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#403">[ date ]</a>
+              <a href="thread.html#403">[ thread ]</a>
+              <a href="subject.html#403">[ subject ]</a>
+              <a href="author.html#403">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>That's good, because those are the instructions I need to generate the 
+potfiles with my last versions of localizable redo-mbr, gtk-liveinstall, 
+live-usb, mkremaster.
+
+I've merged drakconf and userdrake when available. I didn't do it with 
+libDrakX and libDrakX standalone because formerly they contained also 
+all messages from printerdrake, drakbackup, and others which are now in 
+separate pots. Anyway there are less than 10 messages to be translated 
+for all the main languages.
+
+
+David Smid ha scritto:
+&gt;<i> Alessio Adamo napsal(a):
+</I>&gt;<i>   
+</I>&gt;&gt;<i> I have a weakly relate question:
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> is it possible to implement in a makefile instructions like
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> sed -e 's/gettext//' scriptname &gt; scriptname_input
+</I>&gt;&gt;<i> xgettext -s -kgprintf --language=Shell scriptname_input -o 
+</I>&gt;&gt;<i> scriptname_temp.pot
+</I>&gt;&gt;<i> sed -e 's/\\\\/\\/g' scriptname_temp.pot &gt; scriptname.pot
+</I>&gt;&gt;<i> rm scriptname_input
+</I>&gt;&gt;<i> rm scriptname_temp.pot
+</I>&gt;&gt;<i>     
+</I>&gt;<i>
+</I>&gt;<i> Yes, it is. You need a target (what you want to produce). That would be 
+</I>&gt;<i> scriptname.pot.
+</I>&gt;<i> Then you need the dependencies (what targets should be available prior 
+</I>&gt;<i> to building this target). That would be scriptname
+</I>&gt;<i> A then you can write your commands:
+</I>&gt;<i>
+</I>&gt;<i> -----------------------------------------------------------------------
+</I>&gt;<i>
+</I>&gt;<i> scriptname.pot: scriptname
+</I>&gt;<i> 	sed -e 's/gettext//' scriptname &gt; scriptname_input
+</I>&gt;<i> 	xgettext -s -kgprintf --language=Shell scriptname_input -o 
+</I>&gt;<i> scriptname_temp.pot
+</I>&gt;<i> 	sed -e 's/\\\\/\\/g' scriptname_temp.pot &gt; scriptname.pot
+</I>&gt;<i> 	rm scriptname_input
+</I>&gt;<i> 	rm scriptname_temp.pot
+</I>&gt;<i>
+</I>&gt;<i> -----------------------------------------------------------------------
+</I>&gt;<i>
+</I>&gt;<i> or more generally:
+</I>&gt;<i>
+</I>&gt;<i> -----------------------------------------------------------------------
+</I>&gt;<i>
+</I>&gt;<i> SCRIPTS := scriptname scriptname2
+</I>&gt;<i> POTS := ${patsubst %,%.pot,${SCRIPTS}}
+</I>&gt;<i>
+</I>&gt;<i> all: ${POTS}
+</I>&gt;<i>
+</I>&gt;<i> ${POTS} : %.pot : %
+</I>&gt;<i> 	sed -e 's/gettext//' $&lt; &gt; $&lt;_input
+</I>&gt;<i> 	xgettext -s -kgprintf --language=Shell $&lt;_input -o $&lt;_temp.pot
+</I>&gt;<i> 	sed -e 's/\\\\/\\/g' $&lt;_temp.pot &gt; $@
+</I>&gt;<i> 	rm $&lt;_input
+</I>&gt;<i> 	rm $&lt;_temp.pot
+</I>&gt;<i>
+</I>&gt;<i> -----------------------------------------------------------------------
+</I>&gt;<i>
+</I>&gt;<i> Last question concerning your drakxtools pots and pos:
+</I>&gt;<i>
+</I>&gt;<i> Have you tried to merge our (PCLOS) existing translations with those 
+</I>&gt;<i> upstream (Mandriva) translations ?
+</I>&gt;<i>
+</I>&gt;<i> David
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Pclos-il8n-dev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">Pclos-il8n-dev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev</A>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000401.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+	<LI>Next message: <A HREF="000404.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#403">[ date ]</a>
+              <a href="thread.html#403">[ thread ]</a>
+              <a href="subject.html#403">[ subject ]</a>
+              <a href="author.html#403">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

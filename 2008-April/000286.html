@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] [it]Mimelnk files
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-April/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20%5Bit%5DMimelnk%20files&In-Reply-To=%3C31621869.4319331208969515697.JavaMail.root%40pr001msr%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000285.html">
+   <LINK REL="Next"  HREF="000287.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] [it]Mimelnk files</H1>
+    <B>alessioadamo at fastwebnet.it</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20%5Bit%5DMimelnk%20files&In-Reply-To=%3C31621869.4319331208969515697.JavaMail.root%40pr001msr%3E"
+       TITLE="[Pclos-il8n-dev] [it]Mimelnk files">alessioadamo at fastwebnet.it
+       </A><BR>
+    <I>Wed Apr 23 18:51:55 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000285.html">[Pclos-il8n-dev] [it]po files
+</A></li>
+        <LI>Next message: <A HREF="000287.html">[Pclos-il8n-dev] [it]Mimelnk files
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#286">[ date ]</a>
+              <a href="thread.html#286">[ thread ]</a>
+              <a href="subject.html#286">[ subject ]</a>
+              <a href="author.html#286">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi, everybody!
+
+Fresh translations of desktop files today! Only the mimelnk files were missing a
+nd translation is proceeding quickly. At the moment I've translated all files in
+ the following folders:
+/desktop-files/usr/share/mimelnk/application
+/desktop-files/usr/share/mimelnk/audio
+/desktop-files/usr/share/mimelnk/text
+/desktop-files/usr/share/mimelnk/video
+(/desktop-files/usr/share/mimelnk/inode contains only one element which has alre
+ady the italian translation)
+I've sent only the files which needed modifications.
+_______________________________
+Meanwhile, I'd like to report that there is a bit of mess in the CVS, I think (e
+specially with hungarian translations). Let me explain:
+
+Folder /desktop-files/usr/share/mimelnk/application
+
+In some cases the hungarian translation is in a file with a single line (therefo
+re an incorrect desktop file) which is a duplicate of a proper desktop file:
+
+andrew-inset.desktop
+x-applix-spread (the correct one is x-applixspread.desktop)
+x-applixword.desktop
+x-catalog.desktop (the correct one is x-katalog.desktop)
+x-reject (the correct one is x-reject.desktop)
+x-theme.desktop
+
+In all these cases, I've pasted the hungarian translation in the correct copy. S
+o, the wrong one can be deleted without pity.
+
+Then, the following pairs of mimetype refer to the same extension. Is it OK?
+
+x-applixspread.desktop/x-applixspreadsheet.desktop
+x-applix-word.desktop/x-applixword.desktop
+x-object-file.desktop/x-object.desktop
+
+If one of each has to be eliminated, I would delete that with less translations.
+
+Finally x-sharedlib.desktop seems to refer to the same file type as x-sharedlibr
+ary.desktop, but it has no argument in the line pattern=.
+
+
+Folder /desktop-files/usr/share/mimelnk/message
+
+This folder does not contain proper mimetype desktop files. Again, these files j
+ust contain a line with a hungarian comment. However, I've noticed that they are
+ duplicated in /desktop-files/usr/share/mimelnk/text and that the copies lack th
+e hungarian translation. Therefore, I added the hungarian comments found in [...
+]/message to the desktop files in [...]/text.
+
+Nonetheless, x-gnu-rmail.desktop is only present in [...]/message and is an inco
+rrect desktop file
+
+I hope it is clear enough.
+_______________________________
+Now the italian translation is almost complete. Only folder /desktop-files/usr/s
+hare/mimelnk/image is missing, plus apt.po. But this is not that essential, I gu
+ess. You can't imagine how happy I am.
+
+Take care,
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]mimelnk.tar.gz
+Type: application/x-gzip
+Size: 13426 bytes
+Desc: not available
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080423/8e0f2018/attachment.bin">https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080423/8e0f2018/attachment.bin</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000285.html">[Pclos-il8n-dev] [it]po files
+</A></li>
+	<LI>Next message: <A HREF="000287.html">[Pclos-il8n-dev] [it]Mimelnk files
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#286">[ date ]</a>
+              <a href="thread.html#286">[ thread ]</a>
+              <a href="subject.html#286">[ subject ]</a>
+              <a href="author.html#286">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

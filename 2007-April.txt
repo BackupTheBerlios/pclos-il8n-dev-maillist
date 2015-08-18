@@ -1,0 +1,935 @@
+From cyrylas at gmail.com  Fri Apr  6 23:28:56 2007
+From: cyrylas at gmail.com (=?iso-8859-2?q?Micha=B3_Wazgird?=)
+Date: Fri, 6 Apr 2007 23:28:56 +0200
+Subject: [Pclos-il8n-dev] desktop files
+Message-ID: <200704062328.56694.cyrylas@gmail.com>
+
+Hi.
+
+I hope i've sent it in proper way... There should be all desktop files.
+
+
+-- 
+With regards
+Micha? Wazgird
+http://kinomaniak.com.pl
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: desktop.diff
+Type: text/x-diff
+Size: 39176 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070406/124f7bbe/attachment.diff>
+
+From didouph at gmail.com  Sat Apr  7 16:07:55 2007
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Sat, 7 Apr 2007 16:07:55 +0200
+Subject: [Pclos-il8n-dev] cvs update
+In-Reply-To: <4616B3D8.4090609@gmail.com>
+References: <4616B3D8.4090609@gmail.com>
+Message-ID: <a5c8450e0704070707v3c178355t9bdbca5136e4e5c2@mail.gmail.com>
+
+Task #3451 has been updated.
+
+Project: pclos-il8n
+Subproject: desktop files translation
+Summary: pl translation
+Priority: 5
+Percent Complete: 50%
+Status: Open
+Authority  : didouph
+Assigned to: cyrylas
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070407/de832c63/attachment.html>
+
+From hollanders.broers at dommel.be  Sat Apr  7 20:34:14 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Sat, 07 Apr 2007 20:34:14 +0200
+Subject: [Pclos-il8n-dev] nl translations
+Message-ID: <4617E426.2010801@dommel.be>
+
+drakconf. is improved version.
+have a nice Easter!
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: draklive-install[2][nl-BE].tar
+Type: application/octet-stream
+Size: 14848 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070407/1f972188/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: rfbdrake[nl-BE].tar
+Type: application/octet-stream
+Size: 5632 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070407/1f972188/attachment-0001.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: userdrake[1][nl-BE].tar
+Type: application/octet-stream
+Size: 10240 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070407/1f972188/attachment-0002.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-settings[nl-BE].tar
+Type: application/octet-stream
+Size: 4608 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070407/1f972188/attachment-0003.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakconf[1][nl-BE].tar
+Type: application/octet-stream
+Size: 35840 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070407/1f972188/attachment-0004.obj>
+
+From didouph.ph at laposte.net  Sat Apr  7 23:36:35 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 07 Apr 2007 23:36:35 +0200
+Subject: [Pclos-il8n-dev] cvs update
+Message-ID: <46180EE3.70103@laposte.net>
+
+Zoltan's fix for the desktop files in /etc/skel and /root have been
+added to the repository
+
+DidouPh
+
+
+
+From cyrylas at gmail.com  Sun Apr  8 10:19:44 2007
+From: cyrylas at gmail.com (=?iso-8859-2?q?Micha=B3_Wazgird?=)
+Date: Sun, 8 Apr 2007 10:19:44 +0200
+Subject: [Pclos-il8n-dev] polish desktop files
+Message-ID: <200704081019.44978.cyrylas@gmail.com>
+
+Looks, like my desktop files, which i sent 2 days ago didn't make to the 
+group, so i send it again, just in case.
+
+-- 
+Pozdrawiam, 
+Micha? Wazgird
+http://kinomaniak.com.pl
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: desktop.diff.tar.gz
+Type: application/x-tgz
+Size: 3922 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070408/03973bcd/attachment.bin>
+
+From didouph.ph at laposte.net  Mon Apr  9 00:21:18 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 09 Apr 2007 00:21:18 +0200
+Subject: [Pclos-il8n-dev] cvs update
+Message-ID: <46196ADE.4080501@laposte.net>
+
+polish desktop files translation added
+additional po-files for nl-be locale added
+
+
+
+From didouph at gmail.com  Tue Apr 10 00:34:10 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 10 Apr 2007 00:34:10 +0200
+Subject: [Pclos-il8n-dev] menus
+Message-ID: <461ABF62.2010209@gmail.com>
+
+i've found the files to be translated in order to get the menu localized
+
+the process is actually pretty straightforward and similar to the 
+.desktop files
+
+get to the cvs in desktop-files/usr/share/desktop-directory
+
+all the files there are the one that are related to the menu in kicker 
+applet (system menu) these need to be translated like desktop icons in 
+order to have kmenus to work natively in your language
+
+nothing tricky at all up to this point.
+
+1st thing to do is to test
+
+copy the translated files to your /usr/share/desktop-directory folder
+
+nothing should have changed ... of course you need to update your menus
+
+BUT
+
+update-menus function (wish was intended to do the job) is not working 
+in 2007 ... so we need to be tricky now
+
+open kmenuedit
+and save your changes eaven if you made none
+
+and it works
+
+good translation
+
+DidouPh
+
+
+From didouph at gmail.com  Tue Apr 10 10:09:47 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 10 Apr 2007 10:09:47 +0200
+Subject: [Pclos-il8n-dev] menu translation
+Message-ID: <461B464B.1070809@gmail.com>
+
+French translation of the .directory files mentioned in my previous mail 
+have been updated with french translation. i would like to mention that 
+most if not all files are yet translated in both portuguese and 
+brazilian portuguese so there might only be a few to translate for those 
+locales
+
+Happy Easter to all
+
+DidouPh
+
+
+From cyrylas at gmail.com  Wed Apr 11 00:25:19 2007
+From: cyrylas at gmail.com (=?iso-8859-2?q?Micha=B3_Wazgird?=)
+Date: Wed, 11 Apr 2007 00:25:19 +0200
+Subject: [Pclos-il8n-dev] first polish po files
+Message-ID: <200704110025.19690.cyrylas@gmail.com>
+
+
+-- 
+Pozdrawiam, 
+Micha? Wazgird
+http://kinomaniak.com.pl
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: po.tar.gz
+Type: application/x-tgz
+Size: 15073 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070411/8af48630/attachment.bin>
+
+From cyrylas at gmail.com  Wed Apr 11 22:12:31 2007
+From: cyrylas at gmail.com (=?iso-8859-2?q?Micha=B3_Wazgird?=)
+Date: Wed, 11 Apr 2007 22:12:31 +0200
+Subject: [Pclos-il8n-dev] another one polish files
+Message-ID: <200704112212.32293.cyrylas@gmail.com>
+
+Here's some another files from polish team :)
+
+index.html - from help files in /other dir
+frbdrake.po - initial version
+userdrake.po - updates version.
+
+
+PS. Hey, is just me, who don't see my own mails here? I've checked the list 
+config, and it's set properly...
+
+
+-- 
+With regards, 
+Micha? Wazgird
+http://kinomaniak.com.pl
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070411/a2f20c6e/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: userdrake.po.tar.bz2
+Type: application/x-tbz
+Size: 3857 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070411/a2f20c6e/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: rfbdrake.po.tar.bz2
+Type: application/x-tbz
+Size: 1913 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070411/a2f20c6e/attachment-0001.bin>
+
+From didouph at gmail.com  Thu Apr 12 20:44:56 2007
+From: didouph at gmail.com (didouph)
+Date: Thu, 12 Apr 2007 20:44:56 +0200
+Subject: [Pclos-il8n-dev] ksplash
+Message-ID: <461E7E28.1000008@gmail.com>
+
+i updated the cvs with the default ksplash for 2007 
+(/cvsroot/other/usr/share/apps/ksplash/Themes/Dark/Theme.rc)
+
+it can be translated as all other basic desktop elements by adding a 
+locale array (ie : message[locale])
+
+check it and send me your translations assap :)
+
+DidouPh
+
+
+From hollanders.broers at dommel.be  Fri Apr 13 21:01:55 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Fri, 13 Apr 2007 21:01:55 +0200
+Subject: [Pclos-il8n-dev] ksplash[nl-BE]
+Message-ID: <461FD3A3.1070200@dommel.be>
+
+/cvsroot/other/usr/share/apps/ksplash/Themes/Dark/Theme.rc
+
+Label1[nl]=Welkom bij
+
+
+
+
+
+
+From qla0 at vp.pl  Sat Apr 14 13:51:20 2007
+From: qla0 at vp.pl (qla)
+Date: Sat, 14 Apr 2007 13:51:20 +0200
+Subject: [Pclos-il8n-dev] KSplash [pl]
+Message-ID: <200704141351.20404.qla0@vp.pl>
+
+/CVSROOT/other/usr/share/apps/ksplash/Themes/Dark/Theme.rc/Theme.rc
+
+[KSplash Theme: Dark]
+
+Name[pl] = Ciemny
+
+Description[pl] = Moodin - Elegancki ekran powitalny
+
+	
+	Label1[pl]=Witamy w
+
+
+From didouph at gmail.com  Sun Apr 15 11:00:48 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 15 Apr 2007 11:00:48 +0200
+Subject: [Pclos-il8n-dev] Fwd: chinese
+In-Reply-To: <200704151213.19437.archie.chi@gmail.com>
+References: <200704151213.19437.archie.chi@gmail.com>
+Message-ID: <4621E9C0.2020901@gmail.com>
+
+Archie Arevalo a ?crit :
+> heya DidouPh,
+>
+> attached is the bootsplash translation from baby-2-king. please check if it is 
+> compliant to standard.
+>   
+>
+> ------------------------------------------------------------------------
+>
+> Sujet:
+> chinese
+> Exp?diteur:
+> Martin KING <baby2king521 at yahoo.com.cn>
+> Date:
+> Sun, 15 Apr 2007 10:56:58 +0800 (CST)
+> Destinataire:
+> Archie Archie <archie.chi at gmail.com>
+>
+> Destinataire:
+> Archie Archie <archie.chi at gmail.com>
+>
+>
+> here is the *.po
+> only 3 part you want me translate, right?
+>
+> ------------------------------------------------------------------------
+> ????????-3.5G???20M??? <http://cn.mail.yahoo.com>
+> ------------------------------------------------------------------------
+>
+> # translation of bootsplash.po to Fran??ais
+> # DidouPh <DidouPh at gmail.com>, 2007.
+> msgid ""
+> msgstr ""
+> "Project-Id-Version: bootsplash\n"
+> "POT-Creation-Date: 2001-03-02 09:00+0100\n"
+> "PO-Revision-Date: 2007-03-08 23:52+0100\n"
+> "Last-Translator: DidouPh <DidouPh at gmail.com>\n"
+> "Language-Team: Fran??ais\n"
+> "MIME-Version: 1.0\n"
+> "Content-Type: text/plain; charset=UTF-8\n"
+> "Content-Transfer-Encoding: 8bit\n"
+> "Plural-Forms:  nplurals=2; plural=(n > 1);\n"
+> "X-Generator: KBabel 1.11.4\n"
+>
+> #: ../splash.sh:223
+> msgid "Booting the system..."
+> msgstr "??????????????????"
+>
+> #: ../splash.sh:228
+> msgid "Press Esc for verbose mode."
+> msgstr "???ESC??????????????????"
+>
+> #: ../splash.sh:212
+> msgid "Shutting down the system..."
+> msgstr "??????????????????"
+>
+>   
+sure it is :)
+i will add a chinese version to the repo*
+
+1 remark :
+the credits have not been added by the translator and the language name
+is still Fran?ais
+
+i looking forward for updates and next po
+
+DidouPh
+
+ps : i forwarded this message to the pclos-il8n-dev at lists.berlios.de
+mailing list
+pps : archie forget about the double post, i'm dumb you know
+
+
+
+From didouph at gmail.com  Sun Apr 15 11:37:38 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 15 Apr 2007 11:37:38 +0200
+Subject: [Pclos-il8n-dev] info
+Message-ID: <4621F262.1040308@gmail.com>
+
+hi
+
+i just noticed some files i had forgotten to pull in the cvs, including 
+pl and nl splash messages and 4 polish .po
+we also have a new branch : chinese
+
+another info, is that i'm adding some more .po to the french section 
+that will need to be translated. these new files are extracted from 
+sources of the related programms, to translate them, i would recommand 
+you to start from the souce to or from the french file. starting from 
+the french file can be tedious but will prevent mistake, if you start 
+from sources,  i would like to warm you that the process isn't as 
+straight forward as it sounds
+
+lets say you want to translate DeVeDe ...
+1 : grab and untar the tarball (v2.12)
+2 : go into the ./DeVeDe/Po folder
+3 : send the command : msgfmt ./locale.po>devede.mo&&rm 
+./devede.mo&&msgunfmt ./messages.mo>./devede.po (relace locale with your 
+locale code)
+4 : this should gie you the good .po file to translate and add to your task
+
+last info, it sounds like synaptic po is dramatically damaged and will 
+need a fix
+as for now, its translation is frozen and is no longuer a priority, i 
+will investigate this issue with dubi and report our progress
+if someone finds the sources for the version that pclinuxos is using, 
+i'll be happy to get a link to it so i could built clean po for us to 
+work on
+
+Bye
+
+DidouPh
+
+
+From didouph at gmail.com  Sun Apr 15 11:57:49 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 15 Apr 2007 11:57:49 +0200
+Subject: [Pclos-il8n-dev] [Fwd: Re: Fwd: chinese]
+Message-ID: <4621F71D.2050701@gmail.com>
+
+
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Archie Arevalo <archiearevalo at gmail.com>
+Subject: Re: Fwd: chinese
+Date: Sun, 15 Apr 2007 17:29:11 +0800
+Size: 3829
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/931774a6/attachment.mht>
+
+From didouph at gmail.com  Sun Apr 15 13:55:50 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 15 Apr 2007 13:55:50 +0200
+Subject: [Pclos-il8n-dev] Translations
+In-Reply-To: <2f3d0f330704150421ue2a0412oc45dca8f19c19726@mail.gmail.com>
+References: <2f3d0f330704150421ue2a0412oc45dca8f19c19726@mail.gmail.com>
+Message-ID: <462212C6.1010507@gmail.com>
+
+Hopp?r Zolt?n a ?crit :
+> Hi, I have attached new finished translations. Please add to the hu repo.
+>
+> Thanks.
+>
+> Zoltan
+>
+translation added
+
+anyway, would you please strip the version number and hu mention in 
+files names for your fture submission please... the cvs handle the 
+revisions and versions for us aswell as the locale code
+
+i just rebuilt the /po/hu section to conform to the system organisation ...
+
+
+From hollanders.broers at dommel.be  Sun Apr 15 20:51:11 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Sun, 15 Apr 2007 20:51:11 +0200
+Subject: [Pclos-il8n-dev] CVSROOT / other / usr / share / apps / ksplash /
+ Themes / Dark/theme.rc
+Message-ID: <4622741F.1070306@dommel.be>
+
+CVSROOT / other / usr / share / apps / ksplash / Themes / Dark/theme.rc
+
+Description[nl] = Standaard Moodin Startscherm
+
+
+don't know if it is needed to add this. just in case.
+
+
+
+From qla0 at vp.pl  Sun Apr 15 23:53:34 2007
+From: qla0 at vp.pl (qla)
+Date: Sun, 15 Apr 2007 23:53:34 +0200
+Subject: [Pclos-il8n-dev] Updated version draklive-install.po - Polish
+Message-ID: <200704152353.34835.qla0@vp.pl>
+
+updated draklive-install.po - Polish - next version
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: draklive-install.po.tar.bz2
+Type: application/x-tbz
+Size: 4553 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/3e905957/attachment.bin>
+
+From hollanders.broers at dommel.be  Sun Apr 15 21:41:41 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Sun, 15 Apr 2007 21:41:41 +0200
+Subject: [Pclos-il8n-dev] nl translations
+Message-ID: <46227FF5.5040806@dommel.be>
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: emerald[BE-nl].tar
+Type: application/octet-stream
+Size: 17920 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/e6cfece9/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: aquamarine[BE-nl].tar
+Type: application/octet-stream
+Size: 6144 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/e6cfece9/attachment-0001.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-core[BE-nl].tar
+Type: application/octet-stream
+Size: 15360 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/e6cfece9/attachment-0002.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-manager[BE-nl].tar
+Type: application/octet-stream
+Size: 8192 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/e6cfece9/attachment-0003.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-plugins[nl-BE].tar
+Type: application/octet-stream
+Size: 86528 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/e6cfece9/attachment-0004.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-plugins-unsupported[nl-BE].tar
+Type: application/octet-stream
+Size: 19456 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/e6cfece9/attachment-0005.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: beryl-settings-simple[BE-nl].tar
+Type: application/octet-stream
+Size: 11264 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/e6cfece9/attachment-0006.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: compiz[1][nl-BE].tar
+Type: application/octet-stream
+Size: 21504 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070415/e6cfece9/attachment-0007.obj>
+
+From didouph at gmail.com  Mon Apr 16 00:54:08 2007
+From: didouph at gmail.com (didouph)
+Date: Mon, 16 Apr 2007 00:54:08 +0200
+Subject: [Pclos-il8n-dev] updated repos
+Message-ID: <4622AD10.4090208@gmail.com>
+
+the fr / nl and pl brach got updated aswell as the theme.rc
+
+the source package of synaptic didn't offered better working po so i
+suspect that there is something wrong between our version and other
+versions of synaptic for the method used to translate synaptic category list
+
+thanks for your imputs
+
+
+
+From didouph at hotmail.com  Mon Apr 16 00:52:11 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Sun, 15 Apr 2007 22:52:11 +0000
+Subject: [Pclos-il8n-dev] updated repos
+Message-ID: <BAY126-F373287DD529DBB5361D46CA4530@phx.gbl>
+
+the fr / nl and pl brach got updated aswell as the theme.rc
+
+the source package of synaptic didn't offered better working po so i
+suspect that there is something wrong between our version and other
+versions of synaptic for the method used to translate synaptic category list
+
+thanks for your imputs
+
+_________________________________________________________________
+Windows Live Messenger sur i-mode? : dialoguez avec vos amis depuis votre 
+mobile comme sur PC ! http://mobile.live.fr/messenger/bouygues/
+
+
+
+From qla0 at vp.pl  Wed Apr 18 21:08:11 2007
+From: qla0 at vp.pl (qla)
+Date: Wed, 18 Apr 2007 21:08:11 +0200
+Subject: [Pclos-il8n-dev] aquamarine.po - pl - first release
+Message-ID: <200704182108.11258.qla0@vp.pl>
+
+first release aquamarine.po
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: aquamarine_pl_v.1.1.po.tar.bz2
+Type: application/x-tbz
+Size: 1584 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070418/d7bd16ff/attachment.bin>
+
+From didouph at gmail.com  Thu Apr 19 09:16:50 2007
+From: didouph at gmail.com (didouph)
+Date: Thu, 19 Apr 2007 09:16:50 +0200
+Subject: [Pclos-il8n-dev] aquamarine.po - pl - first release
+In-Reply-To: <200704182108.11258.qla0@vp.pl>
+References: <200704182108.11258.qla0@vp.pl>
+Message-ID: <46271762.1020200@gmail.com>
+
+qla a ?crit :
+> first release aquamarine.po
+>   
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+thanks ... i'll test and add
+
+
+From didouph at gmail.com  Thu Apr 19 11:55:48 2007
+From: didouph at gmail.com (didouph)
+Date: Thu, 19 Apr 2007 11:55:48 +0200
+Subject: [Pclos-il8n-dev] aquamarine.po - pl - first release
+In-Reply-To: <200704182108.11258.qla0@vp.pl>
+References: <200704182108.11258.qla0@vp.pl>
+Message-ID: <46273CA4.2090308@gmail.com>
+
+added 3 files and [de] branch in cvs three for po files
+
+soundkonverter.po FR / DE
+aquamarine.po PL
+
+i'm looking forward for more translations on the .desktop and .directory 
+files to be able to provide a more extensive translation of menus and 
+desktop for the average joe in 2007 ... so i strongly recommand you to 
+foccus on that since it's a very tedious work compared to the rest and 
+would require more work on my side than for the po translation
+
+i will be a bit busy since i'm working on a "professional" translation 
+ATM so i will proceed files to the CVS rather slowly
+
+last thing, the synaptic.po can go back into the standard priority for 
+now ... it sounds like it's a proper po but some part of it are not 
+working properly since the sources of synaptic or the actual description 
+of packages are not hadled as in mandriva with pclinuxos ... but anyway, 
+the translation of this app for anything but program category is working 
+from the po/mo so it's rather more usefull than no translation at all 
+... i and dubi are still waiting for reply from tex on that specific point
+
+
+From qla0 at vp.pl  Thu Apr 19 20:34:17 2007
+From: qla0 at vp.pl (qla)
+Date: Thu, 19 Apr 2007 20:34:17 +0200
+Subject: [Pclos-il8n-dev] draklive-install.po - pl - next version
+Message-ID: <200704192034.17909.qla0@vp.pl>
+
+next version draklive-install.po - pl
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: draklive-install_pl_v1.3.po.tar.bz2
+Type: application/x-tbz
+Size: 4573 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070419/76285d18/attachment.bin>
+
+From didouph at gmail.com  Fri Apr 20 01:57:52 2007
+From: didouph at gmail.com (didouph)
+Date: Fri, 20 Apr 2007 01:57:52 +0200
+Subject: [Pclos-il8n-dev] draklive-install.po - pl - next version
+In-Reply-To: <200704192034.17909.qla0@vp.pl>
+References: <200704192034.17909.qla0@vp.pl>
+Message-ID: <46280200.5030005@gmail.com>
+
+updated
+
+qla a ?crit :
+> next version draklive-install.po - pl
+>   
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+
+
+
+From didouph at gmail.com  Tue Apr 24 23:01:54 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 24 Apr 2007 23:01:54 +0200
+Subject: [Pclos-il8n-dev] loggin screen
+Message-ID: <462E7042.2070609@gmail.com>
+
+/other/usr/share/apps/kdm/theme, contains the loggin panel for 
+pclinuxos. both of these themes require translation, there ise yet a 
+frech template+ the original, feel free to add your input and get the 
+theme localized
+
+
+From hollanders.broers at dommel.be  Wed Apr 25 23:20:23 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Wed, 25 Apr 2007 23:20:23 +0200
+Subject: [Pclos-il8n-dev] 2 more nl translations
+Message-ID: <462FC617.1050304@dommel.be>
+
+libdrakX standalone and aumix
+
+cheers
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: libDrakX-standalone[nl-BE].tar
+Type: application/octet-stream
+Size: 143360 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070425/4f323ca9/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: aumix[nl-BE].tar
+Type: application/octet-stream
+Size: 7680 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070425/4f323ca9/attachment-0001.obj>
+
+From didouph at gmail.com  Fri Apr 27 00:06:59 2007
+From: didouph at gmail.com (didouph)
+Date: Fri, 27 Apr 2007 00:06:59 +0200
+Subject: [Pclos-il8n-dev] =?utf-8?b?77+9?=
+In-Reply-To: <10949343559099@lycos-europe.com>
+References: <10949343559099@lycos-europe.com>
+Message-ID: <46312283.2080903@gmail.com>
+
+jean-jacques dubois a ?crit :
+> Salut Didouph,
+>
+> j'ai recorrig? quelques fichiers correspondant ? desktop (/etc/skel/desktop et /root/desktop), parce qu'il y avait des fautes d'orthographe ou des mots mal orthographi?s (cfr. mon message sur mypclinuxos).
+>
+> Le po de libk3b ne se compilait pas, il y avait une erreur (cfr. ligne 2965). je l'ai corrig?.
+>
+> Dans A propos du PCC, les noms affich?s sont ceux des membres de Mandriva. J'aimerai les remplacer.
+>
+> J'ai deux propositions : 
+>
+> - Soit en indiquant les noms des d?veloppeurs de PCLinuxOS et de ceux qui ont r?alis?s les graphismes.
+> - Soit en indiquant uniquement les noms des traducteurs pour la partie fran?aise (c'est-?-dire nous).
+>
+> Qu'en penses-tu ?  Car il faut alors modifier le po de Drakconf.
+>
+> Voil?.
+>
+> A+.
+correction for french version of some files in /desktop-files/etc/skel & 
+/desktop-file/root
+
+libk3b.po got fixed in french po due to errors in line 2965, please 
+check in your language if some error exist
+
+about the credit for developers and translators :
+1 : add your name as translators
+2 : add texstar and the ripper gang as author/hackers of the projects if 
+something seems wierd for software developers (ex pcc)
+3 : add the list mail as translator mail : pclos-il8n-dev at lists.berlios.de
+4 : add mypclinuxos.com as homepage for the translation team
+5 : NEVER delete the name of the author of a program or we might 
+infringe so many laws that we would end our life paying tremendous fee :P
+
+DidouPh
+
+
+
+From hollanders.broers at dommel.be  Fri Apr 27 23:12:47 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Fri, 27 Apr 2007 23:12:47 +0200
+Subject: [Pclos-il8n-dev] kdm nl translation
+Message-ID: <4632674F.9060702@dommel.be>
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: kdm themes desktop.tar
+Type: application/octet-stream
+Size: 2560 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070427/9c9a11ec/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: CVSROOT -other-usr-share-apps-kdm-themes-Dark.tar
+Type: application/octet-stream
+Size: 5632 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070427/9c9a11ec/attachment-0001.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: CVSROOT-other-usr-share-apps-kdm-themes-Dark2.tar
+Type: application/octet-stream
+Size: 6144 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070427/9c9a11ec/attachment-0002.obj>
+
+From didouph at gmail.com  Sat Apr 28 00:54:27 2007
+From: didouph at gmail.com (didouph)
+Date: Sat, 28 Apr 2007 00:54:27 +0200
+Subject: [Pclos-il8n-dev] kdm nl translation
+In-Reply-To: <4632674F.9060702@dommel.be>
+References: <4632674F.9060702@dommel.be>
+Message-ID: <46327F23.7050201@gmail.com>
+
+nl kdm theme translation added
+
+
+From hollanders.broers at dommel.be  Fri Apr 27 20:01:15 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Fri, 27 Apr 2007 20:01:15 +0200
+Subject: [Pclos-il8n-dev] 3 more nl po translations
+Message-ID: <46323A6B.3060701@dommel.be>
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: soundconverter[nl-BE].tar
+Type: application/octet-stream
+Size: 10240 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070427/d2be8042/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: devede[nl-BE].tar
+Type: application/octet-stream
+Size: 14336 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070427/d2be8042/attachment-0001.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: konserve[nl-BE].tar
+Type: application/octet-stream
+Size: 14848 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070427/d2be8042/attachment-0002.obj>
+
+From didouph.ph at laposte.net  Sat Apr 28 01:12:07 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 28 Apr 2007 01:12:07 +0200
+Subject: [Pclos-il8n-dev] 3 more nl po translations
+In-Reply-To: <46323A6B.3060701@dommel.be>
+References: <46323A6B.3060701@dommel.be>
+Message-ID: <46328347.9000609@laposte.net>
+
+konserve.po / soundconverter.po and devede.po added to nl po branch
+
+
+From didouph at gmail.com  Sat Apr 28 01:21:34 2007
+From: didouph at gmail.com (didouph)
+Date: Sat, 28 Apr 2007 01:21:34 +0200
+Subject: [Pclos-il8n-dev] 3 more nl po translations
+In-Reply-To: <46323A6B.3060701@dommel.be>
+References: <46323A6B.3060701@dommel.be>
+Message-ID: <4632857E.8030308@gmail.com>
+
+desktop file added for translation in  : 
+/CVSROOT/desktop-files/usr/share/apps/kappfinder/kappfinder/apps/internet
+added a new konseve po for translation (4 extra string to translate for 
+other languages) in /CVSROOT/po/fr
+added kdm theme "Dark2" background-fr.png and matching theme-fr.xml so 
+the information from login from live cd are more accurate. i would 
+strongly recommand you to do the same and submit similar 
+image/theme-locale.xml
+
+thanks DidouPh
+
+
+From cyrylas at gmail.com  Mon Apr 30 18:34:38 2007
+From: cyrylas at gmail.com (=?iso-8859-2?q?Micha=B3_Wazgird?=)
+Date: Mon, 30 Apr 2007 18:34:38 +0200
+Subject: [Pclos-il8n-dev] new strings in the draklive-install.po
+Message-ID: <200704301834.38263.cyrylas@gmail.com>
+
+There's some changes in the TR4 draklive-install.
+
+One of them is mising translation of:
+
+msgid "Basic"
+msgstr ""
+
+shown in the dialog of select wchich partitions to format. I thing it was 
+missing from the beginigng.
+
+Second is, that in TR4 string about "reboot to save partition table" changed 
+into
+
+msgid "You need to reboot then select Use Existing Partitions"
+msgstr ""
+
+
+
+Polish updated po file will there be soon.
+
+-- 
+Regards, 
+Micha? Wazgird
+http://kinomaniak.com.pl
+
+
+From hollanders.broers at dommel.be  Mon Apr 30 00:29:02 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Mon, 30 Apr 2007 00:29:02 +0200
+Subject: [Pclos-il8n-dev] xsane and kbudget nl translation
+Message-ID: <46351C2E.7060203@dommel.be>
+
+next I'll do the desktop files first if that's ok with you.
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: xsane[nl-BE].tar
+Type: application/octet-stream
+Size: 46592 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070430/1c1ed79a/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: kbudget[nl-BE].tar
+Type: application/octet-stream
+Size: 16384 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070430/1c1ed79a/attachment-0001.obj>
+

@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] New drakxtools
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-July/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20drakxtools&In-Reply-To=%3C4884608C.4040806%40smidovi.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000403.html">
+   <LINK REL="Next"  HREF="000405.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] New drakxtools</H1>
+    <B>David Smid</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20New%20drakxtools&In-Reply-To=%3C4884608C.4040806%40smidovi.eu%3E"
+       TITLE="[Pclos-il8n-dev] New drakxtools">david at smidovi.eu
+       </A><BR>
+    <I>Mon Jul 21 12:10:20 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000403.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+        <LI>Next message: <A HREF="000405.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#404">[ date ]</a>
+              <a href="thread.html#404">[ thread ]</a>
+              <a href="subject.html#404">[ subject ]</a>
+              <a href="author.html#404">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE> &gt; David Smid ha scritto:
+ &gt;&gt; Last question concerning your drakxtools pots and pos:
+ &gt;&gt;
+ &gt;&gt; Have you tried to merge our (PCLOS) existing translations with those
+ &gt;&gt; upstream (Mandriva) translations ?
+
+Alessio Adamo napsal(a):
+&gt;<i> I've merged drakconf and userdrake when available. I didn't do it with 
+</I>&gt;<i> libDrakX and libDrakX standalone because formerly they contained also 
+</I>&gt;<i> all messages from printerdrake, drakbackup, and others which are now in 
+</I>&gt;<i> separate pots. Anyway there are less than 10 messages to be translated 
+</I>&gt;<i> for all the main languages.
+</I>
+Merging PCLOS and Mandriva translations by using &quot;msgcat --unique --use-first&quot; 
+BEFORE executing &quot;make update_n_merge&quot; would easily solve this.
+It's true that after merging both catalogues with &quot;msgcat --unique --use-first&quot; 
+you will end up with merged catalogue that contains many msgids that are no more 
+needed and useless.
+But &quot;make update_n_merge&quot; will fix that - it creates .pot file according to 
+sources and than it leaves in .po files only msgids that are contained in this 
+.pot file. Thus any excess messages will be automatically thrown away.
+
+Yeah, I know I'm a damn annoying perfectionist :)
+
+If you don't want to bother with this issue again, I'll just commit the files 
+you've sent me into CVS, no problem with that. Or I can do it all by myself.
+
+David
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000403.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+	<LI>Next message: <A HREF="000405.html">[Pclos-il8n-dev] New drakxtools
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#404">[ date ]</a>
+              <a href="thread.html#404">[ thread ]</a>
+              <a href="subject.html#404">[ subject ]</a>
+              <a href="author.html#404">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,2438 @@
+From didouph.ph at laposte.net  Sat May  3 00:20:31 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 03 May 2008 00:20:31 +0200
+Subject: [Pclos-il8n-dev] [it]Last mimelnk .desktop files
+In-Reply-To: <927516.4394951209043757607.JavaMail.root@pr001msr>
+References: <927516.4394951209043757607.JavaMail.root@pr001msr>
+Message-ID: <481B93AF.7020101@laposte.net>
+
+ > Today I've finished the translation of all the mimelnk files. This 
+batch goes to
+>  /desktop-files/usr/share/mimelnk/image.
+
+thanks
+cvs updated
+
+> Also in this directory there is an improper file with the hungarian comment only
+> , which I pasted in the correct one:
+> 
+> x-windowdump.desktop (wrong) / x-xwindowdump.desktop (correct)
+> 
+you pasted what? where ?
+not sure i understand what you mean ...
+does that mean you fixed the content of this file in your update ?
+if so ... its updated in the cvs ...
+no need to mention every single change you made despite the fact that it 
+points out all the "major" flaws of the global patch method :p
+
+> In addition there are in some cases files which refer to the same mime. I'll omi
+> t .desktop:
+> 
+no
+they reffer to the same files and paterns, but not same mimetype check 
+the "X-KDE-IsAlso=" argument ! ... i fixed the isue with those and some 
+more ...
+
+> 
+> svg-xml lacks a line patterns= and maybe it would be the same as svg+xml
+>
+
+fixed that too
+
+> wmf also laks a line patterns= I didn't take a note if there was another file re
+> ferring di Windows Meta File, though.
+also fixed that !
+> ______________________
+> 
+> Tomorrow I'm leaving for Leeds (UK) and I won't be much available for translatin
+> g for about 1 month. However, the most is done. Only apt.po is missing. I hope s
+> oon we'll have a multilanguage DVD.
+> 
+so do i but i'm kind of busy atm and won't get much i18n work done for 
+french before long ...
+
+sorry for the cvs update delay !
+
+DidouPh
+
+
+
+From didouph.ph at laposte.net  Sat May  3 00:29:38 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 03 May 2008 00:29:38 +0200
+Subject: [Pclos-il8n-dev] VIT update
+In-Reply-To: <4811CDE3.70004@smidovi.eu>
+References: <4811CDE3.70004@smidovi.eu>
+Message-ID: <481B95D2.9060205@laposte.net>
+
+David Smid a ?crit :
+> Hello all,
+> 
+> I revised the VIT package a little bit to be easier to update without 
+> the need to update all translations after every little change.
+> 
+> All the data that are often changing are now parametrized.
+> 
+> Please take a look at the .po files, they should be OK but I might have 
+> overlooked something.
+> 
+> David
+> 
+
+CVS updated, additional translations added !
+
+
+
+
+From didouph.ph at laposte.net  Sat May  3 00:30:07 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 03 May 2008 00:30:07 +0200
+Subject: [Pclos-il8n-dev] Install help in Czech
+In-Reply-To: <4811CE78.6080901@smidovi.eu>
+References: <4811CE78.6080901@smidovi.eu>
+Message-ID: <481B95EF.3000703@laposte.net>
+
+David Smid a ?crit :
+> Here is the Installation Help in Czech.
+updated the CVS, Thanks David !!
+
+
+
+
+From didouph.ph at laposte.net  Sat May  3 00:33:57 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 03 May 2008 00:33:57 +0200
+Subject: [Pclos-il8n-dev] Hmm..
+In-Reply-To: <48180DF3.3030605@smidovi.eu>
+References: <22d880e20804281552r2a0dbd5m841935351b852259@mail.gmail.com>	<4816AF57.1020704@smidovi.eu>	<481758E2.6000709@laposte.net>
+	<48180DF3.3030605@smidovi.eu>
+Message-ID: <481B96D5.80708@laposte.net>
+
+
+
+David Smid a ?crit :
+> pierre-henri-ramboz napsal(a):
+>> @ David ... what are your reactions to the mail i yet sent about the 
+>> tools you designed to manage desktop files ?
+> 
+> I'm afraid I didn't receive any e-mail from you since April 14th ...
+> Could you resend it ?
+
+Its on the list archives ...
+
+> 
+>> what framework would you introduce to facilitate the translation process 
+>> with new/recently/to-be programs that will need translation of the 
+>> desktop files ?
+>> i think that you've created something nice but we need to learn how to 
+>> master it. powerfull tools are only usefull in masters hand!
+> 
+> I don't know if I understand it right but I'll try to answer:
+> 
+> I think that the software author should be responsible for i18n. He/she should 
+> provide framework for managing translations. We all know that this is not how it 
+> works in real world. In cases when l10n is not a part of the program build 
+> process all we can do is to provide a patch with translated .desktop file.
+> For such project I would recommend just to add their .desktop file to our tree 
+> and run make_intltool_update script. If we need the true blue .desktop file with 
+> translations for such project (we need to prepare patch for SRPM) - just launch 
+> script build_desktop_files.
+> If, on the other side, we can change the software build process to some extent, 
+> the best way is to have .desktop.in file as a source and to build a .desktop 
+> file from it and from the .po files during the build process. All you need for 
+> this is the intltool-merge utility (see VIT SRPM for example).
+> Mature projects usually already have such .desktop file compilation in their 
+> build process.
+> The important thing is that .desktop.in file is the real source file - .desktop 
+> file can be "cooked" any time from it if you have translations.
+> 
+> This is rather complex issue and to find a complete solution I would need to 
+> examine the problem a little more and to answer few questions:
+> 
+> How do the translated .desktop files get into official packages now ?
+> Isn't it too labour-intensive ?
+> Should we provide some patch-making infrastructure ?
+> Or should we just make one-for-all package from our .desktop files rather than 
+> injecting them into individual packages ?
+> 
+> 
+
+thats exactly the points i made in the post you missed !
+
+>> what about that livecd i18n team / project ?
+> 
+> I think it's a good idea but where would it be hosted ? If I understood it 
+> right, mypclinuxos.com is shutting down soon ...
+> 
+
+NO IT WON'T SHUT DOWN !
+:p
+
+> David
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+
+
+From alessioadamo at fastwebnet.it  Mon May  5 15:13:45 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Mon, 5 May 2008 15:13:45 +0200 (CEST)
+Subject: [Pclos-il8n-dev] [it]apt.po + 2 revised desktop files
+Message-ID: <11362324.5128031209993225455.JavaMail.root@pr001msr>
+
+Hi, folks!
+
+I've finish the translation of apt.po. It certainly needs revision, but I'll do 
+it later on, now I'd better spend my time for my PhD thesis.
+
+I'm also attaching 2 revised desktop files.
+
+Have a nice week!
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: apt.po.tar.gz
+Type: application/x-gzip
+Size: 21370 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080505/0a5778b8/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: desktop-files.tar.gz
+Type: application/x-gzip
+Size: 481923 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080505/0a5778b8/attachment-0001.bin>
+
+From david at smidovi.eu  Wed May  7 07:34:30 2008
+From: david at smidovi.eu (David Smid)
+Date: Wed, 07 May 2008 07:34:30 +0200
+Subject: [Pclos-il8n-dev] Desktop files localization issue
+Message-ID: <48213F66.8020000@smidovi.eu>
+
+Just a few questions for DidouPh:
+
+Have you tried to use the scripts I sent you ?
+
+Did you encounter any problems ?
+
+Do you think it's a good idea ?
+
+Do you plan to use this infrastructure for desktop-files localization ?
+
+How exactly get the translations from our CVS to mainstream packages now (I 
+think Gettinther is somehow involved in this ...) ?
+
+
+David
+
+
+
+From didouph.ph at laposte.net  Wed May  7 20:37:56 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 07 May 2008 20:37:56 +0200
+Subject: [Pclos-il8n-dev] Desktop files localization issue
+In-Reply-To: <48213F66.8020000@smidovi.eu>
+References: <48213F66.8020000@smidovi.eu>
+Message-ID: <4821F704.60404@laposte.net>
+
+David Smid a ?crit :
+> Just a few questions for DidouPh:
+> 
+> Have you tried to use the scripts I sent you ?
+> 
+not yet for i didn't understood how they work and need time to get 
+deeper into this... honestly i never use some software i don't 
+understand the mechanism of ... but i yet told you that ... it sounds 
+awesome but i don't understand the bennefits and drawback either ... i 
+think i really need a practical example to tell you what i think of it 
+and to use it either ... at the very moment, if it helps save time i'm 
+all for it ! if it facilitate the translation and incorporation in 
+mainstream, i'm all for it ...
+> Did you encounter any problems ?
+> 
+not yet, of course
+> Do you think it's a good idea ?
+> 
+i don't know ...
+> Do you plan to use this infrastructure for desktop-files localization ?
+> 
+if i understand it and it is accepted by the pclinuxos packagers and 
+(who knows) kde packagers for theire cvs, yes (don't forget that 50% of 
+the desktop files in the cvs are KDE desktop file ... so it means we are 
+bleeding edge of the i18n work in this area !
+> How exactly get the translations from our CVS to mainstream packages now (I 
+> think Gettinther is somehow involved in this ...) ?
+> 
+You have two options ...
+1 : get added by the software packager in the package during an update!
+2 : get added to the package by a 3rd party packager (gettinther, me, you ?)
+
+we have no trail of addition, we just make noise !
+
+unfortunately, its opensource, we propose and the ripper gang do as they 
+wish ... so that's why a I18N team active in the developement of 100% 
+localized iso is a must have @ mypclinuxos, to endavour a nonofficial 
+distribution with i18n support and "compliant" rpms with specific 
+repository ...
+
+for desktop files or any piece of software that we develop or any 
+framework we develop, the big thing is will it be added ... except for 
+what i and gettinther, especially the DrakxTools and synaptic aswell as 
+some desktop files ... almost everything is "to be done" and not done yet
+
+at the very moment i'm wondering if a flavored distribution isn't the 
+final objective ... since i18n team is very "limitated" in its weight 
+upon the evolution and update of pclinuxos ...
+
+DidouPh
+
+
+
+
+From david at smidovi.eu  Thu May  8 21:24:16 2008
+From: david at smidovi.eu (David Smid)
+Date: Thu, 08 May 2008 21:24:16 +0200
+Subject: [Pclos-il8n-dev] Desktop files localization issue
+In-Reply-To: <4821F704.60404@laposte.net>
+References: <48213F66.8020000@smidovi.eu> <4821F704.60404@laposte.net>
+Message-ID: <48235360.1010208@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> David Smid a ?crit :
+>> Just a few questions for DidouPh:
+>>
+>> Have you tried to use the scripts I sent you ?
+>>
+> not yet for i didn't understood how they work and need time to get 
+> deeper into this... honestly i never use some software i don't 
+> understand the mechanism of ... but i yet told you that ... it sounds 
+> awesome but i don't understand the bennefits and drawback either ... i 
+> think i really need a practical example to tell you what i think of it 
+> and to use it either ... at the very moment, if it helps save time i'm 
+> all for it ! if it facilitate the translation and incorporation in 
+> mainstream, i'm all for it ...
+
+OK, I'll try to give you a better explanation.
+
+1) What's wrong on current way of desktop files i18n and l10n
+- Translations are contained in .desktop files. This brings a very high
+risk of damaging it while adding or editing translations. A .desktop
+file is an integral part of software and as such it should not be
+touched by anybody else than the software authors.
+- Translations of messages for one locale are scattered among tens or
+hundreds of tiny files. It's very hard to guess what's already
+translated and what is not.
+- You cannot use standard l10n tools (KBabel).
+- It's quite probable that two or more language teams might want to edit
+one .desktop file at the same time. That would need someone to solve the
+conflicts.
+
+2) How should it look like to solve the problems mentioned above
+- .desktop file should be a "skeleton" that would contain only English
+phrases. No translations here.
+- ALL translated strings of ALL .desktop files for ONE locale should be
+contained in ONE file (preferably .po file).
+- These files should be thought of as the "source" files, that can be
+edited, but not used in software binary release.
+- Those "classic" .desktop files with all available translations should
+be able to be built anytime from the "sources".
+- Notice, that there are no .mo files needed nor involved at all.
+
+3) Solution for this problem is already here. Its name is intltool.
+It's routinely used in many software projects. Unfortunately
+documentation of intltool utilities is a little bit "fuzzy".
+It took me quite a lot of time to understand what they really do.
+The scripts I've sent you are just simple wrappers of intltool utilities
+adapted for our situation. Nothing else.
+I'll try to explain what they do. Don't hesitate to make experiments -
+just copy desktop-files tree to some temporary location, copy the
+scripts to this desktop-files directory, launch the scripts and watch
+what happens.
+
+make_intltool_ready
+===================
+<-------------- converts current state to the new infrastructure. Needed
+to be launched only once.
+
+#!/bin/sh
+
+# Error fixes
+...
+<-------------- This part of script fixes a lot of problems with current
+.desktop files. Otherwise, they couldn't have been adapted.
+
+# intltool adaption process
+mkdir po
+
+intltool-prepare
+<------------------ Creates .desktop.in files from .desktop files by
+removing of all translations. These translations are moved to .po files
+- one .po files per each locale. Also creates po/POTFILES.in with list
+of all .desktop.in files.
+
+cd po
+sed -i -e '1 i[encoding: UTF-8]' POTFILES.in
+INTLTOOL_EXTRACT=/usr/bin/intltool-extract intltool-update -p -g
+desktop-files
+<------------------ Creates desktop-files.pot file
+
+cat > header <<EOT
+# Translation of PCLinuxOS desktop files to %locale.
+# FIRST AUTHOR <EMAIL at ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PCLinuxOS 2007\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-23 16:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL at ADDRESS>\n"
+"Language-Team: LANGUAGE <%locale at li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+EOT
+
+for fil in `ls *.po`
+do
+    LOCALE=${fil%%.po}
+    echo "Processing $LOCALE ..."
+    sed -e "s/%locale/$LOCALE/g" header > header.tmp
+    cat header.tmp $fil > $fil.tmp
+    mv -f $fil.tmp $fil
+    INTLTOOL_EXTRACT=/usr/bin/intltool-extract intltool-update -d -g
+desktop-files $LOCALE
+<------------------- Adds proper header to all .po files and appends all
+untranslated messages from desktop-files.pot
+
+done
+rm -f header.tmp
+
+find . -name *.in -not -name POTFILES.in -print | (while read; do rm -f
+${REPLY%%.in}; done )
+<------------------- Deletes all original .desktop files, they are not
+needed now. Only .desktop.in files should remain.
+
+
+
+make_intltool_update
+====================
+<------------------- Updates desktop-files.pot and all .po files after
+adding new .desktop file(s) to the tree. Also adds new .desktop.in items
+to the list in POTFILES.in.
+
+#!/bin/sh
+
+intltool-prepare
+<------------------- Processes newly added .desktop files and creates
+.desktop.in files from them
+
+cd po
+INTLTOOL_EXTRACT=/usr/bin/intltool-extract intltool-update -p -g
+desktop-files
+<------------------- Updates desktop-files.pot
+
+for fil in `ls *.po`
+do
+    LOCALE=${fil%%.po}
+    echo "Processing $LOCALE ..."
+    msguniq $fil -o $fil.tmp
+    mv -f $fil.tmp $fil
+    INTLTOOL_EXTRACT=/usr/bin/intltool-extract intltool-update -d -g
+desktop-files $LOCALE
+<------------------- Adds new messages to all .po files, makes sure all
+msgids are unique.
+
+done
+
+find . -name *.in -not -name POTFILES.in -print | (while read; do rm -f
+${REPLY%%.in}; done )
+<------------------- Deletes all newly added .desktop files, they are
+not needed now. Only .desktop.in files should remain.
+
+
+
+
+build_desktop_files
+===================
+<------------------- Builds all .desktop files from source .desktop.in
+files and .po files, result will be saved in directory
+../desktop-files-build, directory tree will be mirrored.
+In ../desktop-files-build, you will get exactly the same result, the
+same files, that are held in CVS now. But they are only a result of
+build process, not the editable sources. They should not be in CVS.
+These .desktop files can be injected to repository packages, the same
+way they are getting there now.
+
+#!/bin/sh
+
+mkdir ../desktop-files-build 2>/dev/null
+
+find . -type d -not -name CVS -not -name .svn -not -path "./po" -exec
+mkdir -p ../desktop-files-build/{} \;
+<------------------- Copies directory structure to ../desktop-files-build
+
+find . -name "*.in" -not -name POTFILES.in -print | while read
+do
+    intltool-merge -d -u -c po/.intltool-merge-cache po "$REPLY"
+../desktop-files-build/"${REPLY%%.in}"
+<------------------- Builds .desktop files from .desktop.in source
+files, uses .po files to get messages translations.
+
+done
+
+>> Do you plan to use this infrastructure for desktop-files localization ?
+>>
+> if i understand it and it is accepted by the pclinuxos packagers and 
+> (who knows) kde packagers for theire cvs, yes (don't forget that 50% of 
+> the desktop files in the cvs are KDE desktop file ... so it means we are 
+> bleeding edge of the i18n work in this area !
+
+It is not necessary for packagers to accept our work in form of
+.desktop.in + .po translations combo, although it's preferable.
+We can provide ordinary .desktop files as well, just like we provided
+them before.
+
+>> How exactly get the translations from our CVS to mainstream packages now (I 
+>> think Gettinther is somehow involved in this ...) ?
+>>
+> You have two options ...
+> 1 : get added by the software packager in the package during an update!
+> 2 : get added to the package by a 3rd party packager (gettinther, me, you ?)
+> 
+> we have no trail of addition, we just make noise !
+
+There is also a third option: to get it added upstream by the software
+author.
+
+> unfortunately, its opensource, we propose and the ripper gang do as they 
+> wish ... so that's why a I18N team active in the developement of 100% 
+> localized iso is a must have @ mypclinuxos, to endavour a nonofficial 
+> distribution with i18n support and "compliant" rpms with specific 
+> repository ...
+> 
+> for desktop files or any piece of software that we develop or any 
+> framework we develop, the big thing is will it be added ... except for 
+> what i and gettinther, especially the DrakxTools and synaptic aswell as 
+> some desktop files ... almost everything is "to be done" and not done yet
+> 
+> at the very moment i'm wondering if a flavored distribution isn't the 
+> final objective ... since i18n team is very "limitated" in its weight 
+> upon the evolution and update of pclinuxos ...
+
+OK, so our only chance is to make the process of adding our achievements
+to PCLOS packages as simple as possible. We need to create some
+automatic facility for creating patches - because patches are very easy
+to add to SRPM. We need to bombard packagers with i18n and l10n patches
+because they can't refuse them just because their incorporation involves
+too much work.
+
+David
+
+
+
+From didouph.ph at laposte.net  Thu May  8 22:53:15 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 08 May 2008 22:53:15 +0200
+Subject: [Pclos-il8n-dev] Desktop files localization issue
+In-Reply-To: <48235360.1010208@smidovi.eu>
+References: <48213F66.8020000@smidovi.eu> <4821F704.60404@laposte.net>
+	<48235360.1010208@smidovi.eu>
+Message-ID: <4823683B.6090109@laposte.net>
+
+why don't we patch things by ourselves ?
+i have an access to the contrib server !
+we could release patches by million !!
+
+all we need to do is grab the source rpm / patch it / release a revised 
+rpm and submit it to the contrib server !
+
+maybe a good start would be to provide etcskel rpm in flavored versions 
+with dependency related to the locale !
+
+what are your thought ?
+
+
+
+From david at smidovi.eu  Fri May  9 09:10:44 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 09 May 2008 09:10:44 +0200
+Subject: [Pclos-il8n-dev] Pushing our work to mainstream
+In-Reply-To: <4823683B.6090109@laposte.net>
+References: <48213F66.8020000@smidovi.eu>
+	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>
+	<4823683B.6090109@laposte.net>
+Message-ID: <4823F8F4.1000806@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> why don't we patch things by ourselves ?
+> i have an access to the contrib server !
+> we could release patches by million !!
+
+Yes, we could do it this way. I have an access to contribs too.
+But there's a risk of stepping on someone's toe (I mean original package
+maintainer toe). What if he/she just prepares a new release and suddenly
+realizes that someone else released a new version of HIS package in
+between ?
+
+I think we need to make some sort of agreement with major packagers
+(Texstar, Neverstopdreaming, Gettinther, Thac, ...) and to keep them
+informed.
+
+> all we need to do is grab the source rpm / patch it / release a revised 
+> rpm and submit it to the contrib server !
+> 
+> maybe a good start would be to provide etcskel rpm in flavored versions 
+> with dependency related to the locale !
+> 
+> what are your thought ?
+
+Yes, etcskel would be a good start. It's pretty outdated and very
+important. I'll try to design some patch-building facility.
+
+
+David
+
+
+From gettinther at gmail.com  Fri May  9 11:34:57 2008
+From: gettinther at gmail.com (gettinther)
+Date: Fri, 9 May 2008 10:34:57 +0100
+Subject: [Pclos-il8n-dev] Pushing our work to mainstream
+In-Reply-To: <4823F8F4.1000806@smidovi.eu>
+References: <48213F66.8020000@smidovi.eu> <4821F704.60404@laposte.net>
+	<48235360.1010208@smidovi.eu> <4823683B.6090109@laposte.net>
+	<4823F8F4.1000806@smidovi.eu>
+Message-ID: <64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>
+
+On Fri, May 9, 2008 at 8:10 AM, David Smid <david at smidovi.eu> wrote:
+> pierre-henri-ramboz napsal(a):
+>> why don't we patch things by ourselves ?
+>> i have an access to the contrib server !
+>> we could release patches by million !!
+>
+> Yes, we could do it this way. I have an access to contribs too.
+> But there's a risk of stepping on someone's toe (I mean original package
+> maintainer toe). What if he/she just prepares a new release and suddenly
+> realizes that someone else released a new version of HIS package in
+> between ?
+>
+> I think we need to make some sort of agreement with major packagers
+> (Texstar, Neverstopdreaming, Gettinther, Thac, ...) and to keep them
+> informed.
+>
+>> all we need to do is grab the source rpm / patch it / release a revised
+>> rpm and submit it to the contrib server !
+>>
+>> maybe a good start would be to provide etcskel rpm in flavored versions
+>> with dependency related to the locale !
+>>
+>> what are your thought ?
+>
+> Yes, etcskel would be a good start. It's pretty outdated and very
+> important. I'll try to design some patch-building facility.
+>
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+
+David,
+
+When you grab the srpm you will find the last maintainer.  Just email
+the maintainer to let him/her know about your intent and agree on a
+setup for doing it (send srpm to contrib or email modified specfile
+and patches to maintainer).
+
+Nobody in the dev team will get mad if you do some work on one of
+their packages as long as they are kept in the loop and not faced with
+a "surprise" update
+
+Gettinther.
+
+
+From alessioadamo at fastwebnet.it  Fri May  9 16:12:19 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Fri, 09 May 2008 16:12:19 +0200
+Subject: [Pclos-il8n-dev] Desktop files localization issue
+Message-ID: <48245BC3.5080302@fastwebnet.it>
+
+David Smid ha scritto:
+> <div class="moz-text-flowed" style="font-family: -moz-fixed">Just a 
+> few questions for DidouPh:
+>
+> Have you tried to use the scripts I sent you ?
+>
+> Did you encounter any problems ?
+>
+> Do you think it's a good idea ?
+>
+> Do you plan to use this infrastructure for desktop-files localization ?
+>
+> How exactly get the translations from our CVS to mainstream packages 
+> now (I think Gettinther is somehow involved in this ...) ?
+>
+>
+> David
+>
+>
+> </div>
+Hi, David!
+
+I agree that it's a much cleaner way to work and I'm certainly in for 
+this change. I've tested your make_intltool_ready script few days ago 
+and actually allowed me to realise that there were 2 original Comment 
+strings in donate.desktop. So it's true, it's good help not to minimise 
+the chances of mistakes.
+
+Though, it doesn't seem to work completely right.
+
+For instance, in it.po the message "Donate" is untranslated although in 
+/etc/skel/donate.desktop and in /root/donate.desktop it is actually 
+translated.
+
+At the same time the message "Support the developement of PCLinuxOS by 
+donating to the Team" (the Comment) is translated with "Fai una 
+donazione" (the Name).
+
+There are several other examples. If required, I'll list them all. I had 
+a look also at fr.po and also there I could find some examples of this 
+misbehaviour.
+
+I can't figure out what the reason can be just by looking at the 
+original desktop-files. You're probably more indicated to find out.
+
+Bye,
+
+Alessio
+
+
+
+From david at smidovi.eu  Fri May  9 20:36:49 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 09 May 2008 20:36:49 +0200
+Subject: [Pclos-il8n-dev] Pushing our work to mainstream
+In-Reply-To: <64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>
+References: <48213F66.8020000@smidovi.eu>
+	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>
+	<4823683B.6090109@laposte.net>	<4823F8F4.1000806@smidovi.eu>
+	<64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>
+Message-ID: <482499C1.9020302@smidovi.eu>
+
+gettinther napsal(a):
+
+> David,
+> 
+> When you grab the srpm you will find the last maintainer.  Just email
+> the maintainer to let him/her know about your intent and agree on a
+> setup for doing it (send srpm to contrib or email modified specfile
+> and patches to maintainer).
+> 
+> Nobody in the dev team will get mad if you do some work on one of
+> their packages as long as they are kept in the loop and not faced with
+> a "surprise" update
+
+Yes, I know this is the official way now.
+But I think it's not enough. We need to get some privileges.
+We maintain localization for tens or hundreds of packages and the
+localization itself can be updated quite often (every time a single
+message gets added or edited in original package). Doing it like this
+can be a very lengthy and bureaucratic procedure.
+My experience with gtkdialog has taught me that we need to have a
+privilege to release SRPM update to contrib server WITHOUT waiting for
+permission from packager, our duty should only be to inform packager
+about such release in advance (that privilege should be of course
+strictly limited to changes concerning i18n or l10n).
+Without such privilege, we will never catch up with mainstream and our
+contributors will get frustrated because their work will take a lot of
+time to get into the repos.
+
+David
+
+
+
+
+From david at smidovi.eu  Fri May  9 20:41:14 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 09 May 2008 20:41:14 +0200
+Subject: [Pclos-il8n-dev] Desktop files localization issue
+In-Reply-To: <48245BC3.5080302@fastwebnet.it>
+References: <48245BC3.5080302@fastwebnet.it>
+Message-ID: <48249ACA.9040302@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> Hi, David!
+> 
+> I agree that it's a much cleaner way to work and I'm certainly in for 
+> this change. I've tested your make_intltool_ready script few days ago 
+> and actually allowed me to realise that there were 2 original Comment 
+> strings in donate.desktop. So it's true, it's good help not to minimise 
+> the chances of mistakes.
+> 
+> Though, it doesn't seem to work completely right.
+> 
+> For instance, in it.po the message "Donate" is untranslated although in 
+> /etc/skel/donate.desktop and in /root/donate.desktop it is actually 
+> translated.
+> 
+> At the same time the message "Support the developement of PCLinuxOS by 
+> donating to the Team" (the Comment) is translated with "Fai una 
+> donazione" (the Name).
+> 
+> There are several other examples. If required, I'll list them all. I had 
+> a look also at fr.po and also there I could find some examples of this 
+> misbehaviour.
+> 
+> I can't figure out what the reason can be just by looking at the 
+> original desktop-files. You're probably more indicated to find out.
+> 
+> Bye,
+> 
+> Alessio
+
+Thanks for the report I'll take a look at it. I had to fix a lot of
+problems with current .desktop files in the make_intltool_ready script
+to get intltool-prepare work without errors. These things you are
+reporting may indicate another problems that might need to be fixed too.
+
+
+David
+
+
+From didouph.ph at laposte.net  Fri May  9 21:14:09 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 09 May 2008 21:14:09 +0200
+Subject: [Pclos-il8n-dev] Pushing our work to mainstream
+In-Reply-To: <4823F8F4.1000806@smidovi.eu>
+References: <48213F66.8020000@smidovi.eu>	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>	<4823683B.6090109@laposte.net>
+	<4823F8F4.1000806@smidovi.eu>
+Message-ID: <4824A281.3030001@laposte.net>
+
+David Smid a ?crit :
+> pierre-henri-ramboz napsal(a):
+>> why don't we patch things by ourselves ?
+>> i have an access to the contrib server !
+>> we could release patches by million !!
+> 
+> Yes, we could do it this way. I have an access to contribs too.
+> But there's a risk of stepping on someone's toe (I mean original package
+> maintainer toe). What if he/she just prepares a new release and suddenly
+> realizes that someone else released a new version of HIS package in
+> between ?
+> 
+> I think we need to make some sort of agreement with major packagers
+> (Texstar, Neverstopdreaming, Gettinther, Thac, ...) and to keep them
+> informed.
+> 
+the packager's e.mail is in the srpm changelog, we always can ask before 
+doing it but, we yet are trusted since we have contrib server access !
+we ,could just do it and the packager could commit our changes to his 
+new release ... wich is indeed far more "revealent" than just moaning 
+after some toe's stomper like us!
+
+even thac didn't found me irreverent to provide a PD rpm for 2007 since 
+his wasn't compatible with it and he even gave me tips to make it better !
+
+we could start a merged project with santa wich could provide i18n 
+support for packages ... as updates and new packages ... it would give 
+pclinuxos a "fast growing" rpm base with loads of i18n support !
+
+>> all we need to do is grab the source rpm / patch it / release a revised 
+>> rpm and submit it to the contrib server !
+>>
+>> maybe a good start would be to provide etcskel rpm in flavored versions 
+>> with dependency related to the locale !
+>>
+>> what are your thought ?
+> 
+> Yes, etcskel would be a good start. It's pretty outdated and very
+> important. I'll try to design some patch-building facility.
+can't we just ... think it before building the tool ?
+i mean  ... we yet translated 2/3rd of the content, all we need at the 
+moment is a metapackage ... all could go in the spec ... and a 
+etcskel-fr.rpm, etcskel-cs.rpm, etcskel-de.rpm ...
+> 
+> 
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+
+
+From didouph.ph at laposte.net  Fri May  9 21:19:32 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 09 May 2008 21:19:32 +0200
+Subject: [Pclos-il8n-dev] Pushing our work to mainstream
+In-Reply-To: <482499C1.9020302@smidovi.eu>
+References: <48213F66.8020000@smidovi.eu>	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>	<4823683B.6090109@laposte.net>	<4823F8F4.1000806@smidovi.eu>	<64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>
+	<482499C1.9020302@smidovi.eu>
+Message-ID: <4824A3C4.80500@laposte.net>
+
+i know that sux ... but that's how pclinuxos get so stable ... we all 
+know what a typo can result in when the code get compiled ... and it can 
+  pass trought the contrib filter ... so it is a major flaw and treat 
+against pclinuxos sanity to allow such privilege ... but we could 
+provide "testing" access to some "nifty" repository ... like mine ?
+
+
+
+
+From didouph.ph at laposte.net  Fri May  9 21:20:43 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 09 May 2008 21:20:43 +0200
+Subject: [Pclos-il8n-dev] Pushing our work to mainstream
+In-Reply-To: <64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>
+References: <48213F66.8020000@smidovi.eu>
+	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>
+	<4823683B.6090109@laposte.net>	<4823F8F4.1000806@smidovi.eu>
+	<64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>
+Message-ID: <4824A40B.7080801@laposte.net>
+
+
+> David,
+> 
+> When you grab the srpm you will find the last maintainer.  Just email
+> the maintainer to let him/her know about your intent and agree on a
+> setup for doing it (send srpm to contrib or email modified specfile
+> and patches to maintainer).
+> 
+> Nobody in the dev team will get mad if you do some work on one of
+> their packages as long as they are kept in the loop and not faced with
+> a "surprise" update
+> 
+> Gettinther.
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+ok sorry ... gettinther had said it just before me ... :P
+
+late is better than lost :p
+
+
+
+
+From didouph.ph at laposte.net  Fri May  9 21:21:49 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 09 May 2008 21:21:49 +0200
+Subject: [Pclos-il8n-dev] [pclosdocs] Re: LangRemastered
+In-Reply-To: <3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>
+	<4823F04F.3050204@gmail.com>
+	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>
+Message-ID: <4824A44D.4030909@laposte.net>
+
+i'm forwarding this to the i18n team
+
+there is a howto on the forum and more written by david smid that is
+available from the i18n mailing list archive ... anyway we could think
+about opening a i18n subproject for that purpose ...
+
+what do you think ?
+
+should i try and apoint someone to write down something for you guys to
+publish ?
+
+IceCruncher a ?crit :
+> johncoom
+> no I don't mind at all. thnks
+> 
+> didouph,
+> I was thinking of putting the entire "changing languages" process etc.
+> on a seperate page.
+> actually It would make more sense to put the i18 on one page with a
+> tutorial accompanying it.
+> does the mypclos site contain all the info for the localization? is
+> there anything important that's missing?
+> 
+> 
+> 
+
+
+
+
+
+
+From david at smidovi.eu  Fri May  9 21:32:23 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 09 May 2008 21:32:23 +0200
+Subject: [Pclos-il8n-dev] [Users]  Pushing our work to mainstream
+In-Reply-To: <64630f150805091212h5fbd6476vdf0fa77ddc621929@mail.gmail.com>
+References: <48213F66.8020000@smidovi.eu>
+	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>
+	<4823683B.6090109@laposte.net>	<4823F8F4.1000806@smidovi.eu>	<64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>	<4824997C.8010600@smidovi.eu>
+	<48249B83.8040608@smidovi.eu>
+	<64630f150805091212h5fbd6476vdf0fa77ddc621929@mail.gmail.com>
+Message-ID: <4824A6C7.50406@smidovi.eu>
+
+gettinther napsal(a):
+> This has to be done one step at a time.  You just can't take what you
+> want and ignore the other devs.  This is a recipe for disaster.
+
+Texstar would have always the last word, just like now. The problem is,
+packagers are often busy and localization often spans over tens of
+packages. You would need to handle up to tens of conversations to get
+all your work published.
+And let's say that then Afghani l10n team jumps in, translates all
+available packages and expects to have Afghani translations in the
+repos. You will have to undergo this process again.
+
+> I know that localization is important but so is the work of the devs.
+> So whatever solution is agreed to, it needs to be done in an orderly
+> manner.
+
+OK, let's obey the rules. No problem for me.
+
+> Also, packages cannot be changed every time a new localization is
+> added.  This would cause the update rate to go through the roof and
+> cause major users anger as users from Australia are limited in their
+> download allowance and users on dial up will simply freak out (those
+> are only examples).
+
+What about dividing software and l10n to at least two packages ?
+
+David
+
+
+
+From david at smidovi.eu  Fri May  9 21:43:30 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 09 May 2008 21:43:30 +0200
+Subject: [Pclos-il8n-dev] Pushing our work to mainstream
+In-Reply-To: <4824A281.3030001@laposte.net>
+References: <48213F66.8020000@smidovi.eu>	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>	<4823683B.6090109@laposte.net>	<4823F8F4.1000806@smidovi.eu>
+	<4824A281.3030001@laposte.net>
+Message-ID: <4824A962.7040708@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> David Smid a ?crit :
+>> Yes, etcskel would be a good start. It's pretty outdated and very
+>> important. I'll try to design some patch-building facility.
+> can't we just ... think it before building the tool ?
+> i mean  ... we yet translated 2/3rd of the content, all we need at the 
+> moment is a metapackage ... all could go in the spec ... and a 
+> etcskel-fr.rpm, etcskel-cs.rpm, etcskel-de.rpm ...
+
+
+I actually had in mind only designing some general patch-building
+facility. Not building anything yet. Just thinking about how to make an
+automated patch generator. You know, I like inventing new gadgets :)
+
+I really like the metapackage idea. Let's do it.
+
+David
+
+
+From david at smidovi.eu  Fri May  9 21:48:44 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 09 May 2008 21:48:44 +0200
+Subject: [Pclos-il8n-dev] Pushing our work to mainstream
+In-Reply-To: <4824A3C4.80500@laposte.net>
+References: <48213F66.8020000@smidovi.eu>	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>	<4823683B.6090109@laposte.net>	<4823F8F4.1000806@smidovi.eu>	<64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>	<482499C1.9020302@smidovi.eu>
+	<4824A3C4.80500@laposte.net>
+Message-ID: <4824AA9C.9090303@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> i know that sux ... but that's how pclinuxos get so stable ... we all 
+> know what a typo can result in when the code get compiled ... and it can 
+>   pass trought the contrib filter ... so it is a major flaw and treat 
+> against pclinuxos sanity to allow such privilege ... but we could 
+> provide "testing" access to some "nifty" repository ... like mine ?
+
+Some i18n-testing repository would be VERY handy. It could solve a lot
+of problems. The path of our updated packages would be as follows:
+
+i18n-testing -> contribs (with packager's permission) -> testing ->
+main/kde/extra/nonfree
+
+David
+
+
+From didouph.ph at laposte.net  Fri May  9 22:10:31 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 09 May 2008 22:10:31 +0200
+Subject: [Pclos-il8n-dev] [Users]  Pushing our work to mainstream
+In-Reply-To: <4824A6C7.50406@smidovi.eu>
+References: <48213F66.8020000@smidovi.eu>	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>	<4823683B.6090109@laposte.net>	<4823F8F4.1000806@smidovi.eu>	<64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>	<4824997C.8010600@smidovi.eu>	<48249B83.8040608@smidovi.eu>	<64630f150805091212h5fbd6476vdf0fa77ddc621929@mail.gmail.com>
+	<4824A6C7.50406@smidovi.eu>
+Message-ID: <4824AFB7.509@laposte.net>
+
+David Smid a ?crit :
+> gettinther napsal(a):
+>> This has to be done one step at a time.  You just can't take what you
+>> want and ignore the other devs.  This is a recipe for disaster.
+> 
+> Texstar would have always the last word, just like now. The problem is,
+> packagers are often busy and localization often spans over tens of
+> packages. You would need to handle up to tens of conversations to get
+> all your work published.
+> And let's say that then Afghani l10n team jumps in, translates all
+> available packages and expects to have Afghani translations in the
+> repos. You will have to undergo this process again.
+
+that is called update and patch process ...
+
+> 
+>> I know that localization is important but so is the work of the devs.
+>> So whatever solution is agreed to, it needs to be done in an orderly
+>> manner.
+> 
+> OK, let's obey the rules. No problem for me.
+> 
+>> Also, packages cannot be changed every time a new localization is
+>> added.  This would cause the update rate to go through the roof and
+>> cause major users anger as users from Australia are limited in their
+>> download allowance and users on dial up will simply freak out (those
+>> are only examples).
+> 
+> What about dividing software and l10n to at least two packages ?
+why not but ... how could we make sure that translation are 
+automatically installed for the appropriate language ... what you 
+propose could lead to multiplying package in repo by 10 where i18n 
+framework yet handle installation of "needed" localization...
+> 
+> David
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+
+
+From david at smidovi.eu  Fri May  9 22:31:30 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 09 May 2008 22:31:30 +0200
+Subject: [Pclos-il8n-dev] Pushing our work to mainstream
+In-Reply-To: <4824AFB7.509@laposte.net>
+References: <48213F66.8020000@smidovi.eu>	<4821F704.60404@laposte.net>	<48235360.1010208@smidovi.eu>	<4823683B.6090109@laposte.net>	<4823F8F4.1000806@smidovi.eu>	<64630f150805090234u2f5d5766m35263dcef7b1f67f@mail.gmail.com>	<4824997C.8010600@smidovi.eu>	<48249B83.8040608@smidovi.eu>	<64630f150805091212h5fbd6476vdf0fa77ddc621929@mail.gmail.com>	<4824A6C7.50406@smidovi.eu>
+	<4824AFB7.509@laposte.net>
+Message-ID: <4824B4A2.1030203@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> David Smid a ?crit :
+>> What about dividing software and l10n to at least two packages ?
+> why not but ... how could we make sure that translation are 
+> automatically installed for the appropriate language ... what you 
+> propose could lead to multiplying package in repo by 10 where i18n 
+> framework yet handle installation of "needed" localization...
+
+I actually had in mind dividing "package" into "package" and a single
+"package-l10n" or "package-i18n". But as you noticed, this could lead to
+installation problems, users would need to be aware of this division and
+install all "-l10n" packages (just like in the case of KDE or
+OpenOffice). Not worth the trouble.
+
+David
+
+
+
+From didouph at gmail.com  Sat May 10 21:11:28 2008
+From: didouph at gmail.com (didouph)
+Date: Sat, 10 May 2008 21:11:28 +0200
+Subject: [Pclos-il8n-dev] [pclosdocs] Re: LangRemastered
+In-Reply-To: <553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>
+	<4823F04F.3050204@gmail.com>
+	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>
+	<4824A03C.1010003@gmail.com>
+	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>
+Message-ID: <4825F360.4000103@gmail.com>
+
+a subproject in the i18n project, dedicated to providing informations on 
+how to localize the system ... this is a long term task that need 
+several critical point to be checked in order to be effective ... the 
+writeup would need to be translated and this means that more than you 
+needs to take a lok at it and carry it on ... so its in a way a cross 
+project between doc and i18n and a subproject of i18n !
+
+DidouPh
+
+IceCruncher a ?crit :
+> as in a writeup? collecting all the info so it's easy to put it
+> together. sure
+> I'd appreciate it.
+> you can even publish it yourself if you want to.
+> I don't mind doing it though.
+> 
+> what do you mean with subproject?
+> what I was thinking of doing was creating a new page for the i18
+> project + info then crosslinking it with LangRemastered
+> 
+> 
+> On May 10, 2:04 am, didouph <dido... at gmail.com> wrote:
+>> there is a howto on the forum and more written by david smid that is
+>> available from the i18n mailing list archive ... anyway we could think
+>> about opening a i18n subproject for that purpose ...
+>>
+>> what do you think ?
+>>
+>> should i try and apoint someone to write down something for you guys to
+>> publish ?
+>>
+>> IceCruncher a ?crit :
+>>
+>>> johncoom
+>>> no I don't mind at all. thnks
+>>> didouph,
+>>> I was thinking of putting the entire "changing languages" process etc.
+>>> on a seperate page.
+>>> actually It would make more sense to put the i18 on one page with a
+>>> tutorial accompanying it.
+>>> does the mypclos site contain all the info for the localization? is
+>>> there anything important that's missing?
+> 
+
+
+
+From david at smidovi.eu  Sun May 11 08:31:54 2008
+From: david at smidovi.eu (David Smid)
+Date: Sun, 11 May 2008 08:31:54 +0200
+Subject: [Pclos-il8n-dev] [pclosdocs] Re: LangRemastered
+In-Reply-To: <4825F360.4000103@gmail.com>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>
+	<4825F360.4000103@gmail.com>
+Message-ID: <482692DA.9050507@smidovi.eu>
+
+didouph napsal(a):
+> a subproject in the i18n project, dedicated to providing informations on 
+> how to localize the system ... this is a long term task that need 
+> several critical point to be checked in order to be effective ... the 
+> writeup would need to be translated and this means that more than you 
+> needs to take a lok at it and carry it on ... so its in a way a cross 
+> project between doc and i18n and a subproject of i18n !
+> 
+> DidouPh
+
+I'm a little bit lost in this. If I understand it right, it has
+something to do with the liveCD i18n project we were talking about.
+
+Where do you want this project to live ? Where should it have its wiki ?
+Do you want to separate it from the pclos-i18n project ?
+
+Too much questions, I know, but I'm really confused.
+
+David
+
+
+
+From didouph.ph at laposte.net  Sun May 11 09:24:14 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 11 May 2008 09:24:14 +0200
+Subject: [Pclos-il8n-dev] [pclosdocs] Re: LangRemastered
+In-Reply-To: <482692DA.9050507@smidovi.eu>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>	<4825F360.4000103@gmail.com>
+	<482692DA.9050507@smidovi.eu>
+Message-ID: <48269F1E.6060502@laposte.net>
+
+
+oh sorry ...
+
+they are several more answers i need to give that are not in your 
+question but that you will ask soon so i will answer them now, once for 
+good.
+
+- we have yet done a tremendous amount of work
+- we explored several aspect of i18n and i10n
+- It appears that 3 major fields of action are to be covered in the 
+overall project development
+- 1 : software translation
+- 2 : documentation translation
+- 3 : translation distribution
+
+- software translation can be divided in  subfields of action
+- 1 : translating in an existing framework
+- 2 : implementing a framework for translation
+- field one is regular po and .desktop translation, the second is 
+toolization of translation using your scripts an implementing softwares 
+with not i18n framework like mklivecd with new localizable features ... 
+we yet modifyed synaptic to make it language friendly.
+
+- Documentation translation can also be divided in two fields of action
+- 1 : internal documentation translation
+- 2 : external documentation translation
+- internal points at html files embedded in the live cd and dedicated to 
+help the user getting started with pclinuxos, the rest is mainly the 
+wiki.... in this mail, i'm referring to a guideline dedicated to tell 
+the user how to localize his system rather than a page dedicated to 
+language remaster ... and this could be a cross project between us and 
+the doc project ...
+
+- Translation distribution can also be done in two ways
+- 1 : srpm patching
+- 2 : submitting translation to software developers
+- srpm patching can be done either by s, the ripper gang or santa team, 
+the submission can only be provided by us ... in the end, both can be 
+done but we need to pick a solution and i really believe that waiting is 
+a nonsense since , on a very practical way, we would add to the workload 
+rather than reducing it, so our work won't be of any help if we don't do 
+it ourself by patching the srpms and submitting additional translation 
+to software dev for implementation in future release!
+
+in the end, we have several area where we have opportunities to 
+collaborate with other project and thus grant a liability and stability 
+to the effort we've made ...
+
+the big picture would be to progressively inject i18n content in the 
+main repo ... since tex yet mentioned he neither have time and skills to 
+do it ... since we have both, why not doing it
+
+At the very moment, there is a place which host several pclinuxos 
+related projects, i18n is one of those and that place is mypclinuxos... 
+if i don't post there, no one else does despite the recent interest of 
+alessio into this ... we have a wiki and a forum running, more can be 
+added once its needed, eventually a i18n.mypclinuxos.com with a full 
+toolset, dedicated repository and forum with a documentation wiki 
+dedicated to translators ... but first we need to write up the various 
+area of action and the task that needs to be fulfilled, write down a 
+road map ... get organized before jumping on anything else ...
+
+I have more time than i had but i'm not even 30% on pclinuxos at the 
+very moment, so don't expect me to take all decision alone and neither 
+expect me to carry on all the test and moderation, i'm more a 
+coordinator than a chief, i'm a leader ... you are the real guts of this 
+project...
+
+the wiki mentioned are the one @ mypclinuxos 
+(http://www.mypclinuxos.com/doku.php/localization) and the one of the 
+doc project (http://docs.pclinuxos.com/HomePage)
+
+DidouPh
+
+David Smid a ?crit :
+> didouph napsal(a):
+>> a subproject in the i18n project, dedicated to providing informations on 
+>> how to localize the system ... this is a long term task that need 
+>> several critical point to be checked in order to be effective ... the 
+>> writeup would need to be translated and this means that more than you 
+>> needs to take a lok at it and carry it on ... so its in a way a cross 
+>> project between doc and i18n and a subproject of i18n !
+>>
+>> DidouPh
+> 
+> I'm a little bit lost in this. If I understand it right, it has
+> something to do with the liveCD i18n project we were talking about.
+> 
+> Where do you want this project to live ? Where should it have its wiki ?
+> Do you want to separate it from the pclos-i18n project ?
+> 
+> Too much questions, I know, but I'm really confused.
+> 
+> David
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+
+
+From alessioadamo at fastwebnet.it  Tue May 13 01:20:58 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Tue, 13 May 2008 01:20:58 +0200 (CEST)
+Subject: [Pclos-il8n-dev] LangRemastered
+Message-ID: <16377537.5800611210634458143.JavaMail.root@pr001msr>
+
+Hi, didouph!
+
+I agree with you, we need some roadmap and we need to let users know what we've 
+achieved until now. The mailing list is quite active, but it's only for (few of)
+ us. What users see is a half-dead forum and a dead wiki plus non-localised rpms
+. Hence, they might think that the il18n team is not productive, which is not tr
+ue.
+I think the first thing to do is the localisation of the control center or anyth
+ing else which would be outstanding. Something that people immediately spot. You
+ mentioned /etc/skel. Yes, why not?
+Meanwhile, we should also inform the users of our progress. Translators, and who
+ever is involved, should send a small periodic report through the mailing-list a
+nd we should public on our wiki what is going on. Moreover, if we hear from each
+ other more often, we get a better feeling of our vitality.
+When our translations are implemented in an important rpm, we should be allowed 
+to announce it on the main pclos webpage. This could also attract the interest o
+f new people on our work.
+
+At the moment I'm too busy to put a lot of effort in this, but from June I had a
+lready planned to take care of our wiki. I would write how to join our project, 
+what to do to start translating, descriptions of how a desktop file works and ho
+w a po file works, summary of our concrete plans, news on what's new and so on
+
+I'd also like to try to implement gettext in scripts such as mkremaster and live
+usb. Or maybe David can do that, since he has already done it for VIT, am I wron
+g? (I would have to learn completely for scratch)
+
+As I said, I can't give you much of my time until the end of May, but from June 
+I'll be yours.
+
+
+
+From david at smidovi.eu  Tue May 13 14:01:50 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 13 May 2008 14:01:50 +0200
+Subject: [Pclos-il8n-dev] [pclosdocs] Re: LangRemastered
+In-Reply-To: <48269F1E.6060502@laposte.net>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>	<4825F360.4000103@gmail.com>	<482692DA.9050507@smidovi.eu>
+	<48269F1E.6060502@laposte.net>
+Message-ID: <4829832E.40908@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> At the very moment, there is a place which host several pclinuxos 
+> related projects, i18n is one of those and that place is mypclinuxos... 
+> if i don't post there, no one else does despite the recent interest of 
+> alessio into this ... we have a wiki and a forum running, more can be 
+> added once its needed, eventually a i18n.mypclinuxos.com with a full 
+> toolset, dedicated repository and forum with a documentation wiki 
+> dedicated to translators ... but first we need to write up the various 
+> area of action and the task that needs to be fulfilled, write down a 
+> road map ... get organized before jumping on anything else ...
+
+Thanks for clarification, the roadmap is really a must have. I volunteer to make 
+some. Can I count with the i18n repository in it ?
+
+> I have more time than i had but i'm not even 30% on pclinuxos at the 
+> very moment, so don't expect me to take all decision alone and neither 
+> expect me to carry on all the test and moderation, i'm more a 
+> coordinator than a chief, i'm a leader ... you are the real guts of this 
+> project...
+
+I quite busy too, fighting on several fronts (pclinuxos.cz, RPM packaging, VIT 
+development, bug reports, translating, preparing for Czech PCLOS 2008 liveCD) 
+but I will do as much as I can.
+
+> the wiki mentioned are the one @ mypclinuxos 
+> (http://www.mypclinuxos.com/doku.php/localization) and the one of the 
+> doc project (http://docs.pclinuxos.com/HomePage)
+
+Can I have a write access to this Wiki ?
+
+David
+
+
+
+
+From david at smidovi.eu  Tue May 13 14:17:27 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 13 May 2008 14:17:27 +0200
+Subject: [Pclos-il8n-dev] LangRemastered
+In-Reply-To: <16377537.5800611210634458143.JavaMail.root@pr001msr>
+References: <16377537.5800611210634458143.JavaMail.root@pr001msr>
+Message-ID: <482986D7.9080101@smidovi.eu>
+
+alessioadamo at fastwebnet.it napsal(a):
+> Meanwhile, we should also inform the users of our progress. Translators, and who
+> ever is involved, should send a small periodic report through the mailing-list a
+> nd we should public on our wiki what is going on. Moreover, if we hear from each
+>  other more often, we get a better feeling of our vitality.
+> When our translations are implemented in an important rpm, we should be allowed 
+> to announce it on the main pclos webpage. This could also attract the interest o
+> f new people on our work.
+
+Excellent idea. Let others know we're alive !
+
+> At the moment I'm too busy to put a lot of effort in this, but from June I had a
+> lready planned to take care of our wiki. I would write how to join our project, 
+> what to do to start translating, descriptions of how a desktop file works and ho
+> w a po file works, summary of our concrete plans, news on what's new and so on
+
+Thank you for this, I'm sure it will attract more translators. I suspect they 
+are hiding on their local websites, enjoying being independent "warlords", 
+making their forks without global cooperation and reinventing the wheel over and 
+over again.
+
+> I'd also like to try to implement gettext in scripts such as mkremaster and live
+> usb. Or maybe David can do that, since he has already done it for VIT, am I wron
+> g? (I would have to learn completely for scratch)
+
+Yes, I can do that, it's easy, there's nothing to implement, all you need is to 
+enclose all texts in some gettextizing function call.
+I plan to put some i18n guides in the wiki.
+
+David
+
+
+
+From didouph at gmail.com  Tue May 13 20:12:37 2008
+From: didouph at gmail.com (didouph)
+Date: Tue, 13 May 2008 20:12:37 +0200
+Subject: [Pclos-il8n-dev] LangRemastered
+In-Reply-To: <16377537.5800611210634458143.JavaMail.root@pr001msr>
+References: <16377537.5800611210634458143.JavaMail.root@pr001msr>
+Message-ID: <4829DA15.50300@gmail.com>
+
+SORRY
+
+i had to resend it to the list for the reason that only alessio got it :/
+
+alessioadamo at fastwebnet.it a ?crit :
+> Hi, didouph!
+> 
+> I agree with you, we need some roadmap and we need to let users know what we've 
+> achieved until now. The mailing list is quite active, but it's only for(few of)
+>  us. What users see is a half-dead forum and a dead wiki plus non-localised rpms
+> . Hence, they might think that the il18n team is not productive, which is not tr
+> ue.
+
+thats the point !! check the mailing list archive ... i already warned
+people about that ! we lost a lot of activity last yet due to that !
+
+> I think the first thing to do is the localisation of the control centeror anyth
+> ing else which would be outstanding. Something that people immediately spot. You
+>  mentioned /etc/skel. Yes, why not?
+
+that's yet the plan ... the roadmap aims to translate drakxtools and
+synaptic first, then desktop files and doc ... the rest is OPTIONAL. Tex
+is rebuilding the drakxtools from mandy 2008 so we will have to restart
+the work from scratch really soon !!
+
+> Meanwhile, we should also inform the users of our progress. Translators, and who
+> ever is involved, should send a small periodic report through the mailing-list a
+> nd we should public on our wiki what is going on.
+
+we yet do that on the mailing list ... its hard to do it on the
+mypclinuxos wiki and the "matoilnet" wiki needs to be moved on the
+mypclinuxos one ... having a little cms or blog front page would be nice
+... why not doing it @ berlios ?
+
+  Moreover, if we hear from each
+>  other more often, we get a better feeling of our vitality.
+> When our translations are implemented in an important rpm, we should beallowed 
+> to announce it on the main pclos webpage.
+
+NO, we are not pclinuxos ripper gang ... anyway , try to imagine what
+would the front page of pclinuxos be if any single repository update got
+reported on frontpage ? a freaking mess ... only with us, it would be 
+something to get mad and sick at if we have only 10% of the success we 
+expect !!
+
+  This could also attract the interest o
+> f new people on our work.
+> 
+
+we could report the overall but not the detailed progress ... anything
+else would sound and echo as g33kery
+
+> At the moment I'm too busy to put a lot of effort in this, but from June I had a
+> lready planned to take care of our wiki. I would write how to join our project, 
+> what to do to start translating, descriptions of how a desktop file works and ho
+> w a po file works, summary of our concrete plans, news on what's new and so on
+> 
+
+we are not in a hurry, take care and take your time
+
+> I'd also like to try to implement gettext in scripts such as mkremasterand live
+> usb. Or maybe David can do that, since he has already done it for VIT, am I wron
+> g? (I would have to learn completely for scratch)
+> 
+
+yes david is your main interlocutor on that very topic, i think he yet
+did some progress in this way ...
+
+> As I said, I can't give you much of my time until the end of May, but from June 
+> I'll be yours.
+> 
+
+thanks Alessio
+
+I will think about a frontpage blog for the project and eventually a
+berlios or a mypclinuxos page
+
+if you have any proposal ...
+
+DidouPh
+
+
+
+
+
+From didouph at gmail.com  Tue May 13 20:18:25 2008
+From: didouph at gmail.com (didouph)
+Date: Tue, 13 May 2008 20:18:25 +0200
+Subject: [Pclos-il8n-dev] [pclosdocs] Re: LangRemastered
+In-Reply-To: <4829832E.40908@smidovi.eu>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>	<4825F360.4000103@gmail.com>	<482692DA.9050507@smidovi.eu>	<48269F1E.6060502@laposte.net>
+	<4829832E.40908@smidovi.eu>
+Message-ID: <4829DB71.1010400@gmail.com>
+
+David Smid a ?crit :
+> pierre-henri-ramboz napsal(a):
+>> At the very moment, there is a place which host several pclinuxos 
+>> related projects, i18n is one of those and that place is mypclinuxos... 
+>> if i don't post there, no one else does despite the recent interest of 
+>> alessio into this ... we have a wiki and a forum running, more can be 
+>> added once its needed, eventually a i18n.mypclinuxos.com with a full 
+>> toolset, dedicated repository and forum with a documentation wiki 
+>> dedicated to translators ... but first we need to write up the various 
+>> area of action and the task that needs to be fulfilled, write down a 
+>> road map ... get organized before jumping on anything else ...
+> 
+> Thanks for clarification, the roadmap is really a must have. I volunteer to make 
+> some. Can I count with the i18n repository in it ?
+
+you can write down a roadmap
+you can count any web based service with it, including cgi/bin apps and 
+about 1tb webspace ... this would have to be shared with santa little 
+helper for the repository!
+
+i would recommand that we first restructure the team with dedicated 
+task, what do you think of setting up a community builder enabled site 
+to manage the project ? devnet told me he could power something really 
+nifty with a bugtracker in it :)
+
+> 
+>> I have more time than i had but i'm not even 30% on pclinuxos at the 
+>> very moment, so don't expect me to take all decision alone and neither 
+>> expect me to carry on all the test and moderation, i'm more a 
+>> coordinator than a chief, i'm a leader ... you are the real guts of this 
+>> project...
+> 
+> I quite busy too, fighting on several fronts (pclinuxos.cz, RPM packaging, VIT 
+> development, bug reports, translating, preparing for Czech PCLOS 2008 liveCD) 
+> but I will do as much as I can.
+
+do as much as you want so you won't get exhausted :)
+trust me !
+> 
+>> the wiki mentioned are the one @ mypclinuxos 
+>> (http://www.mypclinuxos.com/doku.php/localization) and the one of the 
+>> doc project (http://docs.pclinuxos.com/HomePage)
+> 
+> Can I have a write access to this Wiki ?
+
+register on the first one and the other is open to all for writing :)
+
+btw ... anyone willing to spep in as co-leader ?
+
+DidouPh
+
+
+
+From didouph at gmail.com  Tue May 13 20:22:12 2008
+From: didouph at gmail.com (didouph)
+Date: Tue, 13 May 2008 20:22:12 +0200
+Subject: [Pclos-il8n-dev] LangRemastered
+In-Reply-To: <482986D7.9080101@smidovi.eu>
+References: <16377537.5800611210634458143.JavaMail.root@pr001msr>
+	<482986D7.9080101@smidovi.eu>
+Message-ID: <4829DC54.2060100@gmail.com>
+
+David Smid a ?crit :
+> alessioadamo at fastwebnet.it napsal(a):
+>> Meanwhile, we should also inform the users of our progress. Translators, and who
+>> ever is involved, should send a small periodic report through the mailing-list a
+>> nd we should public on our wiki what is going on. Moreover, if we hear from each
+>>  other more often, we get a better feeling of our vitality.
+>> When our translations are implemented in an important rpm, we should be allowed 
+>> to announce it on the main pclos webpage. This could also attract the interest o
+>> f new people on our work.
+> 
+> Excellent idea. Let others know we're alive !
+> 
+A good idea isn't always a good idea ... it can produce real mess if we 
+announce all the time ... pclinuxos isn't officially supporting us ... 
+we need to showcase our value before going farther ... tex will add us 
+to the hall of fame if he feels like we deserve it !!
+
+>> At the moment I'm too busy to put a lot of effort in this, but from June I had a
+>> lready planned to take care of our wiki. I would write how to join our project, 
+>> what to do to start translating, descriptions of how a desktop file works and ho
+>> w a po file works, summary of our concrete plans, news on what's new and so on
+> 
+> Thank you for this, I'm sure it will attract more translators. I suspect they 
+> are hiding on their local websites, enjoying being independent "warlords", 
+> making their forks without global cooperation and reinventing the wheel over and 
+> over again.
+> 
+
+cbj will do the trick for the infrastructure ... we could have a merged 
+wiki/forum/frontpage at once !!
+
+>> I'd also like to try to implement gettext in scripts such as mkremaster and live
+>> usb. Or maybe David can do that, since he has already done it for VIT, am I wron
+>> g? (I would have to learn completely for scratch)
+> 
+> Yes, I can do that, it's easy, there's nothing to implement, all you need is to 
+> enclose all texts in some gettextizing function call.
+> I plan to put some i18n guides in the wiki.
+lets have fun with it !!
+
+
+
+From david at smidovi.eu  Tue May 13 20:42:51 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 13 May 2008 20:42:51 +0200
+Subject: [Pclos-il8n-dev] LangRemastered
+In-Reply-To: <4829DA15.50300@gmail.com>
+References: <16377537.5800611210634458143.JavaMail.root@pr001msr>
+	<4829DA15.50300@gmail.com>
+Message-ID: <4829E12B.4090207@smidovi.eu>
+
+didouph napsal(a):
+>> Meanwhile, we should also inform the users of our progress. Translators, and who
+>> ever is involved, should send a small periodic report through the mailing-list a
+>> nd we should public on our wiki what is going on.
+> 
+> we yet do that on the mailing list ... its hard to do it on the
+> mypclinuxos wiki and the "matoilnet" wiki needs to be moved on the
+> mypclinuxos one ... having a little cms or blog front page would be nice
+> ... why not doing it @ berlios ?
+
+I think berlios is too geeky website, we should have some nice central
+address, something easy to remember, be it mypclinuxos.com subdomain or
+even our own domain. What about i18n.mypclinuxos.com you once proposed ?
+All our resources should be easily accessible from here.
+
+>>  Moreover, if we hear from each
+>>  other more often, we get a better feeling of our vitality.
+>> When our translations are implemented in an important rpm, we should beallowed 
+>> to announce it on the main pclos webpage.
+> 
+> NO, we are not pclinuxos ripper gang ... anyway , try to imagine what
+> would the front page of pclinuxos be if any single repository update got
+> reported on frontpage ? a freaking mess ... only with us, it would be 
+> something to get mad and sick at if we have only 10% of the success we 
+> expect !!
+
+I think there should be some link to our web on the main website. We
+should also make some FAQ and explain our relation to the official
+PCLinuxOS there. The detailed information about our progress could be
+presented on our web for anyone who's interested.
+
+
+David
+
+
+From didouph.ph at laposte.net  Tue May 13 20:57:26 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 13 May 2008 20:57:26 +0200
+Subject: [Pclos-il8n-dev] LangRemastered
+In-Reply-To: <4829E12B.4090207@smidovi.eu>
+References: <16377537.5800611210634458143.JavaMail.root@pr001msr>	<4829DA15.50300@gmail.com>
+	<4829E12B.4090207@smidovi.eu>
+Message-ID: <4829E496.6090807@laposte.net>
+
+David Smid a ?crit :
+> didouph napsal(a):
+>>> Meanwhile, we should also inform the users of our progress. Translators, and who
+>>> ever is involved, should send a small periodic report through the mailing-list a
+>>> nd we should public on our wiki what is going on.
+>> we yet do that on the mailing list ... its hard to do it on the
+>> mypclinuxos wiki and the "matoilnet" wiki needs to be moved on the
+>> mypclinuxos one ... having a little cms or blog front page would be nice
+>> ... why not doing it @ berlios ?
+> 
+> I think berlios is too geeky website, we should have some nice central
+> address, something easy to remember, be it mypclinuxos.com subdomain or
+> even our own domain. What about i18n.mypclinuxos.com you once proposed ?
+> All our resources should be easily accessible from here.
+> 
+
+@ mypclinuxos.com ... ok
+but the repos will be hosted on my subdomain (matoilnet.net) along with 
+santa ...
+
+>>>  Moreover, if we hear from each
+>>>  other more often, we get a better feeling of our vitality.
+>>> When our translations are implemented in an important rpm, we should beallowed 
+>>> to announce it on the main pclos webpage.
+>> NO, we are not pclinuxos ripper gang ... anyway , try to imagine what
+>> would the front page of pclinuxos be if any single repository update got
+>> reported on frontpage ? a freaking mess ... only with us, it would be 
+>> something to get mad and sick at if we have only 10% of the success we 
+>> expect !!
+> 
+> I think there should be some link to our web on the main website. We
+> should also make some FAQ and explain our relation to the official
+> PCLinuxOS there. The detailed information about our progress could be
+> presented on our web for anyone who's interested.
+
+i can guarantee an announce on mypclinuxos front page
+you could lobby on the dev list once the site gets launched ...
+
+what do you think ?
+
+> 
+> 
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+
+
+From david at smidovi.eu  Tue May 13 21:00:29 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 13 May 2008 21:00:29 +0200
+Subject: [Pclos-il8n-dev] [pclosdocs] Re: LangRemastered
+In-Reply-To: <4829DB71.1010400@gmail.com>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>	<4825F360.4000103@gmail.com>	<482692DA.9050507@smidovi.eu>	<48269F1E.6060502@laposte.net>	<4829832E.40908@smidovi.eu>
+	<4829DB71.1010400@gmail.com>
+Message-ID: <4829E54D.5020809@smidovi.eu>
+
+didouph napsal(a):
+> you can write down a roadmap
+> you can count any web based service with it, including cgi/bin apps and 
+> about 1tb webspace ... this would have to be shared with santa little 
+> helper for the repository!
+
+I'd like to write this roadmap as a wiki page to enable other people's
+corrections and additions.
+
+> i would recommand that we first restructure the team with dedicated 
+> task, what do you think of setting up a community builder enabled site 
+> to manage the project ? devnet told me he could power something really 
+> nifty with a bugtracker in it :)
+
+What do you mean by "community builder" ? Do you have in mind some
+development portal ?
+Why not, bugtracker would be very helpful. I would also recommend using
+SVN instead of CVS.
+
+> btw ... anyone willing to spep in as co-leader ?
+
+Not me, sorry, I already have too much duties ...
+
+
+David
+
+
+From david at smidovi.eu  Tue May 13 21:06:46 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 13 May 2008 21:06:46 +0200
+Subject: [Pclos-il8n-dev] LangRemastered
+In-Reply-To: <4829E496.6090807@laposte.net>
+References: <16377537.5800611210634458143.JavaMail.root@pr001msr>	<4829DA15.50300@gmail.com>	<4829E12B.4090207@smidovi.eu>
+	<4829E496.6090807@laposte.net>
+Message-ID: <4829E6C6.2010305@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> David Smid a ?crit :
+>> I think berlios is too geeky website, we should have some nice central
+>> address, something easy to remember, be it mypclinuxos.com subdomain or
+>> even our own domain. What about i18n.mypclinuxos.com you once proposed ?
+>> All our resources should be easily accessible from here.
+>>
+> 
+> @ mypclinuxos.com ... ok
+> but the repos will be hosted on my subdomain (matoilnet.net) along with 
+> santa ...
+
+That's OK, repo is our private affair.
+
+>> I think there should be some link to our web on the main website. We
+>> should also make some FAQ and explain our relation to the official
+>> PCLinuxOS there. The detailed information about our progress could be
+>> presented on our web for anyone who's interested.
+> 
+> i can guarantee an announce on mypclinuxos front page
+> you could lobby on the dev list once the site gets launched ...
+> 
+> what do you think ?
+
+OK, I'll try to push that through. I will also make an appointment on
+pclinuxos.cz :-)
+
+David
+
+
+
+From didouph.ph at laposte.net  Tue May 13 23:21:12 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 13 May 2008 23:21:12 +0200
+Subject: [Pclos-il8n-dev] [pclosdocs] Re: LangRemastered
+In-Reply-To: <4829E54D.5020809@smidovi.eu>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>	<4825F360.4000103@gmail.com>	<482692DA.9050507@smidovi.eu>	<48269F1E.6060502@laposte.net>	<4829832E.40908@smidovi.eu>	<4829DB71.1010400@gmail.com>
+	<4829E54D.5020809@smidovi.eu>
+Message-ID: <482A0648.60904@laposte.net>
+
+David Smid a ?crit :
+> didouph napsal(a):
+>> you can write down a roadmap
+>> you can count any web based service with it, including cgi/bin apps and 
+>> about 1tb webspace ... this would have to be shared with santa little 
+>> helper for the repository!
+> 
+> I'd like to write this roadmap as a wiki page to enable other people's
+> corrections and additions.
+> 
+>> i would recommand that we first restructure the team with dedicated 
+>> task, what do you think of setting up a community builder enabled site 
+>> to manage the project ? devnet told me he could power something really 
+>> nifty with a bugtracker in it :)
+> 
+> What do you mean by "community builder" ? Do you have in mind some
+> development portal ?
+> Why not, bugtracker would be very helpful. I would also recommend using
+> SVN instead of CVS.
+> 
+>> btw ... anyone willing to spep in as co-leader ?
+> 
+> Not me, sorry, I already have too much duties ...
+> 
+> 
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+i have joomla / comunity builder / smf / melt down in mind ... i plan to 
+implement it on mypclinuxos too ... and i will add a bugtracker to it 
+... it will also have a task and project management, making it a REAL 
+tool ... i think it could be gr8 to betatest it on i18n ...
+
+gime a coupke o day to get that ironed out ... and we will Roll
+
+
+
+
+From didouph.ph at laposte.net  Tue May 13 23:50:47 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 13 May 2008 23:50:47 +0200
+Subject: [Pclos-il8n-dev] [pclosdocs] Re: LangRemastered
+In-Reply-To: <482A0648.60904@laposte.net>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>	<4825F360.4000103@gmail.com>	<482692DA.9050507@smidovi.eu>	<48269F1E.6060502@laposte.net>	<4829832E.40908@smidovi.eu>	<4829DB71.1010400@gmail.com>	<4829E54D.5020809@smidovi.eu>
+	<482A0648.60904@laposte.net>
+Message-ID: <482A0D37.7030206@laposte.net>
+
+here is my test url ...
+
+don't tell anyone i can do what i want with mypclinuxos or i would have 
+to kill you :)
+
+http://test.mypclinuxos.com/index.php
+
+
+
+From alessioadamo at fastwebnet.it  Wed May 14 16:37:41 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Wed, 14 May 2008 16:37:41 +0200
+Subject: [Pclos-il8n-dev] LangRemastered
+In-Reply-To: <482A0D37.7030206@laposte.net>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>	<4825F360.4000103@gmail.com>	<482692DA.9050507@smidovi.eu>	<48269F1E.6060502@laposte.net>	<4829832E.40908@smidovi.eu>	<4829DB71.1010400@gmail.com>	<4829E54D.5020809@smidovi.eu>	<482A0648.60904@laposte.net>
+	<482A0D37.7030206@laposte.net>
+Message-ID: <482AF935.3080702@fastwebnet.it>
+
+pierre-henri-ramboz ha scritto:
+> <div class="moz-text-flowed" style="font-family: -moz-fixed">here is 
+> my test url ...
+>
+> don't tell anyone i can do what i want with mypclinuxos or i would 
+> have to kill you :)
+>
+> http://test.mypclinuxos.com/index.php
+>
+>
+> </div>
+Looking very professional!
+
+Talking about announcements in the main forum, I was referring to big 
+things like complete localisation of the pclos control center. I think 
+this is something which deserves an announcement with a background of 
+trumpets. It's the only thing missing in this distro which can keep away 
+new users.
+
+
+
+
+From didouph.ph at laposte.net  Wed May 14 17:36:18 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 14 May 2008 17:36:18 +0200
+Subject: [Pclos-il8n-dev] LangRemastered
+In-Reply-To: <482AF935.3080702@fastwebnet.it>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>	<4825F360.4000103@gmail.com>	<482692DA.9050507@smidovi.eu>	<48269F1E.6060502@laposte.net>	<4829832E.40908@smidovi.eu>	<4829DB71.1010400@gmail.com>	<4829E54D.5020809@smidovi.eu>	<482A0648.60904@laposte.net>	<482A0D37.7030206@laposte.net>
+	<482AF935.3080702@fastwebnet.it>
+Message-ID: <482B06F2.8030809@laposte.net>
+
+>> here is 
+>> my test url ...
+>>
+>> don't tell anyone i can do what i want with mypclinuxos or i would 
+>> have to kill you :)
+>>
+>> http://test.mypclinuxos.com/index.php
+>>
+>>
+>> </div>
+> Looking very professional!
+> 
+Thanks, this is going to be more and more toolized ... i added the
+bugtracker which will be accessible for registered users and i am
+working on the forum/wiki integration ... next i'll add a wiki ... all
+united under 1 portal ... so we will have
+
+frontpage/bugtracker/syndication/article/wiki/forum/blog/
+
+i never worked with svn so i will need some help on setting up a svn
+reposiory - the rpm repository can be set-up later @ matoilnet ...
+
+i think we may have a good test base in a few hours ...
+
+consider this site as a TEST and not a FINAL since its the plan for the
+future of mypclinuxos ... all project will be able to create, manage and
+  issue bug track deal with dedicated wiki and post on a unique portal ...
+
+the goal is to make it a hub and not a host ... we are, with santa, the
+most active and advanced project ... so lets test it ... then share it
+... it doesn't prevent us from having a small page to describe our work
+and point to our "work base"
+
+> Talking about announcements in the main forum, I was referring to big 
+> things like complete localisation of the pclos control center. I think 
+> this is something which deserves an announcement with a background of 
+> trumpets. It's the only thing missing in this distro which can keep away 
+> new users.
+> 
+> 
+
+try to announce anything in the main forum that comes from an external
+source but PCLinuxOS and you'll get surprised how fast a post can be
+modded !
+
+
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+
+
+From didouph.ph at laposte.net  Thu May 15 02:25:01 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 15 May 2008 02:25:01 +0200
+Subject: [Pclos-il8n-dev] LangRemastered
+In-Reply-To: <482B06F2.8030809@laposte.net>
+References: <7c661b71-17bc-4c8c-a1c3-ab8cd616b4c2@1g2000prg.googlegroups.com>	<4823F04F.3050204@gmail.com>	<3d9a3d65-e154-4c99-9fed-9235823cba72@j33g2000pri.googlegroups.com>	<4824A03C.1010003@gmail.com>	<553269b1-7ec7-4217-913a-94c743e27442@a9g2000prl.googlegroups.com>	<4825F360.4000103@gmail.com>	<482692DA.9050507@smidovi.eu>	<48269F1E.6060502@laposte.net>	<4829832E.40908@smidovi.eu>	<4829DB71.1010400@gmail.com>	<4829E54D.5020809@smidovi.eu>	<482A0648.60904@laposte.net>	<482A0D37.7030206@laposte.net>	<482AF935.3080702@fastwebnet.it>
+	<482B06F2.8030809@laposte.net>
+Message-ID: <482B82DD.8060403@laposte.net>
+
+test website is operational
+you can register and test useability @ test.mypclinuxos.com
+
+i might switch the forum to phpbb3 but except that and the joomla 
+version used (will be 1.5 for release) all is set up properly and as it 
+would be if aknoledged being efficient by all ...
+
+if some of you want to test administration, i can mod your account for 
+that purpose.
+
+DidouPh
+
+
+
+From alessioadamo at fastwebnet.it  Thu May 15 12:40:35 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Thu, 15 May 2008 12:40:35 +0200 (CEST)
+Subject: [Pclos-il8n-dev] Website test
+Message-ID: <1173673.6048361210848035300.JavaMail.root@pr001msr>
+
+Hi, Didouph!
+
+When I try to register, I get this error:
+
+Warning: require_once(/home/pclos/public_html/test/mambots/system/xajax_0.2.4/xa
+jax.inc.php) [function.require-once]: failed to open stream: No such file or dir
+ectory in /home/pclos/public_html/test/components/com_comprofiler/plugin/user/pl
+ug_cbconnector/cbconnector.php on line 31
+
+Fatal error: require_once() [function.require]: Failed opening required '/home/p
+clos/public_html/test/mambots/system/xajax_0.2.4/xajax.inc.php' (include_path='.
+:/usr/lib/php:/usr/local/lib/php') in /home/pclos/public_html/test/components/co
+m_comprofiler/plugin/user/plug_cbconnector/cbconnector.php on line 31
+
+What is it? Can you register only from pclos (I tried from win)? Anyway I don't 
+have that folder...
+
+
+
+From didouph.ph at laposte.net  Thu May 15 20:56:59 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 15 May 2008 20:56:59 +0200
+Subject: [Pclos-il8n-dev] Website test
+In-Reply-To: <1173673.6048361210848035300.JavaMail.root@pr001msr>
+References: <1173673.6048361210848035300.JavaMail.root@pr001msr>
+Message-ID: <482C877B.9040803@laposte.net>
+
+alessioadamo at fastwebnet.it a ?crit :
+> Hi, Didouph!
+> 
+> When I try to register, I get this error:
+> 
+> Warning: require_once(/home/pclos/public_html/test/mambots/system/xajax_0.2.4/xa
+> jax.inc.php) [function.require-once]: failed to open stream: No such file or dir
+> ectory in /home/pclos/public_html/test/components/com_comprofiler/plugin/user/pl
+> ug_cbconnector/cbconnector.php on line 31
+> 
+> Fatal error: require_once() [function.require]: Failed opening required '/home/p
+> clos/public_html/test/mambots/system/xajax_0.2.4/xajax.inc.php' (include_path='.
+> :/usr/lib/php:/usr/local/lib/php') in /home/pclos/public_html/test/components/co
+> m_comprofiler/plugin/user/plug_cbconnector/cbconnector.php on line 31
+> 
+> What is it? Can you register only from pclos (I tried from win)? Anyway I don't 
+> have that folder...
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+its an issue with PHP memorry, i will fix that assap
+
+
+> 
+
+
+
+
+
+From didouph.ph at laposte.net  Thu May 15 23:53:12 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 15 May 2008 23:53:12 +0200
+Subject: [Pclos-il8n-dev] Website test
+In-Reply-To: <482C877B.9040803@laposte.net>
+References: <1173673.6048361210848035300.JavaMail.root@pr001msr>
+	<482C877B.9040803@laposte.net>
+Message-ID: <482CB0C8.3010604@laposte.net>
+
+registration should work now !
+
+
+
+
+From didouph.ph at laposte.net  Fri May 16 00:32:35 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 16 May 2008 00:32:35 +0200
+Subject: [Pclos-il8n-dev] Website test
+In-Reply-To: <482CB0C8.3010604@laposte.net>
+References: <1173673.6048361210848035300.JavaMail.root@pr001msr>	<482C877B.9040803@laposte.net>
+	<482CB0C8.3010604@laposte.net>
+Message-ID: <482CBA03.9090301@laposte.net>
+
+pierre-henri-ramboz a ?crit :
+> registration should work now !
+> 
+> 
+
+no need to register .. i migrated the user DB :) hehe !!
+just log in as you would do on pclinuxos !
+
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+
+
+
+
+
+From david at smidovi.eu  Fri May 16 14:26:12 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 16 May 2008 14:26:12 +0200
+Subject: [Pclos-il8n-dev] All Synaptic .po files updated
+Message-ID: <482D7D64.1080403@smidovi.eu>
+
+Hello,
+
+I've consolidated and updated all Synaptic .po files.
+Please take a look at your locale and update the translation.
+I think the Synaptic RPM will be updated soon, so let's catch the train.
+
+
+David
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synaptic.tgz
+Type: application/x-compressed-tar
+Size: 951988 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080516/8d55f688/attachment.bin>
+
+From didouph.ph at laposte.net  Fri May 16 21:39:28 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 16 May 2008 21:39:28 +0200
+Subject: [Pclos-il8n-dev] All Synaptic .po files updated
+In-Reply-To: <482DCC4D.5010205@smidovi.eu>
+References: <482D7D64.1080403@smidovi.eu>
+	<64630f150805161029w70c54681r543e1ed1f5414eb1@mail.gmail.com>
+	<482DCC4D.5010205@smidovi.eu>
+Message-ID: <482DE2F0.1060608@laposte.net>
+
+synaptic.po and synaptic.pot filed added to the cvs
+
+DidouPh
+
+
+
+
+From david at smidovi.eu  Fri May 16 21:47:13 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 16 May 2008 21:47:13 +0200
+Subject: [Pclos-il8n-dev] All Synaptic .po files updated
+In-Reply-To: <482DDDB0.3030902@laposte.net>
+References: <482D7D64.1080403@smidovi.eu>
+	<64630f150805161029w70c54681r543e1ed1f5414eb1@mail.gmail.com>
+	<482DCC4D.5010205@smidovi.eu> <482DDDB0.3030902@laposte.net>
+Message-ID: <482DE4C1.4060407@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> does that mean that synaptic-update.pot is deprecated and needs to be
+> removed from CVS?
+
+Yes, it is. All its content is now included in synaptic.pot.
+
+David
+
+
+From david at smidovi.eu  Fri May 16 21:56:34 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 16 May 2008 21:56:34 +0200
+Subject: [Pclos-il8n-dev] APT Czech translation
+Message-ID: <482DE6F2.20408@smidovi.eu>
+
+
+Here is my complete Czech translation of APT. 474 msgids !
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: apt.tgz
+Type: application/x-compressed-tar
+Size: 22750 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080516/d502d394/attachment.bin>
+
+From didouph.ph at laposte.net  Fri May 16 23:09:12 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 16 May 2008 23:09:12 +0200
+Subject: [Pclos-il8n-dev] APT Czech translation
+In-Reply-To: <482DE6F2.20408@smidovi.eu>
+References: <482DE6F2.20408@smidovi.eu>
+Message-ID: <482DF7F8.8070502@laposte.net>
+
+cvs diggest !
+
+/po/cs/apt.po updated
+/pot/synaptic-update.pot removed
+
+DidouPh
+
+
+
+From alessioadamo at fastwebnet.it  Sat May 17 01:29:31 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Sat, 17 May 2008 01:29:31 +0200 (CEST)
+Subject: [Pclos-il8n-dev] R: Pclos-il8n-dev Digest, Vol 14, Issue 14
+Message-ID: <27049668.6211931210980571877.JavaMail.root@pr001msr>
+
+Here is my updated synaptic!
+
+I've noticed that there are some redundant group tags which should be removed ac
+cording to Stumpy
+http://www.mypclinuxos.com/forum/index.php?topic=2071.0
+Will they disappear from the list once all packagers will have cleaned their pac
+kages?
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]synaptic.po
+Type: application/octet-stream
+Size: 112144 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080517/2726202a/attachment.obj>
+
+From alessioadamo at fastwebnet.it  Sun May 18 01:35:41 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Sun, 18 May 2008 01:35:41 +0200 (CEST)
+Subject: [Pclos-il8n-dev] Synaptic group tags
+Message-ID: <19998299.6261971211067341176.JavaMail.root@pr001msr>
+
+>alessioadamo at fastwebnet.it a ?crit :
+>> Here is my updated synaptic!
+>
+>File updated on cvs
+>
+>> I've noticed that there are some redundant group tags which should be removed
+ ac
+>> cording to Stumpy
+>
+>please, let stumpy do stumpy's job ... actually he drawn a very 
+>important point but its of little interrest to us since it will yes 
+>reduce the amount of needed po but will not add to our duty !
+
+Meddling with Stumpy's job is out of my intentions, but anyway I don't think tha
+t it's harmful that all collaborators talk to each other.
+
+If I find a group "Cd burning" and a group "Cd Burning" should I translate them 
+with "masterizzazione" and "Masterizzazione" respectively? Of course I used Mast
+erizzazione for both. The same with "System Environmemt" and "System Environment
+". Or "Puzzle" and "Puzzles" and several others. 
+
+Synaptic won't look good with all these duplications I was just wondering whethe
+r once corrected the packages they will disappear. I believe so, but not sure, t
+hat's it. You know better than me, that's why I asked.
+
+
+
+From david at smidovi.eu  Sun May 18 07:48:46 2008
+From: david at smidovi.eu (David Smid)
+Date: Sun, 18 May 2008 07:48:46 +0200
+Subject: [Pclos-il8n-dev] Synaptic group tags
+In-Reply-To: <19998299.6261971211067341176.JavaMail.root@pr001msr>
+References: <19998299.6261971211067341176.JavaMail.root@pr001msr>
+Message-ID: <482FC33E.7080403@smidovi.eu>
+
+alessioadamo at fastwebnet.it napsal(a):
+>> alessioadamo at fastwebnet.it a ?crit :
+>>> Here is my updated synaptic!
+>> File updated on cvs
+>>
+>>> I've noticed that there are some redundant group tags which should be removed
+>  ac
+>>> cording to Stumpy
+>> please, let stumpy do stumpy's job ... actually he drawn a very 
+>> important point but its of little interrest to us since it will yes 
+>> reduce the amount of needed po but will not add to our duty !
+> 
+> Meddling with Stumpy's job is out of my intentions, but anyway I don't think tha
+> t it's harmful that all collaborators talk to each other.
+> 
+> If I find a group "Cd burning" and a group "Cd Burning" should I translate them 
+> with "masterizzazione" and "Masterizzazione" respectively? Of course I used Mast
+> erizzazione for both. The same with "System Environmemt" and "System Environment
+> ". Or "Puzzle" and "Puzzles" and several others. 
+> 
+> Synaptic won't look good with all these duplications I was just wondering whethe
+> r once corrected the packages they will disappear. I believe so, but not sure, t
+> hat's it. You know better than me, that's why I asked.
+
+All this mess is caused by packagers' bad discipline. There is not a
+single group tag in .po files that can be removed from them at the
+moment - all are somehow used in Synaptic or in packages present in repos.
+The unification of tags while translating you are referring to is a good
+chance to fix this mess to some extent. I couldn't resist either to take
+my chance while translating to Czech.
+I'll try to keep the .pot and .po files in sync with reality and hope
+count of these badly grouped packages will be reduced in future.
+
+David
+
+
+From cryoniq at gmail.com  Fri May 23 02:04:03 2008
+From: cryoniq at gmail.com (Anders S.)
+Date: Fri, 23 May 2008 02:04:03 +0200
+Subject: [Pclos-il8n-dev] update: synaptic.po [sv_SE]
+Message-ID: <22d880e20805221704m359565c0j53ddfdbe9f096848@mail.gmail.com>
+
+Update of:
+
+/po/sv_SE/synaptic.po
+
+
+Regards
+
+Anders
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080523/4c590e02/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synapic.po[sv_SE].tar.gz
+Type: application/x-gzip
+Size: 26294 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080523/4c590e02/attachment.bin>
+
+From cryoniq at gmail.com  Tue May 27 17:50:17 2008
+From: cryoniq at gmail.com (Anders S.)
+Date: Tue, 27 May 2008 17:50:17 +0200
+Subject: [Pclos-il8n-dev] Take 2 - update of synaptic.po [sv_SE]
+Message-ID: <22d880e20805270850i55acc382p37be7034a45e2729@mail.gmail.com>
+
+Sent this a couple of days ago. Not sure if it got lost somewhere, but
+missing the update in CVS:
+
+
+Update of:
+
+/po/sv_SE/synaptic.po
+
+
+Regards
+
+Anders
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080527/97016c8d/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synapic.po[sv_SE].tar.gz
+Type: application/x-gzip
+Size: 26294 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080527/97016c8d/attachment.bin>
+
+From david at smidovi.eu  Tue May 27 18:01:21 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 27 May 2008 18:01:21 +0200
+Subject: [Pclos-il8n-dev] Take 2 - update of synaptic.po [sv_SE]
+In-Reply-To: <22d880e20805270850i55acc382p37be7034a45e2729@mail.gmail.com>
+References: <22d880e20805270850i55acc382p37be7034a45e2729@mail.gmail.com>
+Message-ID: <483C3051.7040105@smidovi.eu>
+
+Anders S. napsal(a):
+> Sent this a couple of days ago. Not sure if it got lost somewhere, but 
+> missing the update in CVS:
+> 
+> 
+> Update of:
+> 
+> /po/sv_SE/synaptic.po
+
+Updated in CVS.
+Sorry for the delay, DidouPh has some problems with his computer so I 
+have to substitute him.
+
+David
+
+
+
+

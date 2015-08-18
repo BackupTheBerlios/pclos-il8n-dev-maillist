@@ -1,0 +1,1652 @@
+From didouph at hotmail.com  Fri Oct  5 17:25:43 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Fri, 5 Oct 2007 15:25:43 +0000
+Subject: [Pclos-il8n-dev] Slovenian Localized LIveDVD
+Message-ID: <BAY126-W31C6B697F5AAD2C45648B2A4A90@phx.gbl>
+
+
+Matja? Ka?e wrote:
+
+>
+
+>
+
+>> From: Ramboz Pierre-Henri 
+
+>> To: 
+
+>> Subject: Re: Slovenian Localized LIveDVD
+
+>> Date: Fri, 5 Oct 2007 06:46:54 +0000
+
+>>
+
+>> Matja? Ka?e wrote:
+
+>>
+
+>>   From: Ramboz Pierre-Henri
+
+>> To: 
+
+>> Subject: Re: Slovenian Localized LIveDVD
+
+>> Date: Thu, 4 Oct 2007 22:54:32 +0000
+
+>>
+
+>> there is no way to publish it on pclinuxos server since the use mirrors
+
+>>
+
+>> that are not on they're servers ...
+
+>>
+
+>>
+
+>> i can't speak for all my pclinuxos, but i don't think it is either
+
+>>
+
+>> possible there despite the fact that i "technically" am the man on that
+
+>>
+
+>> ... my server could be a solution but is pending a domain name that has
+
+>>
+
+>> not yet been assigned ... i can't give you a definite yes but a maybe
+
+>>
+
+>> ... since I'm yet hosting gnome pclinuxos and some tiny me repository.
+
+>>
+
+>>
+
+>> btw ... come back to me in 1 month and i will give you a more accurate
+
+>>
+
+>> answers ... sorry but too many things changed recently in my computer
+
+>>
+
+>> life to let me help out everyone ... all i can do is ask you to contact
+
+>>
+
+>> kdulcimer who is the leader of tiny-me and ask him the procedure to get
+
+>>
+
+>> an iso hosted like he did for his one !
+
+>>
+
+>>
+
+>> DidouPh
+
+>>
+
+>>
+
+>> _________________________________________________________________
+
+>> Votez pour vos s?ries TV pr?f?r?es et tentez de gagner un voyage 
+
+>> ?Hawa? !
+
+>> http://messengerawards.divertissements.fr.msn.com/
+
+>>
+
+>> Thanks for your answers!
+
+>> I will try to contact kdulcimer.
+
+>> Matja?
+
+>>
+
+>> _________________________________________________________________
+
+>> Express yourself instantly with MSN Messenger! Download today 
+
+>> it'sFREE! 
+
+>> http://messenger.msn.click-url.com/go/onm00200471ave/direct/01/
+
+>>
+
+>>
+
+>> btw can you tel me if you had to modify any fileson the live dvd 
+
+>> (translate) or added files (documentation) to completethe 
+
+>> installation. and if yes, what are they and can you forward them tome 
+
+>> for addition to the cvs of the pclinux I18n team...
+
+>>
+
+>> i don't know if you've been informed about that, but the i18n 
+
+>> team'swork is being added to the repository (official) by gettingther 
+
+>> sincethe bigining of this month
+
+>>
+
+>> _________________________________________________________________
+
+>> Votez pour vos acteurs de s?ries TV pr?f?r?s et tentez de gagner un 
+
+>> voyage ? Hawa? !
+
+>> http://messengerawards.divertissements.fr.msn.com/ 
+
+>
+
+> Hello again!
+
+> I have translated the main .po files and they are published in 
+
+> http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/po/sl
+
+>
+
+> But - for instance - my synaptic.po is not included in updates, and 
+
+> the translation which is included  is totaly stupid. For instance: the 
+
+> Refresh button has the text "izdaja" which means "edition" and so on.
+
+> I reported that, but nothing happens. So i created my own .mo files 
+
+> and saved them to /usr/share/locale/sl/LC_MESSAGES.  Now Complete 
+
+> PCLOS control center and main programs are translated so anybody who 
+
+> does not understand English at all can use PCLinuxOS "out of the box". 
+
+> Live install is translated as well.
+
+> KDE, Firefox, Openoffice are  being translated by other teams and this 
+
+> translations are very good and useful.
+
+> Just tell me which .mo files I should change back to .po and i will 
+
+> send them to you.
+
+>
+
+> Regards!
+
+> Matja?
+
+>
+
+> _________________________________________________________________
+
+> Don't just search. Find. Check out the new MSN Search! 
+
+> http://search.msn.com/
+
+>
+
+>
+
+Are the file on the dvd the ones you created for the i18n team ( 
+
+http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/po/sl) or 
+
+other ones ?
+
+If the files on the DVD are the ones you translated and forwarded to me 
+
+on the mailing list, they will soon be added by gettingther in the main 
+
+pclinuxos repository.
+
+
+
+this is very important to make sure that the files you added for your 
+
+localized iso are going to be taken in consideration by the i18n team 
+
+since someone is moving the files from the i18n cvs to the pclos main 
+
+branch. before this movement of file occurs, all your translation are 
+
+weak against update and can go back to the stoopid look they had.
+
+
+
+This is what i and a few other created the i18n team, to Block and force 
+
+the integration of those files not to have to pick between english and 
+
+stoopid translation but make a good translation of the os an offer it as 
+
+replacement for the poor versions.
+
+
+
+if you can confirm that those files you mentioned are identical on the 
+
+dvd and on the page : 
+
+http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/po/sl
+
+
+
+don't worry, your remaster is going to be a mainstream one !
+
+
+
+i forward this message to the i18n team and some rippers...
+
+
+
+cheers, didouph
+
+
+
+
+
+
+
+
+_________________________________________________________________
+Votez pour vos acteurs de s?ries TV pr?f?r?s et tentez de gagner un voyage ? Hawa? !
+http://messengerawards.divertissements.fr.msn.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071005/c39ce6f1/attachment.html>
+
+From didouph at gmail.com  Thu Oct 11 01:18:38 2007
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Thu, 11 Oct 2007 01:18:38 +0200
+Subject: [Pclos-il8n-dev] Fwd: Czech - draklive-install
+In-Reply-To: <200710102354.12640@centrum.cz>
+References: <200710102354.12640@centrum.cz>
+Message-ID: <a5c8450e0710101618x27d678b1rfbbf1656855e16c1@mail.gmail.com>
+
+---------- Forwarded message ----------
+From: altospclos at centrum.cz <altospclos at centrum.cz>
+Date: Oct 10, 2007 11:54 PM
+Subject: Czech - draklive-install
+To: DidouPh at gmail.com
+
+Hi DidouPh,
+
+here are the "molested" files. They are about 99% translated, except for
+any.pm. There I've skipped some unused parts, e.g. Lilo section.
+
+I'll ask the "new kid" to get in touch with you guys, so he can help with
+the progress, and sync our project to yours.
+
+Regards and good luck!
+
+Alt
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071011/14b27268/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: any.pm
+Type: application/x-perl
+Size: 50123 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071011/14b27268/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: draklive-install
+Type: application/octet-stream
+Size: 23013 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071011/14b27268/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: install_interactive.pm
+Type: application/x-perl
+Size: 11970 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071011/14b27268/attachment-0001.bin>
+
+From sergiocerquidelo at gmail.com  Thu Oct 11 18:25:52 2007
+From: sergiocerquidelo at gmail.com (Sergio Fernandes)
+Date: Thu, 11 Oct 2007 17:25:52 +0100
+Subject: [Pclos-il8n-dev] Portuguese (pt-PT)Translated po files
+In-Reply-To: <5b9069570708221140i536f967s56d3e52f3c3a68c5@mail.gmail.com>
+References: <5b9069570708221140i536f967s56d3e52f3c3a68c5@mail.gmail.com>
+Message-ID: <5b9069570710110925q52ffc88fxc03c2ab9188a17a6@mail.gmail.com>
+
+Hello all,
+
+in libDrakx I have the original message
+
+_: keyboard\n
+Portuguese
+
+should I translate in msgstr
+
+_: teclado\n
+Portugu?s
+
+or only
+
+Portugu?s in msgstr?
+
+Thanks,
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071011/2ec539d6/attachment.html>
+
+From didouph at gmail.com  Fri Oct 12 10:23:02 2007
+From: didouph at gmail.com (didouph)
+Date: Fri, 12 Oct 2007 10:23:02 +0200
+Subject: [Pclos-il8n-dev] Czech - draklive-install
+In-Reply-To: <200710120036.6875@centrum.cz>
+References: 200710102354.12640@centrum.cz> <200710102354.12640@centrum.cz>
+	<a5c8450e0710101618k4b23cd3aubbabb76e8f704a2e@mail.gmail.com>
+	<200710120036.6875@centrum.cz>
+Message-ID: <470F2EE6.7000303@gmail.com>
+
+altospclos at centrum.cz wrote:
+> Hi,
+>
+> I though that .po files can be only done from .mo files, am I wrong? I wonder if there is an autmoated way to do that to all the .mo files on the system with one command... :/
+> Anyway, thanks!
+>
+> I will have to check with the "new kid" how is his English, cause all I know so far is that he is a programmer, but his conversation skills are still not known to me. I have been in touch with him only via the forum posts. The other admin was handlind things directly with him so far. Anyway, I'll contact him and let you know.
+>
+> Regards
+>
+> p.s. I assume that gmail has informed you about my new account, but just in case, it is: altospclos at gmail.com
+>
+> ______________________________________________________________
+>   
+>> Od: didouph at gmail.com
+>> Komu: "altospclos at centrum.cz" <altospclos at centrum.cz>
+>> Datum: 11.10.2007 01:18
+>> P?edm?t: Re: Czech - draklive-install
+>>
+>> i will try and make the appropriate po files but i doubtfully think i will get something out of these :)
+>>     
+>
+> send me the kid's e.mail and i will contact him on courtesy of you :)
+>
+>  >On 10/10/07, altospclos at centrum.cz <altospclos at centrum.cz> wrote: >Hi DidouPh,
+>
+> here are the "molested" files. They are about 99% translated, except for any.pm. There I've skipped some unused parts, e.g. Lilo section.
+>
+> I'll ask the "new kid" to get in touch with you guys, so he can help with the progress, and sync our project to yours. >
+>
+> Regards and good luck!
+>
+> Alt
+>
+>
+>
+>
+>
+>  > >
+>
+>
+>   
+here are 2 pearl scripts to drop in a folder full of po or mo
+it will potomo or motopo from command line :)
+
+ex (if your files are in /home/altos/i18n/po):
+
+cd /home/altos/i18n/po && potomo
+or
+cd /home/altos/i18n/po && motopo
+
+ps : don't forget to forward your messages to the i18n list 
+(pclos-il8n-dev at lists.berlios.de) our discussions concern everyone and 
+can be helpfull to all
+
+DidouPh
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071012/4d694699/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: motopo.pl
+Type: application/x-perl
+Size: 657 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071012/4d694699/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: potomo.pl
+Type: application/x-perl
+Size: 655 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071012/4d694699/attachment-0001.bin>
+
+From sergiocerquidelo at gmail.com  Fri Oct 12 16:23:06 2007
+From: sergiocerquidelo at gmail.com (Sergio Fernandes)
+Date: Fri, 12 Oct 2007 15:23:06 +0100
+Subject: [Pclos-il8n-dev] Translated po file(pt-PT)
+Message-ID: <5b9069570710120723h43f82ce1h44755eb961f06512@mail.gmail.com>
+
+Hello all,
+
+Here goes(finally!!) libdrakx translated
+
+Sergio Fernandes
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071012/5da08388/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: libDrakX_pt-PT.tar.gz
+Type: application/x-gzip
+Size: 83068 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071012/5da08388/attachment.bin>
+
+From didouph at gmail.com  Tue Oct 16 16:38:45 2007
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Tue, 16 Oct 2007 16:38:45 +0200
+Subject: [Pclos-il8n-dev] Fwd: About the Czech PCLOS remaster and me
+In-Reply-To: <4714C623.4070806@smidovi.eu>
+References: <47112B7D.6050200@smidovi.eu>
+	<a5c8450e0710150046g565c1f7cqd6a557d1004c9e60@mail.gmail.com>
+	<4714C623.4070806@smidovi.eu>
+Message-ID: <a5c8450e0710160738v4856591al52a0cf174af1ee9b@mail.gmail.com>
+
+---------- Forwarded message ----------
+From: David Smid <david at smidovi.eu>
+Date: Oct 16, 2007 4:09 PM
+Subject: Re: About the Czech PCLOS remaster and me
+To: Ramboz Pierre-Henri <didouph at gmail.com>
+
+Ramboz Pierre-Henri wrote:
+> hi,
+> no idea if you got the point of what was my very question about you to
+> altos.
+> There is an "international" localization effort based @ mypclinuxos.com
+> <http://mypclinuxos.com>
+> this effort is backed up by one of the official packager and supported
+> by the ripper gang ...
+> So any enhancement and modification we made to the
+> os/softwares/translations is embedded in the mainstrem.
+> Thus, according to the info that altos gave me and that you seems to
+> confirm, the enhancement you made to the mklivecd and installer/bootmenu
+> are features we would be happy to add to the i18n project. and i think
+> you guessed that i would be happy to have you being part of this
+> project. the enhancements you made for czeck language should be shared
+> by everyone.
+
+I am aware of the official localization project and I fully support the
+idea.
+My plan was first to make sure that we can really get the localization
+project
+going and that we have enough forces to get through before we join the
+official
+project at your side.
+I think we are advancing quickly and we would be happy to join your ranks.
+
+> anyway, the fact that you enhancement are rpm packaged and
+> installable, does not means that these will not be wiped by the system
+> updates ... all your changes will be futile especially to mklivecd wich
+> is maintained by n#2 of mypclinuxos developers : ivan keres who will
+> certainly be interrested in your hacks for integration in the main stream.
+
+I know my packages cannot collide with the official ones. Therefore I never
+make
+updates of existing packages. Our mklivecd package has different name and
+contains only the renamed skript, so it does not interfere with anything
+else.
+Of course, the possibility of pushing our changes upstream you are talking
+about
+is much better that this.
+
+> anyways, if you could send me a documented version of your changes or at
+> least a diff of those files so i could investigate the usage of those
+> "molested" files for the team to use it ...
+
+I'm sending you the patch against original mklivecd version.
+There are three new options:
+
+   --bootmenu <file>       What boot menu definition file should be used
+                           in case that bootloader option is set to iso or
+grub.
+                           For iso this file must be named 'isolinux.cfg',
+                           for grub the name must be 'menu.lst'.
+                           Boot menu will be generated if not specified.
+
+   --boottheme <name>      Which gfxboot theme should be used.
+                           Defaults to 'pclinuxos'
+
+   --bootlang <lang code>  Which language shound be used as default
+                           in the boot menu.
+                           Defaults to 'en'.
+
+These options add flexibility to the mklivecd script - without them it
+should
+behave exactly the same as the original one.
+
+I'm also sending you another patch - this one is for script /etc/rc.d/rc.
+There is a overlooked limitation in the original script: when shutting down,
+the
+message "Shutting down the system...Press Esc for verbose mode" won't get
+translated to language set in /etc/sysconfig/i18n. (In contrast with startup
+message - here reinstalling bootsplash package is sufficient to get it
+localized).
+Packager of 'initscripts' package is Texstar. I wonder if you can persue him
+to
+incorporate this little change.
+
+> i'm yet working on 3 scripts that altos sent me, in order to convert
+> them to po files for the changes to be system wide and more robust
+> towards system updates. this will also help us get the status of the
+> czeck translation.
+>
+> you can hook with the project member this way :
+> http://www.mypclinuxos.com/forum/index.php?topic=1012.0
+>
+
+I'll take a look.
+
+
+Regards,
+
+David
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071016/fb40a68b/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: mklivecd.i18n.patch
+Type: text/x-patch
+Size: 3958 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071016/fb40a68b/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: rc.i18n.patch
+Type: text/x-patch
+Size: 319 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071016/fb40a68b/attachment-0001.bin>
+
+From didouph at gmail.com  Tue Oct 16 16:37:35 2007
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Tue, 16 Oct 2007 16:37:35 +0200
+Subject: [Pclos-il8n-dev] About the Czech PCLOS remaster and me
+In-Reply-To: <4714C623.4070806@smidovi.eu>
+References: <47112B7D.6050200@smidovi.eu>
+	<a5c8450e0710150046g565c1f7cqd6a557d1004c9e60@mail.gmail.com>
+	<4714C623.4070806@smidovi.eu>
+Message-ID: <a5c8450e0710160737q64aae191u7678cc2e8120df@mail.gmail.com>
+
+Hi
+
+i will send your rc patch to tex as soon as i'll get it tested ...
+
+i'm wondering if the mklivecd is that new as far as you can yet define the
+bootmenu file, i used this hack to remaster the french pclinuxiso and
+produced an automated script wich was interactivelly creating the remaster
+... anyway this doesn't answer the issue since i need to test this too and
+investigate the doc of mklivecd before i go deeper, i forward your patches
+to both the i18n team and ikeres aswell as tom kelly (mklivecd developer)
+they would both be happy to see evolution to the mklivecd thing since they
+are looking for such ...
+
+btw i'm wondering if you know how and could implement the usage of po/mo
+files to get mklivecd localized and if you know how to change the keyboard
+layout from initial boot ...
+
+those two issues are connundrum eaven to ivan tom and i, if you find a way
+to hack into it ... that would be nice to share your knowledge :)
+
+On 10/16/07, David Smid <david at smidovi.eu> wrote:
+>
+> Ramboz Pierre-Henri wrote:
+> > hi,
+> > no idea if you got the point of what was my very question about you to
+> > altos.
+> > There is an "international" localization effort based @ mypclinuxos.com
+> > <http://mypclinuxos.com>
+> > this effort is backed up by one of the official packager and supported
+> > by the ripper gang ...
+> > So any enhancement and modification we made to the
+> > os/softwares/translations is embedded in the mainstrem.
+> > Thus, according to the info that altos gave me and that you seems to
+> > confirm, the enhancement you made to the mklivecd and installer/bootmenu
+> > are features we would be happy to add to the i18n project. and i think
+> > you guessed that i would be happy to have you being part of this
+> > project. the enhancements you made for czeck language should be shared
+> > by everyone.
+>
+> I am aware of the official localization project and I fully support the
+> idea.
+> My plan was first to make sure that we can really get the localization
+> project
+> going and that we have enough forces to get through before we join the
+> official
+> project at your side.
+> I think we are advancing quickly and we would be happy to join your ranks.
+>
+> > anyway, the fact that you enhancement are rpm packaged and
+> > installable, does not means that these will not be wiped by the system
+> > updates ... all your changes will be futile especially to mklivecd wich
+> > is maintained by n#2 of mypclinuxos developers : ivan keres who will
+> > certainly be interrested in your hacks for integration in the main
+> stream.
+>
+> I know my packages cannot collide with the official ones. Therefore I
+> never make
+> updates of existing packages. Our mklivecd package has different name and
+> contains only the renamed skript, so it does not interfere with anything
+> else.
+> Of course, the possibility of pushing our changes upstream you are talking
+> about
+> is much better that this.
+>
+> > anyways, if you could send me a documented version of your changes or at
+> > least a diff of those files so i could investigate the usage of those
+> > "molested" files for the team to use it ...
+>
+> I'm sending you the patch against original mklivecd version.
+> There are three new options:
+>
+>    --bootmenu <file>       What boot menu definition file should be used
+>                            in case that bootloader option is set to iso or
+> grub.
+>                            For iso this file must be named 'isolinux.cfg',
+>                            for grub the name must be 'menu.lst'.
+>                            Boot menu will be generated if not specified.
+>
+>    --boottheme <name>      Which gfxboot theme should be used.
+>                            Defaults to 'pclinuxos'
+>
+>    --bootlang <lang code>  Which language shound be used as default
+>                            in the boot menu.
+>                            Defaults to 'en'.
+>
+> These options add flexibility to the mklivecd script - without them it
+> should
+> behave exactly the same as the original one.
+>
+> I'm also sending you another patch - this one is for script /etc/rc.d/rc.
+> There is a overlooked limitation in the original script: when shutting
+> down, the
+> message "Shutting down the system...Press Esc for verbose mode" won't get
+> translated to language set in /etc/sysconfig/i18n. (In contrast with
+> startup
+> message - here reinstalling bootsplash package is sufficient to get it
+> localized).
+> Packager of 'initscripts' package is Texstar. I wonder if you can persue
+> him to
+> incorporate this little change.
+>
+> > i'm yet working on 3 scripts that altos sent me, in order to convert
+> > them to po files for the changes to be system wide and more robust
+> > towards system updates. this will also help us get the status of the
+> > czeck translation.
+> >
+> > you can hook with the project member this way :
+> > http://www.mypclinuxos.com/forum/index.php?topic=1012.0
+> >
+>
+> I'll take a look.
+>
+>
+> Regards,
+>
+> David
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071016/4f820ad9/attachment.html>
+
+From david at smidovi.eu  Wed Oct 17 12:06:34 2007
+From: david at smidovi.eu (David Smid)
+Date: Wed, 17 Oct 2007 12:06:34 +0200
+Subject: [Pclos-il8n-dev] My Berlios id
+Message-ID: <4715DEAA.7090607@smidovi.eu>
+
+My BerliOS id is 'dsmid'.
+
+David
+
+
+From david at smidovi.eu  Wed Oct 17 12:09:25 2007
+From: david at smidovi.eu (David Smid)
+Date: Wed, 17 Oct 2007 12:09:25 +0200
+Subject: [Pclos-il8n-dev] About the Czech PCLOS remaster and me
+In-Reply-To: <a5c8450e0710160737q64aae191u7678cc2e8120df@mail.gmail.com>
+References: <47112B7D.6050200@smidovi.eu>	
+	<a5c8450e0710150046g565c1f7cqd6a557d1004c9e60@mail.gmail.com>	
+	<4714C623.4070806@smidovi.eu>
+	<a5c8450e0710160737q64aae191u7678cc2e8120df@mail.gmail.com>
+Message-ID: <4715DF55.6050809@smidovi.eu>
+
+
+Hello all in this mailing list,
+
+Ramboz Pierre-Henri napsal(a):
+> Hi
+> 
+> i will send your rc patch to tex as soon as i'll get it tested ...
+> 
+> i'm wondering if the mklivecd is that new as far as you can yet define
+> the bootmenu file, i used this hack to remaster the french pclinuxiso
+> and produced an automated script wich was interactivelly creating the
+> remaster ...
+
+I'm not quite sure I understand what you're talking about. We use the new
+mklivecd in conjuction with our own boot theme based on 'pclinuxos' gfx boot
+theme and with our own isolinux.cfg with menu labels translated to czech.
+I even managed to get spaces into the labels - think that is normaly forbidden
+in isolinux.cfg.
+Our boot theme has slightly simplified options menu, our site url at lower right
+corner of the background and last but not least, it has completely reworked help
+contents. Although the original help was translated to many languages including
+czech, it originated from Mandriva and thus totally out of reality.
+
+
+> btw i'm wondering if you know how and could implement the usage of po/mo
+> files to get mklivecd localized and if you know how to change the
+> keyboard layout from initial boot ...
+> 
+> those two issues are connundrum eaven to ivan tom and i, if you find a
+> way to hack into it ... that would be nice to share your knowledge :)
+
+
+Well, mklivecd was not written with internationalization in mind but it shoud
+not be so hard to fix it.
+All it takes is to carefully embrace all to-be-localized texts in N() function
+call used by all Drak tools.
+
+Example:
+-------------------------
+#!/usr/bin/perl
+
+use lib qw(/usr/lib/libDrakX);
+
+# Use "bootsplash" text domain, i.e. bootsplash.mo file
+BEGIN { unshift @::textdomains, 'bootsplash' }
+
+# Functions N and N_ are defined in this libDrakX module
+use common;
+
+# Print localized messages
+print N("Booting the system...") . N("Press Esc for verbose mode.") . "\n";
+--------------------------
+
+Concerning the keyboard layout, there are two issues:
+Keyboard layout active in the boot menu is defined by chosen language, you can
+set the default boot menu language (and thus the default keyboard too) by using
+the new mklivecd parameter --bootlang.
+Keyboard layout in Linux is defined system-wide in file /etc/sysconfig/keyboard
+and can be changed ad-hoc by command 'loadkeys'.
+
+Regards,
+
+David
+
+BTW, could anybody please create the Czech forum and all the structures
+necessary to include Czech language in the project ?
+
+
+
+From david at smidovi.eu  Wed Oct 17 11:56:54 2007
+From: david at smidovi.eu (David Smid)
+Date: Wed, 17 Oct 2007 11:56:54 +0200
+Subject: [Pclos-il8n-dev] About the Czech PCLOS remaster and me
+In-Reply-To: <a5c8450e0710160737q64aae191u7678cc2e8120df@mail.gmail.com>
+References: <47112B7D.6050200@smidovi.eu>	
+	<a5c8450e0710150046g565c1f7cqd6a557d1004c9e60@mail.gmail.com>	
+	<4714C623.4070806@smidovi.eu>
+	<a5c8450e0710160737q64aae191u7678cc2e8120df@mail.gmail.com>
+Message-ID: <4715DC66.8060502@smidovi.eu>
+
+
+Hello all in this mailing list,
+
+Ramboz Pierre-Henri napsal(a):
+> Hi
+> 
+> i will send your rc patch to tex as soon as i'll get it tested ...
+> 
+> i'm wondering if the mklivecd is that new as far as you can yet define
+> the bootmenu file, i used this hack to remaster the french pclinuxiso
+> and produced an automated script wich was interactivelly creating the
+> remaster ...
+
+I'm not quite sure I understand what you're talking about. We use the new
+mklivecd in conjuction with our own boot theme based on 'pclinuxos' gfx boot
+theme and with our own isolinux.cfg with menu labels translated to czech.
+I even managed to get spaces into the labels - think that is normaly forbidden
+in isolinux.cfg.
+Our boot theme has slightly simplified options menu, our site url at lower right
+corner of the background and last but not least, it has completely reworked help
+contents. Although the original help was translated to many languages including
+czech, it originated from Mandriva and thus totally out of reality.
+
+
+> btw i'm wondering if you know how and could implement the usage of po/mo
+> files to get mklivecd localized and if you know how to change the
+> keyboard layout from initial boot ...
+> 
+> those two issues are connundrum eaven to ivan tom and i, if you find a
+> way to hack into it ... that would be nice to share your knowledge :)
+
+
+Well, mklivecd was not written with internationalization in mind but it shoud
+not be so hard to fix it.
+All it takes is to carefully embrace all to-be-localized texts in N() function
+call used by all Drak tools.
+
+Example:
+-------------------------
+#!/usr/bin/perl
+
+use lib qw(/usr/lib/libDrakX);
+
+# Use "bootsplash" text domain, i.e. bootsplash.mo file
+BEGIN { unshift @::textdomains, 'bootsplash' }
+
+# Functions N and N_ are defined in this libDrakX module
+use common;
+
+# Print localized messages
+print N("Booting the system...") . N("Press Esc for verbose mode.") . "\n";
+--------------------------
+
+Concerning the keyboard layout, there are two issues:
+Keyboard layout active in the boot menu is defined by chosen language, you can
+set the default boot menu language (and thus the default keyboard too) by using
+the new mklivecd parameter --bootlang.
+Keyboard layout in Linux is defined system-wide in file /etc/sysconfig/keyboard
+and can be changed ad-hoc by command 'loadkeys'.
+
+Regards,
+
+David
+
+BTW, could anybody please create the Czech forum and all the structures
+necessary to include Czech language in the project ?
+
+
+From didouph.ph at laposte.net  Sat Oct 20 09:01:57 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 20 Oct 2007 09:01:57 +0200
+Subject: [Pclos-il8n-dev] [ REMINDER ] libDrakX.po
+Message-ID: <4719A7E5.6080607@laposte.net>
+
+I Ressend this message for the very reason that this is a critical issue
+for a future librakx update !
+
+hi all,
+
+dubi sent me a comment from AltOS about the libDrakX.po
+it misses a string :
+
+msgid "Please, choose your keyboard layout."
+msgstr ""
+
+please, add it to your locale libDrakX.po and forward it to me so i can
+update the CVS in accordance with it !
+
+thanks, didouph
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071020/2b2e1c6a/attachment.html>
+
+From david at smidovi.eu  Sat Oct 20 22:32:21 2007
+From: david at smidovi.eu (David Smid)
+Date: Sat, 20 Oct 2007 22:32:21 +0200
+Subject: [Pclos-il8n-dev] [ REMINDER ] libDrakX.po
+In-Reply-To: <4719A7E5.6080607@laposte.net>
+References: <4719A7E5.6080607@laposte.net>
+Message-ID: <471A65D5.6010102@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> I Ressend this message for the very reason that this is a critical issue
+> for a future librakx update !
+> 
+> hi all,
+> 
+> dubi sent me a comment from AltOS about the libDrakX.po
+> it misses a string :
+> 
+> msgid "Please, choose your keyboard layout."
+> msgstr ""
+> 
+> please, add it to your locale libDrakX.po and forward it to me so i can
+> update the CVS in accordance with it !
+> 
+> thanks, didouph
+
+Hello,
+
+Here is the czech (cs) version.
+
+I found out that it's the author of program "finish-install" who is
+responsible for this bug. This script is located in "standalone" group
+of drak scripts but mistakenly uses "libDrakX" text domain, not
+"libDrakX-standalone", where its phrases are located and translated.
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: libDrakX.po.gz
+Type: application/gzip
+Size: 103612 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071020/e7041c16/attachment.bin>
+
+From didouph.ph at laposte.net  Sun Oct 21 00:16:19 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 21 Oct 2007 00:16:19 +0200
+Subject: [Pclos-il8n-dev] Portuguese (pt-PT)Translated po files
+In-Reply-To: <5b9069570710121138g4b5848faq80d03cc748ad7dff@mail.gmail.com>
+References: <27688744.333611188223196257.JavaMail.www@wwinf8201>	
+	<5b9069570710120806ga1e7112y721cd8a975df83c6@mail.gmail.com>	
+	<470FB79C.4030401@laposte.net>
+	<5b9069570710121138g4b5848faq80d03cc748ad7dff@mail.gmail.com>
+Message-ID: <471A7E33.4020708@laposte.net>
+
+po/pt_BR/libDrakX.po added
+po/pt_PT/libDrakX.po added
+po/fr/libDrakX.po updated
+
+DidouPh
+
+Sergio Fernandes wrote:
+> Ok :-)
+>
+>
+>
+> On 12/10/2007, pierre-henri-ramboz <didouph.ph at laposte.net> wrote:
+>>  Sergio Fernandes wrote:
+>>
+>> Hello,
+>> I posted a message with a translated file to the list, but I received a
+>> warning saying my message body is too long for the list...
+>>
+>> What' wrong with my message?
+>>
+>> Thanks
+>>
+>>    self explanatory ... i moderated it positively, don't worry it happens a
+>> lot but i always confirm reception of such messages !
+>> it's been transfered to other users ... this is related to the atachement
+>> size ...
+>>
+>
+>
+>
+
+
+
+
+
+From didouph.ph at laposte.net  Sun Oct 21 00:17:19 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 21 Oct 2007 00:17:19 +0200
+Subject: [Pclos-il8n-dev] [ REMINDER ] libDrakX.po
+In-Reply-To: <5b9069570710200508v29b323drb04fdead70684a4@mail.gmail.com>
+References: <4719A7E5.6080607@laposte.net>
+	<5b9069570710200508v29b323drb04fdead70684a4@mail.gmail.com>
+Message-ID: <471A7E6F.3060301@laposte.net>
+
+Sergio Fernandes a ?crit :
+> Corrected libdrakx for Portuguese-PT
+> 
+> S?rgio
+> 
+> On 20/10/2007, pierre-henri-ramboz <didouph.ph at laposte.net> wrote:
+>>  I Ressend this message for the very reason that this is a critical issue
+>> for a future librakx update !
+>>
+>> hi all,
+>>
+>> dubi sent me a comment from AltOS about the libDrakX.po
+>> it misses a string :
+>>
+>> msgid "Please, choose your keyboard layout."
+>> msgstr ""
+>>
+>> please, add it to your locale libDrakX.po and forward it to me so i can
+>> update the CVS in accordance with it !
+>>
+>> thanks, didouph
+>>
+>>
+>> _______________________________________________
+>> Pclos-il8n-dev mailing list
+>> Pclos-il8n-dev at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>>
+>>
+> 
+updated :
+ po/pt_BR/libDrakX.po
+ po/pt_PT/libDrakX.po
+
+thanks sergio :)
+
+and forgive me for previous message wich is nonsense !
+
+
+
+
+From didouph.ph at laposte.net  Sun Oct 21 00:19:15 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 21 Oct 2007 00:19:15 +0200
+Subject: [Pclos-il8n-dev] [ REMINDER ] libDrakX.po
+In-Reply-To: <471A65D5.6010102@smidovi.eu>
+References: <4719A7E5.6080607@laposte.net> <471A65D5.6010102@smidovi.eu>
+Message-ID: <471A7EE3.9080405@laposte.net>
+
+David Smid a ?crit :
+> pierre-henri-ramboz napsal(a):
+>> I Ressend this message for the very reason that this is a critical issue
+>> for a future librakx update !
+>>
+>> hi all,
+>>
+>> dubi sent me a comment from AltOS about the libDrakX.po
+>> it misses a string :
+>>
+>> msgid "Please, choose your keyboard layout."
+>> msgstr ""
+>>
+>> please, add it to your locale libDrakX.po and forward it to me so i can
+>> update the CVS in accordance with it !
+>>
+>> thanks, didouph
+> 
+> Hello,
+> 
+> Here is the czech (cs) version.
+> 
+> I found out that it's the author of program "finish-install" who is
+> responsible for this bug. This script is located in "standalone" group
+> of drak scripts but mistakenly uses "libDrakX" text domain, not
+> "libDrakX-standalone", where its phrases are located and translated.
+> 
+> David
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+po/cs/libDrakX.po added
+
+thanks david !
+
+have you registered on mypclinuxos forums ?
+
+
+
+
+From didouph.ph at laposte.net  Sun Oct 21 00:26:58 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 21 Oct 2007 00:26:58 +0200
+Subject: [Pclos-il8n-dev] Considerations
+Message-ID: <471A80B2.60401@laposte.net>
+
+guys, i think we need a better tool to carry-on our duty and a global
+reorganisation. wile looking at the list of involved people, progress
+yet reached and lack of track on what is goin on, that we all need a
+common core and task list that we should use to balance the progress of
+each very individual project ...
+
+i will soon open a forum discussion about that but if any of you yet
+have some proposal or suggestion to make about the current organisation
+feel free to rise your voice and start it by yourself ...
+
+i will also clean-up the current forum for archival soon.
+
+DidouPh
+
+
+
+From didouph.ph at laposte.net  Sun Oct 21 00:32:24 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 21 Oct 2007 00:32:24 +0200
+Subject: [Pclos-il8n-dev] additions
+Message-ID: <471A81F8.8080905@laposte.net>
+
+/other/devel/mklivecd.i18n.patch
+/other/devel/rc.i18n.patch
+
+have been added, from david smid, to the cvs !
+
+still no answer from the gang or tom ... what about you david ?
+
+DidouPh
+
+
+
+From qla0 at vp.pl  Sun Oct 21 01:36:55 2007
+From: qla0 at vp.pl (qla)
+Date: Sun, 21 Oct 2007 01:36:55 +0200
+Subject: [Pclos-il8n-dev] [ REMINDER ] libDrakX.po
+In-Reply-To: <4719A7E5.6080607@laposte.net>
+References: <4719A7E5.6080607@laposte.net>
+Message-ID: <200710210136.55550.qla0@vp.pl>
+
+Saturday 20 of October 2007 09:01:57 pierre-henri-ramboz napisa?(a):
+> I Ressend this message for the very reason that this is a critical issue
+> for a future librakx update !
+>
+> hi all,
+>
+> dubi sent me a comment from AltOS about the libDrakX.po
+> it misses a string :
+>
+> msgid "Please, choose your keyboard layout."
+> msgstr ""
+>
+> please, add it to your locale libDrakX.po and forward it to me so i can
+> update the CVS in accordance with it !
+>
+> thanks, didouph
+
+updated Polish version from CVS
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: libDrakX.po.tar.bz2
+Type: application/x-tbz
+Size: 69646 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071021/201c53f0/attachment.bin>
+
+From didouph.ph at laposte.net  Sun Oct 21 09:31:41 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 21 Oct 2007 09:31:41 +0200
+Subject: [Pclos-il8n-dev] [ REMINDER ] libDrakX.po
+In-Reply-To: <200710210136.55550.qla0@vp.pl>
+References: <4719A7E5.6080607@laposte.net> <200710210136.55550.qla0@vp.pl>
+Message-ID: <471B005D.8010302@laposte.net>
+
+qla a ?crit :
+> Saturday 20 of October 2007 09:01:57 pierre-henri-ramboz napisa?(a):
+>> I Ressend this message for the very reason that this is a critical issue
+>> for a future librakx update !
+>>
+>> hi all,
+>>
+>> dubi sent me a comment from AltOS about the libDrakX.po
+>> it misses a string :
+>>
+>> msgid "Please, choose your keyboard layout."
+>> msgstr ""
+>>
+>> please, add it to your locale libDrakX.po and forward it to me so i can
+>> update the CVS in accordance with it !
+>>
+>> thanks, didouph
+> 
+> updated Polish version from CVS
+> 
+> 
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+updated : po/pl/libDrakX.po
+
+there is still a fuzzy string in this po
+
+any clue on this ?
+
+
+
+From david at smidovi.eu  Mon Oct 22 08:37:57 2007
+From: david at smidovi.eu (David Smid)
+Date: Mon, 22 Oct 2007 08:37:57 +0200
+Subject: [Pclos-il8n-dev] additions
+In-Reply-To: <471A81F8.8080905@laposte.net>
+References: <471A81F8.8080905@laposte.net>
+Message-ID: <471C4545.9000201@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> /other/devel/mklivecd.i18n.patch
+> /other/devel/rc.i18n.patch
+> 
+> have been added, from david smid, to the cvs !
+> 
+> still no answer from the gang or tom ... what about you david ?
+> 
+> DidouPh
+
+Well, I haven't tried to contact anyone from the gang. I hope your message at
+pclinuxos.com/forum will get some audience and we will have the answer soon.
+Maybe the gang boys are busy right now.
+
+David
+
+
+
+
+From didouph.ph at laposte.net  Mon Oct 22 09:03:50 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 22 Oct 2007 09:03:50 +0200
+Subject: [Pclos-il8n-dev] additions
+In-Reply-To: <471C4545.9000201@smidovi.eu>
+References: <471A81F8.8080905@laposte.net> <471C4545.9000201@smidovi.eu>
+Message-ID: <471C4B56.7060103@laposte.net>
+
+David Smid a ?crit :
+> pierre-henri-ramboz napsal(a):
+>> /other/devel/mklivecd.i18n.patch
+>> /other/devel/rc.i18n.patch
+>>
+>> have been added, from david smid, to the cvs !
+>>
+>> still no answer from the gang or tom ... what about you david ?
+>>
+>> DidouPh
+> 
+> Well, I haven't tried to contact anyone from the gang. I hope your message at
+> pclinuxos.com/forum will get some audience and we will have the answer soon.
+> Maybe the gang boys are busy right now.
+> 
+> David
+> 
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+i also sent mail and pm !
+
+
+
+From david at smidovi.eu  Mon Oct 22 10:31:40 2007
+From: david at smidovi.eu (David Smid)
+Date: Mon, 22 Oct 2007 10:31:40 +0200
+Subject: [Pclos-il8n-dev] Considerations
+In-Reply-To: <471A80B2.60401@laposte.net>
+References: <471A80B2.60401@laposte.net>
+Message-ID: <471C5FEC.1000908@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> guys, i think we need a better tool to carry-on our duty and a global
+> reorganisation. wile looking at the list of involved people, progress
+> yet reached and lack of track on what is goin on, that we all need a
+> common core and task list that we should use to balance the progress of
+> each very individual project ...
+> 
+> i will soon open a forum discussion about that but if any of you yet
+> have some proposal or suggestion to make about the current organisation
+> feel free to rise your voice and start it by yourself ...
+
+This page might be helpful:
+http://en.wikipedia.org/wiki/Comparison_of_issue_tracking_systems
+Also check the DCL project: http://dcl.sourceforge.net/
+
+I think there is no point in translating things that are not intrinsic part of
+PCLinuxOS. Packages like kde-i18n already have their distro-independent
+maintainers and translators and trying to translate only their PCLOS variant is
+quite inefficient and may become useless. Such translations should be
+contributed directly to mantainers.
+
+David
+
+
+From didouph.ph at laposte.net  Mon Oct 22 12:09:18 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 22 Oct 2007 12:09:18 +0200
+Subject: [Pclos-il8n-dev] [ REMINDER ] libDrakX.po
+In-Reply-To: <471C5D98.9090206@smidovi.eu>
+References: <4719A7E5.6080607@laposte.net> <471A65D5.6010102@smidovi.eu>
+	<471A7EE3.9080405@laposte.net> <471C4950.8030303@smidovi.eu>
+	<471C4E20.6000604@laposte.net> <471C5D98.9090206@smidovi.eu>
+Message-ID: <471C76CE.30309@laposte.net>
+
+David Smid a ?crit :
+> pierre-henri-ramboz napsal(a):
+>> are the names i need to add to the staff pages : Genesis & David Smid ?
+> 
+> Well, it seems I'm the only one who hasn't got a nick :-) In case I need to have
+> one, I'd vote for "Messi". I don't mind using my real name either.
+> Genesis has an email address holydiver at seznam.cz here in the mailling list, and
+> "Genesis" is his preffered nick.
+> 
+> And please, our mother tongue is CZECH language, not Czeck langauge.
+> 
+> David
+> 
+> 
+> 
+fixed the czech typo :/
+added both names/nick to the staff list
+no need for a nick name i just wanted to know what were your
+registration name on mypclinuxos.com/forum !!
+added link to the czech forum in the supported language page
+
+
+
+From didouph.ph at laposte.net  Mon Oct 22 12:23:05 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 22 Oct 2007 12:23:05 +0200
+Subject: [Pclos-il8n-dev] additions
+In-Reply-To: <471C4B56.7060103@laposte.net>
+References: <471A81F8.8080905@laposte.net> <471C4545.9000201@smidovi.eu>
+	<471C4B56.7060103@laposte.net>
+Message-ID: <471C7A09.5070802@laposte.net>
+
+added :
+po/cs/drakconf.po
+po/cs/draklive-install.po
+po/cs/drakmenustyle.po
+po/cs/ksplash.po
+po/cs/libDrakX-standalone.po
+po/cs/rfbdrake.po
+po/cs/userdrake.po
+
+thanks
+
+pierre-henri-ramboz a ?crit :
+> David Smid a ?crit :
+>> pierre-henri-ramboz napsal(a):
+>>> /other/devel/mklivecd.i18n.patch
+>>> /other/devel/rc.i18n.patch
+>>>
+>>> have been added, from david smid, to the cvs !
+>>>
+>>> still no answer from the gang or tom ... what about you david ?
+>>>
+>>> DidouPh
+>> Well, I haven't tried to contact anyone from the gang. I hope your message at
+>> pclinuxos.com/forum will get some audience and we will have the answer soon.
+>> Maybe the gang boys are busy right now.
+>>
+>> David
+>>
+>>
+>> _______________________________________________
+>> Pclos-il8n-dev mailing list
+>> Pclos-il8n-dev at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>>
+>>
+> i also sent mail and pm !
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+
+
+
+From david at smidovi.eu  Mon Oct 22 12:23:45 2007
+From: david at smidovi.eu (David Smid)
+Date: Mon, 22 Oct 2007 12:23:45 +0200
+Subject: [Pclos-il8n-dev] Useful tool: completepo
+Message-ID: <471C7A31.1000007@smidovi.eu>
+
+
+Hello,
+
+During translating drak tools to czech, this tool I wrote proved invaluable.
+It can complete existing .po by adding untranslated phrases to it. It assumes
+source files to be Perl scripts but that can be easily changed.
+To use it, you will need source RPM package with base .po files and source
+files. Source RPMs can be easily retrieved by command "apt-get source
+<package_name>" after you have added at least one rpm-src mirror to your
+sources.list. Then use Midnight commander (mc) to get inside and to unpack the
+source from tarball.
+If you need to find out what package owns particular file, use "rpm -qf
+<complete_file_path>".
+
+
+Usage: ./completepo <source po> [<target domain>] [<input files> ...]
+
+Takes <source po> as a base, copies it to <target domain>.po, scans all <input
+files> and adds found non-translated phrases to the end of <target domain>.po.
+
+If you use only the first parameter, it scans the <source po> and creates file
+<source po>.list containing paths to all input source files used to create this
+.po file.
+In the next run, you can only enter the first two parameters, <input files> will
+be taken from file <source po>.list. Freely edit this file to make it match with
+reality.
+
+
+
+Example:
+
+If directory tree looks like this:
+
+po/*.po
+drakmenustyle
+...
+
+Than you can enter:
+completepo po/fr.po
+
+That will create file "po/fr.po.list" containing only one line (because in this
+example, there is only one source file) -
+../drakmenustyle
+
+Next command will be:
+completepo po/fr.po drakmenustyle
+
+Result of this will be the desired file drakmenustyle.po in the current
+directory. Untranslated phrases used in the script "drakmenustyle" will be at
+the end of the file.
+
+
+I hope this can be somewhat useful.
+
+David
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: completepo.gz
+Type: application/x-gzip
+Size: 703 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20071022/3be39c38/attachment.bin>
+
+From didouph.ph at laposte.net  Mon Oct 22 12:33:19 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 22 Oct 2007 12:33:19 +0200
+Subject: [Pclos-il8n-dev] Useful tool: completepo
+In-Reply-To: <471C7A31.1000007@smidovi.eu>
+References: <471C7A31.1000007@smidovi.eu>
+Message-ID: <471C7C6F.3000306@laposte.net>
+
+David Smid a ?crit :
+> Hello,
+> 
+> During translating drak tools to czech, this tool I wrote proved invaluable.
+> It can complete existing .po by adding untranslated phrases to it. It assumes
+> source files to be Perl scripts but that can be easily changed.
+> To use it, you will need source RPM package with base .po files and source
+> files. Source RPMs can be easily retrieved by command "apt-get source
+> <package_name>" after you have added at least one rpm-src mirror to your
+> sources.list. Then use Midnight commander (mc) to get inside and to unpack the
+> source from tarball.
+> If you need to find out what package owns particular file, use "rpm -qf
+> <complete_file_path>".
+> 
+> 
+> Usage: ./completepo <source po> [<target domain>] [<input files> ...]
+> 
+> Takes <source po> as a base, copies it to <target domain>.po, scans all <input
+> files> and adds found non-translated phrases to the end of <target domain>.po.
+> 
+> If you use only the first parameter, it scans the <source po> and creates file
+> <source po>.list containing paths to all input source files used to create this
+> .po file.
+> In the next run, you can only enter the first two parameters, <input files> will
+> be taken from file <source po>.list. Freely edit this file to make it match with
+> reality.
+> 
+> 
+> 
+> Example:
+> 
+> If directory tree looks like this:
+> 
+> po/*.po
+> drakmenustyle
+> ...
+> 
+> Than you can enter:
+> completepo po/fr.po
+> 
+> That will create file "po/fr.po.list" containing only one line (because in this
+> example, there is only one source file) -
+> ../drakmenustyle
+> 
+> Next command will be:
+> completepo po/fr.po drakmenustyle
+> 
+> Result of this will be the desired file drakmenustyle.po in the current
+> directory. Untranslated phrases used in the script "drakmenustyle" will be at
+> the end of the file.
+> 
+> 
+> I hope this can be somewhat useful.
+> 
+> David
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+thanks david
+i hope everyone gets the trick :)
+
+
+
+From david at smidovi.eu  Wed Oct 31 20:08:52 2007
+From: david at smidovi.eu (David Smid)
+Date: Wed, 31 Oct 2007 20:08:52 +0100
+Subject: [Pclos-il8n-dev] Czech PCLOS remaster released
+Message-ID: <4728D2C4.4000200@smidovi.eu>
+
+
+Hello,
+
+I just want to inform you that we've just released final version of
+czech PCLOS remaster. Although I don't expect anyone of you can
+understand czech, you may be interested in the screenshots here:
+http://www.pclinuxos.cz/index.php?option=com_content&task=view&id=48&Itemid=1
+
+We've gained plenty of experience during the development process and if
+anyone is thinking about making national remaster, we are prepared to
+share our tools and knowledge.
+
+David
+
+
+
+From didouph.ph at laposte.net  Wed Oct 31 20:36:13 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 31 Oct 2007 20:36:13 +0100
+Subject: [Pclos-il8n-dev] Czech PCLOS remaster released
+In-Reply-To: <4728D2C4.4000200@smidovi.eu>
+References: <4728D2C4.4000200@smidovi.eu>
+Message-ID: <4728D92D.9080007@laposte.net>
+
+David Smid a ?crit :
+> Hello,
+> 
+> I just want to inform you that we've just released final version of
+> czech PCLOS remaster. Although I don't expect anyone of you can
+> understand czech, you may be interested in the screenshots here:
+> http://www.pclinuxos.cz/index.php?option=com_content&task=view&id=48&Itemid=1
+> 
+> We've gained plenty of experience during the development process and if
+> anyone is thinking about making national remaster, we are prepared to
+> share our tools and knowledge.
+> 
+> David
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+would you mind writing a howto ... ?
+
+
+
+From didouph.ph at laposte.net  Wed Oct 31 20:52:02 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 31 Oct 2007 20:52:02 +0100
+Subject: [Pclos-il8n-dev] Czech PCLOS remaster released
+In-Reply-To: <4728D92D.9080007@laposte.net>
+References: <4728D2C4.4000200@smidovi.eu> <4728D92D.9080007@laposte.net>
+Message-ID: <4728DCE2.6030105@laposte.net>
+
+and i forgot to mention ... congratulations to you all !!
+
+
+
+From david at smidovi.eu  Wed Oct 31 20:51:42 2007
+From: david at smidovi.eu (David Smid)
+Date: Wed, 31 Oct 2007 20:51:42 +0100
+Subject: [Pclos-il8n-dev] Czech PCLOS remaster released
+In-Reply-To: <4728D92D.9080007@laposte.net>
+References: <4728D2C4.4000200@smidovi.eu> <4728D92D.9080007@laposte.net>
+Message-ID: <4728DCCE.1070908@smidovi.eu>
+
+pierre-henri-ramboz napsal(a):
+> David Smid a ?crit :
+>> Hello,
+>>
+>> I just want to inform you that we've just released final version of
+>> czech PCLOS remaster. Although I don't expect anyone of you can
+>> understand czech, you may be interested in the screenshots here:
+>> http://www.pclinuxos.cz/index.php?option=com_content&task=view&id=48&Itemid=1
+>>
+>> We've gained plenty of experience during the development process and if
+>> anyone is thinking about making national remaster, we are prepared to
+>> share our tools and knowledge.
+>>
+>> David
+
+> would you mind writing a howto ... ?
+
+Yes, why not. Just give me some time.
+
+David
+
+
+
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] Desktop files localization issue
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2008-May/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Desktop%20files%20localization%20issue&In-Reply-To=%3C48245BC3.5080302%40fastwebnet.it%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000315.html">
+   <LINK REL="Next"  HREF="000309.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] Desktop files localization issue</H1>
+    <B>Alessio Adamo</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20Desktop%20files%20localization%20issue&In-Reply-To=%3C48245BC3.5080302%40fastwebnet.it%3E"
+       TITLE="[Pclos-il8n-dev] Desktop files localization issue">alessioadamo at fastwebnet.it
+       </A><BR>
+    <I>Fri May  9 16:12:19 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000315.html">[Pclos-il8n-dev] Pushing our work to mainstream
+</A></li>
+        <LI>Next message: <A HREF="000309.html">[Pclos-il8n-dev] Desktop files localization issue
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#307">[ date ]</a>
+              <a href="thread.html#307">[ thread ]</a>
+              <a href="subject.html#307">[ subject ]</a>
+              <a href="author.html#307">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>David Smid ha scritto:
+&gt;<i> &lt;div class=&quot;moz-text-flowed&quot; style=&quot;font-family: -moz-fixed&quot;&gt;Just a 
+</I>&gt;<i> few questions for DidouPh:
+</I>&gt;<i>
+</I>&gt;<i> Have you tried to use the scripts I sent you ?
+</I>&gt;<i>
+</I>&gt;<i> Did you encounter any problems ?
+</I>&gt;<i>
+</I>&gt;<i> Do you think it's a good idea ?
+</I>&gt;<i>
+</I>&gt;<i> Do you plan to use this infrastructure for desktop-files localization ?
+</I>&gt;<i>
+</I>&gt;<i> How exactly get the translations from our CVS to mainstream packages 
+</I>&gt;<i> now (I think Gettinther is somehow involved in this ...) ?
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> David
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> &lt;/div&gt;
+</I>Hi, David!
+
+I agree that it's a much cleaner way to work and I'm certainly in for 
+this change. I've tested your make_intltool_ready script few days ago 
+and actually allowed me to realise that there were 2 original Comment 
+strings in donate.desktop. So it's true, it's good help not to minimise 
+the chances of mistakes.
+
+Though, it doesn't seem to work completely right.
+
+For instance, in it.po the message &quot;Donate&quot; is untranslated although in 
+/etc/skel/donate.desktop and in /root/donate.desktop it is actually 
+translated.
+
+At the same time the message &quot;Support the developement of PCLinuxOS by 
+donating to the Team&quot; (the Comment) is translated with &quot;Fai una 
+donazione&quot; (the Name).
+
+There are several other examples. If required, I'll list them all. I had 
+a look also at fr.po and also there I could find some examples of this 
+misbehaviour.
+
+I can't figure out what the reason can be just by looking at the 
+original desktop-files. You're probably more indicated to find out.
+
+Bye,
+
+Alessio
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000315.html">[Pclos-il8n-dev] Pushing our work to mainstream
+</A></li>
+	<LI>Next message: <A HREF="000309.html">[Pclos-il8n-dev] Desktop files localization issue
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#307">[ date ]</a>
+              <a href="thread.html#307">[ thread ]</a>
+              <a href="subject.html#307">[ subject ]</a>
+              <a href="author.html#307">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

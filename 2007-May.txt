@@ -1,0 +1,2317 @@
+From didouph.ph at laposte.net  Tue May  1 15:43:38 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 01 May 2007 15:43:38 +0200
+Subject: [Pclos-il8n-dev] xsane and kbudget nl translation
+In-Reply-To: <46351C2E.7060203@dommel.be>
+References: <46351C2E.7060203@dommel.be>
+Message-ID: <4637440A.203@laposte.net>
+
+hollanders-broers a ?crit :
+> next I'll do the desktop files first if that's ok with you.
+>
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+no problem for me, do as you wish :)
+
+both files added to cvs
+
+
+
+From hollanders.broers at dommel.be  Tue May  1 20:49:07 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Tue, 01 May 2007 20:49:07 +0200
+Subject: [Pclos-il8n-dev] nl desktop files translation
+Message-ID: <46378BA3.6060101@dommel.be>
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: desktop files.tar
+Type: application/octet-stream
+Size: 19968 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070501/aa1d92a8/attachment.obj>
+
+From cyrylas at gmail.com  Wed May  2 13:05:20 2007
+From: cyrylas at gmail.com (=?iso-8859-2?q?Micha=B3_Wazgird?=)
+Date: Wed, 2 May 2007 13:05:20 +0200
+Subject: [Pclos-il8n-dev] pl po files updates
+Message-ID: <200705021305.20416.cyrylas@gmail.com>
+
+
+Drakmenustyle.po is missing translation of "Cancel" button.
+
+msgid "Cancel"
+msgstr ""
+
+Here's this and other updated polish po files.
+
+-- 
+Pozdrawiam, 
+Micha? Wazgird
+http://kinomaniak.com.pl
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakconf_pl_v1.2.po.tar.bz2
+Type: application/x-tbz
+Size: 8867 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070502/744fea7e/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: userdrake_pl_v1.2.po.tar.bz2
+Type: application/x-tbz
+Size: 3842 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070502/744fea7e/attachment-0001.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakmenustyle_pl_v1.2.po.tar.gz
+Type: application/x-tgz
+Size: 845 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070502/744fea7e/attachment-0002.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: draklive-install_pl_v1.4.po.tar.bz2
+Type: application/x-tbz
+Size: 4654 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070502/744fea7e/attachment-0003.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: rfbdrake_pl_v1.3.po.tar.bz2
+Type: application/x-tbz
+Size: 1956 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070502/744fea7e/attachment-0004.bin>
+
+From cyrylas at gmail.com  Wed May  2 13:23:03 2007
+From: cyrylas at gmail.com (=?iso-8859-2?q?Micha=B3_Wazgird?=)
+Date: Wed, 2 May 2007 13:23:03 +0200
+Subject: [Pclos-il8n-dev] polish desktop files
+Message-ID: <200705021323.03348.cyrylas@gmail.com>
+
+Polish new/altered desktop files
+
+
+
+
+-- 
+Pozdrawiam, 
+Micha? Wazgird
+http://kinomaniak.com.pl
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: desktop-directories.tar.gz
+Type: application/x-tgz
+Size: 122880 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070502/77a77a52/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: desktop-files_2.tar.gz
+Type: application/x-tgz
+Size: 102400 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070502/77a77a52/attachment-0001.bin>
+
+From didouph.ph at laposte.net  Thu May  3 12:48:09 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 03 May 2007 12:48:09 +0200
+Subject: [Pclos-il8n-dev] drakconf credits
+Message-ID: <4639BDE9.5000403@laposte.net>
+
+here is a dump of modifyed drakconf.real including appropriate credits
+
+dubi needs your name/locale to get this done properly.
+--------------------------------------------------------line 1813 => 1831
+
+    foreach my $row ([ N("Mandriva Team: ") ],
+                     [ '', 'Chmouel Boudjnah', N("(original C version)") ],
+                     [ '', 'Damien  Krotkine',N("(perl version)") ],
+                     [ '', 'Yves Duret', N("(perl version)") ],
+                     [ '', 'Daouda Lo', '<daouda at mandriva.com>' ],
+                     [ '', 'Thierry Vignaud', '<tvignaud at mandriva.com>' ],
+                     [ '', '' ],
+                     [ N("PCLinuxOS Team: ") ],
+                     [ '', 'Texstar', N("(PCLinuxOS's Brain)") ],
+                     [ '', 'Ripper Gang', N("(PCLinuxOS Developer Team)") ],
+                     [ '', '' ],
+                     [ N("PCLinuxOS Translators: "), '', '' ],
+                     [ '', N("French"), 'Dubi <jjdub at caramail.com>' ],
+                     [ '', N("Translator mail"), 
+'pclos-il8n-dev at lists.berlios.de' ],
+                     [ '', N("Translation team homepage"), 
+'<www.mypclinuxos.com>' ],
+                     [ '', '' ],
+                     [ N("Artwork: "), '', '' ],
+                     [ '', 'Swordsaint', N("(Icons)") ],
+                     [ '', N("Tame"), '<rv_tomas at yahoo.com>' ],
+
+
+From didouph.ph at laposte.net  Thu May  3 13:21:41 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 03 May 2007 13:21:41 +0200
+Subject: [Pclos-il8n-dev] WARNING
+Message-ID: <4639C5C5.9020500@laposte.net>
+
+IMPORTANT NOTICE FOR ALL
+
+i would like all of you to check if your files/patches are based on the 
+last version in cvs before submitting changes and to make sure your 
+changes are consistants with the latest version of the cvs and don't 
+overwrite a yet applyed change ... i just pulled down a lot of work done 
+on the pl translation due to such mistake
+
+a good way to proceed is when translating .desktop / .directory files is 
+to simply send me a text file formated as follow :
+--------------------------------
+/pathtofile/filename.desktop
+
+Name[yourlocale]=whatevername
+Comment[yourlocale]=whatevercomment
+--------------------------------
+this makes things simpler for me to update the desktop definitions ad 
+keep a clean cvs three
+
+check the latest nl-be translation for a good example on how to do those 
+files !
+
+thanks
+
+DidouPh
+
+
+From didouph.ph at laposte.net  Thu May  3 23:29:12 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 03 May 2007 23:29:12 +0200
+Subject: [Pclos-il8n-dev] new strings in the draklive-install.po
+In-Reply-To: <200705031611.49001.cyrylas@gmail.com>
+References: <200704301834.38263.cyrylas@gmail.com>
+	<4639D0C5.8080307@laposte.net>
+	<200705031611.49001.cyrylas@gmail.com>
+Message-ID: <463A5428.4090105@laposte.net>
+
+OK
+
+all of you guys, look for the draklive-install.po
+
+and search for the string :
+"You need to reboot for the partition table modifications to take place"
+and replace it with :
+"You need to reboot then select Use Existing Partitions"
+
+then add @ the end of the file :
+msgid "Basic"
+msgstr ""
+
+don't forget to fill in with the appropriate translation !!
+
+if some of you guys are too lazy to look for the strings, i can send you 
+a sed script but i think this is much faster to do it this way :) rather 
+than learning sed !
+
+these translations are TOP PRIORITY
+
+French and Polish version yet available
+
+Micha? Wazgird a ?crit :
+> Dnia czwartek 03 maja 2007 14:08, napisa?e?:
+>> Micha? Wazgird a ?crit :
+>>> There's some changes in the TR4 draklive-install.
+>>>
+>>> One of them is mising translation of:
+>>>
+>>> msgid "Basic"
+>>> msgstr ""
+>>>
+>>> shown in the dialog of select wchich partitions to format. I thing it was
+>>> missing from the beginigng.
+>>>
+>>> Second is, that in TR4 string about "reboot to save partition table"
+>>> changed into
+>>>
+>>> msgid "You need to reboot then select Use Existing Partitions"
+>>> msgstr ""
+>>>
+>>>
+>>>
+>>> Polish updated po file will there be soon.
+>> i'm still looking for a diff lile or anything that would let me report
+>> to the other where to add theyre translation to keep a clean framework !
+>>
+>> i need the lines where your modification have been made
+>>
+>> thanks
+>
+> Ups, forgot about that.
+>
+> The changed one is that form the 349 line:
+>
+> msgid "You need to reboot for the partition table modifications to take place"
+>
+>
+> The 'Basic' i've added after "msgid "Advanced"" from line 20, to keep things 
+> in place.
+>
+>
+
+
+
+
+From hollanders.broers at dommel.be  Thu May  3 20:42:58 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Thu, 03 May 2007 20:42:58 +0200
+Subject: [Pclos-il8n-dev] soundkonverter nl translation
+Message-ID: <463A2D32.1050608@dommel.be>
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: soundkonverter[nl-BE].tar
+Type: application/octet-stream
+Size: 48640 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070503/4702b56c/attachment.obj>
+
+From didouph.ph at laposte.net  Fri May  4 00:33:35 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 04 May 2007 00:33:35 +0200
+Subject: [Pclos-il8n-dev] soundkonverter nl translation
+In-Reply-To: <463A2D32.1050608@dommel.be>
+References: <463A2D32.1050608@dommel.be>
+Message-ID: <463A633F.4050507@laposte.net>
+
+hollanders-broers a ?crit :
+>
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+added
+
+
+
+From didouph at gmail.com  Fri May  4 00:37:59 2007
+From: didouph at gmail.com (didouph)
+Date: Fri, 04 May 2007 00:37:59 +0200
+Subject: [Pclos-il8n-dev] Concerne index-fr.html
+In-Reply-To: <a5c8450e0705030920q3f3937b8j62cd57e84f1909f1@mail.gmail.com>
+References: <168410301322999@lycos-europe.com>
+	<a5c8450e0705030920q3f3937b8j62cd57e84f1909f1@mail.gmail.com>
+Message-ID: <463A6447.1060508@gmail.com>
+
+New index for pclinux os including link to the regionalized wiki (fr) 
+feel free to add sources to such online locized version of the tools 
+where the original point to , but don't forget that help is good when it 
+is abundent so don't replace the old link in this case, ... add yours !
+
+thanks
+
+Ramboz Pierre-Henri a ?crit :
+> ok je vois ?a ce soir
+>
+> On 5/3/07, jean-jacques dubois <jjdub at caramail.com> wrote:
+>>
+>> Re,
+>>
+>> je t'envoie ce fichier que j'ai corrig? (ajout du lien wiki fr 
+>> PCLinuxOS).
+>>
+>> Voil?.
+>>
+>> A+.
+>>
+>>
+>>  Bienvenue dans PCLinuxOS
+>>
+>>    -
+>>
+>>    Faire un don <http://www.pclinuxos.com/page.php?1>
+>>    -
+>>
+>>    Wiki <http://www.pclinuxonline.com/wiki/HomePage>
+>>    -
+>>
+>>    Wiki 
+>> fr<http://website.hebergement.lycos.fr/pclinuxos.matoilnet.org/Wikka/wikka.php?wakka=HomePage> 
+>>
+>>    -
+>>
+>>    Forum <http://www.pclinuxos.com/forum/index.php>
+>>    -
+>>
+>>    Page d'acceuil <http://pclinuxos.com/news.php>
+>>
+>>
+>>
+>>   *F?licitations*
+>>
+>> et merci d'avoir choisi *PCLinuxOS.* Nous apportons toute la 
+>> puissance de
+>> Linux sur votre bureau, plus notre fameux "contact tr?s amical" ? nous
+>> esp?rons qu 'elle vous apportera une enti?re satisfaction. Nous vous
+>> recommandons fortement de visiter PCLinuxOS.com 
+>> <http://pclinuxos.com/>pour profiter pleinement des nouvelles 
+>> informations, des forums d'aide, et
+>> acc?der aux centaines d'applications de grandes qualit?s pour votre 
+>> syst?me
+>> PCLinuxOS.
+>>
+>> *Forums* : La communaut? bas?e sur les 
+>> forums<http://www.pclinuxos.com/forum/index.php>d'aide a ?t? ?tablie 
+>> pour discuter des diverses issues de PCLinuxOS. Si vous
+>> d?sirez participer aux discussions, vous devrez vous enregistrer sur
+>> PCLinuxOS.com. Veuillez noter que nous n'utiliserons pas votre nom et
+>> votre email dans un but de commercialisation.
+>>
+>> *Liste d'adresses*: PCLinuxOS.com a ?tabli une liste d'adresses
+>> <http://www.pclinuxos.com/forum/index.php?topic=477.0>pour PCLinuxOS. Si
+>> vous d?sirez rester au courant du d?veloppement de PCLinuxOS, veuillez
+>> songer ? vous inscrire sur la liste d'adresses.
+>>
+>> *WIKI PCLinuxOS*: Un guide utilisateur r?alis? par la communaut? o? les
+>> utilisateurs peuvent y trouver des r?ponses. Wiki PCLinuxOS.
+>> <http://www.pclinuxonline.com/wiki/HomePage>Wiki PCLinuxOS 
+>> fr<http://website.hebergement.lycos.fr/pclinuxos.matoilnet.org/Wikka/wikka.php?wakka=HomePage> 
+>>
+>>
+>> *Donations*: Le succ?s de PCLinuxOS d?pend de vos donations 
+>> mon?taires. Si
+>> vous d?sirez que le d?veloppement continue, veuillez songer ? 
+>> effectuer une
+>> modeste donation pour ce passionnant projet. 
+>> Donations<http://www.pclinuxos.com/page.php?1>qui sont r?alis?es ? 
+>> travers le contr?le de Google afin de fournir un moyen
+>> s?r et s?curis? pour envoyer des fonds.
+>>
+>> PCLinuxOS (c) 2006
+>>
+>>
+
+
+
+
+From hollanders.broers at dommel.be  Sat May  5 17:58:21 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Sat, 05 May 2007 17:58:21 +0200
+Subject: [Pclos-il8n-dev] modified draklive-install nl po
+Message-ID: <463CA99D.6070505@dommel.be>
+
+one string replaced and one added as requested
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: draklive-install[2][nl-BE].tar
+Type: application/octet-stream
+Size: 14848 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070505/cb668466/attachment.obj>
+
+From didouph.ph at laposte.net  Sat May  5 20:21:56 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 05 May 2007 20:21:56 +0200
+Subject: [Pclos-il8n-dev] modified draklive-install nl po
+In-Reply-To: <463CA99D.6070505@dommel.be>
+References: <463CA99D.6070505@dommel.be>
+Message-ID: <463CCB44.9030504@laposte.net>
+
+hollanders-broers a ?crit :
+> one string replaced and one added as requested
+>
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+added
+
+
+
+From hollanders.broers at dommel.be  Sun May  6 16:01:48 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Sun, 06 May 2007 16:01:48 +0200
+Subject: [Pclos-il8n-dev] kaffeine nl translation
+Message-ID: <463DDFCC.4080904@dommel.be>
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: kaffeine[nl-BE].tar
+Type: application/octet-stream
+Size: 47616 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070506/0683a0d0/attachment.obj>
+
+From didouph at gmail.com  Mon May  7 23:08:31 2007
+From: didouph at gmail.com (didouph)
+Date: Mon, 07 May 2007 23:08:31 +0200
+Subject: [Pclos-il8n-dev] Translations
+In-Reply-To: <2f3d0f330705070347q16595281y446c7aad818499ff@mail.gmail.com>
+References: <2f3d0f330705070347q16595281y446c7aad818499ff@mail.gmail.com>
+Message-ID: <463F954F.6090805@gmail.com>
+
+Hopp?r Zolt?n a ?crit :
+> We have trying to cumulate and repair and do as many translations as 
+> possible. I have did the modifications in drakconf, and in 
+> draklive-install. I have dropped more files, what is not in system - 
+> but if its upgrades - then the translation will be there.Therefore I 
+> have leaved the version number at file names. Sorry for this.
+>
+> To  Dubi - Drakconf.real appropriate credits - Hungarian Team section 
+> I'd like to add 3 names, this is the full HU team:
+>
+> [ '', N("Hungarian"), 'Zoltan Hoppar <hopparz at gmail dot com>' ],
+> [ '', N("Hungarian"), 'S?ndor Lisovszky <lisovszki at gmail dot com>' ],
+> [ '', N("Hungarian"), '?dam Pongr?cz' <pongadam at gmail dot com>' ],
+>  
+>
+> PS. We now translating many programs, and sorry for the long delay.
+>
+>
+> Zoltan 
+added the po files
+reffer to previous messages about the addition of .desktop files ...
+i need to know where they are located in the cvs three and i need 
+changes to be applyed upon the latest cvs and not on default files.
+so i didn't added the desktop files yet ... i will proceed these assap 
+but will need some times. if you can send me the location of the 
+modified files in the cvs three ... i will gladly replace them with the 
+new ones
+
+thanks anyway
+
+DidouPh
+
+
+
+From didouph.ph at laposte.net  Mon May  7 23:11:35 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 07 May 2007 23:11:35 +0200
+Subject: [Pclos-il8n-dev] kaffeine nl translation
+In-Reply-To: <463DDFCC.4080904@dommel.be>
+References: <463DDFCC.4080904@dommel.be>
+Message-ID: <463F9607.40007@laposte.net>
+
+hollanders-broers a ?crit :
+>
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+added
+
+
+
+From cyrylas at gmail.com  Wed May  9 17:34:54 2007
+From: cyrylas at gmail.com (=?iso-8859-2?q?Micha=B3_Wazgird?=)
+Date: Wed, 9 May 2007 17:34:54 +0200
+Subject: [Pclos-il8n-dev] pl desktop files ...again
+Message-ID: <200705091734.55061.cyrylas@gmail.com>
+
+Hi.
+
+I'm sending again the new polish desktop files. Hope, this time in proper 
+format :)
+
+
+
+-- 
+Pozdrawiam, 
+Micha? Wazgird
+http://kinomaniak.com.pl
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: desktop-files2.pl.tar.gz
+Type: application/x-tgz
+Size: 2681 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070509/dd778d2f/attachment.bin>
+
+From didouph at gmail.com  Thu May 10 08:54:54 2007
+From: didouph at gmail.com (didouph)
+Date: Thu, 10 May 2007 08:54:54 +0200
+Subject: [Pclos-il8n-dev] tools
+Message-ID: <4642C1BE.1040702@gmail.com>
+
+a wile ago, i have designed two pearl script wich purpose is to batch 
+convert a large amount of .mo to .po and the way round
+
+if any of you need these... i atached them to this message
+
+just drop them in a folder where the file to be processed are and execute
+
+potomo.pl : converts po files to mo
+motopo.pl : converts mo files to po
+
+
+exemple
+
+i have some po files that i want to be converted into mo files.
+those files are located in ~/Desktop/whatever/
+i copy potomo.pl to ~/Desktop/whatever/
+i open a terminal and cd to ~/Desktop/whatever/
+i trow the command ./potomo.pl
+
+this is the first step to our installer
+
+i will soon add a tool section to the cvs where all those handy script 
+(including addaline) will be stored
+
+DidouPh
+
+
+From didouph.ph at laposte.net  Thu May 10 20:07:23 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 10 May 2007 20:07:23 +0200
+Subject: [Pclos-il8n-dev] tools
+In-Reply-To: <4642C1BE.1040702@gmail.com>
+References: <4642C1BE.1040702@gmail.com>
+Message-ID: <46435F5B.30607@laposte.net>
+
+didouph a ?crit :
+> a wile ago, i have designed two pearl script wich purpose is to batch 
+> convert a large amount of .mo to .po and the way round
+>
+> if any of you need these... i atached them to this message
+>
+> just drop them in a folder where the file to be processed are and execute
+>
+> potomo.pl : converts po files to mo
+> motopo.pl : converts mo files to po
+>
+>
+> exemple
+>
+> i have some po files that i want to be converted into mo files.
+> those files are located in ~/Desktop/whatever/
+> i copy potomo.pl to ~/Desktop/whatever/
+> i open a terminal and cd to ~/Desktop/whatever/
+> i trow the command ./potomo.pl
+>
+> this is the first step to our installer
+>
+> i will soon add a tool section to the cvs where all those handy script 
+> (including addaline) will be stored
+>
+> DidouPh
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+kick me i forgot the atachements
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: motopo.pl
+Type: application/x-perl
+Size: 657 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070510/d6589825/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: potomo.pl
+Type: application/x-perl
+Size: 655 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070510/d6589825/attachment-0001.bin>
+
+From jjdub at caramail.com  Fri May 11 20:36:36 2007
+From: jjdub at caramail.com (jean-jacques dubois)
+Date: Fri, 11 May 2007 18:36:36 +0000
+Subject: [Pclos-il8n-dev] PCLinuxOS 2007 international DVD by Texstar.
+Message-ID: <10476844509331@lycos-europe.com>
+
+Hi,
+
+I send you this message because I will like to speak to you about the project concerning the realization of the international DVD decided by Texstar. Now the project is official, he decided to include the Po files from PCLOSi18n project. Good, but it will be necessary that this version contains all the desktop files translated + documentations HTML + other translations files if necessary.
+
+I think that the PCLOSi18n team and the members of mypclinuxos.com must work narrowly with Tex and the Ripper Gang to carry out a perfect DVD version. If is to provide an imperfect multilingual version, I think that is not necessary to propose it.
+
+Moreover, it would be necessary to solve the problems concerning the translations of synaptic (categories menu), elements available in PCC and which were not translated yet (drakbackup and first screen of choice of the language), and parts still in english in kde.
+
+What do you think about it ?
+
+Bye.
+
+Dubi.
+
+From didouph at gmail.com  Sat May 12 10:01:07 2007
+From: didouph at gmail.com (didouph)
+Date: Sat, 12 May 2007 10:01:07 +0200
+Subject: [Pclos-il8n-dev] a new branch
+Message-ID: <46457443.1080309@gmail.com>
+
+i added a pot branch to the cvs for softwares that never got translated ever
+
+renae those files from "whatever.pot" to "whatever.po" and edit the 
+strings to fit your language
+and submit in accordance to the usual policy for addition to the po section
+
+kssh added to the french section
+tightvnc added to the pot section
+
+
+From hollanders.broers at dommel.be  Sat May 12 12:45:37 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Sat, 12 May 2007 12:45:37 +0200
+Subject: [Pclos-il8n-dev] PCLinuxOS 2007 international DVD by Texstar.
+Message-ID: <46459AD1.5090607@dommel.be>
+
+Hi,
+
+When do they want to release such a dvd? I won't get the translation of 
+the last 3 nl files done (huge files) before the final is released 
+(which is nearby I suppose).
+Also the translated files would have to be tested to the limit and any 
+imperfections taken out. This will again take time.
+
+greetz, 
+
+zoom
+
+
+
+
+From matjaz.kase at telemach.net  Sat May 12 12:50:48 2007
+From: matjaz.kase at telemach.net (=?windows-1252?Q?Matja=9E_Ka=9Ae?=)
+Date: Sat, 12 May 2007 12:50:48 +0200
+Subject: [Pclos-il8n-dev] Pclos-il8n-dev Digest, Vol 2, Issue 13
+In-Reply-To: <mailman.33.1178964027.22663.pclos-il8n-dev@lists.berlios.de>
+References: <mailman.33.1178964027.22663.pclos-il8n-dev@lists.berlios.de>
+Message-ID: <46459C08.8020203@telemach.net>
+
+pclos-il8n-dev-request at lists.berlios.de pravi:
+> Send Pclos-il8n-dev mailing list submissions to
+> 	pclos-il8n-dev at lists.berlios.de
+> 
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> or, via email, send a message with subject or body 'help' to
+> 	pclos-il8n-dev-request at lists.berlios.de
+> 
+> You can reach the person managing the list at
+> 	pclos-il8n-dev-owner at lists.berlios.de
+> 
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Pclos-il8n-dev digest..."
+> 
+> 
+> Today's Topics:
+> 
+>    1. PCLinuxOS 2007 international DVD by Texstar. (jean-jacques dubois)
+>    2. a new branch (didouph)
+> 
+> 
+> ----------------------------------------------------------------------
+> 
+> Message: 1
+> Date: Fri, 11 May 2007 18:36:36 +0000
+> From: "jean-jacques dubois" <jjdub at caramail.com>
+> Subject: [Pclos-il8n-dev] PCLinuxOS 2007 international DVD by Texstar.
+> To: pclos-il8n-dev at lists.berlios.de
+> Message-ID: <10476844509331 at lycos-europe.com>
+> Content-Type: text/plain; charset="windows-1252"
+> 
+> Hi,
+> 
+> I send you this message because I will like to speak to you about the project concerning the realization of the international DVD decided by Texstar. Now the project is official, he decided to include the Po files from PCLOSi18n project. Good, but it will be necessary that this version contains all the desktop files translated + documentations HTML + other translations files if necessary.
+> 
+> I think that the PCLOSi18n team and the members of mypclinuxos.com must work narrowly with Tex and the Ripper Gang to carry out a perfect DVD version. If is to provide an imperfect multilingual version, I think that is not necessary to propose it.
+> 
+> Moreover, it would be necessary to solve the problems concerning the translations of synaptic (categories menu), elements available in PCC and which were not translated yet (drakbackup and first screen of choice of the language), and parts still in english in kde.
+> 
+> What do you think about it ?
+> 
+> Bye.
+> 
+> Dubi.
+> 
+> ------------------------------
+> 
+> Message: 2
+> Date: Sat, 12 May 2007 10:01:07 +0200
+> From: didouph <didouph at gmail.com>
+> Subject: [Pclos-il8n-dev] a new branch
+> To: pclos-il8n-dev at lists.berlios.de
+> Message-ID: <46457443.1080309 at gmail.com>
+> Content-Type: text/plain; charset=UTF-8; format=flowed
+> 
+> i added a pot branch to the cvs for softwares that never got translated ever
+> 
+> renae those files from "whatever.pot" to "whatever.po" and edit the 
+> strings to fit your language
+> and submit in accordance to the usual policy for addition to the po section
+> 
+> kssh added to the french section
+> tightvnc added to the pot section
+> 
+> 
+> ------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+> 
+> 
+> End of Pclos-il8n-dev Digest, Vol 2, Issue 13
+> *********************************************
+> 
+Hello everybody!
+
+I'm lost. Whatever file I download from 
+http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/#dirlist,
+when I open it with Kbabel, I get an error message: Error reading file. 
+It is probably not a valid PO file.
+Any suggestion?
+
+Lep pozdrav vsem!
+Matja? (slovenian translator)
+
+
+From didouph.ph at laposte.net  Sun May 13 10:04:49 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sun, 13 May 2007 10:04:49 +0200
+Subject: [Pclos-il8n-dev] latest additions
+Message-ID: <4646C6A1.20705@laposte.net>
+
+added : po/fr/dvdrip.po
+added : other/usr/sbin/drakconf.real (with translator credit)
+added : other/usr/bin/splash.fr.svg (splash for dvdrip)
+added : desktop-files/usr/share/applications/pclinuxos-redo-mbr.desktop
+added : desktop-files/usr/share/applnk/Settings/System/k3bsetup2.desktop
+added : desktop-files/usr/share/mimelnk/audio/*
+added : desktop-files/usr/share/mimelnk/video/*
+added : desktop-files/usr/share/mimelnk/application/x-theme.desktop
+added : desktop-files/usr/share/mimelnk/application/x-object.desktop
+
+please, send me updates on the desktop files assap ... the ripper gang 
+is working on our cvs so they will provide updates to the system based 
+on your input :)
+
+
+From hollanders.broers at dommel.be  Sun May 13 20:14:03 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Sun, 13 May 2007 20:14:03 +0200
+Subject: [Pclos-il8n-dev] additional desktop files translations
+Message-ID: <4647556B.4070006@dommel.be>
+
+It can't be quicker than this, can it? :-)
+
+greetz,
+
+ zoom
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: additional desktop translations.tar
+Type: application/octet-stream
+Size: 3072 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070513/ced4a8f4/attachment.obj>
+
+From didouph.ph at laposte.net  Mon May 14 00:02:27 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 14 May 2007 00:02:27 +0200
+Subject: [Pclos-il8n-dev] additional desktop files translations
+In-Reply-To: <4647556B.4070006@dommel.be>
+References: <4647556B.4070006@dommel.be>
+Message-ID: <46478AF3.4070909@laposte.net>
+
+hollanders-broers a ?crit :
+> It can't be quicker than this, can it? :-)
+>
+> greetz,
+>
+> zoom
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+new desktop files translation added ...
+
+i would rather have read this in the file you sent me but that was 
+pretty simple to cope with it anyway :)
+---------------
+woot=/home/didouph/Desktop/pclos-il8n/CVSROOT/desktop-files
+./addaline "${woot}/usr/share/applications/pclinuxos-redo-mbr.desktop" 
+"Name[nl]=Redo MBR"
+./addaline "${woot}/usr/share/applications/pclinuxos-redo-mbr.desktop" 
+"Comment[nl]=Hoofdpartitie Sector Herstellen"
+./addaline "${woot}/usr/share/applnk/Settings/System/k3bsetup2.desktop" 
+"Name[nl]=K3b Configuratie"
+./addaline "${woot}/usr/share/mimelnk/audio/x-s3m.desktop" 
+"Comment[nl]=Scream Tracker 3 audio"
+./addaline "${woot}/usr/share/mimelnk/audio/x-voc.desktop" 
+"Comment[nl]=VOC audio"
+./addaline "${woot}/usr/share/mimelnk/audio/x-it.desktop" 
+"Comment[nl]=Impulse Tracker audio"
+./addaline "${woot}/usr/share/mimelnk/audio/x-stm.desktop" 
+"Comment[nl]=Scream Tracker audio"
+./addaline "${woot}/usr/share/mimelnk/audio/x-xi.desktop" 
+"Comment[nl]=Scream Tracker instrument"
+./addaline "${woot}/usr/share/mimelnk/audio/x-real-audio.desktop" 
+"Comment[nl]=RealAudio/Video dokument"
+./addaline "${woot}/usr/share/mimelnk/audio/x-ulaw.desktop" 
+"Comment[nl]=Sun -law audio"
+./addaline "${woot}/usr/share/mimelnk/audio/x-xm.desktop" 
+"Comment[nl]=FastTracker II audio"
+./addaline "${woot}/usr/share/mimelnk/video/x-fli.desktop" 
+"Comment[nl]=FLI animatie"
+./addaline "${woot}/usr/share/mimelnk/video/x-anim.desktop" 
+"Comment[nl]=ANIM animatie"
+./addaline "${woot}/usr/share/mimelnk/video/x-flc.desktop" 
+"Comment[nl]=FLC animatie"
+./addaline "${woot}/usr/share/mimelnk/application/x-theme.desktop" 
+"Comment[nl]=thema"
+----------------
+don't forget that this method saves you time and so does it for me so 
+for the other and the community !
+
+thanks for your hard work
+
+DidouPh
+
+
+
+From didouph at gmail.com  Mon May 14 00:03:57 2007
+From: didouph at gmail.com (didouph)
+Date: Mon, 14 May 2007 00:03:57 +0200
+Subject: [Pclos-il8n-dev] Po de ChBg !!!
+In-Reply-To: <1668571504238@lycos-europe.com>
+References: <1668571504238@lycos-europe.com>
+Message-ID: <46478B4D.20405@gmail.com>
+
+jean-jacques dubois a ?crit :
+> Salut Didouph,
+>
+> voici le po de ChBg (complet).
+>
+> A+.
+>
+ajout? !
+
+-------------
+
+added chbg.po to cvs three in fr section
+
+
+
+From pawlos at uznam.net.pl  Tue May 15 01:39:44 2007
+From: pawlos at uznam.net.pl (uznamer)
+Date: Tue, 15 May 2007 01:39:44 +0200
+Subject: [Pclos-il8n-dev] Polish Install.html & its screenshots
+Message-ID: <4648F340.2050406@uznam.net.pl>
+
+Hi,
+
+I am very happy to enlose my first contribution to Polish PCLinuxOS
+localization project. I have just translated Install.html and
+screenshots belonging to it, located in install-help directory.
+As you surely know they should be put into /usr/share/doc/HTML. I
+suppose they should have "pl" label for recognition between many others
+which will be translated by other localization teams.
+
+Best regards - uznamer
+
+PS - Why we have not yet our Polish section opened at localization page?
+I know that Qla and Cyrylas have sent many translated po files alreday.
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Installer_pl.tar.bz2
+Type: application/octet-stream
+Size: 754820 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070515/cda0c049/attachment.obj>
+
+From didouph at gmail.com  Tue May 15 19:24:06 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 15 May 2007 19:24:06 +0200
+Subject: [Pclos-il8n-dev] Polish Install.html & its screenshots
+In-Reply-To: <4648F340.2050406@uznam.net.pl>
+References: <4648F340.2050406@uznam.net.pl>
+Message-ID: <4649ECB6.7060804@gmail.com>
+
+uznamer a ?crit :
+> Hi,
+>
+> I am very happy to enlose my first contribution to Polish PCLinuxOS
+> localization project. I have just translated Install.html and
+> screenshots belonging to it, located in install-help directory.
+> As you surely know they should be put into /usr/share/doc/HTML. I
+> suppose they should have "pl" label for recognition between many others
+> which will be translated by other localization teams.
+>
+> Best regards - uznamer
+>
+> PS - Why we have not yet our Polish section opened at localization page?
+> I know that Qla and Cyrylas have sent many translated po files alreday.
+>   
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+i'm sorry for the absence of pl section in the forum, it's an issue i
+will fix right now
+
+thanks for your submissions, they have been added to the cvs
+i had to edit the html to use relative path since the absolute path
+arn't usefull and would result in dumbass render if the files get
+modifyed or the path changed ... it also keeps the file useable on any
+system or any computer
+i also added an entry for polish install-help in the
+/desktop-files/root/desktop shortcut, so it can now point to polish
+install guide
+
+uznamer, thanks for all the work you've done
+
+btw i just noticed that i never received the HU install-help files ...
+i'm looking forward to see them very soon in the cvs
+
+
+
+
+
+
+
+From didouph at gmail.com  Tue May 15 20:16:07 2007
+From: didouph at gmail.com (didouph)
+Date: Tue, 15 May 2007 20:16:07 +0200
+Subject: [Pclos-il8n-dev] synaptic po
+Message-ID: <4649F8E7.5060304@gmail.com>
+
+after i chit-chat with ike and a close look at the po files, it sounds 
+like we have a problem that can't be solved (from the po) with 
+synaptic... i looks like the hypothese saying that synaptic fetches 
+category from rpm or sourcelist, is accurate ... so we are not able to 
+translate from the po.
+
+i'm waiting for more info about this issue from thac, who is the 
+maintainer of this package and hope to read from him soon, anyway, i 
+added synaptic-manual.pot to the pot section so we might at least get a 
+proper translation of the manual if you guys can work it out
+
+kepp the good work
+
+DidouPh
+
+
+From didouph.ph at laposte.net  Tue May 15 20:36:07 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Tue, 15 May 2007 20:36:07 +0200
+Subject: [Pclos-il8n-dev] synaptic po
+In-Reply-To: <4649F8E7.5060304@gmail.com>
+References: <4649F8E7.5060304@gmail.com>
+Message-ID: <4649FD97.6000802@laposte.net>
+
+didouph a ?crit :
+> after i chit-chat with ike and a close look at the po files, it sounds 
+> like we have a problem that can't be solved (from the po) with 
+> synaptic... i looks like the hypothese saying that synaptic fetches 
+> category from rpm or sourcelist, is accurate ... so we are not able to 
+> translate from the po.
+>
+> i'm waiting for more info about this issue from thac, who is the 
+> maintainer of this package and hope to read from him soon, anyway, i 
+> added synaptic-manual.pot to the pot section so we might at least get a 
+> proper translation of the manual if you guys can work it out
+>
+> kepp the good work
+>
+> DidouPh
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+i reply to my own message to inform you that i've added a lot of branch 
+to the po section and i'm starting to fetch all translation for all apps 
+so if you guys find po that are missing from pclinuxos and want to 
+submit them to the cvs, just send them, for every language you find and 
+not only yours
+
+thanks
+
+
+
+From didouph at gmail.com  Fri May 18 08:08:09 2007
+From: didouph at gmail.com (didouph)
+Date: Fri, 18 May 2007 08:08:09 +0200
+Subject: [Pclos-il8n-dev] tihgtVNC-sl.po
+In-Reply-To: <464D1CDB.9030603@telemach.net>
+References: <BAY126-F40652526E596B87D06D06BA4330@phx.gbl>
+	<464D1CDB.9030603@telemach.net>
+Message-ID: <464D42C9.5070007@gmail.com>
+
+MAtjaz, the synaptic po i added to the repositoiry is the official one 
+extracted from the sources. all information about those files were in 
+the mailing list!
+once again i strongly recommand you to register to it so you might be 
+AWARE of what is going on
+
+anyway thanks for your input and the file you just submited, wich is 
+going to help a lot since as you mentioned, it is fixing several issues. 
+since i'm not slovenian speaking ... i can't verify the po i receive, so 
+don't blame anyone but the person who made a poor translation of the 
+file and submitted it to the dev with the previous credit and errors in it !
+
+DidouPh
+
+Matja? Ka?e a ?crit :
+> Ramboz Pierre-Henri pravi:
+>> Matja?? Ka??e a ??crit :
+>>> Hello again!
+>>>
+>>> Hereby I'm sending one translated file more.
+>>>
+>>> Regards!
+>>> Matja??
+>>
+>> added
+>>
+>> _________________________________________________________________
+>> Avec Windows Live OneCare ?liminez tous les virus de votre PC ! 
+>> http://www.windowslive.fr/liveonecare/default.asp
+>>
+>>
+>
+> Hello!
+> Well, I see that tightvnc is added, but synaptic is still the old one. 
+> I've sent the completed translation for synaptic yesterday.
+> I do not know who sent you the partial translation of synaptic which 
+> is currently in the CVS, but it was not roman Maurer who's signature 
+> is in the file itself. MR. Maurer has told me that he did not 
+> translate it by himself. The current translation is not finished and 
+> what's more, it is incorrect. For instance, the left upper button 
+> "Reload" is translated as "Edition".
+> So please, replace it with the completed translation I've sent you 
+> yesterday. Just in case I'm sending it again.
+>
+> Pozdrav!
+> Matja?
+
+
+
+
+From didouph at hotmail.com  Thu May 17 21:30:02 2007
+From: didouph at hotmail.com (Ramboz Pierre-Henri)
+Date: Thu, 17 May 2007 19:30:02 +0000
+Subject: [Pclos-il8n-dev] tihgtVNC-sl.po
+Message-ID: <BAY126-F40652526E596B87D06D06BA4330@phx.gbl>
+
+Matja?? Ka??e a ??crit :
+>Hello again!
+>
+>Hereby I'm sending one translated file more.
+>
+>Regards!
+>Matja??
+
+added
+
+_________________________________________________________________
+Avec Windows Live OneCare ?liminez tous les virus de votre PC ! 
+http://www.windowslive.fr/liveonecare/default.asp
+
+
+
+From qla0 at vp.pl  Fri May 18 00:12:53 2007
+From: qla0 at vp.pl (qla)
+Date: Fri, 18 May 2007 00:12:53 +0200
+Subject: [Pclos-il8n-dev] Polish user guide for Synaptic
+Message-ID: <200705180012.53482.qla0@vp.pl>
+
+Hello,
+
+The path where it should be installed Polish user guide for Synaptic:
+I think so, that:    /usr/share/doc/HTML/pl
+
+If you think differently - change, please.
+
+Best regards - qla
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Synaptic-html-pl-v.0.3.tar.bz2
+Type: application/x-tbz
+Size: 569531 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070518/effb1fea/attachment.bin>
+
+From hollanders.broers at dommel.be  Fri May 18 10:20:21 2007
+From: hollanders.broers at dommel.be (hollanders-broers)
+Date: Fri, 18 May 2007 10:20:21 +0200
+Subject: [Pclos-il8n-dev] tightvnc nl translation
+Message-ID: <464D61C5.3070103@dommel.be>
+
+Hi,
+
+currently working on libdrakX. I'm a bit over 50 percent atm
+
+greetings,
+
+zoom
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: tightvnc[nl-BE].tar
+Type: application/octet-stream
+Size: 6144 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070518/c7db4b57/attachment.obj>
+
+From matjaz.kase at telemach.net  Fri May 18 09:56:13 2007
+From: matjaz.kase at telemach.net (=?iso-8859-2?Q?Matja=9E_Ka=9Ae?=)
+Date: Fri, 18 May 2007 09:56:13 +0200 (CEST)
+Subject: [Pclos-il8n-dev] tihgtVNC-sl.po
+In-Reply-To: <464D42C9.5070007@gmail.com>
+References: <BAY126-F40652526E596B87D06D06BA4330@phx.gbl>
+	<464D1CDB.9030603@telemach.net> <464D42C9.5070007@gmail.com>
+Message-ID: <14541.193.2.237.20.1179474973.squirrel@posta.telemach.net>
+
+I'm not too handy with all this mailing list stuff, I guess.
+
+Anyway, I checked the synaptic-sl.po once again and I've found some
+mistakes which had to be corrected. The attached one should now be quite
+decent, so add it to CVS, please.
+
+Pozdrav!
+Matja?
+
+> MAtjaz, the synaptic po i added to the repositoiry is the official one
+> extracted from the sources. all information about those files were in
+> the mailing list!
+> once again i strongly recommand you to register to it so you might be
+> AWARE of what is going on
+>
+> anyway thanks for your input and the file you just submited, wich is
+> going to help a lot since as you mentioned, it is fixing several issues.
+> since i'm not slovenian speaking ... i can't verify the po i receive, so
+> don't blame anyone but the person who made a poor translation of the
+> file and submitted it to the dev with the previous credit and errors in it
+> !
+>
+> DidouPh
+>
+> Matja?? Ka??e a ??crit :
+>> Ramboz Pierre-Henri pravi:
+>>> Matja?&#65533;?? Ka?&#65533;??e a ?&#65533;??crit :
+>>>> Hello again!
+>>>>
+>>>> Hereby I'm sending one translated file more.
+>>>>
+>>>> Regards!
+>>>> Matja?&#65533;??
+>>>
+>>> added
+>>>
+>>> _________________________________________________________________
+>>> Avec Windows Live OneCare ??liminez tous les virus de votre PC !
+>>> http://www.windowslive.fr/liveonecare/default.asp
+>>>
+>>>
+>>
+>> Hello!
+>> Well, I see that tightvnc is added, but synaptic is still the old one.
+>> I've sent the completed translation for synaptic yesterday.
+>> I do not know who sent you the partial translation of synaptic which
+>> is currently in the CVS, but it was not roman Maurer who's signature
+>> is in the file itself. MR. Maurer has told me that he did not
+>> translate it by himself. The current translation is not finished and
+>> what's more, it is incorrect. For instance, the left upper button
+>> "Reload" is translated as "Edition".
+>> So please, replace it with the completed translation I've sent you
+>> yesterday. Just in case I'm sending it again.
+>>
+>> Pozdrav!
+>> Matja??
+>
+>
+>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: synaptic-sl.po
+Type: text/x-gettext-translation
+Size: 93037 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070518/5f316976/attachment.bin>
+
+From didouph at gmail.com  Fri May 18 13:32:46 2007
+From: didouph at gmail.com (didouph)
+Date: Fri, 18 May 2007 13:32:46 +0200
+Subject: [Pclos-il8n-dev] Pclos-il8n-dev post from
+	matjaz.kase@telemach.net requires approval
+In-Reply-To: <mailman.8726.1179475122.5173.pclos-il8n-dev@lists.berlios.de>
+References: <mailman.8726.1179475122.5173.pclos-il8n-dev@lists.berlios.de>
+Message-ID: <464D8EDE.5080006@gmail.com>
+
+don't worry
+
+you can consult the mailing list archive here : 
+https://lists.berlios.de/pipermail/pclos-il8n-dev/
+just send your changes and hack to the mail : 
+pclos-il8n-dev at lists.berlios.de
+so everyone knows what is going on !
+
+pclos-il8n-dev-owner at lists.berlios.de a ?crit :
+> As list administrator, your authorization is requested for the
+> following mailing list posting:
+>
+>     List:    Pclos-il8n-dev at lists.berlios.de
+>     From:    matjaz.kase at telemach.net
+>     Subject: Re: tihgtVNC-sl.po
+>     Reason:  Besedilo sporo?ila je preveliko: 95086 bajtov, dovoljenih je 40 KB
+>
+> At your convenience, visit:
+>
+>     https://lists.berlios.de/mailman/admindb/pclos-il8n-dev
+>         
+> to approve or deny the request.
+>   
+>
+> ------------------------------------------------------------------------
+>
+> Sujet:
+> Re: tihgtVNC-sl.po
+> Exp?diteur:
+> Matja? Ka?e <matjaz.kase at telemach.net>
+> Date:
+> Fri, 18 May 2007 09:56:13 +0200 (CEST)
+> Destinataire:
+> DidouPh at gmail.com
+>
+> Destinataire:
+> DidouPh at gmail.com
+> Copie ?:
+> Matja? Ka?e <matjaz.kase at telemach.net>, pclos-il8n-dev at lists.berlios.de
+>
+>
+> I'm not too handy with all this mailing list stuff, I guess.
+>
+> Anyway, I checked the synaptic-sl.po once again and I've found some
+> mistakes which had to be corrected. The attached one should now be quite
+> decent, so add it to CVS, please.
+>
+> Pozdrav!
+> Matja?
+>
+>   
+>> MAtjaz, the synaptic po i added to the repositoiry is the official one
+>> extracted from the sources. all information about those files were in
+>> the mailing list!
+>> once again i strongly recommand you to register to it so you might be
+>> AWARE of what is going on
+>>
+>> anyway thanks for your input and the file you just submited, wich is
+>> going to help a lot since as you mentioned, it is fixing several issues.
+>> since i'm not slovenian speaking ... i can't verify the po i receive, so
+>> don't blame anyone but the person who made a poor translation of the
+>> file and submitted it to the dev with the previous credit and errors in it
+>> !
+>>
+>> DidouPh
+>>
+>> Matja?? Ka??e a ??crit :
+>>     
+>>> Ramboz Pierre-Henri pravi:
+>>>       
+>>>> Matja?&#65533;?? Ka?&#65533;??e a ?&#65533;??crit :
+>>>>         
+>>>>> Hello again!
+>>>>>
+>>>>> Hereby I'm sending one translated file more.
+>>>>>
+>>>>> Regards!
+>>>>> Matja?&#65533;??
+>>>>>           
+>>>> added
+>>>>
+>>>> _________________________________________________________________
+>>>> Avec Windows Live OneCare ??liminez tous les virus de votre PC !
+>>>> http://www.windowslive.fr/liveonecare/default.asp
+>>>>
+>>>>
+>>>>         
+>>> Hello!
+>>> Well, I see that tightvnc is added, but synaptic is still the old one.
+>>> I've sent the completed translation for synaptic yesterday.
+>>> I do not know who sent you the partial translation of synaptic which
+>>> is currently in the CVS, but it was not roman Maurer who's signature
+>>> is in the file itself. MR. Maurer has told me that he did not
+>>> translate it by himself. The current translation is not finished and
+>>> what's more, it is incorrect. For instance, the left upper button
+>>> "Reload" is translated as "Edition".
+>>> So please, replace it with the completed translation I've sent you
+>>> yesterday. Just in case I'm sending it again.
+>>>
+>>> Pozdrav!
+>>> Matja??
+>>>       
+>>
+>>     
+>> ------------------------------------------------------------------------
+>>
+>> Sujet:
+>> confirm 24032fadea3762a2cedf5e455b04b8c6be1f1596
+>> Exp?diteur:
+>> pclos-il8n-dev-request at lists.berlios.de
+>>
+>>
+>>
+>> If you reply to this message, keeping the Subject: header intact,
+>> Mailman will discard the held message.  Do this if the message is
+>> spam.  If you reply to this message and include an Approved: header
+>> with the list password in it, the message will be approved for posting
+>> to the list.  The Approved: header can also appear in the first line
+>> of the body of the reply.
+
+
+
+
+From didouph at gmail.com  Fri May 18 13:49:21 2007
+From: didouph at gmail.com (didouph)
+Date: Fri, 18 May 2007 13:49:21 +0200
+Subject: [Pclos-il8n-dev] latest additions :
+Message-ID: <464D92C1.2010305@gmail.com>
+
+i'll make it short !
+
+here are the latest additions / modifications ... souds like polish, 
+belgian and slovenian people have time to kill these days :)
+
+desktop-files/etc/skel/Documents/.directory
+desktop-files/etc/skel/Movies/.directory
+desktop-files/etc/skel/Music/.directory
+desktop-files/etc/skel/Pictures/.directory
+desktop-files/root/Desktop/Installation Help
+desktop-files/usr/share/applnk/Settings/System/k3bsetup2.desktop
+other/pl/usr/share/doc/HTML/synaptic/atualizacja/pics/aktualiz1-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/atualizacja/pics/aktualiz2-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/atualizacja/pics/aktualiz3_szczeg-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/atualizacja/pics/aktualiz4_instaowanie-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/atualizacja/pics/aktualiz-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/atualizacja/pics/aktualiz-zastosuj-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/atualizacja/pics/aktualiz-zazn_do-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/atualizacja/pics/syn_kon_inst-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/atualizacja/aktalizacja.html
+other/pl/usr/share/doc/HTML/synaptic/Error/pic/komunikat3-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/Error/pic/komunikat4-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/Error/pic/komunikat5-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/Error/error.html
+other/pl/usr/share/doc/HTML/synaptic/Error/exit.html
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_inst_zastosuj-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_kon_inst-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_odswiez-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_podsumow-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_szukaj-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_szuk_wyb1-nq8-2.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_szuk_wyb1-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_szuk_wyb2-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_szuk_wyb3-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_szuk_wyb-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/install/pics/syn_zaznacz1-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/dod_repo/beer.gif
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/1_ogolne-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/2_kolumny-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/3_kolory-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/4_pliki-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/5_siec-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/6_dystrybucja-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/menu_edycja-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/menu_pakiet-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/menu_plik-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/menu_pomoc-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/menu_ustawienia-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg/wymus_wer-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/konfig/cache.html
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig.html
+other/pl/usr/share/doc/HTML/synaptic/konfig/konfig_prg.html
+other/pl/usr/share/doc/HTML/synaptic/konfig/opis_menu.html
+other/pl/usr/share/doc/HTML/synaptic/korekta/pics/uszkodzone-koniec-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/korekta/pics/uszkodzone-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/korekta/pics/uszkodzone-wlasne1-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/korekta/pics/uszkodzone-wlasne-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/korekta/pics/uszkodzone-zaz_do_re1-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/korekta/pics/uszkodzone-zaz_do_re2-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/korekta/pics/uszkodzone-zaz_do_re3-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/korekta/pics/uszkodzone-zaz_do_re-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/prawa/prawa.html
+other/pl/usr/share/doc/HTML/synaptic/reinstall/pics/syn_szuk_wyb2-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/reinstall/pics/syn_zazn_re_inf-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/reinstall/pics/syn_zazn_re-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/reinstall/reinstall.html
+other/pl/usr/share/doc/HTML/synaptic/repo/pics/dodanie-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/repo/pics/komunikat-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/repo/pics/wyjasn-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/Start/start_syn.html
+other/pl/usr/share/doc/HTML/synaptic/Start/syn_1-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/Start/syn_start-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/Start/syn_start_zapyt-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/usun/pics/syn_odznacz-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/usun/pics/syn_szuk_wyb2-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/usun/pics/syn_zazn_do_calusun1-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/usun/pics/syn_zazn_do_calusun-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/usun/pics/syn_zazn_do_usun1-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/usun/pics/syn_zazn_do_usun-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/usun/pics/syn_zmiany-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/usun/usun.html
+other/pl/usr/share/doc/HTML/synaptic/wyglad/od_aut.html
+other/pl/usr/share/doc/HTML/synaptic/wyglad/syn_g2-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/wyglad/syn_g-nq8.png
+other/pl/usr/share/doc/HTML/synaptic/wyglad/wstep.html
+other/pl/usr/share/doc/HTML/synaptic/wyglad/wyglad.html
+other/pl/usr/share/doc/HTML/synaptic/wyglad/zmiany.html
+other/pl/usr/share/doc/HTML/synaptic/index.html
+po/sl/synaptic.po
+po/nl/tightvnc.po
+po/sl/draklive-install.po
+
+
+From pawlos at uznam.net.pl  Sat May 19 21:37:46 2007
+From: pawlos at uznam.net.pl (Wladyslaw Pawlowski)
+Date: Sat, 19 May 2007 21:37:46 +0200
+Subject: [Pclos-il8n-dev]  Polish Install.html & its screenshots
+References: 4648F340.2050406@uznam.net.pl
+Message-ID: <464F520A.7080205@uznam.net.pl>
+
+Of course, you are absolutely right about the relative path. I am not so
+good regarding the system dependencies. Therefore I can only translate.
+It is my last post from this address as for important reasons I have
+change it and registered at berlios with uznamer at interia.pl
+My further translations will be sent from that address.
+
+Best regards - uznamer
+
+
+From qla0 at vp.pl  Sun May 20 13:20:09 2007
+From: qla0 at vp.pl (qla)
+Date: Sun, 20 May 2007 13:20:09 +0200
+Subject: [Pclos-il8n-dev] aumix_pl, konserve_pl, soundkonverter_pl
+Message-ID: <200705201320.09783.qla0@vp.pl>
+
+Hello,
+
+All .po files extracted from the sources and translated.
+
+soundkonverter.po - from v.0.3.3
+konserve.po -  from v.0.10.3
+=============
+aumix.po - from  v.2.8
+
+I also changed this line in aumix.po:
+form
+Content-Type: text/plain; charset=iso-8859-2\n
+to
+Content-Type: text/plain; charset=UTF-8\n
+and translate the .po file
+At iso-8859-2 badly it showed Polish signs. (??? ....)
+
+qla
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: aumix_pl_v1.1.po.tar.bz2
+Type: application/x-tbz
+Size: 2475 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070520/93cdaeb3/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: soundkonverter_pl_v1.1.po.tar.bz2
+Type: application/x-tbz
+Size: 11538 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070520/93cdaeb3/attachment-0001.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: konserve_pl_v1.1.po.tar.bz2
+Type: application/x-tbz
+Size: 3948 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070520/93cdaeb3/attachment-0002.bin>
+
+From uznamer at interia.pl  Sun May 20 14:32:24 2007
+From: uznamer at interia.pl (Wladyslaw Pawlowski)
+Date: 20 May 2007 14:32:24 +0200
+Subject: [Pclos-il8n-dev] kdmgreet.po
+Message-ID: <20070520123224.6401929B097@poczta.interia.pl>
+
+Hi, 
+
+Hereby you will find enclosed kdmgreet.mo file which I have taken already translated from /usr/share/locale/pl/LC_MESSAGES but corrected duly few errrors and changed line 81 from msgstr: "Nazwa U?ytkownika" usrgid: "Username" to msgstr: "U?ytkownik".
+The reason was quite important. Polish "Nazwa U?ytkownika" was too long within its place at logging screen. As a result it was spoiling the whole graphics at that screen. Now, after my change it looks quite nice. On the other hand "U?ytkownik=User" its selfexplanatory for everybody including newbbies.
+
+Best regards - uznamer
+
+
+----------------------------------------------------------------------
+NIE KUPUJ!!!
+...zanim nie porownasz cen >> http://link.interia.pl/f1a5e
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: kdmgreet_pl.po.tar.bz2
+Type: application/octet-stream
+Size: 3387 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070520/4c862d88/attachment.obj>
+
+From didouph at gmail.com  Sun May 20 16:11:10 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 20 May 2007 16:11:10 +0200
+Subject: [Pclos-il8n-dev] polish update
+Message-ID: <465056FE.30303@gmail.com>
+
+These file have been added lately today :
+
+po/pl/aumix.po
+po/pl/kdmgreet_pl.po
+po/pl/konserve.po
+po/pl/soundkonverter.po
+
+
+aumix.po still contains 2 fuzzy messages
+
+
+From didouph at gmail.com  Sun May 20 16:13:49 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 20 May 2007 16:13:49 +0200
+Subject: [Pclos-il8n-dev] OUPS
+Message-ID: <4650579D.4040603@gmail.com>
+
+po/pl/kdmgreet_pl.po
+
+is 
+
+po/pl/kdmgreet.po
+
+:)
+
+DidouPh
+
+
+
+From didouph at gmail.com  Sun May 20 23:40:37 2007
+From: didouph at gmail.com (didouph)
+Date: Sun, 20 May 2007 23:40:37 +0200
+Subject: [Pclos-il8n-dev] More translation
+In-Reply-To: <2f3d0f330705200905s3760352dsdd5010845d8bd60d@mail.gmail.com>
+References: <2f3d0f330705200905s3760352dsdd5010845d8bd60d@mail.gmail.com>
+Message-ID: <4650C055.4030806@gmail.com>
+
+? a ?crit :
+> Hi Didouph!
+>
+> I have attached more translations, corrected typo's, aso. I have 
+> corrected smplayer's ts file, just please generate qm and smplayer 
+> will be fully usable. We have begun to translate virtualbox, synaptic 
+> manual, some small terminal commands - like eject help manual, or 
+> grep. Under translation aumix, dvdrip, kssh. I have included the long 
+> time missing (and somehow forgotten - my fault, sorry) install html 
+> (hu pictures included, just use it up), and other po files, sed, 
+> id-utils, tuxpaint, leafpad,kalbum (but this prog somehow everywhere 
+> crashing with english also, very buggy prog - sig11), tightvnc, wget, 
+> and cpio.
+>
+> Also we have saw that some programs what must be rebuilded with 
+> correctly optioned or for locals alredy prepared and packaged to get 
+> to be translated, like as Mplayer itself, or Flock.
+>
+> We have also filtered out 10 Mbyte of .desktop files, and their paths, 
+> but I don't know there is a possibility to filter out where 
+> comments[hu], and description[hu] not exists? This process cannot be a 
+> little bit automatized? Maybe with grep?? I have tried, but many 
+> things of it what I have become, were useless, and not the proper text 
+> what I'd like to see and fill up. Could you help a bit?
+>
+> HU Team,
+>
+> Zoltan
+i will procede those files tomorrow
+
+thanks for your hard work
+
+DidouPh
+
+
+
+From qla0 at vp.pl  Mon May 21 02:21:53 2007
+From: qla0 at vp.pl (qla)
+Date: Mon, 21 May 2007 02:21:53 +0200
+Subject: [Pclos-il8n-dev] k3b-pl
+Message-ID: <200705210221.53818.qla0@vp.pl>
+
+Hello,
+
+All .po files extracted from the sources k3b-i18n-1.0.1
+These files were already translated.
+Two only translations were added in k3b.po.
+
+qla
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: k3b-pl.tar.bz2
+Type: application/x-tbz
+Size: 92258 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070521/2a4a8cf0/attachment.bin>
+
+From didouph.ph at laposte.net  Mon May 21 08:52:53 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 21 May 2007 08:52:53 +0200
+Subject: [Pclos-il8n-dev] More translation
+In-Reply-To: <4650C055.4030806@gmail.com>
+References: <2f3d0f330705200905s3760352dsdd5010845d8bd60d@mail.gmail.com>
+	<4650C055.4030806@gmail.com>
+Message-ID: <465141C5.5010307@laposte.net>
+
+didouph a ?crit :
+> ? a ?crit :
+>> Hi Didouph!
+>>
+>> I have attached more translations, corrected typo's, aso. I have 
+>> corrected smplayer's ts file, just please generate qm and smplayer 
+>> will be fully usable. We have begun to translate virtualbox, synaptic 
+>> manual, some small terminal commands - like eject help manual, or 
+>> grep. Under translation aumix, dvdrip, kssh. I have included the long 
+>> time missing (and somehow forgotten - my fault, sorry) install html 
+>> (hu pictures included, just use it up), and other po files, sed, 
+>> id-utils, tuxpaint, leafpad,kalbum (but this prog somehow everywhere 
+>> crashing with english also, very buggy prog - sig11), tightvnc, wget, 
+>> and cpio.
+>>
+>> Also we have saw that some programs what must be rebuilded with 
+>> correctly optioned or for locals alredy prepared and packaged to get 
+>> to be translated, like as Mplayer itself, or Flock.
+>>
+>> We have also filtered out 10 Mbyte of .desktop files, and their paths, 
+>> but I don't know there is a possibility to filter out where 
+>> comments[hu], and description[hu] not exists? This process cannot be a 
+>> little bit automatized? Maybe with grep?? I have tried, but many 
+>> things of it what I have become, were useless, and not the proper text 
+>> what I'd like to see and fill up. Could you help a bit?
+>>
+>> HU Team,
+>>
+>> Zoltan
+> i will procede those files tomorrow
+>
+> thanks for your hard work
+>
+> DidouPh
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+the pictures for the install help hu documentation have been pulled down 
+! they are not all present and are adressed as absolute path in the html 
+source and pointing to english/original ones (not helpfull at all :) )
+
+i'm looking forward to see them in full
+
+a little reminder
+
+all pictures must be adressed as relative path on the patern : 
+install-help-[locale]/file.png
+
+for instance, if we want to address the first picture in hungarian : 
+<img src="install-help-hu/screenshot1.png">
+
+DidouPh
+
+
+
+From didouph.ph at laposte.net  Mon May 21 09:10:12 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 21 May 2007 09:10:12 +0200
+Subject: [Pclos-il8n-dev] latest additions
+Message-ID: <465145D4.4020109@laposte.net>
+
+added/updated :
+/other/hu/usr/share/doc/HTML/Install-hu.html
+/po/hu/cpio.po (82 untranslated, 10 fuzzy)
+/po/hu/id-utils.po (1 untranslated, 1 fuzzy)
+/po/hu/kalbum.po
+/po/hu/leafpad.po
+/po/hu/sed.po (1 untranslated, 1 fuzzy)
+/po/hu/smplayer_hu.ts (not sure if it is the appropriate place, i need 
+more informations about this file please)
+/po/hu/tightvnc.po
+/po/hu/tuxpaint.po(4 untranslated, 21 fuzzy)
+/po/hu/wget.po
+/po/pl/k3b.po 
+/po/pl/k3bsetup.po
+/po/pl/libk3bdevice.po
+/po/pl/libk3b.po
+
+
+rejected :
+
+see previous message for concerned files and reasons
+
+Good job
+
+DidouPh
+
+
+
+
+
+From didouph.ph at laposte.net  Mon May 21 14:19:10 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Mon, 21 May 2007 14:19:10 +0200
+Subject: [Pclos-il8n-dev] ion3
+Message-ID: <46518E3E.8030408@laposte.net>
+
+since the tiny-me team ported Ion3 as a RPM for pclinuxos, i yet told 
+you i added some language po to the cvs, so now i'm happy to announce 
+you that we have a french po for this wm
+
+i strongly invite you to provide your own po if they doesn't exist yet
+
+added :
+
+/po/fr/ion3.po
+
+i forward the file to the ion devs for addition to the releases and 
+recommand dubi to proof read this po and update it assap
+
+sounds like our work extands to the gnu world ans isn't limtated to 
+pclinuxos !!
+
+DidouPh
+
+
+From didouph at gmail.com  Mon May 21 14:23:05 2007
+From: didouph at gmail.com (didouph)
+Date: Mon, 21 May 2007 14:23:05 +0200
+Subject: [Pclos-il8n-dev] drakconfig
+In-Reply-To: <90d036570705210019v2a463ce1x1b4fafbbc037362b@mail.gmail.com>
+References: <90d036570705210019v2a463ce1x1b4fafbbc037362b@mail.gmail.com>
+Message-ID: <46518F29.4050405@gmail.com>
+
+denis barak a ?crit :
+> Hi didouph !!!
+>
+> As I been recently very busy, I've been late with translation. Here I 
+> send You a drakconfig.
+>
+> Denis
+added :
+/po/es/drakconf.po
+
+
+
+From didouph at gmail.com  Thu May 24 01:00:41 2007
+From: didouph at gmail.com (didouph)
+Date: Thu, 24 May 2007 01:00:41 +0200
+Subject: [Pclos-il8n-dev] drakconf
+Message-ID: <4654C799.40006@gmail.com>
+
+updated :
+other/usr/sbin/drakconf.real
+po/fr/drakconf.po
+
+the drakconf.po has been slightly updated with additional strings, i 
+would like all teams to check theyre translations and get it to conform 
+with the new po since it should now be 100% compliant with the current 
+version of drakconf real
+
+i'd like also to welcome our new teammate oleg aka pilotza, for russian 
+translation.
+
+feel free to send feedback and question on that list and not only to my 
+personal mail
+
+DidouPh
+
+
+From uznamer at interia.pl  Thu May 24 01:21:14 2007
+From: uznamer at interia.pl (Wladyslaw Pawlowski)
+Date: 24 May 2007 01:21:14 +0200
+Subject: [Pclos-il8n-dev] theme-pl.xml & theme2-pl.xml
+Message-ID: <20070523232114.E4451D54E8@poczta.interia.pl>
+
+Hi,
+
+These files are important for full translation of logging screen. I have noticed that some other national teams has already translated them also. It is located at /usr/share/apps/kdm/themes/Dark and /usr/share/apps/kdm/themes/Dark2
+
+Best regards - uznamer
+
+PS - I am just wondering how many other similar files are still untranslated within our whole distro?
+It looks like not only "po" and "help" files must be translated to master international PCLinuxOS 2007.
+May be some special scripts are necessary to do a part of this job automatically? I am only translator therefore I do not know how to do it.
+
+----------------------------------------------------------------------
+Glosuj i wygrywaj! Nagrody czekaja!
+>>> http://link.interia.pl/f1a83
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: theme2-pl.xml.tar.bz2
+Type: application/octet-stream
+Size: 1234 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070524/2f62a3f4/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: theme-pl.xml.tar.bz2
+Type: application/octet-stream
+Size: 1135 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070524/2f62a3f4/attachment-0001.obj>
+
+From didouph.ph at laposte.net  Thu May 24 01:46:09 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 24 May 2007 01:46:09 +0200
+Subject: [Pclos-il8n-dev] theme-pl.xml & theme2-pl.xml
+In-Reply-To: <20070523232114.E4451D54E8@poczta.interia.pl>
+References: <20070523232114.E4451D54E8@poczta.interia.pl>
+Message-ID: <4654D241.30601@laposte.net>
+
+Wladyslaw Pawlowski a ?crit :
+> Hi,
+>
+> These files are important for full translation of logging screen. I have noticed that some other national teams has already translated them also. It is located at /usr/share/apps/kdm/themes/Dark and /usr/share/apps/kdm/themes/Dark2
+>
+> Best regards - uznamer
+>
+> PS - I am just wondering how many other similar files are still untranslated within our whole distro?
+> It looks like not only "po" and "help" files must be translated to master international PCLinuxOS 2007.
+> May be some special scripts are necessary to do a part of this job automatically? I am only translator therefore I do not know how to do it.
+>
+> ----------------------------------------------------------------------
+> Glosuj i wygrywaj! Nagrody czekaja!
+>>>> http://link.interia.pl/f1a83
+>>>>
+>>>> ------------------------------------------------------------------------
+>>>>
+>>>> _______________________________________________
+>>>> Pclos-il8n-dev mailing list
+>>>> Pclos-il8n-dev at lists.berlios.de
+>>>> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+files added :
+
+other/usr/share/apps/kdm/themes/Dark/theme-pl.xml
+other/usr/share/apps/kdm/themes/Dark2/theme-pl.xml
+
+files updated :
+
+other/usr/share/apps/kdm/themes/Dark2/GdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark2/KdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark/GdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark/KdmGreeterTheme.desktop
+
+A few request related to those translations wich are still partial,
+
+1 : we need background images in Dark2 for translated languages aka : nl 
+& pl
+2 : we need pl translation of those four files in pl :
+other/usr/share/apps/kdm/themes/Dark2/GdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark2/KdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark/GdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark/KdmGreeterTheme.desktop
+
+3 : why do we don't have a hungarian version of Dark ?
+
+thanks for your input and don't forget about drakconf :P
+
+
+
+From didouph.ph at laposte.net  Thu May 24 19:30:40 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 24 May 2007 19:30:40 +0200
+Subject: [Pclos-il8n-dev] drakconf
+Message-ID: <4655CBC0.5020106@laposte.net>
+
+updated :
+other/usr/sbin/drakconf.real
+po/fr/drakconf.po
+
+use these as new bases for your translations
+
+DidouPh
+
+
+
+From jjdub at caramail.com  Thu May 24 19:35:44 2007
+From: jjdub at caramail.com (jean-jacques dubois)
+Date: Thu, 24 May 2007 17:35:44 +0000
+Subject: [Pclos-il8n-dev] About drakconf.real + drakconf.po
+Message-ID: <16346143342201@lycos-europe.com>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070524/92791401/attachment.html>
+
+From pilotza at gmail.com  Thu May 24 21:09:00 2007
+From: pilotza at gmail.com (Oleg Vinogradov)
+Date: Thu, 24 May 2007 23:09:00 +0400
+Subject: [Pclos-il8n-dev] Russian translation
+Message-ID: <88c68b100705241209h6c9cc4eeq9a4d35e1d94b320@mail.gmail.com>
+
+Hi Didouph!
+
+I am ready to translate, what I need to do and how ? I Can  start from 27 of
+may at evening.
+-- 
+Regards, Oleg
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070524/6550cc68/attachment.html>
+
+From didouph.ph at laposte.net  Thu May 24 23:18:41 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Thu, 24 May 2007 23:18:41 +0200
+Subject: [Pclos-il8n-dev] Russian translation
+In-Reply-To: <88c68b100705241209h6c9cc4eeq9a4d35e1d94b320@mail.gmail.com>
+References: <88c68b100705241209h6c9cc4eeq9a4d35e1d94b320@mail.gmail.com>
+Message-ID: <46560131.20207@laposte.net>
+
+ok since the explanation i gave you on the main forum arn't enough, here 
+comes some more directions
+
+
+po files :
+-> here are the reference files : 
+http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/po/fr/
+
+these are the french translation of files needed by applications to 
+translate onscreen messages
+they are composed of pairs of strings; 1 in english, a second in  
+french. grab the one that you want to translate and replace the french 
+string with a russian translation of the french one
+
+-> here are the translated po for your locale : 
+http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/po/**/ 
+(replace xx by your language code)
+
+this is where translated and partly translated to your language files 
+will be stored for the community to have access to them
+
+how to edit those po ? install kbabel trough synaptic
+
+use it as your main application for translating po files, its interface 
+is prety straight forward and will be prety easy to nderstand
+
+desktop files :
+
+-> here are the reference files : 
+http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/desktop-files/
+
+-> here is an answer to the question HOWTO? : 
+http://didouph.free.fr/wiki?TranslatingIcons
+
+documentation / other : just ask and you'll get answer, reference files 
+are here : 
+http://cvs.berlios.de/cgi-bin/viewcvs.cgi/pclos-il8n/CVSROOT/other/
+
+check the "original" subfolder to fall on the original pclinuxos 
+"embeded" minimal documentation wich needs to be translated in as many 
+language as possible.
+
+
+
+Where to start ? ... well it's up to you but i would strongly recommand 
+you to start slow then hit big ...
+
+here is a sample roadmap :
+
+
+1 : core system po translation
+bootsplash.po
+drakconf.po
+drakliveinstall.po
+drakmenustyle.po
+libDrakX.po
+libDrakX-standalone.po
+userdrake.po
+
+2 : core documentation
+/usr/share/doc/HTML/Install.html
+/usr/share/doc/HTML/index.html
+and linked / associated files (ie : screenshot for installation manual
+
+3 : menu entryes :
+all the desktop files !!!
+
+4 : just fill in the blanks
+
+----------------------
+
+very important ... each time a file is translated, send it over the 
+mailing list for test and addition to the CVS three !! don't forget the 
+submission policy
+
+----------------------
+
+Report any bug found
+
+send any file not spoted by us and that would be usefull to the 
+translation of the os... for instance the po to a software translated in 
+no language or the po to a software that is only translated to russian 
+so we can add it to the trunk of the translation !!
+
+all that, report it to the mailing list
+
+i will copy this message to the forum
+
+
+and consider it as a completment to this thread : 
+http://www.mypclinuxos.com/index.php?option=com_smf&Itemid=6&topic=1012.0
+
+welcome aboard
+
+DidouPh
+
+
+From qla0 at vp.pl  Fri May 25 00:28:51 2007
+From: qla0 at vp.pl (qla)
+Date: Fri, 25 May 2007 00:28:51 +0200
+Subject: [Pclos-il8n-dev] Polish kdm files - Dark and Dark2
+Message-ID: <200705250028.51483.qla0@vp.pl>
+
+Hi,
+
+Polish kdm files:
+
+other/usr/share/apps/kdm/themes/Dark2/GdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark2/KdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark2/theme.xml
+other/usr/share/apps/kdm/themes/Dark/GdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark/KdmGreeterTheme.desktop
+other/usr/share/apps/kdm/themes/Dark/theme.xml
+
+qla
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: kdm_files_pl.tar.bz2
+Type: application/x-tbz
+Size: 2362 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070525/12d8a645/attachment.bin>
+
+From qla0 at vp.pl  Fri May 25 02:39:31 2007
+From: qla0 at vp.pl (qla)
+Date: Fri, 25 May 2007 02:39:31 +0200
+Subject: [Pclos-il8n-dev] bootsplash  pictures - pl
+Message-ID: <200705250239.31471.qla0@vp.pl>
+
+Hi.
+Bootsplash pictures translated to Polish
+
+bootsplash-1024x768.jpg
+bootsplash-1024x768.png
+bootsplash-1280x1024.jpg
+bootsplash-1280x1024.png
+bootsplash-1600x1200.jpg
+bootsplash-1600x1200.png
+bootsplash-800x600.jpg
+bootsplash-800x600.png
+
+qla
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Bootsplash-pl.tar.bz2
+Type: application/x-tbz
+Size: 1984975 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070525/86f8242c/attachment.bin>
+
+From didouph.ph at laposte.net  Fri May 25 08:58:32 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 25 May 2007 08:58:32 +0200
+Subject: [Pclos-il8n-dev] Polish kdm files - Dark and Dark2
+In-Reply-To: <200705250028.51483.qla0@vp.pl>
+References: <200705250028.51483.qla0@vp.pl>
+Message-ID: <46568918.7050007@laposte.net>
+
+qla a ?crit :
+> Hi,
+>
+> Polish kdm files:
+>
+> other/usr/share/apps/kdm/themes/Dark2/GdmGreeterTheme.desktop
+> other/usr/share/apps/kdm/themes/Dark2/KdmGreeterTheme.desktop
+> other/usr/share/apps/kdm/themes/Dark2/theme.xml
+> other/usr/share/apps/kdm/themes/Dark/GdmGreeterTheme.desktop
+> other/usr/share/apps/kdm/themes/Dark/KdmGreeterTheme.desktop
+> other/usr/share/apps/kdm/themes/Dark/theme.xml
+>
+> qla
+>   
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+i will updathe this on the server this evening
+
+thanks
+
+
+
+From didouph.ph at laposte.net  Fri May 25 08:59:02 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 25 May 2007 08:59:02 +0200
+Subject: [Pclos-il8n-dev] bootsplash  pictures - pl
+In-Reply-To: <200705250239.31471.qla0@vp.pl>
+References: <200705250239.31471.qla0@vp.pl>
+Message-ID: <46568936.8020405@laposte.net>
+
+qla a ?crit :
+> Hi.
+> Bootsplash pictures translated to Polish
+>
+> bootsplash-1024x768.jpg
+> bootsplash-1024x768.png
+> bootsplash-1280x1024.jpg
+> bootsplash-1280x1024.png
+> bootsplash-1600x1200.jpg
+> bootsplash-1600x1200.png
+> bootsplash-800x600.jpg
+> bootsplash-800x600.png
+>
+> qla
+>   
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>   
+i will updathe this too this evening
+
+
+
+From pilotza at gmail.com  Fri May 25 16:57:32 2007
+From: pilotza at gmail.com (Oleg Vinogradov)
+Date: Fri, 25 May 2007 18:57:32 +0400
+Subject: [Pclos-il8n-dev] bootsplash_russian
+In-Reply-To: <88c68b100705250741o67c6a63cs98aa9011396d4141@mail.gmail.com>
+References: <88c68b100705250741o67c6a63cs98aa9011396d4141@mail.gmail.com>
+Message-ID: <88c68b100705250757n5d47c84mb0b81624a502b5e5@mail.gmail.com>
+
+Here the first file for Russian translation
+
+
+-- 
+Regards, Oleg
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070525/80f787b0/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: bootsplash.po.tar.gz
+Type: application/x-gzip
+Size: 689 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070525/80f787b0/attachment.bin>
+
+From qla0 at vp.pl  Sat May 26 01:06:16 2007
+From: qla0 at vp.pl (qla)
+Date: Sat, 26 May 2007 01:06:16 +0200
+Subject: [Pclos-il8n-dev] tightvnc_pl
+Message-ID: <200705260106.16751.qla0@vp.pl>
+
+Hi,
+tightvnc - Polish translation 
+
+qla
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: tightvnc_pl_v1.1.po.tar.bz2
+Type: application/x-tbz
+Size: 2126 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20070526/6c4a0872/attachment.bin>
+
+From didouph at gmail.com  Sat May 26 09:01:52 2007
+From: didouph at gmail.com (didouph)
+Date: Sat, 26 May 2007 09:01:52 +0200
+Subject: [Pclos-il8n-dev] lattest addition
+Message-ID: <4657DB60.8090705@gmail.com>
+
+added :
+
+po/fr/ktorrent.po
+po/ru/bootsplash.po
+
+other/pl/usr/share/bootsplash/themes/PCLinuxOS/images/bootsplash-1024x768.jpg
+other/pl/usr/share/bootsplash/themes/PCLinuxOS/images/bootsplash-1024x768.png
+other/pl/usr/share/bootsplash/themes/PCLinuxOS/images/bootsplash-1280x1024.jpg
+other/pl/usr/share/bootsplash/themes/PCLinuxOS/images/bootsplash-1280x1024.png
+other/pl/usr/share/bootsplash/themes/PCLinuxOS/images/bootsplash-1600x1200.jpg
+other/pl/usr/share/bootsplash/themes/PCLinuxOS/images/bootsplash-1600x1200.png
+other/pl/usr/share/bootsplash/themes/PCLinuxOS/images/bootsplash-800x600.jpg
+other/pl/usr/share/bootsplash/themes/PCLinuxOS/images/bootsplash-800x600.png
+
+i'm sorry not to have submitted all file, but i'm checking all 
+submissions anew since the pl file i just received for kdm theme are 
+based on outdated version so i'm ... a bit overburden atm ...
+
+just consider that i won't be here for ever and won't notice everytime 
+that the submissions are based on deprecated files ... so pay attention 
+!!! qla, this is the second time, it happens, please, make sure you're 
+working on latest version, i report all changes to the cvs in this list 
+so it's kinda easy to notice that you're working on a modified file !!
+
+all other files will be processed assap
+
+DidouPh
+
+
+From didouph.ph at laposte.net  Sat May 26 09:16:35 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 26 May 2007 09:16:35 +0200
+Subject: [Pclos-il8n-dev]  lattest addition
+Message-ID: <4657DED3.7020803@laposte.net>
+
+added :
+
+M other/usr/share/apps/kdm/themes/Dark/GdmGreeterTheme.desktop
+M other/usr/share/apps/kdm/themes/Dark/KdmGreeterTheme.desktop
+M other/usr/share/apps/kdm/themes/Dark/theme-pl.xml
+M other/usr/share/apps/kdm/themes/Dark2/GdmGreeterTheme.desktop
+M other/usr/share/apps/kdm/themes/Dark2/KdmGreeterTheme.desktop
+M other/usr/share/apps/kdm/themes/Dark2/theme-pl.xml
+
+
+From didouph.ph at laposte.net  Sat May 26 09:19:20 2007
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Sat, 26 May 2007 09:19:20 +0200
+Subject: [Pclos-il8n-dev]  lattest addition
+Message-ID: <4657DF78.5060009@laposte.net>
+
+added :
+
+po/pl/tightvnc.po
+
+thanks for your submissions
+
+DidouPh
+
+
+

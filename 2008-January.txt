@@ -1,0 +1,25 @@
+From david at smidovi.eu  Tue Jan 29 15:50:14 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 29 Jan 2008 15:50:14 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch,
+	czech translation and create_po utility
+Message-ID: <479F3D26.305@smidovi.eu>
+
+Hello,
+
+Here is all you need to translate VIT (Video Installation Tool).
+As this tool changes pretty often, I made a utility create_po that is capable to 
+  extract new untranslated messages from the vit script and add them to existing 
+.po file.
+
+You'll need to patch the vit script with my i18n patch [ patch -p0 < 
+vit.i18n.patch ] or to wait till the patched version appears in testing.
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit.tgz
+Type: application/x-compressed-tar
+Size: 3589 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080129/b27f09ed/attachment.bin>
+

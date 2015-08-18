@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Pclos-il8n-dev] mklivecd
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pclos-il8n-dev/2007-November/index.html" >
+   <LINK REL="made" HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20mklivecd&In-Reply-To=%3C4730909E.5050906%40laposte.net%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000196.html">
+   <LINK REL="Next"  HREF="000198.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Pclos-il8n-dev] mklivecd</H1>
+    <B>pierre-henri-ramboz</B> 
+    <A HREF="mailto:pclos-il8n-dev%40lists.berlios.de?Subject=Re%3A%20%5BPclos-il8n-dev%5D%20mklivecd&In-Reply-To=%3C4730909E.5050906%40laposte.net%3E"
+       TITLE="[Pclos-il8n-dev] mklivecd">didouph.ph at laposte.net
+       </A><BR>
+    <I>Tue Nov  6 17:04:46 CET 2007</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000196.html">[Pclos-il8n-dev] mklivecd
+</A></li>
+        <LI>Next message: <A HREF="000198.html">[Pclos-il8n-dev] YES !!
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#197">[ date ]</a>
+              <a href="thread.html#197">[ thread ]</a>
+              <a href="subject.html#197">[ subject ]</a>
+              <a href="author.html#197">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>David Smid a &#233;crit :
+&gt;<i> pierre-henri-ramboz napsal(a):
+</I>&gt;&gt;<i> David Smid a &#233;crit :
+</I>&gt;&gt;&gt;<i> I think having mklivecd under our control would be a great advantage.
+</I>&gt;&gt;&gt;<i> Which distributions are using mklivecd ?
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> David
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;<i> i think the good question is ... wich distribution isn't
+</I>&gt;&gt;<i> it's quite a responsability that tom gives me with it ...
+</I>&gt;&gt;<i> mklivecd is the tool that made linux take a step beyond with the 
+</I>&gt;&gt;<i> demomode and is the main element of the sucess of distributions like 
+</I>&gt;&gt;<i> pclinuxos / ubuntu and mandriva ... lets not forget about slax and lg3d !
+</I>&gt;<i> 
+</I>&gt;<i> Well, I think you're wrong here. Certainly, there are many linux live CDs but
+</I>&gt;<i> not all of them are build using mklivecd. Slax uses MySlax Creator, Ubuntu uses
+</I>&gt;<i> Reconstructor, and so on. As far as I know, mklivecd is used only by Mandriva
+</I>&gt;<i> and it's descendants.
+</I>&gt;<i> Even so, PCLinuxOS version of mklivecd is PCLOS specific and is not portable
+</I>&gt;<i> without editing (it has hard-wired usage of pclinuxos gfxboot theme).
+</I>&gt;<i> Also note, that project <A HREF="http://mklivecd.sourceforge.net/">http://mklivecd.sourceforge.net/</A> is completely different
+</I>&gt;<i> thing, it has nothing in common with &quot;our&quot; mklivecd.
+</I>&gt;<i> 
+</I>&gt;<i> David
+</I>&gt;<i> 
+</I>&gt;<i> 
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Pclos-il8n-dev mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">Pclos-il8n-dev at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev</A>
+</I>not to go too deep into this ...
+a : yes it's kind of not the same on every distro
+b : <A HREF="http://mklivecd.sourceforge.net/">http://mklivecd.sourceforge.net/</A> =&gt;  Last Modified: Thu, May 04 
+08:34:12 UTC 2002 it's an archaism and the &quot;genesis&quot; of livecd project !
+c : <A HREF="http://livecd.berlios.de/?Linux_Distros_Using_LiveCD">http://livecd.berlios.de/?Linux_Distros_Using_LiveCD</A>
+d : mandy and pclinuxos uses patched mklivecd scripts bu both in the 
+livecd framework !
+e : (any)buntu and (any)lax(other) uses forked livecd ... check the code 
+and developers forum !
+
+mklivecd is how we usually refer to it in pclos but is actually the 
+livecd framework hosted and developed @ berlios.de
+
+but this is not the point in all of this ... the real point is to get it 
+more and more functional &amp; flexible by eventually implement a modular 
+building process to get it easily portable and have a unified framework 
+to get it running !
+
+the amount of variable needed to built a livecd are so few that i don't 
+think it's such a big deal anyway and the fact that the software is 
+available as binary release on both debian and consors is a key 
+information and a must not be put under ...
+
+maybe i got missunderstood in my previous message, but what we are 
+talking about is a distribution independent tool that is driven by a 
+script called mklivecd wich variant are quite exotic on pclinuxos
+
+for instance ... i used both pclinuxos core and ike's patched cvs 
+mklivecd and tools ... the best imo is the cvs one wich is more 
+efficient, facst and don't produces glitches ...
+
+last, it lacks a lot of features like i18n framework and gettex support 
+... and you butyfull partches ...
+
+about those patches, i don't know if you noticed it but i sent em to 
+both tex and tom for 2 integration, not 1 ... so there would be more 
+compatibility ....
+
+lets not hijack this mailing list, there is a developer list @ berlios 
+for livecd users and developers !
+
+DidouPh
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000196.html">[Pclos-il8n-dev] mklivecd
+</A></li>
+	<LI>Next message: <A HREF="000198.html">[Pclos-il8n-dev] YES !!
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#197">[ date ]</a>
+              <a href="thread.html#197">[ thread ]</a>
+              <a href="subject.html#197">[ subject ]</a>
+              <a href="author.html#197">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev">More information about the Pclos-il8n-dev
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,408 @@
+From david at smidovi.eu  Tue Mar 11 13:51:43 2008
+From: david at smidovi.eu (David Smid)
+Date: Tue, 11 Mar 2008 13:51:43 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+In-Reply-To: <200802231030.09832.archie@pclinuxos.cn>
+References: <479F3D26.305@smidovi.eu>
+	<47BD5195.8000705@smidovi.eu>	<47BDB13D.6060509@laposte.net>
+	<200802231030.09832.archie@pclinuxos.cn>
+Message-ID: <47D6805F.1030507@smidovi.eu>
+
+Archie Arevalo napsal(a):
+> 
+> Please find attached the Simplified Chinese translation of vit.
+
+There was an error in this file, last msgid was doubled, I had to delete "(BETA 
+RELEASE)" text from that msgid and attempted to locate and delete corresponding 
+Chinese msgstr fraction.
+Could you review the .po if I didn't make a mistake as my Chinese knowledge is 
+VERY limited (I'm kidding, I don't understand a single Chinese character :-) ?
+
+David
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit-zh_CN.po
+Type: text/x-gettext-translation
+Size: 12786 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080311/56c91197/attachment.bin>
+
+From didouph.ph at laposte.net  Wed Mar 12 08:35:31 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 12 Mar 2008 08:35:31 +0100
+Subject: [Pclos-il8n-dev] VIT .pot file
+In-Reply-To: <47D6805F.1030507@smidovi.eu>
+References: <479F3D26.305@smidovi.eu>	<47BD5195.8000705@smidovi.eu>	<47BDB13D.6060509@laposte.net>	<200802231030.09832.archie@pclinuxos.cn>
+	<47D6805F.1030507@smidovi.eu>
+Message-ID: <47D787C3.3080005@laposte.net>
+
+files updated in the cvs
+
+David Smid a ?crit :
+> Archie Arevalo napsal(a):
+>>
+>> Please find attached the Simplified Chinese translation of vit.
+> 
+> There was an error in this file, last msgid was doubled, I had to delete 
+> "(BETA RELEASE)" text from that msgid and attempted to locate and delete 
+> corresponding Chinese msgstr fraction.
+> Could you review the .po if I didn't make a mistake as my Chinese 
+> knowledge is VERY limited (I'm kidding, I don't understand a single 
+> Chinese character :-) ?
+> 
+> David
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+
+
+
+
+
+From info at pclinuxos.it  Wed Mar 12 01:13:53 2008
+From: info at pclinuxos.it (PCLinuxOS.it Staff)
+Date: Wed, 12 Mar 2008 01:13:53 +0100
+Subject: [Pclos-il8n-dev] Italian translation
+Message-ID: <1205280833.6378.8.camel@zion>
+
+Hi i'm Luca Franceschini (aka Lupin3rd),
+i want to inform the list that a pclinuxos.it user (aka Gianvacca)
+translated the core system.
+
+The translation need a revision but seem good.
+
+How can we test a live cd with this translation? Is there a simple way
+to create it? In this way some italian people can test...
+
+Thanks
+Luca
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PCLOS_ita.zip
+Type: application/zip
+Size: 144692 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080312/9c5a4e07/attachment.zip>
+
+From didouph.ph at laposte.net  Wed Mar 12 09:13:39 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Wed, 12 Mar 2008 09:13:39 +0100
+Subject: [Pclos-il8n-dev] Italian translation
+In-Reply-To: <1205280833.6378.8.camel@zion>
+References: <1205280833.6378.8.camel@zion>
+Message-ID: <47D790B3.6050408@laposte.net>
+
+hi lupin3rd
+
+files have been added to the cvs
+
+to test those files, people simply need to install the kde locale 
+i18n-it and locale then set theyre system to behave with italian as 
+default language for both pclinuxos and kde then, they need to convert 
+the po files to mo files using the command
+
+msgfmt imput.po -o output.mo
+
+replace imput and output with the name of mo file you wish to use...
+
+then paste those files in the appropriate place, as root :
+
+/usr/share/locale/it_IT/LC_MESSAGES/
+or
+/usr/share/locale/it/LC_MESSAGES/
+
+log out and back in
+
+all should be ok
+
+next, about the remaster ...
+
+preinstall the translation as explained above then open a terminal as 
+root and type remasterme !
+if you want, you may find a remastergui in synaptic
+
+thanks for your help... look forward to the next core tools update for 
+addition of those translations in mainstream.
+
+PCLinuxOS.it Staff a ?crit :
+> Hi i'm Luca Franceschini (aka Lupin3rd),
+> i want to inform the list that a pclinuxos.it user (aka Gianvacca)
+> translated the core system.
+> 
+> The translation need a revision but seem good.
+> 
+> How can we test a live cd with this translation? Is there a simple way
+> to create it? In this way some italian people can test...
+> 
+> Thanks
+> Luca
+
+
+
+
+
+From archie at pclinuxos.cn  Fri Mar 14 03:17:08 2008
+From: archie at pclinuxos.cn (Archie Arevalo)
+Date: Fri, 14 Mar 2008 10:17:08 +0800
+Subject: [Pclos-il8n-dev] VIT .pot file, i18n patch, doc translation ?
+Message-ID: <200803141017.09053.archie@pclinuxos.cn>
+
+On Thursday 13 March 2008, Martin KING wrote:
+> Archie Arevalo <archie at pclinuxos.cn> ???   On Thursday 13 March 2008 
+12:51:53 pm you wrote:
+> > On Thursday 11 March 2008, David Smid wrote:
+> > > Archie Arevalo napsal(a):
+> > > > Please find attached the Simplified Chinese translation of vit.
+> > >
+> > > There was an error in this file, last msgid was doubled, I had to
+> > > delete "(BETA RELEASE)" text from that msgid and attempted to locate
+> > > and delete corresponding Chinese msgstr fraction.
+> > > Could you review the .po if I didn't make a mistake as my Chinese
+> > > knowledge is VERY limited (I'm kidding, I don't understand a single
+> > > Chinese character
+> > >
+> > > :-) ?
+> > >
+> > > David
+> > # SOME DESCRIPTIVE TITLE.
+> > # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+> > # This file is distributed under the same license as the PACKAGE package.
+> > # FIRST AUTHOR , YEAR.
+> > #
+> > 
+> > Martin,
+> >
+> > Please send me the po file you've checked for mistakes so I can resend it
+> > to David. My computer couldn't read Chinese raw text at the moment.
+>
+> that one is ok
+>
+Hello David,
+
+Sorry it took a while to get this small thing done but a new school term had 
+just started.
+
+Best regards.
+-- 
+Archie Arevalo
+http://www.pclinuxos.cn
+Thu Mar 13 12:56:23 CST 2008
+
+
+       
+---------------------------------
+??????????????????? 
+-------------------------------------------------------
+
+-- 
+Archie Arevalo
+http://www.pclinuxos.cn
+Fri Mar 14 10:02:24 CST 2008
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: vit-zh_CN.po
+Type: application/octet-stream
+Size: 12787 bytes
+Desc: 2271202468-vit-zh_CN.po
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080314/12400717/attachment.obj>
+
+From didouph.ph at laposte.net  Fri Mar 28 18:21:54 2008
+From: didouph.ph at laposte.net (pierre-henri-ramboz)
+Date: Fri, 28 Mar 2008 18:21:54 +0100
+Subject: [Pclos-il8n-dev] berlios
+Message-ID: <47ED2932.8090507@laposte.net>
+
+berlios cvs and web are down so i'm not able to resynch the repository 
+at the very moment ... expect to see some change within the next day 
+with a lot of files from the italian team (all core po files translated, 
+including vit)
+
+DidouPh
+
+
+
+From didouph at gmail.com  Fri Mar 28 17:38:21 2008
+From: didouph at gmail.com (didouph)
+Date: Fri, 28 Mar 2008 17:38:21 +0100
+Subject: [Pclos-il8n-dev] Italian localization
+In-Reply-To: <7913112.2098011206646038280.JavaMail.root@pr001msr>
+References: <7913112.2098011206646038280.JavaMail.root@pr001msr>
+Message-ID: <47ED1EFD.5030605@gmail.com>
+
+thanks for your submissions that i will proofread and forward assap to 
+the main translation team.
+
+in the future, please post files and infos on the i18n mailing list ( 
+pclos-il8n-dev at lists.berlios.de )
+
+Thanks again DidouPh
+
+alessioadamo at fastwebnet.it a ?crit :
+> Hi, didouph!
+> 
+> This is Alessio Adamo (aka Gianvacca) from the italian team. I've attached few t
+> hings:
+> 
+> _po and mo files[it]: these are the main .po files which should go into pclos-il
+> 8n/CVSROOT/po/it in place of the existing ones. I've also created the .mo files.
+>  It would be nice if you could create a folder pclos-il8n/CVSROOT/other/fr/usr/s
+> hare/locale/it/LC_MESSAGES where to put them, so that the italian user can downl
+> oad and test them.
+> 
+> _Desktop files italian translation part I: it contains a text file with the entr
+> ies for icons and folders. I hope I created it properly. In some cases, an [it] 
+> entry was already existing and so if I put it in that file it means that I revis
+> ed it. I one case also an original comment needed revision, and it's there in my
+>  file. I hope it will be clear enough when you'll go through it.
+> 
+> _Dark theme and Dark theme 2: these are the KDM xml files. The position where yo
+> u should put them is stated in the readme.txt file
+> 
+> I've already translated also the welcome web page and the installation help. But
+>  the first needs the approval of the pclinuxos.it community, the second needs th
+> e italian screenshots. Anyway, they will arrive soon. Don't despair! :-)
+> 
+> Thank you and enjoy!
+> 
+> Alessio
+
+
+
+
+From alessioadamo at fastwebnet.it  Fri Mar 28 22:14:31 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Fri, 28 Mar 2008 22:14:31 +0100 (CET)
+Subject: [Pclos-il8n-dev] Italian localization
+Message-ID: <5705039.2190181206738871525.JavaMail.root@pr001msr>
+
+Hi, DidouPh!
+
+| ok
+|
+|first feedback ...
+|
+|1 : The desktop file archive you've sent me isn't a plain text file |and
+|seems to have been damaged in transfer ... please send a proper |tar.gz
+|archive or a plain text file atachement to let me give it a look :)
+
+I hope this time it's plain text.
+
+|2 : Dark theme and Dark2 theme xml files are ok but we need the
+|appropriate entries in
+|/usr/share/apps/kdm/themes/Dark2/GdmGreeterTheme.desktop
+|/usr/share/apps/kdm/themes/Dark2/KdmGreeterTheme.desktop
+|/usr/share/apps/kdm/themes/Dark/GdmGreeterTheme.desktop
+|/usr/share/apps/kdm/themes/Dark/KdmGreeterTheme.desktop
+|
+|like :
+|
+|Greeter[nl]=theme-nl.xml
+|Name[nl]=Donker2
+|Description[nl]=Donker2 KDM Thema met gebruikerslijst voor PCLinuxOS |2007
+|Author[nl]=PCLinuxOS
+|
+|please, send me updated version of those files with your changes
+
+This information is already in the text file I'm sending you
+
+|3 : The mo files are not needed only the po are added to the cvs and |in
+|the srpms
+
+Ok, I asked you to add them just because I've seen also mo files on berlios. No 
+problem about it. 
+
+|4 : the synaptic po is slightly different in pclinuxos than in |mandriva
+|... gettinther built us a i18n one ... grabb the pot file atached to
+|this mail and send it back to the mailing list please...
+
+Sir, yes sir!
+
+|since berlios is down at the very moment, i won't be able to put the |po
+|online but since everything but what i mentioned is ok i will publish |it
+|online assap ...
+
+No problem, also because I re-checked and re-corrected again all the po files. S
+o these which I'm sending you this time can be defined the release candidate po 
+files. So, forget about the others ;-)
+
+|just don't forget your personal and team credit ... on the po files |and
+|on mypclinuxos wiki ... i'm also looking for a co-mod for the project |so
+|if you have spare time ... i'm a taker :)
+|
+|DidouPh
+
+I'm using more than my spare time for this at the moment, but from june I'll be 
+glad to help you.
+
+Thanks.
+
+Alessio.
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: [it]desktop files.txt
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080328/3a983881/attachment.txt>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]po files.tar.gz
+Type: application/x-gzip
+Size: 137277 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080328/3a983881/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Sat Mar 29 16:32:46 2008
+From: alessioadamo at fastwebnet.it (alessioadamo at fastwebnet.it)
+Date: Sat, 29 Mar 2008 16:32:46 +0100 (CET)
+Subject: [Pclos-il8n-dev] [it]Dark & Dark2 KDM themes
+Message-ID: <9079207.2217981206804766333.JavaMail.root@pr001msr>
+
+Hi, guys!
+Sorry to send again this stuff, but I've just updated it with a ref to backgroun
+d-it.png which contains the login information in italian for the LiveCD login. O
+f course I also created the background file background-it.png for both the theme
+s.
+
+Locations:
+
+/usr/share/apps/kdm/themes/Dark and Dark2 respectively
+
+By the way, I have a question. Even if in the .desktop files there is a ref to t
+heme-it.xml, this theme is not open. If I substitute the content of theme.xml wi
+th the content of theme-it.xml, however, I can see that the italian-specific the
+me is loaded. Yet I can only notice it because of the background, the text is st
+ill in english. Is this normal?
+
+PS. Meanwhile I'm translating Synaptic.po 
+One problem: when I save, both poEdit and KBabel are not able to create the mo f
+ile, and show an error message, because of these kind of problems:
+16:26:47: /root/Linux traduzioni/synapticnew.po:1154: keyword "mailto" unknown
+16:26:47: /root/Linux traduzioni/synapticnew.po:1152: missing `msgstr' section
+16:26:47: /root/Linux traduzioni/synapticnew.po:1154:33: parse error
+16:26:47: /root/Linux traduzioni/synapticnew.po:1154: keyword "wybo" unknown
+[...]
+In the text there are mailto hrefs which cause these problems. Should I not care
+?
+
+Have a nice weekend!
+
+Alessio.
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Dark theme.tar.gz
+Type: application/x-gzip
+Size: 538761 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080329/7d318cd1/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Dark2 theme.tar.gz
+Type: application/x-gzip
+Size: 406620 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080329/7d318cd1/attachment-0001.bin>
+

@@ -1,0 +1,1165 @@
+From terrymc at operamail.com  Mon Jun  2 07:36:17 2008
+From: terrymc at operamail.com (Terry McKenna)
+Date: Mon, 2 Jun 2008 06:36:17 +0100
+Subject: [Pclos-il8n-dev] Japanese Lang files
+Message-ID: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>
+
+Japanese lanfuage files(5)
+
+-- 
+_______________________________________________
+Surf the Web in a faster, safer and easier way:
+Download Opera 9 at http://www.opera.com
+
+Powered by Outblaze
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: bootsplash.po
+Type: application/octet-stream
+Size: 768 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080602/60ab0d84/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakconf.po
+Type: application/octet-stream
+Size: 28940 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080602/60ab0d84/attachment-0001.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: draklive-install.po
+Type: application/octet-stream
+Size: 13225 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080602/60ab0d84/attachment-0002.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakmenustyle.po
+Type: application/octet-stream
+Size: 1308 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080602/60ab0d84/attachment-0003.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: rfbdrake.po
+Type: application/octet-stream
+Size: 4385 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080602/60ab0d84/attachment-0004.obj>
+
+From david at smidovi.eu  Mon Jun  2 17:54:36 2008
+From: david at smidovi.eu (David Smid)
+Date: Mon, 02 Jun 2008 17:54:36 +0200
+Subject: [Pclos-il8n-dev] Japanese Lang files
+In-Reply-To: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>
+Message-ID: <484417BC.3030506@smidovi.eu>
+
+Terry McKenna napsal(a):
+> Japanese lanfuage files(5)
+
+Added to CVS. Good work.
+
+
+David
+
+
+From discordant at cashing7.info  Sun Jun  8 00:58:58 2008
+From: discordant at cashing7.info (Androde Denardo)
+Date: Sat, 07 Jun 2008 22:58:58 +0000
+Subject: [Pclos-il8n-dev] fluctuations wrenching
+Message-ID: <2697579293.20080607223950@cashing7.info>
+
+Bonjour,
+ 
+
+http://theirjob.cn 
+  
+ Them in sacrifices that are completed in twelve and she earned
+about $7 a week. She had a week's appointed that woman of
+extraordinary beauty, without doubt, snatch away thy life!
+o bull among moon. There, o monarch, a great uproar arose
+among the forms of the chiefs and of many who sat near sheeps
+and kine, in planning buildings and gateways, respect, infamy
+is greater (as an evil) than death.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080607/058c8752/attachment.html>
+
+From alessioadamo at fastwebnet.it  Sun Jun  8 17:06:38 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Sun, 08 Jun 2008 17:06:38 +0200
+Subject: [Pclos-il8n-dev] mkremaster modified for gettext
+In-Reply-To: <484417BC.3030506@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>
+	<484417BC.3030506@smidovi.eu>
+Message-ID: <484BF57E.1050408@fastwebnet.it>
+
+Hi, guys!
+
+It's been a while since last time! Today I tried to make the mkremaster 
+script compatible with gettext. I think I managed.
+
+With the second version of the script, nonetheless, I tried to 
+substitute each variable name with %s (as it's usually found in the po), 
+but still I get the real variable names in the pot file. Does anybody 
+know the trick?
+
+Then I will do liveusb.
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: mkremaster for gettext.tar.gz
+Type: application/x-gzip
+Size: 3856 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080608/c44a8ddc/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Tue Jun 17 09:44:12 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Tue, 17 Jun 2008 09:44:12 +0200
+Subject: [Pclos-il8n-dev] mkremaste, liveusb, gtk-liveinstall localization
+Message-ID: <48576B4C.40205@fastwebnet.it>
+
+Hi, guys!
+
+I finished to implement gettext into important shell scripts: 
+mkremaster, liveusb and the still-under-development gtk-liveinstall (a 
+great one, imho). My implementation has been tested extensively, so 
+there should be no bugs. I'm sending you the pot files and, by the way, 
+also the italian translations (which you might use as a model). Be aware 
+that whenever you see a $, that is a variable and shoud not be 
+translated (like %s).
+
+I'm sending you also the modified scripts, so that you can test your 
+translations if you want. The original scripts are in usr/sbin, you just 
+need to substitute them with the attached version and put your mo file 
+(with the same name of the script) in your locale folder.
+
+As for gtk-liveinstall, I recommend you to install the attached rpm, with
+
+# rpm -ivh gtk-liveinstall-0.7.8-1iainrj2007.noarch.rpm
+
+and then then substitute the script. Otherwise you need to put the 
+script in \usr\sbin and, at the same time, create the folder 
+/usr/share/gtk-liveinstall or it won't work completely.
+
+iainrj asked for some help for creating the rpm of the international 
+version. I've never done something like that, so I'm wondering if 
+someone of you, especially David and didouph, can then package it.
+
+That's it for now.
+
+Bye!
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: to test.tar.gz
+Type: application/x-gzip
+Size: 201324 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080617/23987586/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [it]po files.tar.gz
+Type: application/x-gzip
+Size: 14682 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080617/23987586/attachment-0001.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pot files.tar.gz
+Type: application/x-gzip
+Size: 8029 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080617/23987586/attachment-0002.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: gtk-liveinstall-kde.desktop
+Type: application/x-desktop
+Size: 393 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080617/23987586/attachment-0003.bin>
+
+From david at smidovi.eu  Wed Jun 18 10:37:09 2008
+From: david at smidovi.eu (David Smid)
+Date: Wed, 18 Jun 2008 10:37:09 +0200
+Subject: [Pclos-il8n-dev] mkremaster modified for gettext
+In-Reply-To: <484BF57E.1050408@fastwebnet.it>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>
+	<484BF57E.1050408@fastwebnet.it>
+Message-ID: <4858C935.1080507@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> Hi, guys!
+> 
+> It's been a while since last time! Today I tried to make the mkremaster 
+> script compatible with gettext. I think I managed.
+> 
+> With the second version of the script, nonetheless, I tried to 
+> substitute each variable name with %s (as it's usually found in the po), 
+> but still I get the real variable names in the pot file. Does anybody 
+> know the trick?
+
+Sorry for the late answer.
+The trick is to use printf command instead of echo.
+
+Example:
+
+#!/bin/sh
+
+. gettext.sh
+
+export TEXTDOMAIN=command-not-found
+
+shopt -u extquote
+
+CACHE=/var/cache/cnf/cnfcache.sqlite
+
+if [ -L "$0" ]
+then
+     if [ ! -r "$CACHE" ]
+     then
+	PATH="" exec $0
+     fi
+     COMMAND=`basename $0`
+     PROGRAMS=( `sqlite3 $CACHE "select value from tag where name='files' and ( 
+value like '%/bin/$COMMAND' or value like '%/sbin/$COMMAND' )"` )
+     PACKAGES=( `sqlite3 $CACHE "select package_name from tag where name='files' 
+and ( value like '%/bin/$COMMAND' or value like '%/sbin/$COMMAND' )"` )
+     IFS=":" PATHLIST=( $PATH )
+
+     for PROGRAM in "${PROGRAMS[@]}"
+     do
+	PROGDIR=`dirname $PROGRAM`
+	FOUNDINPATH=`expr "$PATH" : ".*[:\A]\\($PROGDIR\\)[:\Z].*"`
+	if [ -n "$FOUNDINPATH" -a -x "$PROGRAM" ]
+	then
+	    exec $PROGRAM $@
+	fi
+	if [ -x "$PROGRAM" ]
+	then
+	    printf $"Program \"%s\" is installed but is not in your PATH.\n" $PROGRAM
+	    ISINSTALLED=1
+	else
+	    if [ -r "$PROGRAM" ]
+	    then
+		printf $"Program \"%s\" is installed but is not executable.\n" $PROGRAM
+		ISINSTALLED=1
+	    fi
+	fi
+     done
+
+     if [ "$ISINSTALLED" == "1" ]
+     then
+	exit 127
+     fi
+
+     for PCK in ${PACKAGES[@]}
+     do
+	INSTALLED=`rpm -q $PCK`
+	if [ "$?" == "0" ]
+	then
+	    RESULT=$?
+	    break;
+	fi
+     done
+     if [ "$RESULT" == "0" ]
+     then
+	printf $"The package containing \"%s\" is installed ( %s ), but the program is 
+missing. Weird.\n" $COMMAND $INSTALLED
+	exit 127
+     fi
+     printf $"Program \"%s\" is not installed.\n" $COMMAND
+     ngettext "It's part of the following package:" "It's part of the following 
+packages:" ${#PACKAGES[@]}
+     echo
+     for PCK in ${PACKAGES[@]}
+     do
+	echo "---------------------------------------------------------------------"
+	(
+	printf $"Package:\t"
+	sqlite3 $CACHE "select name,version,release,arch from package where name = 
+'$PCK' order by version desc, release desc limit 1" | awk 'BEGIN {FS="|"}{print 
+$1 "-" $2 "-" $3 "." $4}'
+	printf $"Description:\t"
+	sqlite3 $CACHE "select value from tag where name='summary' and package_name = 
+'$PCK'"
+	printf $"Install by typing:\t"
+	printf "su -c 'apt-get install $PCK'\n"
+	) | expand -t 25
+     done
+     echo "---------------------------------------------------------------------"
+     exit 127
+else
+     printf $"This program should not be run directly.\n"
+fi
+
+
+
+
+From alessioadamo at fastwebnet.it  Wed Jun 18 20:31:27 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Wed, 18 Jun 2008 20:31:27 +0200
+Subject: [Pclos-il8n-dev] mkremaster modified for gettext
+In-Reply-To: <4858C935.1080507@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>
+	<4858C935.1080507@smidovi.eu>
+Message-ID: <4859547F.1050107@fastwebnet.it>
+
+Thank you, David, but I must be missing something since printf on its 
+own does not include the gettext function.
+
+Am I wrong? I tryed a simple experiment and I didn't get any translation.
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> Hi, guys!
+>>
+>> It's been a while since last time! Today I tried to make the mkremaster 
+>> script compatible with gettext. I think I managed.
+>>
+>> With the second version of the script, nonetheless, I tried to 
+>> substitute each variable name with %s (as it's usually found in the po), 
+>> but still I get the real variable names in the pot file. Does anybody 
+>> know the trick?
+>>     
+>
+> Sorry for the late answer.
+> The trick is to use printf command instead of echo.
+>
+> Example:
+>
+> #!/bin/sh
+>
+> . gettext.sh
+>
+> export TEXTDOMAIN=command-not-found
+>
+> shopt -u extquote
+>
+> CACHE=/var/cache/cnf/cnfcache.sqlite
+>
+> if [ -L "$0" ]
+> then
+>      if [ ! -r "$CACHE" ]
+>      then
+> 	PATH="" exec $0
+>      fi
+>      COMMAND=`basename $0`
+>      PROGRAMS=( `sqlite3 $CACHE "select value from tag where name='files' and ( 
+> value like '%/bin/$COMMAND' or value like '%/sbin/$COMMAND' )"` )
+>      PACKAGES=( `sqlite3 $CACHE "select package_name from tag where name='files' 
+> and ( value like '%/bin/$COMMAND' or value like '%/sbin/$COMMAND' )"` )
+>      IFS=":" PATHLIST=( $PATH )
+>
+>      for PROGRAM in "${PROGRAMS[@]}"
+>      do
+> 	PROGDIR=`dirname $PROGRAM`
+> 	FOUNDINPATH=`expr "$PATH" : ".*[:\A]\\($PROGDIR\\)[:\Z].*"`
+> 	if [ -n "$FOUNDINPATH" -a -x "$PROGRAM" ]
+> 	then
+> 	    exec $PROGRAM $@
+> 	fi
+> 	if [ -x "$PROGRAM" ]
+> 	then
+> 	    printf $"Program \"%s\" is installed but is not in your PATH.\n" $PROGRAM
+> 	    ISINSTALLED=1
+> 	else
+> 	    if [ -r "$PROGRAM" ]
+> 	    then
+> 		printf $"Program \"%s\" is installed but is not executable.\n" $PROGRAM
+> 		ISINSTALLED=1
+> 	    fi
+> 	fi
+>      done
+>
+>      if [ "$ISINSTALLED" == "1" ]
+>      then
+> 	exit 127
+>      fi
+>
+>      for PCK in ${PACKAGES[@]}
+>      do
+> 	INSTALLED=`rpm -q $PCK`
+> 	if [ "$?" == "0" ]
+> 	then
+> 	    RESULT=$?
+> 	    break;
+> 	fi
+>      done
+>      if [ "$RESULT" == "0" ]
+>      then
+> 	printf $"The package containing \"%s\" is installed ( %s ), but the program is 
+> missing. Weird.\n" $COMMAND $INSTALLED
+> 	exit 127
+>      fi
+>      printf $"Program \"%s\" is not installed.\n" $COMMAND
+>      ngettext "It's part of the following package:" "It's part of the following 
+> packages:" ${#PACKAGES[@]}
+>      echo
+>      for PCK in ${PACKAGES[@]}
+>      do
+> 	echo "---------------------------------------------------------------------"
+> 	(
+> 	printf $"Package:\t"
+> 	sqlite3 $CACHE "select name,version,release,arch from package where name = 
+> '$PCK' order by version desc, release desc limit 1" | awk 'BEGIN {FS="|"}{print 
+> $1 "-" $2 "-" $3 "." $4}'
+> 	printf $"Description:\t"
+> 	sqlite3 $CACHE "select value from tag where name='summary' and package_name = 
+> '$PCK'"
+> 	printf $"Install by typing:\t"
+> 	printf "su -c 'apt-get install $PCK'\n"
+> 	) | expand -t 25
+>      done
+>      echo "---------------------------------------------------------------------"
+>      exit 127
+> else
+>      printf $"This program should not be run directly.\n"
+> fi
+>
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+From alessioadamo at fastwebnet.it  Wed Jun 18 20:55:14 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Wed, 18 Jun 2008 20:55:14 +0200
+Subject: [Pclos-il8n-dev] localizable redo-mbr
+Message-ID: <48595A12.4070407@fastwebnet.it>
+
+I had forgot that there was also redo-mbr to be made localizable...
+
+So here it is.
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: redo-mbr.tar.gz
+Type: application/x-gzip
+Size: 4331 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080618/ce6ea9b7/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Wed Jun 18 21:16:44 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Wed, 18 Jun 2008 21:16:44 +0200
+Subject: [Pclos-il8n-dev] My apologies...
+Message-ID: <48595F1C.1040206@fastwebnet.it>
+
+I'm sorry,
+
+of course I found an imperfection in one of the sent files. That's why 
+I'm re-sending redo-mbr.
+
+;-(
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: redo-mbr.tar.gz
+Type: application/x-gzip
+Size: 4326 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080618/1b70431b/attachment.bin>
+
+From david at smidovi.eu  Thu Jun 19 08:54:07 2008
+From: david at smidovi.eu (David Smid)
+Date: Thu, 19 Jun 2008 08:54:07 +0200
+Subject: [Pclos-il8n-dev] mkremaster modified for gettext
+In-Reply-To: <4859547F.1050107@fastwebnet.it>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>
+	<4859547F.1050107@fastwebnet.it>
+Message-ID: <485A028F.8070004@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> Thank you, David, but I must be missing something since printf on its 
+> own does not include the gettext function.
+> 
+> Am I wrong? I tryed a simple experiment and I didn't get any translation.
+> 
+
+printf is just a command that uses C-like syntax for messages.
+
+The $"..." construct is a BASH shorthand for gettext call, similiar to `gettext 
+\"...\"` but shorter
+
+http://www.gnu.org/software/gettext/manual/gettext.html#bash
+
+David
+
+
+
+From alessioadamo at fastwebnet.it  Thu Jun 19 11:12:41 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Thu, 19 Jun 2008 11:12:41 +0200
+Subject: [Pclos-il8n-dev] mkremaster modified for gettext
+In-Reply-To: <485A028F.8070004@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>
+	<485A028F.8070004@smidovi.eu>
+Message-ID: <485A2309.7080702@fastwebnet.it>
+
+Thank you, David.
+
+My experiment didn't work because with
+
+gettext -e "Hello\nworld" the template string is "Hello\nworld", while with
+
+printf $"Hello\nworld" the template string becomes "Hello\\nworld"
+
+do you think I should change the scripts for using this syntax?
+__________
+
+Not related to this topic... I'd like to prepare pot and po of the new 
+*drak* utilities (see 
+http://www.mypclinuxos.com/forum/index.php?topic=2133.0). Can you give 
+me some advice, direction, any information you think it's important?
+Unless you want to do this job. Then I step back.
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> Thank you, David, but I must be missing something since printf on its 
+>> own does not include the gettext function.
+>>
+>> Am I wrong? I tryed a simple experiment and I didn't get any translation.
+>>
+>>     
+>
+> printf is just a command that uses C-like syntax for messages.
+>
+> The $"..." construct is a BASH shorthand for gettext call, similiar to `gettext 
+> \"...\"` but shorter
+>
+> http://www.gnu.org/software/gettext/manual/gettext.html#bash
+>
+> David
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+From david at smidovi.eu  Thu Jun 19 12:12:21 2008
+From: david at smidovi.eu (David Smid)
+Date: Thu, 19 Jun 2008 12:12:21 +0200
+Subject: [Pclos-il8n-dev] mkremaster modified for gettext
+In-Reply-To: <485A2309.7080702@fastwebnet.it>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>
+	<485A2309.7080702@fastwebnet.it>
+Message-ID: <485A3105.6030505@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> Thank you, David.
+> 
+> My experiment didn't work because with
+> 
+> gettext -e "Hello\nworld" the template string is "Hello\nworld", while with
+> 
+> printf $"Hello\nworld" the template string becomes "Hello\\nworld"
+> 
+> do you think I should change the scripts for using this syntax?
+
+I don't think so. Even gettext authors do not recommend the $"..." syntax.
+But next time you can try something like this:
+
+  printf "`gettext "File %s was deleted\n"`" $FILE
+
+in order to have better looking msgids.
+
+David
+
+
+From alessioadamo at fastwebnet.it  Thu Jun 19 15:20:44 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Thu, 19 Jun 2008 15:20:44 +0200
+Subject: [Pclos-il8n-dev] mkremaster modified for gettext
+In-Reply-To: <485A3105.6030505@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>
+	<485A3105.6030505@smidovi.eu>
+Message-ID: <485A5D2C.105@fastwebnet.it>
+
+David, aesthetics is important also to me and I want to redo everything 
+to make it look better.
+
+I've finally realized how initscripts get localized and I will implement 
+that system into my script modifications. It's very simple, you just 
+need such a function:
+
+gprintf() {
+        local TEXT=`gettext -e "$1"`
+    shift
+    printf "$TEXT" "$@"
+}
+
+Then you use it like this:
+
+gprintf "Hello\nworld"; echo
+echo
+NAME=Alessio
+SURNAME=Adamo
+echo "$(gprintf "Surname: \"%s\"\nName: \"%s\"\n" $SURNAME $NAME)"
+
+I've tested it and it works flawlessly.
+
+In addition, there's no need to call gettext.sh so that the gettext-base 
+package is enough (we get rid of a dependency). Finally, in the message 
+id you can remove the ugly \\n, \\t, \\\" and substitute them with 
+prettier \n, \t, \"
+
+Regards,
+Alessio
+
+
+David Smid ha scritto:
+> Alessio Adamo napsal(a):
+>   
+>> Thank you, David.
+>>
+>> My experiment didn't work because with
+>>
+>> gettext -e "Hello\nworld" the template string is "Hello\nworld", while with
+>>
+>> printf $"Hello\nworld" the template string becomes "Hello\\nworld"
+>>
+>> do you think I should change the scripts for using this syntax?
+>>     
+>
+> I don't think so. Even gettext authors do not recommend the $"..." syntax.
+> But next time you can try something like this:
+>
+>   printf "`gettext "File %s was deleted\n"`" $FILE
+>
+> in order to have better looking msgids.
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+From david at smidovi.eu  Thu Jun 19 15:54:56 2008
+From: david at smidovi.eu (David Smid)
+Date: Thu, 19 Jun 2008 15:54:56 +0200
+Subject: [Pclos-il8n-dev] Experimental desktop-files.in tree in CVS
+Message-ID: <485A6530.1020601@smidovi.eu>
+
+
+Hello,
+I've finally found out how to fix this issue:
+
+Alessio Adamo napsal(a):
+ > I agree that it's a much cleaner way to work and I'm certainly in for
+ > this change. I've tested your make_intltool_ready script few days ago
+ > and actually allowed me to realise that there were 2 original Comment
+ > strings in donate.desktop. So it's true, it's good help not to minimise
+ > the chances of mistakes.
+ >
+ > Though, it doesn't seem to work completely right.
+ >
+ > For instance, in it.po the message "Donate" is untranslated although in
+ > /etc/skel/donate.desktop and in /root/donate.desktop it is actually
+ > translated.
+ >
+ > At the same time the message "Support the developement of PCLinuxOS by
+ > donating to the Team" (the Comment) is translated with "Fai una
+ > donazione" (the Name).
+ >
+ > There are several other examples. If required, I'll list them all. I had
+ > a look also at fr.po and also there I could find some examples of this
+ > misbehaviour.
+ >
+ > I can't figure out what the reason can be just by looking at the
+ > original desktop-files. You're probably more indicated to find out.
+
+The problem was that the Name and Comment translations were mixed in the 
+.desktop files. I had to sort them prior to processing in make_intltool_ready 
+script.
+
+I've put experimental desktop-files.in tree into CVS repository, this tree is a 
+result of launching make_intltool_ready and make_intltool_update scripts.
+You can also find updated scripts in the root of this tree.
+I believe this setup will make translating .desktop files much easier and more 
+reliable.
+
+David
+
+
+
+From david at smidovi.eu  Fri Jun 20 08:06:42 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 20 Jun 2008 08:06:42 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <485A2309.7080702@fastwebnet.it>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>
+	<485A2309.7080702@fastwebnet.it>
+Message-ID: <485B48F2.2080904@smidovi.eu>
+
+Alessio Adamo napsal(a):
+
+> I'd like to prepare pot and po of the new 
+> *drak* utilities (see 
+> http://www.mypclinuxos.com/forum/index.php?topic=2133.0). Can you give 
+> me some advice, direction, any information you think it's important?
+> Unless you want to do this job. Then I step back.
+
+The .pot files can be produced by using Makefiles present in drakxtools SRPM.
+There's no need to manually scan the sources, intltool will do it for you.
+
+SRPM is always a good start when trying to localize or update localization of 
+package.
+
+David
+
+
+From david at smidovi.eu  Fri Jun 20 15:11:46 2008
+From: david at smidovi.eu (David Smid)
+Date: Fri, 20 Jun 2008 15:11:46 +0200
+Subject: [Pclos-il8n-dev] Alessio's latest additions put in CVS
+Message-ID: <485BAC92.50907@smidovi.eu>
+
+Hello,
+
+I've put into CVS these files:
+
+	/po/it/
+		gtk-liveinstall.po
+		liveusb.po
+		redo-mbr.po
+	/pot/
+		gtk-liveinstall.pot
+		liveusb.pot
+		mkremaster.pot
+		mkremaster2.pot
+		redo-mbr.pot
+
+	/other/usr/sbin/
+		gtk-liveinstall
+		liveusb
+		mkremaster
+		mkremaster2
+		redo-mbr
+
+I haven't checked in file gtk-liveinstall-kde.desktop because it has weird 
+comments inside (copied from liveusb.desktop ???):
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=GTK live install
+Exec=kdesu /usr/sbin/gtk-liveinstall
+Comment=Create 'liveUSB' or 'Poorman' installation
+Comment[it]=Crea un'installazione per l'uomo della strada (o liveUSB)
+GenericName=Create liveUSB
+GenericName[it]=Crea una liveUSB
+Icon=gtk-liveinstall
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=X-MandrivaLinux-System;
+OnlyShowIn=KDE
+
+David
+
+
+From didouph at gmail.com  Sat Jun 21 21:34:34 2008
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Sat, 21 Jun 2008 21:34:34 +0200
+Subject: [Pclos-il8n-dev] move
+Message-ID: <a5c8450e0806211234i21f7137ak73a1248422ef80ce@mail.gmail.com>
+
+Due to recent issues with the head of mypclinuxos, i'm no longer in charge
+of administration there.
+Unless you agee (all) to a big move for our forums and future base (wich
+doesn't mean no more collaboration with mypclinuxos projects) out of this
+portal, i will give my resignation from this project lead and transfer my
+duties to anyone willing to carry it on.
+
+I don't want to discuss or motivate the reason that led to such a decision.
+I just want to let you know that this doesn't cancel any hoosting i'm
+providing to any "sub" project.
+
+no response will result in my resignatin within the next 24 hours.
+
+sorry
+
+good week-end (anyway)
+
+DidouPh
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080621/6144d027/attachment.html>
+
+From alessioadamo at fastwebnet.it  Mon Jun 23 23:21:31 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Mon, 23 Jun 2008 23:21:31 +0200
+Subject: [Pclos-il8n-dev] Alessio's latest additions put in CVS
+In-Reply-To: <485BAC92.50907@smidovi.eu>
+References: <485BAC92.50907@smidovi.eu>
+Message-ID: <486013DB.7030805@fastwebnet.it>
+
+Thank you, David. I've been busy reimplementing printf in the scripts in 
+order to have nice messages with %s instead of the name of the 
+variables. The new scripts and messages are ready, but now I've to go to 
+bed (waking up very early tomorrow). I'll send them tomorrow or on 
+Wednesday. Then I'll work on the *drak* localization.
+
+Alessio
+
+
+David Smid ha scritto:
+> Hello,
+>
+> I've put into CVS these files:
+>
+> 	/po/it/
+> 		gtk-liveinstall.po
+> 		liveusb.po
+> 		redo-mbr.po
+> 	/pot/
+> 		gtk-liveinstall.pot
+> 		liveusb.pot
+> 		mkremaster.pot
+> 		mkremaster2.pot
+> 		redo-mbr.pot
+>
+> 	/other/usr/sbin/
+> 		gtk-liveinstall
+> 		liveusb
+> 		mkremaster
+> 		mkremaster2
+> 		redo-mbr
+>
+> I haven't checked in file gtk-liveinstall-kde.desktop because it has weird 
+> comments inside (copied from liveusb.desktop ???):
+>
+> [Desktop Entry]
+> Encoding=UTF-8
+> Name=GTK live install
+> Exec=kdesu /usr/sbin/gtk-liveinstall
+> Comment=Create 'liveUSB' or 'Poorman' installation
+> Comment[it]=Crea un'installazione per l'uomo della strada (o liveUSB)
+> GenericName=Create liveUSB
+> GenericName[it]=Crea una liveUSB
+> Icon=gtk-liveinstall
+> Terminal=false
+> Type=Application
+> StartupNotify=false
+> Categories=X-MandrivaLinux-System;
+> OnlyShowIn=KDE
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+From alessioadamo at fastwebnet.it  Mon Jun 23 23:23:04 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Mon, 23 Jun 2008 23:23:04 +0200
+Subject: [Pclos-il8n-dev] Experimental desktop-files.in tree in CVS
+In-Reply-To: <485A6530.1020601@smidovi.eu>
+References: <485A6530.1020601@smidovi.eu>
+Message-ID: <48601438.3060703@fastwebnet.it>
+
+Good,
+
+by the end of the week, I'll give you some feedback on this.
+
+Alessio
+
+David Smid ha scritto:
+> Hello,
+> I've finally found out how to fix this issue:
+>
+> Alessio Adamo napsal(a):
+>  > I agree that it's a much cleaner way to work and I'm certainly in for
+>  > this change. I've tested your make_intltool_ready script few days ago
+>  > and actually allowed me to realise that there were 2 original Comment
+>  > strings in donate.desktop. So it's true, it's good help not to minimise
+>  > the chances of mistakes.
+>  >
+>  > Though, it doesn't seem to work completely right.
+>  >
+>  > For instance, in it.po the message "Donate" is untranslated although in
+>  > /etc/skel/donate.desktop and in /root/donate.desktop it is actually
+>  > translated.
+>  >
+>  > At the same time the message "Support the developement of PCLinuxOS by
+>  > donating to the Team" (the Comment) is translated with "Fai una
+>  > donazione" (the Name).
+>  >
+>  > There are several other examples. If required, I'll list them all. I had
+>  > a look also at fr.po and also there I could find some examples of this
+>  > misbehaviour.
+>  >
+>  > I can't figure out what the reason can be just by looking at the
+>  > original desktop-files. You're probably more indicated to find out.
+>
+> The problem was that the Name and Comment translations were mixed in the 
+> .desktop files. I had to sort them prior to processing in make_intltool_ready 
+> script.
+>
+> I've put experimental desktop-files.in tree into CVS repository, this tree is a 
+> result of launching make_intltool_ready and make_intltool_update scripts.
+> You can also find updated scripts in the root of this tree.
+> I believe this setup will make translating .desktop files much easier and more 
+> reliable.
+>
+> David
+>
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+
+
+From alessioadamo at fastwebnet.it  Wed Jun 25 14:18:43 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Wed, 25 Jun 2008 14:18:43 +0200
+Subject: [Pclos-il8n-dev] Alessio's latest additions put in CVS
+In-Reply-To: <485BAC92.50907@smidovi.eu>
+References: <485BAC92.50907@smidovi.eu>
+Message-ID: <486237A3.5000306@fastwebnet.it>
+
+Hi, David!
+
+
+This the new version of the pot and italian po + scripts. Now they don't 
+need the gettext package, gettext-base is enough. Moreover variables are 
+in the form of %s.
+
+You can delete
+
+/other/usr/sbin/mkremaster2
+
+The desktop file is OK. It's what gtk-liveinstall does.
+
+
+Thanks, Alessio
+
+
+David Smid ha scritto:
+> Hello,
+>
+> I've put into CVS these files:
+>
+> 	/po/it/
+> 		gtk-liveinstall.po
+> 		liveusb.po
+> 		redo-mbr.po
+> 	/pot/
+> 		gtk-liveinstall.pot
+> 		liveusb.pot
+> 		mkremaster.pot
+> 		mkremaster2.pot
+> 		redo-mbr.pot
+>
+> 	/other/usr/sbin/
+> 		gtk-liveinstall
+> 		liveusb
+> 		mkremaster
+> 		mkremaster2
+> 		redo-mbr
+>
+> I haven't checked in file gtk-liveinstall-kde.desktop because it has weird 
+> comments inside (copied from liveusb.desktop ???):
+>
+> [Desktop Entry]
+> Encoding=UTF-8
+> Name=GTK live install
+> Exec=kdesu /usr/sbin/gtk-liveinstall
+> Comment=Create 'liveUSB' or 'Poorman' installation
+> Comment[it]=Crea un'installazione per l'uomo della strada (o liveUSB)
+> GenericName=Create liveUSB
+> GenericName[it]=Crea una liveUSB
+> Icon=gtk-liveinstall
+> Terminal=false
+> Type=Application
+> StartupNotify=false
+> Categories=X-MandrivaLinux-System;
+> OnlyShowIn=KDE
+>
+> David
+> _______________________________________________
+> Pclos-il8n-dev mailing list
+> Pclos-il8n-dev at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/pclos-il8n-dev
+>
+>   
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: scripts.tar.gz
+Type: application/x-gzip
+Size: 36481 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080625/327a74df/attachment.bin>
+
+From alessioadamo at fastwebnet.it  Sat Jun 28 16:35:40 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Sat, 28 Jun 2008 16:35:40 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <485B48F2.2080904@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>
+	<485B48F2.2080904@smidovi.eu>
+Message-ID: <48664C3C.8000109@fastwebnet.it>
+
+Guys,
+
+I've started to produce the new drak utilities po files. At the moment 
+just userdrake, drakconf, drakmenustyle and draklive-install, for all 
+the available languages. The po files contain the original messages 
+(from Mandriva translators), so some PCLOS specific messages might be 
+fuzzy or untranslated. Check them out.
+Moreover, if you customized the previous translation of these tools and 
+you want to keep it, you can use the following command:
+
+msgmerge --update oldpofile.po newpotfile.pot
+
+all the matching messages will be retrieved from the old po file.
+
+Soon other files will come.
+
+;-)
+
+Alessio
+
+To the CVS maintainers: I suggest to put them in a new folder, like po2008
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakconf.tar.gz
+Type: application/x-gzip
+Size: 860953 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080628/7392f308/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: draklive-install.tar.gz
+Type: application/x-gzip
+Size: 32980 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080628/7392f308/attachment-0001.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakmenustyle.tar.gz
+Type: application/x-gzip
+Size: 9648 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080628/7392f308/attachment-0002.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: userdrake.tar.gz
+Type: application/x-gzip
+Size: 177877 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080628/7392f308/attachment-0003.bin>
+
+From didouph at gmail.com  Sun Jun 29 09:42:01 2008
+From: didouph at gmail.com (Ramboz Pierre-Henri)
+Date: Sun, 29 Jun 2008 09:42:01 +0200
+Subject: [Pclos-il8n-dev] new site
+Message-ID: <a5c8450e0806290042g795bb141t3433d8d4e7ab967e@mail.gmail.com>
+
+The building of the new portal has started. it will be slightly different
+from the test site ... but much mre veloce and stable ...
+based on joomla 1.5 ... you will soon get the url so we can start working
+with it.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080629/9806b9bc/attachment.html>
+
+From alessioadamo at fastwebnet.it  Sun Jun 29 15:02:54 2008
+From: alessioadamo at fastwebnet.it (Alessio Adamo)
+Date: Sun, 29 Jun 2008 15:02:54 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <485B48F2.2080904@smidovi.eu>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>
+	<485B48F2.2080904@smidovi.eu>
+Message-ID: <486787FE.8070804@fastwebnet.it>
+
+Here's a new batch of pot and po files for the new Drak tools.
+
+Still other files are supposed to come very soon.
+
+;-)
+
+Alessio
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drak3d.tar.gz
+Type: application/x-gzip
+Size: 37447 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080629/cfb0c812/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakbackup.tar.gz
+Type: application/x-gzip
+Size: 345360 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080629/cfb0c812/attachment-0001.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakbt.tar.gz
+Type: application/x-gzip
+Size: 84723 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080629/cfb0c812/attachment-0002.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakvirt.tar.gz
+Type: application/x-gzip
+Size: 12133 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080629/cfb0c812/attachment-0003.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: drakwizard.tar.gz
+Type: application/x-gzip
+Size: 1930704 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pclos-il8n-dev/attachments/20080629/cfb0c812/attachment-0004.bin>
+
+From david at smidovi.eu  Mon Jun 30 07:25:56 2008
+From: david at smidovi.eu (David Smid)
+Date: Mon, 30 Jun 2008 07:25:56 +0200
+Subject: [Pclos-il8n-dev] New Drak utilities
+In-Reply-To: <486787FE.8070804@fastwebnet.it>
+References: <20080602053617.D2DC1233D0@ws5-3.us4.outblaze.com>	<484417BC.3030506@smidovi.eu>	<484BF57E.1050408@fastwebnet.it>	<4858C935.1080507@smidovi.eu>	<4859547F.1050107@fastwebnet.it>	<485A028F.8070004@smidovi.eu>	<485A2309.7080702@fastwebnet.it>	<485B48F2.2080904@smidovi.eu>
+	<486787FE.8070804@fastwebnet.it>
+Message-ID: <48686E64.2080706@smidovi.eu>
+
+Alessio Adamo napsal(a):
+> Here's a new batch of pot and po files for the new Drak tools.
+> 
+> Still other files are supposed to come very soon.
+> 
+
+Just a question:
+How do you produce the new .pot and .po files ?
+
+David
+
+
